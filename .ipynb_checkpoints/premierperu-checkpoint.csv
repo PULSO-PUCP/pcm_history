@@ -1,0 +1,233 @@
+Titular,Partido,Gobierno,Militar,regime,Categoría,start,end
+José María Raygada y Gallo,Militar,Ramón Castilla (II),1.0,constitutional,FIN_GOBIERNO,1857-02-14,1858-05-13
+Manuel Ortiz de Zevallos y García,,Ramón Castilla (II),,constitutional,CAMBIO_GABINETE,1858-05-13,1858-07-13
+Miguel de San Román y Meza,Militar,Ramón Castilla (II),1.0,constitutional,CAMBIO_GABINETE,1858-07-13,1858-10-24
+Miguel del Carpio y Melgar,,Ramón Castilla (II),,constitutional,CAMBIO_GABINETE,1858-10-28,1860-06-09
+Juan Antonio Pezet Rodríguez,Militar,Ramón Castilla (II),1.0,constitutional,CAMBIO_GABINETE,1860-06-09,1862-01-01
+Juan Antonio Ribeyro Estada,,Ramón Castilla (II),,constitutional,FIN_GOBIERNO,1862-01-01,1862-10-24
+José Gregorio Paz Soldán y Ureta,,Miguel de San Román,,constitutional,MUERTE,1862-10-24,1863-04-03
+Juan Antonio Ribeyro Estada,,Pedro Diez Canseco,,replaceVice,TRANSICION,1863-04-10,1863-08-05
+Juan Antonio Ribeyro Estada,,Juan Antonio Pezet,,replaceVice,CENSURA_CONGRESO,1863-08-05,1864-08-10
+Manuel Costas Arce,,Juan Antonio Pezet,,replaceVice,CAMBIO_GABINETE,1864-08-11,1864-10-14
+José Allende,Militar,Juan Antonio Pezet,1.0,replaceVice,RENUNCIA_FORZADA,1864-10-14,1865-04-03
+Manuel Ignacio de Vivanco,Militar,Juan Antonio Pezet,1.0,replaceVice,CAMBIO_GABINETE,1865-04-03,1865-07-12
+Pedro José Calderón,,Juan Antonio Pezet,,replaceVice,GOLPE_ESTADO,1865-07-12,1865-11-06
+Juan Antonio Ugarteche Posadas,Militar,Pedro Diez Canseco,1.0,replaceVice,TRANSICION,1865-09-26,1865-11-06
+Francisco Javier Mariátegui,,Pedro Diez Canseco,,replaceVice,TRANSICION,1865-11-15,1865-11-28
+Mariano Ignacio Prado Ochoa,Militar,Mariano Ignacio Prado (I),1.0,deFacto,REGIMEN_CAMBIA,1865-11-28,1867-02-15
+Pedro José Tordoya,Clérigo,Mariano Ignacio Prado (I),0.0,deFacto,CENSURA_CONGRESO,1867-03-02,1867-04-26
+Pedro Paz Soldán y Ureta,,Mariano Ignacio Prado (I),,deFacto,RENUNCIA_FORZADA,1867-06-03,1867-09-01
+Luis La Puerta,Militar,Mariano Ignacio Prado (I),1.0,constitutional,TRANSICION,1867-09-01,1867-10-12
+Pedro Paz Soldán y Ureta,,Mariano Ignacio Prado (I),,constitutional,RENUNCIA_FORZADA,1867-10-12,1868-01-08
+Antonio Arenas Merino,,Pedro Diez Canseco,,replaceVice,TRANSICION,1868-01-22,1868-02-07
+Antonio Gutiérrez de la Fuente,Militar,Pedro Diez Canseco,1.0,replaceVice,TRANSICION,1868-02-07,1868-08-02
+Pedro Gálvez Egúsquiza,,José Balta,,constitutional,RENUNCIA,1868-08-02,1869-04-13
+Juan Francisco Balta,Militar,José Balta,1.0,constitutional,RENUNCIA_SALUD,1869-04-13,1871-08-01
+José Allende,Militar,José Balta,1.0,constitutional,CAMBIO_GABINETE,1871-08-02,1871-12-07
+José Jorge Loayza,,José Balta,,constitutional,GOLPE_ESTADO,1871-12-07,1872-07-25
+Juan Antonio Ribeyro Estada,,Mariano Herencia Zevallos,,replaceVice,TRANSICION,1872-07-27,1872-08-02
+José Miguel Medina Elera,Militar,Manuel Pardo y Lavalle,1.0,constitutional,RENUNCIA_SALUD,1872-08-02,1873-09-03
+José Eusebio Sánchez,,Manuel Pardo y Lavalle,,constitutional,CAMBIO_GABINETE,1873-09-03,1875-02-01
+Nicolás Freire González,,Manuel Pardo y Lavalle,1.0,constitutional,FIN_GOBIERNO,1875-02-01,1876-08-02
+Antonio Arenas Merino,,Mariano Ignacio Prado (II),,constitutional,CENSURA_CONGRESO,1876-08-02,1876-08-26
+Teodoro La Rosa,,Mariano Ignacio Prado (II),,constitutional,RENUNCIA_FORZADA,1876-08-26,1877-06-01
+Juan Buendía y Noriega,Militar,Mariano Ignacio Prado (II),1.0,constitutional,RENUNCIA_FORZADA,1877-06-04,1878-05-13
+José Jorge Loayza,,Mariano Ignacio Prado (II),,constitutional,CAMBIO_GABINETE,1878-06-18,1878-12-16
+Manuel Yrigoyen Arias,,Mariano Ignacio Prado (II),,constitutional,CAMBIO_GABINETE,1878-12-17,1879-05-19
+Manuel de Mendiburu Bonet,Militar,Mariano Ignacio Prado (II),1.0,constitutional,RENUNCIA,1879-05-19,1879-10-16
+Manuel González de la Cotera,Militar,Mariano Ignacio Prado (II),1.0,constitutional,RENUNCIA_FORZADA,1879-10-16,1879-12-23
+Aurelio Denegri Valega,Partido Civil,Francisco García Calderón Landa,0.0,Provisorio,GOLPE_ESTADO,1881-03-12,1881-07-18
+Camilo N. Carrillo Martínez,Marino,Francisco García Calderón Landa,1.0,Provisorio,GOLPE_ESTADO,1881-07-18,1881-11-06
+Aurelio García y García,Marino,Nicolás de Piérola (provisorio),1.0,Provisorio,TRANSICION,1881-10-30,1881-11-28
+Juan Manuel Arbaiza,,Lizardo Montero Flores,,Provisorio,CAMBIO_GABINETE,1882-01-04,1882-09-04
+Camilo N. Carrillo Martínez,Marino,Lizardo Montero Flores,1.0,Provisorio,CAMBIO_GABINETE,1882-09-04,1883-01-10
+Manuel Velarde Seoane,Militar,Lizardo Montero Flores,1.0,Provisorio,CAMBIO_GABINETE,1883-01-10,1883-04-01
+Mariano Nicolás Valcárcel,,Lizardo Montero Flores,,Provisorio,RENUNCIA_FORZADA,1883-04-01,1883-10-01
+Lorenzo Iglesias Pino de Arce,,Miguel Iglesias,1.0,deFacto,CAMBIO_GABINETE,1883-01-03,1883-08-27
+Manuel Antonio Barinaga,,Miguel Iglesias,,deFacto,CAMBIO_GABINETE,1883-08-27,1884-04-07
+Mariano Castro Zaldívar,,Miguel Iglesias,,deFacto,CAMBIO_GABINETE,1884-04-07,1885-05-14
+José Joaquín Iglesias Pino de Arce,Militar,Miguel Iglesias,1.0,deFacto,GOLPE_ESTADO,1885-05-14,1885-12-03
+Antonio Arenas Merino,,Antonio Arenas Merino,,Provisorio,TRANSICION,1885-12-03,1886-06-03
+Pedro Alejandrino del Solar Gabas,Partido Constitucional,Andrés Avelino Cáceres (I),0.0,constitutional,RENUNCIA_FORZADA,1886-06-03,1886-10-06
+José Nicolás de Araníbar y Llano,,Andrés Avelino Cáceres (I),,constitutional,CAMBIO_GABINETE,1886-10-06,1886-11-20
+Pedro Alejandrino del Solar Gabas,Partido Constitucional,Andrés Avelino Cáceres (I),0.0,constitutional,RENUNCIA_FORZADA,1886-11-22,1887-08-22
+Mariano Santos Álvarez Villegas,,Andrés Avelino Cáceres (I),,constitutional,RENUNCIA,1887-08-22,1887-09-12
+Carlos María Elías de la Quintana,Partido Constitucional,Andrés Avelino Cáceres (I),0.0,constitutional,CAMBIO_GABINETE,1887-09-12,1887-10-05
+Raymundo Morales Arias (interino),,Andrés Avelino Cáceres (I),,constitutional,CAMBIO_GABINETE,1887-10-04,1887-11-08
+Aurelio Denegri Valega,,Andrés Avelino Cáceres (I),,constitutional,RENUNCIA,1887-11-08,1889-03-08
+José Mariano Jiménez Wald,,Andrés Avelino Cáceres (I),,constitutional,RENUNCIA_FORZADA,1889-03-08,1889-04-03
+Pedro Alejandrino del Solar Gabas,Partido Constitucional,Andrés Avelino Cáceres (I),0.0,constitutional,RENUNCIA,1889-04-04,1890-02-10
+Manuel Yrigoyen Arias,,Andrés Avelino Cáceres (I),,constitutional,FIN_GOBIERNO,1890-02-11,1890-08-10
+Mariano Nicolás Valcárcel Salazar,,Remigio Morales Bermúdez,,constitutional,RENUNCIA_FORZADA,1890-08-10,1891-07-24
+Alberto Elmore Fernández de Córdoba (interino),,Remigio Morales Bermúdez,,constitutional,CAMBIO_GABINETE,1891-07-25,1891-08-14
+Federico Herrera,Partido Constitucional,Remigio Morales Bermúdez,0.0,constitutional,CAMBIO_GABINETE,1891-08-14,1891-08-24
+Justiniano Borgoño Castañeda,Partido Constitucional,Remigio Morales Bermúdez,1.0,constitutional,TRANSICION,1891-08-24,1891-10-14
+Federico Herrera (interino),Partido Constitucional,Remigio Morales Bermúdez,0.0,constitutional,CAMBIO_GABINETE,1891-10-14,1891-11-27
+Federico Herrera,Partido Constitucional,Remigio Morales Bermúdez,0.0,constitutional,RENUNCIA,1891-11-27,1892-04-14
+Juan Ibarra y Ortiz (interino),Militar,Remigio Morales Bermúdez,1.0,constitutional,CAMBIO_GABINETE,1892-04-14,1892-05-02
+Juan Ibarra y Ortiz,Militar,Remigio Morales Bermúdez,1.0,constitutional,CAMBIO_GABINETE,1892-05-02,1892-06-30
+Carlos María Elías de la Quintana,Partido Constitucional,Remigio Morales Bermúdez,0.0,constitutional,RENUNCIA,1892-06-30,1893-03-03
+Manuel Velarde Seoane,Partido Constitucional,Remigio Morales Bermúdez,1.0,constitutional,RENUNCIA,1893-03-03,1893-05-11
+José Mariano Jiménez Wald,,Remigio Morales Bermúdez,,constitutional,MUERTE,1893-05-11,1894-04-01
+Baltasar García Urrutia Muro,,Justiniano Borgoño Castañeda,,replaceVice,TRANSICION,1894-04-01,1894-08-10
+Cesáreo Chacaltana Reyes,,Andrés Avelino Cáceres (II),,constitutional,RENUNCIA,1894-08-10,1894-11-16
+Manuel Yrigoyen Arias,Partido Constitucional,Andrés Avelino Cáceres (II),0.0,constitutional,GOLPE_ESTADO,1894-11-16,1895-03-21
+Antonio Bentín y La Fuente,Partido Demócrata,Nicolás de Piérola,0.0,constitutional,CENSURA_CONGRESO,1895-09-08,1895-11-28
+Manuel Antonio Barinaga,,Nicolás de Piérola,,constitutional,RENUNCIA,1895-11-30,1896-08-05
+Manuel Pablo Olaechea Guerrero,Partido Demócrata,Nicolás de Piérola,0.0,constitutional,CAMBIO_GABINETE,1896-08-08,1897-11-03
+Alejandro López de Romaña Alvizuri,Partido Demócrata,Nicolás de Piérola,0.0,constitutional,RENUNCIA,1897-11-25,1897-12-23
+Enrique de la Riva Agüero,,Nicolás de Piérola,,constitutional,CAMBIO_GABINETE,1897-12-23,1898-05-13
+José Jorge Loayza,,Nicolás de Piérola,,constitutional,FIN_GOBIERNO,1898-05-16,1899-09-08
+Manuel María Gálvez Egúsquiza,,Eduardo López de Romaña,,constitutional,CENSURA_CONGRESO,1899-09-08,1899-12-14
+Enrique de la Riva Agüero,Partido Civil,Eduardo López de Romaña,0.0,constitutional,NEGACION_CONFIANZA,1899-12-14,1900-08-30
+Enrique Coronel-Zegarra Castro,Partido Demócrata,Eduardo López de Romaña,0.0,constitutional,RENUNCIA_FORZADA,1900-08-30,1900-10-02
+Domingo M. Almenara Butler,,Eduardo López de Romaña,,constitutional,CENSURA_CONGRESO,1900-10-02,1901-09-11
+Cesáreo Chacaltana Reyes,Partido Civil,Eduardo López de Romaña,0.0,constitutional,CAMBIO_GABINETE,1901-09-11,1902-08-09
+Alejandro Deustua Escarza,,Eduardo López de Romaña,,constitutional,CENSURA_CONGRESO,1902-08-09,1902-11-04
+Eugenio Larrabure y Unanue,,Eduardo López de Romaña,,constitutional,FIN_GOBIERNO,1902-11-04,1903-09-08
+José Pardo y Barreda,Partido Civil,Manuel Candamo Iriarte,0.0,constitutional,MUERTE,1903-09-08,1904-04-18
+José Pardo y Barreda,Partido Civil,Serapio Calderón Chirinos,0.0,replaceVice,TRANSICION,1904-04-18,1904-05-14
+Alberto Elmore Fernández,,Serapio Calderón Chirinos,,replaceVice,TRANSICION,1904-05-14,1904-09-24
+Augusto Leguía,Partido Civil,José Pardo y Barreda (I),0.0,constitutional,RENUNCIA,1904-09-24,1907-08-01
+Agustín Tovar Aguilar,,José Pardo y Barreda (I),,constitutional,CAMBIO_GABINETE,1907-08-01,1907-10-09
+Carlos Alberto Washburn Salas,,José Pardo y Barreda (I),,constitutional,FIN_GOBIERNO,1907-10-09,1908-09-24
+Eulogio I. Romero Salcedo,,Augusto Leguía,,constitutional,RENUNCIA_FORZADA,1908-09-24,1909-06-08
+Rafael Villanueva Cortez,,Augusto Leguía,,constitutional,CAMBIO_GABINETE,1909-06-08,1910-03-14
+Javier Prado y Ugarteche,Partido Civil,Augusto Leguía,0.0,constitutional,RENUNICA,1910-03-14,1910-08-03
+Germán Schreiber Waddington,Partido Civil,Augusto Leguía,0.0,constitutional,RENUNCIA_FORZADA,1910-08-03,1910-10-21
+José Salvador Cavero Ovalle,Partido Constitucional,Augusto Leguía,0.0,constitutional,CAMBIO_GABINETE,1910-11-03,1910-12-27
+Enrique C. Basadre Stevenson,,Augusto Leguía,,constitutional,RENUNICIA_FORZADA,1910-12-27,1911-08-31
+Agustín Guillermo Ganoza y Cavero,Partido Civil,Augusto Leguía,0.0,constitutional,FIN_GOBIERNO,1911-08-31,1912-09-24
+Elías Malpartida Franco,Partido Demócrata,Guillermo Billinghurst Angulo,0.0,constitutional,CENSURA_CONGRESO,1912-09-24,1912-12-23
+Enrique Varela Vidaurre,Militar,Guillermo Billinghurst Angulo,1.0,constitutional,RENUNCIA,1912-12-24,1913-02-24
+Federico Luna y Peralta,,Guillermo Billinghurst Angulo,,constitutional,CAMBIO_GABINETE,1913-02-24,1913-06-17
+Aurelio Sousa y Matute,,Guillermo Billinghurst Angulo,,constitutional,CAMBIO_GABINETE,1913-06-17,1913-07-27
+Enrique Varela Vidaurre,Militar,Guillermo Billinghurst Angulo,1.0,deFacto,GOLPE_ESTADO,1913-07-27,1914-02-04
+Pedro E. Muñiz Sevilla,Militar,Óscar R. Benavides (I),1.0,,RENUNCIA_SALUD,1914-05-16,1914-08-01
+Melitón Carvajal Ambulodegui,Marino (r),Óscar R. Benavides (I),1.0,deFacto,CAMBIO_GABINETE,1914-08-01,1914-08-22
+Aurelio Sousa y Matute,Partido Demócrata,Óscar R. Benavides (I),0.0,deFacto,CAMBIO_GABINETE,1914-08-22,1914-11-11
+Germán Schreiber Waddington,Partido Civil,Óscar R. Benavides (I),0.0,deFacto,TRANSICION,1914-11-11,1915-02-19
+Carlos Isaac Abril Galindo,,Óscar R. Benavides (I),1.0,deFacto,FIN_GOBIERNO,1915-02-19,1915-08-18
+Enrique de la Riva Agüero,Partido Civil,José Pardo y Barreda (II),0.0,constitutional,RENUNCIA_FORZADA,1915-08-18,1917-07-27
+Francisco Tudela y Varela,Partido Civil,José Pardo y Barreda (II),0.0,constitutional,CAMBIO_GABINETE,1917-07-27,1918-12-18
+Germán Arenas y Loayza,Partido Civil,José Pardo y Barreda (II),0.0,constitutional,RENUNCIA_FORZADA,1918-12-18,1919-04-28
+Juan Manuel Zuloaga,Militar,José Pardo y Barreda (II),1.0,constitutional,GOLPE_ESTADO,1919-04-28,1919-07-04
+Mariano Cornejo Zenteno,,Augusto Leguía,,deFacto,CAMBIO_GABINETE,1919-07-04,1919-08-25
+Melitón F. Porras Osores,,Augusto Leguía,,deFacto,CAMBIO_GABINETE,1919-08-25,1919-12-06
+Germán Leguía y Martínez,Partido Democrático Reformista,Augusto Leguía,0.0,deFacto,RENUNCIA_FORZADA,1919-12-06,1922-10-07
+Julio Ego-Aguirre Dongo,Partido Democrático Reformista,Augusto Leguía,0.0,deFacto,CAMBIO_GABINETE,1922-10-07,1924-10-12
+Alejandrino Maguiña,Partido Democrático Reformista,Augusto Leguía,0.0,constitutional,CAMBIO_GABINETE,1924-10-12,1926-12-07
+Pedro José Rada y Gamio,Partido Democrático Reformista,Augusto Leguía,0.0,constitutional,CAMBIO_GABINETE,1926-12-07,1929-10-12
+Benjamín Huamán de los Heros,Partido Democrático Reformista,Augusto Leguía,0.0,constitutional,GOLPE_ESTADO,1929-10-12,1930-08-24
+Fernando Sarmiento Ramírez,Militar,Augusto Leguía,1.0,constitutional,GOLPE_ESTADO,1930-08-24,1930-08-25
+Gustavo Jiménez Saldías,Militar,Luis Miguel Sánchez Cerro,1.0,deFacto,CAMBIO_GABINETE,1930-08-28,1930-11-24
+Antonio Beingolea Balarezo,Marino,Luis Miguel Sánchez Cerro,1.0,deFacto,TRANSICION,1930-11-24,1931-03-01
+David Samanez Ocampo,,Junta Nacional de Gobierno,,constitutional,TRANSICION,1931-03-11,1931-12-08
+Germán Arenas y Loayza,,Luis Miguel Sánchez Cerro,,constitutional,CAMBIO_GABINETE,1931-12-08,1932-01-28
+Francisco R. Lanatta Ramírez,Unión Revolucionaria,Luis Miguel Sánchez Cerro,0.0,constitutional,CAMBIO_GABINETE,1932-01-28,1932-04-13
+Luis A. Flores Medina,Unión Revolucionaria,Luis Miguel Sánchez Cerro,0.0,constitutional,CENSURA_CONGRESO,1932-04-13,1932-05-20
+Ricardo Rivadeneira Barnuevo,,Luis Miguel Sánchez Cerro,,constitutional,CAMBIO_GABINETE,1932-05-20,1932-09-10
+Carlos Zavala Loayza,Independiente,Luis Miguel Sánchez Cerro,0.0,constitutional,CAMBIO_GABINETE,1932-09-10,1932-12-22
+José Matías Manzanilla Barrientos,Unión Revolucionaria,Luis Miguel Sánchez Cerro,0.0,constitutional,MUERTE,1932-12-24,1933-04-30
+José Matías Manzanilla Barrientos (continuación),,Óscar R. Benavides (II),,Provisorio,TRANSICION,1933-04-30,1933-06-29
+Jorge Prado Ugarteche,,Óscar R. Benavides (II),,Provisorio,CAMBIO_GABINETE,1933-06-29,1933-11-24
+José de la Riva-Agüero y Osma,Partido Nacional Democrático,Óscar R. Benavides (II),0.0,Provisorio,RENUNCIA_VOLUNTARIA,1933-11-24,1934-05-18
+Alberto Rey de Castro y Romaña,,Óscar R. Benavides (II),,Provisorio,CAMBIO_GABINETE,1934-05-18,1934-12-24
+Carlos Arenas y Loayza,,Óscar R. Benavides (II),,Provisorio,CAMBIO_GABINETE,1934-12-24,1935-05-18
+Manuel E. Rodríguez Dávila,Militar,Óscar R. Benavides (II),1.0,Provisorio,CAMBIO_GABINETE,1935-05-18,1936-04-13
+Ernesto Montagne Markholz,Militar,Óscar R. Benavides (II),1.0,Provisorio,CAMBIO_GABINETE,1936-04-13,1939-04-19
+Manuel Ugarteche Jiménez,,Óscar R. Benavides (II),,Provisorio,TRANSICION,1939-04-20,1939-12-08
+Alfredo Solf y Muro,,Manuel Prado Ugarteche (I),,constitutional,CAMBIO_GABINETE,1939-12-08,1944-12-03
+Julio East Treviño,,Manuel Prado Ugarteche (I),,constitutional,FIN_GOBIERNO,1944-12-09,1945-07-28
+Rafael Belaúnde Diez Canseco,Frente Democrático Nacional,José Luis Bustamante y Rivero,0.0,constitutional,RENUNCIA_FORZADA,1945-07-28,1946-01-31
+Julio Ernesto Portugal Escobedo,Frente Democrático Nacional,José Luis Bustamante y Rivero,0.0,constitutional,RENUNCIA_VOLUNTARIA,1946-01-31,1947-01-12
+José R. Alzamora Freundt,Marino,José Luis Bustamante y Rivero,1.0,constitutional,CAMBIO_GABINETE,1947-01-12,1947-10-30
+Roque Saldías Maninat,Marino,José Luis Bustamante y Rivero,1.0,constitutional,RENUNCIA_VOLUNTARIA,1947-10-30,1948-06-17
+Armando Revoredo Iglesias,Aviador,José Luis Bustamante y Rivero,1.0,constitutional,GOLPE_ESTADO,1948-06-17,1948-10-27
+Zenón Noriega Agüero,Militar,Manuel A. Odría,1.0,constitutional,RENUNCIA_FORZADA,1950-07-28,1954-08-09
+Roque Saldías Maninat,Marino,Manuel A. Odría,1.0,constitutional,CAMBIO_GABINETE,1954-08-09,1956-07-15
+Juan Mendoza Rodríguez,Militar,Manuel A. Odría,1.0,constitutional,FIN_GOBIERNO,1956-07-15,1956-07-28
+Manuel Cisneros Sánchez,Movimiento Democrático Peruano,Manuel Prado Ugarteche (II),0.0,constitutional,CAMBIO_GABINETE,1956-07-28,1958-06-09
+Luis Gallo Porras,Movimiento Democrático Peruano,Manuel Prado Ugarteche (II),0.0,constitutional,RENUNCIA_VOLUNTARIA,1958-06-09,1959-07-17
+Pedro Beltrán Espantoso,Independiente,Manuel Prado Ugarteche (II),0.0,constitutional,RENUNCIA_VOLUNTARIA,1959-07-17,1961-11-24
+Carlos Moreyra y Paz Soldán,Movimiento Democrático Peruano,Manuel Prado Ugarteche (II),0.0,constitutional,GOLPE_ESTADO/ RENUNCIA_VOLUNTARIA,1961-11-24,1962-07-18
+Nicolás Eduardo Lindley López,Militar,Ricardo Pérez Godoy,1.0,deFacto,TRANSICION,1962-07-18,1963-07-28
+Julio Óscar Trelles Montes,Acción Popular,Fernando Belaúnde Terry (I),0.0,constitutional,CENSURA_CONGRESO,1963-07-28,1963-12-31
+Fernando Schwalb López-Aldana,Acción Popular,Fernando Belaúnde Terry (I),0.0,constitutional,CAMBIO_GABINETE,1963-12-31,1965-09-15
+Daniel Becerra de la Flor,Acción Popular,Fernando Belaúnde Terry (I),0.0,constitutional,CAMBIO_GABINETE,1965-09-15,1967-09-06
+Edgardo Seoane Corrales,Acción Popular,Fernando Belaúnde Terry (I),0.0,constitutional,RENUNCIA_VOLUNTARIA,1967-09-06,1967-11-17
+Raúl Ferrero Rebagliati,Partido Demócrata Cristiano,Fernando Belaúnde Terry (I),0.0,constitutional,RENUNCIA_FORZADA,1967-11-17,1968-05-30
+Oswaldo Hercelles García,Independiente,Fernando Belaúnde Terry (I),0.0,constitutional,CAMBIO_GABINETE,1968-05-30,1968-10-02
+Miguel Mujica Gallo,Independiente,Fernando Belaúnde Terry (I),0.0,constitutional,GOLPE_ESTADO,1968-10-02,1968-10-03
+Ernesto Montagne Sánchez,Militar,Juan Velasco Alvarado,1.0,deFacto,CAMBIO_GABINETE,1968-10-03,1973-01-31
+Edgardo Mercado Jarrín,Militar,Juan Velasco Alvarado,1.0,deFacto,CAMBIO_GABINETE,1973-01-31,1975-02-01
+Francisco Morales-Bermúdez Cerrutti,Militar,Juan Velasco Alvarado,1.0,deFacto,GOLPE_ESTADO,1975-02-01,1975-08-30
+Óscar Vargas Prieto,Militar,Francisco Morales Bermúdez,1.0,deFacto,CAMBIO_GABINETE,1975-08-30,1976-01-31
+Jorge Fernández-Maldonado Solari,Militar,Francisco Morales Bermúdez,1.0,deFacto,CAMBIO_GABINETE,1976-01-31,1976-07-16
+Guillermo Arbulú Galliani,Militar,Francisco Morales Bermúdez,1.0,deFacto,CAMBIO_GABINETE,1976-07-16,1978-01-30
+Óscar Molina Pallochia,Militar,Francisco Morales Bermúdez,1.0,deFacto,CAMBIO_GABINETE,1978-01-30,1979-01-31
+Pedro Richter Prada,Militar,Francisco Morales Bermúdez,1.0,deFacto,TRANSICION,1979-01-30,1980-07-27
+Manuel Ulloa Elías,Acción Popular,Fernando Belaúnde Terry (II),0.0,constitutional,RENUNCIA_FORZADA,1980-07-28,1982-12-09
+Fernando Schwalb López-Aldana,Acción Popular,Fernando Belaúnde Terry (II),0.0,constitutional,RENUNCIA_VOLUNTARIA,1982-12-09,1984-04-10
+Sandro Mariátegui Chiappe,Acción Popular,Fernando Belaúnde Terry (II),0.0,constitutional,CAMBIO_GABINETE,1984-04-10,1984-10-13
+Luis Pércovich Roca,Acción Popular,Fernando Belaúnde Terry (II),0.0,constitutional,FIN_GOBIERNO,1984-10-13,1985-07-27
+Luis Alva Castro,Partido Aprista Peruano,Alan García,0.0,constitutional,RENUNCIA_VOLUNTARIA,1985-07-28,1987-06-26
+Guillermo Larco Cox,Partido Aprista Peruano,Alan García,0.0,constitutional,CAMBIO_GABINETE,1987-06-27,1988-05-13
+Armando Villanueva del Campo,Partido Aprista Peruano,Alan García,0.0,constitutional,CAMBIO_GABINETE,1988-05-13,1989-05-15
+Luis Alberto Sánchez Sánchez,Partido Aprista Peruano,Alan García,0.0,constitutional,CAMBIO_GABINETE,1989-05-15,1989-09-30
+Guillermo Larco Cox,Partido Aprista Peruano,Alan García,0.0,constitutional,FIN_GOBIERNO,1989-09-30,1990-07-27
+Juan Carlos Hurtado Miller,Independiente[8],Alberto Fujimori,0.0,constitutional,RENUNCIA_VOLUNTARIA,1990-07-28,1991-02-20
+Carlos Torres y Torres Lara,Independiente,Alberto Fujimori,0.0,constitutional,RENUNCIA_VOLUNTARIA,1991-02-15,1991-11-06
+Alfonso de los Heros Pérez-Albela,Independiente,Alberto Fujimori,0.0,constitutional,GOLPE_ESTADO,1991-11-06,1992-04-06
+Óscar de la Puente Raygada,Independiente,Alberto Fujimori,0.0,deFacto,CAMBIO_GABINETE,1992-04-06,1993-08-28
+Alfonso Bustamante y Bustamante,Cambio 90,Alberto Fujimori,0.0,deFacto,CAMBIO_GABINETE,1993-08-28,1994-02-17
+Efraín Goldenberg Schreiber,Cambio 90,Alberto Fujimori,0.0,deFacto,CAMBIO_GABINETE,1994-02-17,1995-07-28
+Dante Córdova Blanco,Cambio 90 - Nueva Mayoría,Alberto Fujimori,0.0,constitutional,RENUNCIA_VOLUNTARIA,1995-07-27,1996-04-03
+Alberto Pandolfi Arbulú,Cambio 90 - Nueva Mayoría,Alberto Fujimori,0.0,constitutional,RENUNCIA_VOLUNTARIA,1996-04-03,1998-06-04
+Javier Valle-Riestra González-Olaechea,Partido Aprista Peruano,Alberto Fujimori,0.0,constitutional,RENUNCIA_VOLUNTARIA,1998-06-04,1998-08-21
+Alberto Pandolfi Arbulú,Cambio 90 - Nueva Mayoría,Alberto Fujimori,0.0,constitutional,CAMBIO_GABINETE,1998-08-21,1999-06-04
+Víctor Joy Way Rojas,Cambio 90 - Nueva Mayoría,Alberto Fujimori,0.0,constitutional,CAMBIO_GABINETE,1999-01-03,1999-10-10
+Alberto Bustamante Belaúnde,Independiente,Alberto Fujimori,0.0,constitutional,CAMBIO_GABINETE,1999-10-10,2000-07-29
+Federico Salas-Guevara Schultz,Independiente,Alberto Fujimori,0.0,constitutional,RENUNCIA_FORZADA,2000-07-29,2000-11-21
+Javier Pérez de Cuéllar de la Guerra,Unión por el Perú,Valentín Paniagua,0.0,Provisorio,TRANSICION,2000-11-22,2001-07-28
+Roberto Dañino Zapata,Independiente,Alejandro Toledo,0.0,constitutional,RENUNCIA_FORZADA,2001-07-28,2002-07-11
+Luis Solari de la Fuente,Perú Posible,Alejandro Toledo,0.0,constitutional,RENUNCIA_FORZADA,2002-07-12,2003-06-23
+Beatriz Merino Lucero,Independiente,Alejandro Toledo,0.0,constitutional,RENUNCIA_FORZADA,2003-06-23,2003-12-12
+Carlos Ferrero Costa,Perú Posible,Alejandro Toledo,0.0,constitutional,RENUNCIA_VOLUNTARIA,2003-12-15,2005-08-15
+Pedro Pablo Kuczynski Godard,Independiente,Alejandro Toledo,0.0,constitutional,FIN_GOBIERNO,2005-08-16,2006-07-28
+Jorge del Castillo Gálvez,Partido Aprista Peruano,Alan García,0.0,constitutional,RENUNCIA_FORZADA,2006-07-28,2008-10-10
+Yehude Simon Munaro,Partido Humanista Peruano,Alan García,0.0,constitutional,RENUNCIA_FORZADA,2008-10-14,2009-07-11
+Javier Velásquez Quesquén,Partido Aprista Peruano,Alan García,0.0,constitutional,RENUNCIA_VOLUNTARIA,2009-07-11,2010-09-13
+José Antonio Chang Escobedo,Independiente,Alan García,0.0,constitutional,CAMBIO_GABINETE,2010-09-14,2011-03-18
+Rosario Fernández Figueroa,Independiente,Alan García,0.0,constitutional,FIN_GOBIERNO,2011-03-19,2011-07-28
+Salomón Lerner Ghitis,Independiente,Ollanta Humala,0.0,constitutional,RENUNCIA_FORZADA,2011-07-28,2011-12-10
+Óscar Valdés Dancuart,Independiente,Ollanta Humala,1.0,constitutional,RENUNCIA_FORZADA,2011-12-10,2012-07-23
+Juan Jiménez Mayor,Independiente,Ollanta Humala,0.0,constitutional,RENUNCIA_FORZADA,2012-07-23,2013-10-29
+César Villanueva Arévalo,Independiente,Ollanta Humala,0.0,constitutional,RENUNCIA_VOLUNTARIA,2013-10-31,2014-02-24
+René Cornejo Díaz,Independiente,Ollanta Humala,0.0,constitutional,RENUNCIA_VOLUNTARIA,2014-02-24,2014-07-22
+Ana Jara Velásquez,Partido Nacionalista Peruano,Ollanta Humala,0.0,constitutional,CENSURA_CONGRESO,2014-07-22,2015-04-02
+Pedro Cateriano Bellido,Independiente,Ollanta Humala,0.0,constitutional,FIN_GOBIERNO,2015-04-02,2016-07-28
+Fernando Zavala Lombardi,Independiente,Pedro Pablo Kuczynski,0.0,constitutional,NEGACION_CONFIANZA,2016-07-28,2017-09-15
+Mercedes Aráoz Fernández,Peruanos por el Kambio,Pedro Pablo Kuczynski,0.0,constitutional,RENUNCIA_FORZADA,2017-09-17,2018-03-23
+Mercedes Aráoz Fernández,Peruanos por el Kambio,Martín Vizcarra,0.0,replaceVice,CAMBIO_GABINETE,2018-03-23,2018-04-02
+César Villanueva Arévalo,Alianza para el Progreso,Martín Vizcarra,0.0,replaceVice,RENUNCIA_VOLUNTARIA,2018-04-02,2019-03-08
+Salvador del Solar Labarthe,Independiente,Martín Vizcarra,0.0,replaceVice,RENUNCIA_FORZADA,2019-03-11,2019-09-30
+Vicente Zeballos Salinas,Independiente,Martín Vizcarra,0.0,replaceVice,CAMBIO_GABINETE / RENUNCIA_VOLUNTARIA ,2019-09-30,2020-07-15
+Pedro Cateriano Bellido,Independiente,Martín Vizcarra,0.0,replaceVice,NEGACION_CONFIANZA,2020-07-15,2020-08-06
+Walter Martos Ruiz,Independiente,Martín Vizcarra,1.0,replaceVice,RENUNCIA_FORZADA,2020-08-06,2020-11-10
+Ántero Flores-Aráoz Esparza,Independiente,Manuel Merino,0.0,Provisorio,RENUNCIA_FORZADA,2020-11-11,2020-11-17
+Violeta Bermúdez Valdivia,Independiente,Francisco Sagasti,0.0,Provisorio,TRANSICION,2020-11-18,2021-07-28
+Guido Bellido Ugarte,Perú Libre,Pedro Castillo,0.0,constitutional,RENUNCIA_FORZADA,2021-07-29,2021-10-06
+Mirtha Vásquez Chuquilín,Frente Amplio,Pedro Castillo,0.0,constitutional,RENUNCIA_VOLUNTARIA,2021-10-06,2022-01-31
+Héctor Valer Pinto,Somos Perú,Pedro Castillo,0.0,constitutional,RENUNCIA_FORZADA,2022-02-01,2022-02-08
+Aníbal Torres Vásquez,Independiente,Pedro Castillo,0.0,constitutional,RENUNCIA_VOLUNTARIA,2022-02-08,2022-11-24
+Betssy Chávez Chino,Perú Libre,Pedro Castillo,0.0,constitutional,GOLPE_ESTADO,2022-11-25,2022-12-07
+Pedro Angulo Arana,Independiente,Dina Boluarte,0.0,replaceVice,CAMBIO_GABINETE,2022-12-10,2022-12-21
+Alberto Otárola Peñaranda,Independiente,Dina Boluarte,0.0,replaceVice,RENUNCIA_FORZADA,2022-12-21,2024-03-05
+Gustavo Adrianzén Olaya,Independiente,Dina Boluarte,0.0,replaceVice,RENUNCIA_FORZADA,2024-03-06,2025-05-13
+Eduardo Arana Ysa,Independiente,Dina Boluarte,0.0,replaceVice,TRANSICION,2025-05-14,2025-10-10
+Eduardo Arana Ysa,Independiente,José Jerí,0.0,Provisorio,TRANSICION,2025-10-10,2025-10-12
+Ernesto Álvarez Miranda,Partido Popular Cristiano[13],José Jerí,0.0,Provisorio,TRANSICION,2025-10-14,2026-02-17
+Ernesto Álvarez Miranda,Partido Popular Cristiano[13],José María Balcázar,0.0,Provisorio,CAMBIO_GABINETE,2026-02-18,2026-02-24
+Denisse Miralles Miralles,Independiente,José María Balcázar,0.0,Provisorio,RENUNCIA_FORZADA,2026-02-24,2026-03-17
+Luis Arroyo Sánchez,Independiente,José María Balcázar,1.0,Provisorio,TRANSICION,2026-03-17,2026-05-17
