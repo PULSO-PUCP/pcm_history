@@ -1,0 +1,232 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+
+```{r,results='asis'}
+# Load required packages
+library(tidyverse)
+library(knitr)
+library(kableExtra)
+
+# Load data
+df <- read_csv("sectores_all.csv")
+
+# Parse dates
+df <- df %>%
+  mutate(
+    fecha_start = as.Date(fecha_start),
+    fecha_end   = as.Date(fecha_end)
+  )
+
+# Standardize portfolio names for display
+df <- df %>%
+  mutate(cartera_label = case_when(
+    cartera == "PCM"       ~ "Premier",
+    cartera == "MEF"       ~ "Economy",
+    cartera == "Interior"  ~ "Interior",
+    cartera == "Educacion" ~ "Education",
+    cartera == "salud"     ~ "Health",
+    TRUE ~ cartera
+  ))
+
+# Build summary table
+spell_summary <- df %>%
+  group_by(cartera_label) %>%
+  summarise(
+    Spells    = n(),
+    From      = format(min(fecha_start, na.rm = TRUE), "%Y"),
+    To        = format(max(fecha_end,   na.rm = TRUE), "%Y"),
+    .groups   = "drop"
+  ) %>%
+  mutate(Coverage = paste0(From, "--", To)) %>%
+  select(Portfolio = cartera_label, Spells, Coverage) %>%
+  # Fix display order
+  arrange(match(Portfolio, 
+    c("Premier", "Economy", "Interior", "Education", "Health")))
+
+# Add total row
+total_row <- tibble(
+  Portfolio = "\\textbf{Total}",
+  Spells    = sum(spell_summary$Spells),
+  Coverage  = paste0(
+    min(df$fecha_start, na.rm = TRUE) %>% format("%Y"),
+    "--",
+    max(df$fecha_end,   na.rm = TRUE) %>% format("%Y")
+  )
+)
+
+spell_summary <- bind_rows(spell_summary, total_row)
+
+# Add rationale column manually
+rationale <- c(
+  "Coordinates cabinet action and sustains executive viability.",
+  "Shapes fiscal policy, macroeconomic management, and investment capacity.",
+  "Addresses public order, internal security, and coercive capacity.",
+  "Governs one of the most persistent citizen-facing public policy challenges.",
+  "Governs a central welfare portfolio linked to citizens' everyday experience of state capacity.",
+  "Five portfolios central to executive coordination, fiscal capacity, public order, education, and welfare."
+)
+
+spell_summary <- spell_summary %>%
+  mutate(Rationale = rationale)
+
+# Produce LaTeX table
+cat(spell_summary %>%
+  kbl(
+    format    = "latex",
+    booktabs  = TRUE,
+    escape    = FALSE,
+    caption   = "Ministerial Spells by Portfolio",
+    label     = "spells_portfolio",
+    col.names = c("Portfolio", "Spells", "Coverage", "Rationale for Inclusion")
+  ) %>%
+  kable_styling(
+    latex_options = c("hold_position", "scale_down"),
+    font_size     = 9
+  ) %>%
+  column_spec(1, width = "3cm") %>%
+  column_spec(2, width = "1.5cm") %>%
+  column_spec(3, width = "2.5cm") %>%
+  column_spec(4, width = "7cm") %>%
+  row_spec(nrow(spell_summary), bold = TRUE) %>%
+  footnote(
+    general = "Source: Author's ministerial-spell database.",
+    general_title = "",
+    escape = FALSE
+  ))
+```
+
+```{r}
+library(tidyverse)
+library(survival)
+library(ggsurvfit)
+
+# Load and prepare data
+df <- read_csv("sectores_all.csv") %>%
+  mutate(
+    fecha_start = as.Date(fecha_start),
+    fecha_end   = as.Date(fecha_end),
+    duration    = as.numeric(fecha_end - fecha_start)
+  ) %>%
+  # Assign epochs by start date
+  mutate(epoch = case_when(
+    year(fecha_start) <= 1883 ~ "1_State_Formation",
+    year(fecha_start) <= 1933 ~ "2_Oligarchic",
+    year(fecha_start) <= 1975 ~ "3_Power_Sharing",
+    year(fecha_start) <= 1993 ~ "4_Transition",
+    TRUE                      ~ "5_Democracy"
+  )) %>%
+  # Standardize portfolio names
+  mutate(portfolio = case_when(
+    cartera == "PCM"       ~ "Premier",
+    cartera == "MEF"       ~ "Economy",
+    cartera == "Interior"  ~ "Interior",
+    cartera == "Educacion" ~ "Education",
+    cartera == "salud"     ~ "Health",
+    TRUE ~ cartera
+  )) %>%
+  # Event indicator: 1 = spell ended (observed exit)
+  # All spells in historical data are complete except 
+  # those still running in 2026
+  mutate(
+    event = if_else(fecha_end >= as.Date("2026-01-01"), 0L, 1L)
+  ) %>%
+  # Remove zero-duration spells
+  filter(duration > 0, !is.na(duration))
+
+# Create survival object
+surv_obj <- Surv(time = df$duration, event = df$event)
+
+# Quick check
+summary(df$duration)
+table(df$epoch)
+table(df$event)
+```
+
+```{r}
+# KM by epoch
+km_epoch <- survfit(surv_obj ~ epoch, data = df)
+
+# Log-rank test
+logrank_epoch <- survdiff(surv_obj ~ epoch, data = df)
+print(logrank_epoch)
+
+# Plot
+ggsurvfit(km_epoch) +
+  labs(
+    title    = "Kaplan-Meier Survival Curves by Institutional Epoch",
+    x        = "Days in Office",
+    y        = "Probability of Remaining in Office",
+    color    = "Epoch"
+  ) +
+  scale_color_manual(
+    values = c(
+      "1_State_Formation" = "#d62728",
+      "2_Oligarchic"      = "#ff7f0e",
+      "3_Power_Sharing"   = "#2ca02c",
+      "4_Transition"      = "#1f77b4",
+      "5_Democracy"       = "#9467bd"
+    ),
+    labels = c(
+      "1_State_Formation" = "State Formation (1824-1883)",
+      "2_Oligarchic"      = "Oligarchic State (1883-1933)",
+      "3_Power_Sharing"   = "Power-Sharing State (1933-1975)",
+      "4_Transition"      = "Transition (1975-1993)",
+      "5_Democracy"       = "Democracy w/o Parties (1993-2022)"
+    )
+  ) +
+  theme_minimal(base_size = 12) +
+  theme(legend.position = "bottom")
+
+# KM by portfolio
+km_portfolio <- survfit(surv_obj ~ portfolio, data = df)
+logrank_portfolio <- survdiff(surv_obj ~ portfolio, data = df)
+print(logrank_portfolio)
+
+ggsurvfit(km_portfolio) +
+  labs(
+    title = "Kaplan-Meier Survival Curves by Portfolio",
+    x     = "Days in Office",
+    y     = "Probability of Remaining in Office",
+    color = "Portfolio"
+  ) +
+  theme_minimal(base_size = 12) +
+  theme(legend.position = "bottom")
+```
+```{r}
+# Recode epoch and portfolio as factors with reference categories
+df <- df %>%
+  mutate(
+    epoch     = factor(epoch, levels = c(
+      "1_State_Formation","2_Oligarchic",
+      "3_Power_Sharing","4_Transition","5_Democracy"
+    )),
+    portfolio = factor(portfolio, levels = c(
+      "Interior","Premier","Economy","Education","Health"
+    ))
+  )
+
+# Model 1: epoch only
+cox1 <- coxph(surv_obj ~ epoch, data = df)
+summary(cox1)
+
+# Model 2: portfolio only
+cox2 <- coxph(surv_obj ~ portfolio, data = df)
+summary(cox2)
+
+# Model 3: epoch + portfolio (main model)
+cox3 <- coxph(surv_obj ~ epoch + portfolio, data = df)
+summary(cox3)
+
+# Model 4: interaction epoch x portfolio (belt test)
+cox4 <- coxph(surv_obj ~ epoch * portfolio, data = df)
+summary(cox4)
+
+# Compare models
+anova(cox1, cox3, test = "LRT")
+anova(cox2, cox3, test = "LRT")
+anova(cox3, cox4, test = "LRT")
+```
+
