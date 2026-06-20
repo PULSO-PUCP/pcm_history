@@ -1,0 +1,1469 @@
+\documentclass[doc, 12pt, a4paper,floatsintext]{apa7} 
+\setcounter{secnumdepth}{3}
+% Packages
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta, positioning}
+\usepackage[utf8]{inputenc}
+\usepackage{epigraph}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{hyperref}
+\usepackage{xurl}
+\usepackage{graphicx}
+\usepackage{array}
+\usepackage{ragged2e}
+\usepackage{adjustbox}
+\usepackage{booktabs}
+\usepackage{caption}
+\usepackage{microtype}
+\usepackage{setspace}
+\usepackage{anyfontsize}
+\newcolumntype{L}[1]{>{\RaggedRight\arraybackslash}p{#1}}
+\justifying
+% Configure APA7 Citations
+\usepackage[style=apa, backend=biber]{biblatex}
+\addbibresource{Premieres.bib} 
+
+% ============================================================
+% APA 7 Metadata Structure (All required elements)
+% ============================================================
+\title{The Instability Itself Is the Institution: Ministerial 
+Survival and Institutional Learning in Peru, 1821--2026}
+\shorttitle{The Instability Itself Is the Institution}
+
+\author{Jose Manuel Magallanes Reyes}
+\leftheader{Magallanes Reyes}
+\authorsaffiliations{Departamento de Ciencias Sociales e 
+Instituto PULSO, Pontificia Universidad Cat\'olica del Per\'u}
+% This satisfies the abstract requirement. If you don't want to write it yet, 
+% just leave the text inside empty, but keep the command!
+\abstract{Why do political systems that change so much change so 
+little in how they govern? This paper addresses that question 
+through an original dataset of 1,062 ministerial spells covering 
+five portfolios in Peru from 1821 to 2026. Rather than treating 
+ministerial duration as the outcome to be explained, we treat it 
+as a signal: an observable trace of the continuity conditions 
+under which governing experience either accumulates into 
+institutional knowledge or is repeatedly lost. We organize the 
+analysis around two analytical heuristics. The first is the 
+institutional epoch --- the path-dependent period between 
+critical junctures --- which captures whether successive 
+historical ruptures produced durable improvements in continuity 
+conditions. The second is the protective belt --- a localized 
+architecture of external accountability relationships that, where 
+it exists, insulates certain ministries from the political logic 
+governing the rest of the cabinet. Kaplan--Meier survival curves, 
+log-rank tests, and Cox proportional hazards models show that 
+epochs explain ministerial survival far better than individual 
+traits or portfolio membership, and that continuity conditions 
+did not improve monotonically across two centuries. The largest 
+shift in the data occurred between the Oligarchic State and the 
+Power-Sharing epoch; the most recent democratic period represents 
+a partial regression toward the founding pattern of chronic 
+interruption. The protective belt emerges only after 1993, when 
+external accountability structures raised the cost of Economy 
+minister replacement beyond what domestic political pressure 
+alone could sustain. The central theoretical finding is that 
+chronic ministerial instability in Peru is not evidence of absent 
+institutions but of a durable informal one: the escape valve 
+through which political pressure is absorbed without producing 
+structural change. The instability itself is the institution.}
+
+\begin{document}
+\SweaveOpts{concordance=TRUE}
+
+
+\maketitle 
+
+\epigraph{``Se vogliamo che tutto rimanga com'è, bisogna che tutto cambi.''}
+{\textit{Il Gattopardo} \\ Giuseppe Tomasi di Lampedusa, 1958}
+
+
+% ============================================================
+\section*{Introduction}
+% ============================================================
+
+Governing is hard. Education, health, and public safety are not technical
+problems with known solutions --- they are complex social challenges that
+resist quick fixes and demand sustained institutional effort. Good policy
+takes time to design, time to implement, and more time still to reach the
+people it is meant to serve. Good practices percolate gradually. Organizations learn slowly.  Citizens feel change only after years of consistent effort in the same direction. In the big picture, where governance improved, it did so through institutional correction after crisis --- converting rupture into consolidation, learning from failure rather than repeating it.
+
+After more than two hundred years of republican life, the Peruvian political class has repeatedly changed governments, cabinets, constitutions, and political coalitions. Yet the underlying pattern remains remarkably stable. Each new administration appoints a cabinet whose members understand, implicitly or explicitly, the terms of their engagement: they are expected to manage complexity on behalf of the leader, but they may also be sacrificed whenever political pressure demands a visible response. Their departure rarely resolves the conflict that triggered it. The resignation of a premier or any other minister may relieve immediate pressure, but it seldom addresses the underlying causes of crisis. Cabinet reshuffles signal responsiveness without necessarily producing institutional correction.
+
+This persistence should not be mistaken for an absence of learning. Political actors adapt continuously. Over time, they have become increasingly adept at navigating constitutional ambiguities, managing blame, and deploying ministerial replacement as a mechanism for absorbing public dissatisfaction. If the political class has learned anything, it has been how to reproduce the system's response to crisis rather than how to transform it. Governments change. Ministers change. The repertoire through which instability is managed remains largely intact. This cycle has marked much of Peru's republican history.
+
+
+
+This vicious circle is generally called path dependence --- a sophisticated way to say that the inertia of accumulated choices makes deviation increasingly costly and increasingly unlikely. And yet paths do break. Oxford philosopher Roman \textcite{krznaric_how_2024} argues that radical change requires what he calls the disruption nexus: a crisis, disruptive movements that amplify it, and powerful ideas that are ready to fill the space the crisis opens. France's Fifth Republic had all three: the Algerian War as crisis, De~Gaulle's movement as disruptive force, and a constitutional design --- the strong executive --- as the idea ready to be deployed. It was not one event that broke France's path. It was a multigenerational accumulation of chronic instability that the Third and Fourth Republics never resolved. The Fifth Republic became the enduring legacy of a critical juncture in French history. More importantly, it appears to have altered the conditions under which political continuity was produced. The result was not merely institutional change, but a durable shift in the patterns of executive stability that had characterized French politics for more than a century.
+
+
+
+France, before the Fifth Republic, was not very different from Peru during the previous hundred years. Both experienced remarkably high levels of executive instability, reflected in similar numbers of premier appointments per decade. Figure~\ref{fig:premiers} tells the story visually. Peru peaked at 23 appointments in the 1890s; France reached 20 in the 1930s. Yet the advent of the Fifth Republic in 1958 initiated sharply diverging trajectories. French premier appointments fell to a stable band of three to six per decade and have remained there ever since, while Peru is returning to levels observed in the nineteenth century. Peru has experienced no shortage of potential disruption nexuses --- or, as we will later call them, critical junctures: independence without state-building, the War of the Pacific, hyperinflation, terrorism, the fall of Fujimori, and a permanent constitutional crisis since 2016. Each represented a moment in which alternative institutional trajectories became plausible.
+
+The question, however, is not whether institutional change occurred. Peru's republican history is full of reforms, constitutions, regime transitions, and political ruptures. The question is whether those ruptures produced institutional learning. By institutional learning, we mean the capacity of an institutional order to generate more favorable conditions for preserving, accumulating, and transmitting political experience over time. From this perspective, a critical juncture is successful not simply because it produces a new institutional arrangement, but because it leaves behind a legacy that alters how the system responds to future crises. France appears to have experienced such a transformation after 1958. Peru's trajectory raises the possibility that institutional change and institutional learning do not necessarily coincide.
+
+
+
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=\textwidth]{premiers_decennial.pdf}
+    \caption{Premier Appointments per Decade: France vs.\ Peru, 1848--2026.\\
+    \textit{Sources}: Author's dataset (based on \textcite{galvez_montero_historia_2016, galvez_montero_historia_2016-1}); Wikipedia
+    list of French prime ministers (1848--2026).}
+    \label{fig:premiers}
+\end{figure}
+
+
+I approach institutional learning through ministerial duration data using the heuristic of institutional epochs. Within epochs, duration provides evidence about the conditions under which knowledge accumulates; across epochs, changes in those patterns provide evidence about institutional learning. Political science has traditionally studied these phenomena separately. Ministerial duration has been analyzed through the tools of survival and event-history analysis, while institutional change has been examined through the comparative-historical literature on critical junctures and path dependence. This paper combines both traditions. It uses ministerial duration data to evaluate whether critical junctures produced enduring changes in the conditions under which political experience accumulates.
+
+The  \textit{epoch} heuristic is the institutional period that encompasses one or more presidential administrations and is defined by the critical junctures that periodically restructure the state's political logic. Epochs capture what neither individual traits nor political context alone can explain: the continuity conditions under which experience is either accumulated or repeatedly lost. If institutional learning occurs, it should be observable through changes in those conditions across successive epochs.
+
+Within epochs, this work conceptualizes a  second analytical heuristic, the \textit{protective belt}: an \emph{ad hoc} architecture of rules, actors, and external accountability relationships that, where it exists, helps preserve continuity despite the political logic governing the rest of the cabinet. By protecting continuity, the belt creates opportunities for knowledge accumulation within epochs and may allow certain sectors to function as islands of institutional effectiveness within a broader environment of instability. The protective belt does not explain institutional learning at the level of the state as a whole. Rather, it explains why some ministries may accumulate knowledge and preserve continuity even when the broader institutional environment remains unfavorable.
+
+The question guiding this study is straightforward: \emph{Have Peru's critical junctures ever produced institutional learning?}
+
+This question cannot be answered directly. Institutional learning is not observed in the data. Instead, the study approaches the question indirectly through patterns of ministerial duration. If institutional learning improves the conditions under which political experience accumulates and is preserved, then such improvements should be reflected in changes in ministerial continuity across institutional epochs. Ministerial duration therefore provides an approximate indicator of the continuity conditions from which institutional learning may emerge.
+
+The theoretical framework developed in this paper distinguishes between knowledge accumulation within institutional epochs and institutional learning across them. This distinction allows the central question to be translated into three empirical questions that can be addressed with duration data. \emph{First}, what continuity conditions for knowledge accumulation characterized each institutional epoch? \emph{Second}, did those continuity conditions change across successive epochs in ways consistent with institutional learning, or did critical junctures repeatedly reproduce the same underlying pattern of ministerial instability? \emph{Third}, do some sectors of the state systematically escape the continuity conditions of their epoch, exhibiting survival patterns consistent with the presence of a protective belt, and if so, what does their existence reveal about the broader dynamics of continuity, knowledge accumulation, and institutional effectiveness?
+
+
+To answer these questions, we construct an original dataset of individual ministerial spells covering the period from 1821 to 2026. The dataset includes the portfolios most relevant to the argument developed here: the premier, who coordinates the cabinet and sustains the political viability of the executive; the economy minister, whose decisions shape the state's fiscal and investment capacity; and the ministers of Interior, Health, and Education, whose portfolios address some of the most consequential and persistent public challenges facing the country, according to official yearly surveys \parencite{inei_encuesta_2024}. The spells are organized into six institutional epochs defined by the critical junctures that periodically restructured Peru's political logic \parencite{lopez_jimenez_peru_2025}. Combining descriptive analysis with survival models, the study evaluates whether patterns of ministerial continuity reveal different conditions for knowledge accumulation within epochs, whether those conditions changed across successive epochs, and whether some sectors exhibit continuity patterns consistent with the presence of a protective belt.
+
+
+
+
+
+\section{Literature Review}
+
+The political science literature on ministerial survival has converged around two broad families of explanations. The first emphasizes the characteristics of ministers themselves. The second emphasizes the political and institutional environments within which ministers operate. Table~\ref{tab:lit_review} summarizes the principal covariates identified across the core studies.
+
+\begin{table}[tbp]
+\centering
+\caption{Trait-based and Context-based Predictors of Ministerial Survival}
+\label{tab:lit_review}
+\scriptsize
+\hbadness=10000
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{0.78}
+\begin{adjustbox}{max width=\textwidth,max totalheight=.82\textheight}
+\begin{tabular}{L{.27\textwidth}L{.34\textwidth}L{.34\textwidth}}
+\toprule
+\textbf{Author(s)} & \textbf{Trait-based} & \textbf{Context-based} \\
+\midrule
+\textcite{blondel_ministerial_1988} & Career duration; parliamentary vs.\ managerial profile & Party system norms; head-of-government style; country context \\
+\midrule
+\textcite{huber_replacing_2008} & Ideological distance from government center; PM party membership; portfolio importance & Coalition type; minority government; electoral volatility; party fractionalization \\
+\midrule
+\textcite{dewan_corrective_2005} & Resignation issue salience; ministerial seniority & PM support level; media attention; single-party vs.\ coalition system \\
+\midrule
+\textcite{fischer_duration_2012} & Age; education; gender; portfolio rank & PM popularity; regime type; frequency of resignation calls \\
+\midrule
+\textcite{camerlo_minister_2015} & Portfolio type; technocrat/partisan/outsider profile; first cabinet appointment & Protests; scandals; electoral calendar; term limits; reelection rules \\
+\midrule
+\textcite{camerlo_government_2024} & Partisan rank within party hierarchy (leader, high-rank, low-rank, newcomer, shadow, defector) & Party government model applicability; regime type; party institutionalization level \\
+\midrule
+\textcite{feliu_ribeiro_foreign_2023} & Technical expertise; presidential group membership; prior electoral experience \textit{(risk factor)} & Economic growth; GDP per capita; legislative powers; regime type; portfolio area \\
+\midrule
+\textcite{mejia_es_2021} & Education; gender; regional origin; prior elected office & Coalition type; legislative majority; party system change \\
+\midrule
+\textcite{alexiadou_commitment_2019} & Technocratic profile; non-partisan status; reform commitment & Economic crisis severity; electoral system type; party control of portfolio \\
+\midrule
+\textcite{baturo_office_2014} & Personal traits as time-invariant officeholder effects (education, prior career) & Regime institutionalization; personalization vs.\ office-based authority \\
+\midrule
+\textcite{jara_iniguez_rotacion_2019} & Managerial performance lifecycle (inverted-U over tenure) & Presidential appointment and dismissal capacity; political trust as selection criterion \\
+\bottomrule
+\end{tabular}
+\end{adjustbox}
+\end{table}
+
+\subsection{Trait-Based Explanations of Ministerial Survival}
+
+Trait-based approaches explain ministerial survival through characteristics of the officeholder. Across different institutional settings, scholars have shown that ministers' professional backgrounds, political careers, partisan affiliations, and personal resources influence their probability of remaining in office. Early studies emphasized broad distinctions between managerial and parliamentary profiles, as well as the effects of career trajectories and prior political experience \parencite{blondel_ministerial_1988}. Subsequent work expanded the range of relevant characteristics to include age, education, gender, portfolio rank, and seniority within government \parencite{fischer_duration_2012,dewan_corrective_2005}.
+
+More recent research has refined these categories by focusing on the organizational and political resources that ministers bring to office. Feliú Ribeiro and López Burian show that technical expertise and membership in presidential networks increase ministerial survival, while prior electoral experience may paradoxically operate as a risk factor \parencite{feliu_ribeiro_foreign_2023}. Across four Latin American countries between 1945 and 2020, career politicians proved more vulnerable to dismissal than technocrats. The finding suggests that ministerial value cannot be reduced to political experience alone; survival depends on the type of resources that political leaders seek to preserve.
+
+The literature has also moved beyond simple dichotomies between partisan and non-partisan ministers. Camerlo and Castaldo argue that partisan affiliation conceals substantial variation in the strength of a minister's relationship with the party organization. Their framework distinguishes among leaders, high-ranks, low-ranks, newcomers, shadows, and defectors according to levels of engagement, consolidation, and hierarchical position within the party \parencite{camerlo_government_2024}. Applied to the Argentine cabinet under Alberto Fernández, this approach reveals that apparently strong partisan cabinets may actually consist of ministers with limited organizational leverage over their parties \parencite{camerlo_poderes_2024}. For survival analysis, the implication is straightforward: ministers classified under the same partisan label may possess very different capacities to resist political pressure.
+
+Taken together, these studies demonstrate that ministerial duration is shaped by who ministers are. Technical expertise, organizational embeddedness, political experience, and personal resources all influence survival prospects. Yet the significance of these traits depends on the environments in which ministers operate. The same characteristic may be rewarded in one institutional setting and penalized in another. This observation leads to the second major family of explanations.
+
+\subsection{Context-Based Explanations of Ministerial Survival}
+
+Context-based approaches explain ministerial survival through characteristics of the political environment rather than characteristics of individual ministers. In this perspective, ministers survive or fail because of the institutional and political constraints surrounding them.
+
+The comparative literature consistently identifies coalition dynamics as a central determinant of ministerial duration. Coalition type, minority government status, electoral volatility, and party-system fragmentation all shape the likelihood of ministerial replacement independently of individual characteristics \parencite{huber_replacing_2008}. Similarly, political crises, scandals, protests, electoral calendars, and term limits alter the incentives presidents face when deciding whether to retain or dismiss ministers \parencite{camerlo_minister_2015,alexiadou_commitment_2019}. Even macroeconomic performance influences survival probabilities by modifying the broader political environment within which governments operate \parencite{feliu_ribeiro_foreign_2023}.
+
+The case literature illustrates these mechanisms particularly clearly. For Colombia, Mejía Guinand et al.\ find that individual characteristics matter, but the institutional configuration of the political system ultimately determines the range within which those characteristics can operate \parencite{mejia_es_2021}. Constitutional reforms, changes in party-system structure, and coalition arrangements alter the political logic governing ministerial careers. A similar conclusion emerges from Chile. Avendaño and Dávila show that ministerial turnover during the Concertación governments was driven primarily by coalition management considerations rather than by individual performance. Finance ministers consistently exhibited the longest tenures regardless of personal characteristics \parencite{avendano_rotacion_2012}.
+
+Recent work has also refined the contextual analysis of ministerial portfolios. Portfolio importance has traditionally been measured through expert rankings that assign ministries a single level of salience. Camerlo and Martínez-Gallardo argue that such measures obscure important differences among ministries, particularly in contexts characterized by weak party institutionalization \parencite{camerlo_por_2022}. Their framework decomposes ministerial value into policy-management capacity, discretional resource allocation, political agenda influence, and inter-portfolio coordination authority. Different political environments activate different dimensions of portfolio value, producing distinct survival incentives for presidents and ministers alike.
+
+Taken together, these studies show that ministerial survival depends not only on who ministers are but also on where they operate. Institutional structures, coalition arrangements, political crises, economic conditions, and portfolio characteristics shape the opportunities and constraints governing ministerial careers.
+
+\subsection{From Ministerial Survival to Institutional Learning}
+
+The two families of explanations are not competing research programs. Virtually every study combines individual and contextual covariates, with political environments conditioning the effects of ministerial traits. The resulting literature has generated a rich understanding of why some ministers survive longer than others.
+
+What the literature has not asked is a prior question: what survival time itself reveals about the institutional environment that produces it. Existing studies treat duration as the outcome to be explained. This paper treats duration as a signal. Before asking why one minister survives longer than another, we ask whether patterns of ministerial continuity reveal differences in the conditions under which governing experience accumulates and is preserved over time. In this perspective, survival is not the phenomenon of interest but an observable trace of a deeper process.
+
+The next section develops a theoretical framework linking continuity, knowledge accumulation, and institutional learning, and introduces critical junctures and institutional epochs as the analytical devices through which those processes can be studied historically.
+
+
+\section{Theoretical Framework}
+
+\subsection{From Ministerial Survival to Institutional Learning}
+
+The literature reviewed above treats ministerial survival as the outcome to be explained. This paper treats it as a signal. What survival time carries, we argue, is information about a prior and more consequential process: the accumulation of institutional knowledge within the state. A foundational claim of organizational learning theory is that institutions outperform alternatives when they successfully encode inferences from experience into routines that guide future behavior \parencite[319--320]{levitt_organizational_1988}. For this to occur, experience must first persist long enough to be accumulated, shared, and embedded within organizations. Ministerial stability is therefore not valuable in itself. Rather, it constitutes a necessary condition for the accumulation of knowledge from which broader processes of institutional learning may subsequently emerge \parencite{nonaka_knowledge-creating_1998}.
+
+For the purposes of this paper, it is useful to distinguish between \textbf{knowledge accumulation} and \textbf{institutional learning}. Knowledge accumulation refers to the process through which experience is retained, articulated, shared, and embedded within organizations. Institutional learning refers to the capacity of an institutional order to generate progressively more favorable conditions for the accumulation, retention, and transmission of experience over time. The two concepts are related but distinct. Knowledge accumulation occurs within organizations and within institutional epochs. Institutional learning becomes visible when successive institutional orders improve the conditions under which such accumulation can occur.
+
+This distinction draws on a common insight running through the literature reviewed below. For Nonaka, learning requires the successful conversion of experience into organizational knowledge \parencite{nonaka_knowledge-creating_1998}. For Simon, organizations learn when they develop more effective ways of structuring and responding to complex problems \parencite{foss_simon_2005}. For Allison, learning becomes visible when experience is embedded in routines that guide future action \parencite{allison_conceptual_1969}. Across these perspectives, learning implies more than isolated episodes of knowledge creation. It implies the development of conditions that allow experience to be retained and used rather than repeatedly lost.
+
+This distinction has important implications for interpretation. Survival is not treated as a direct measure of either knowledge accumulation or institutional learning. A long ministerial tenure does not demonstrate that knowledge accumulated, just as a short tenure does not prove that accumulation failed. Rather, survival is interpreted as an observable indicator of continuity. Continuity creates opportunities for knowledge accumulation, and knowledge accumulation creates the conditions from which institutional learning may eventually emerge. What survival time reveals, therefore, is not learning itself but the extent to which institutional continuity permits experience to accumulate.
+
+Reading survival as a signal of continuity has one methodological implication that separates this paper from the existing literature. Duration cannot be modeled as a homogeneous process pooled across history. If continuity is the mechanism through which knowledge accumulates, then the relevant question is whether the conditions supporting that accumulation changed over time. This requires analytical cut points corresponding to moments when the institutional logic governing political life was transformed. Such moments are identified through the critical-juncture framework developed below. Critical junctures delimit institutional epochs, and epochs constitute the historical environments within which continuity either facilitates knowledge accumulation or repeatedly interrupts it.
+
+Consequently, the objective of this study is not to determine whether individual ministers learned, nor whether particular appointments were successful. Instead, it evaluates whether different institutional epochs generated different continuity conditions and, therefore, different opportunities for knowledge accumulation. Ministerial survival serves as the observable trace of those conditions. The question is not why ministers survive, but what patterns of survival reveal about the state's capacity to accumulate and preserve experience across successive historical periods.
+
+The remainder of the theoretical framework develops this argument in three steps. First, it explains the mechanisms through which continuity enables knowledge accumulation within institutional epochs. Second, it examines how changes in those continuity conditions across epochs can be interpreted as evidence of institutional learning. Third, it introduces the concept of the protective belt to explain why some ministries may experience continuity conditions that differ from those prevailing in the broader institutional environment.
+
+\subsection{Knowledge Accumulation Within Epochs}
+
+If ministerial duration is interpreted as a signal of continuity, the first theoretical task is to explain how continuity contributes to knowledge accumulation. The question is therefore straightforward: what mechanisms allow governing experience to accumulate, and what mechanisms interrupt that process?
+
+The argument developed here begins with a simple proposition: knowledge accumulation depends on continuity over time. Drawing on Nonaka, knowledge creation is not a single event but a cumulative process through which tacit knowledge becomes explicit, is shared within the organization, and is eventually internalized into routines and practices \parencite{nonaka_knowledge-creating_1998}. New knowledge emerges through repeated interaction among organizational members, the articulation of experience into formal procedures, and the gradual incorporation of those procedures into everyday behavior. The process cannot be compressed into a single decision, nor can it survive repeated interruptions without loss.
+
+\begin{spacing}{1.5}
+\noindent
+\texttt{Continuity}
+$\rightarrow$
+\texttt{\bf Knowledge Accumulation}
+\end{spacing}
+
+The first connection links Nonaka's theory of knowledge creation to Cohen, March, and Olsen's theory of organized anarchy. Organized anarchies are characterized by problematic preferences, unclear technology, and fluid participation \parencite{cohen_garbage_1972}. High ministerial turnover operationalizes fluid participation at the cabinet level: decision-makers are replaced before they can develop a shared understanding of the problems they were appointed to address. From a causal perspective, fluid participation weakens continuity by preventing the emergence of the shared cognitive environment required for knowledge creation.
+
+\begin{spacing}{1.5}
+\noindent
+\texttt{Fluid Participation}
+$\rightarrow$
+\texttt{Continuity}
+\end{spacing}
+
+The second connection links Nonaka's model to Simon's theory of bounded rationality. Complex policy problems initially present themselves as ill-structured and become manageable only through gradual processes of problem decomposition and constraint formation \parencite[4--5]{foss_simon_2005}. When ministers confront complex social challenges, their understanding is initially tacit. For organizations to benefit from that experience, tacit knowledge must be articulated, codified, and transformed into explicit knowledge that can be communicated and shared. This transformation requires time. Premature dismissal interrupts the conversion process and leaves accumulated experience personal rather than institutional.
+
+\begin{spacing}{1.5}
+\noindent
+\texttt{Knowledge Articulation}
+$\rightarrow$
+\texttt{\bf Knowledge Accumulation}
+\end{spacing}
+
+The third connection links Nonaka's model to Allison's organizational process perspective. Governments respond to recurring problems through standard operating procedures that have been developed through prior experience \parencite{allison_conceptual_1969}. Once knowledge has been articulated and formalized, it must be repeatedly applied before it becomes embedded in organizational routines. Chronic turnover disrupts this final stage by preventing newly created knowledge from stabilizing within organizational practice.
+
+\begin{spacing}{1.5}
+\noindent
+\texttt{\bf Knowledge Accumulation}
+$\rightarrow$
+\texttt{Routine Formation}
+\end{spacing}
+
+From this perspective, organizational routines constitute the institutional repository through which accumulated knowledge survives individual officeholders.
+
+\begin{spacing}{1.5}
+\noindent
+\texttt{Routine Formation}
+$\rightarrow$
+\texttt{\bf Organizational Memory}
+\end{spacing}
+
+Taken together, these perspectives describe a common mechanism of failure. Cohen, March, and Olsen explain why the social conditions required for knowledge creation may never emerge. Simon explains why the articulation of knowledge requires sustained attention to complex problems. Allison explains why newly created knowledge must be embedded in routines before organizations can benefit from it. Nonaka provides the connective logic linking these processes. The result is a single causal argument: continuity enables the articulation, accumulation, and retention of knowledge, while chronic turnover repeatedly interrupts each stage of the process.
+
+\begin{spacing}{1.5}
+\noindent
+\textbf{Within Epochs:}
+
+\texttt{Continuity}
+$\rightarrow$
+\texttt{\bf Knowledge Accumulation}
+$\rightarrow$
+\texttt{Organizational Memory}
+\end{spacing}
+
+\subsection{Institutional Learning Between Epochs}
+
+The previous section explained how knowledge accumulates within institutional epochs. Institutional learning, however, refers to something different. It concerns whether the conditions governing knowledge accumulation themselves change over time. If continuity facilitates the retention of experience within epochs, institutional learning becomes visible when successive institutional orders generate more favorable conditions for that continuity.
+
+
+
+Explaining such changes requires a theory of historical discontinuity. The comparative-historical literature provides such a framework through the concept of the critical juncture.
+
+Critical junctures are defined as relatively short periods of time during which there is a substantially heightened probability that agents' choices will affect the outcome of interest \parencite[348]{capoccia_study_2007}. These brief moments of structural fluidity are followed by long periods of path-dependent institutional reproduction, in which the choices made during the juncture become increasingly difficult to reverse. The standard application of this framework identifies a formal institution created or transformed at the juncture and traces its reproduction across the subsequent path. For our purposes, the implication is theoretical: if knowledge accumulates or is repeatedly interrupted within institutional periods, then the appropriate unit of analysis is the epoch --- the path-dependent phase between junctures --- rather than the presidential term or the individual ministerial spell.
+
+\begin{spacing}{1.5}
+\noindent
+\texttt{\bf Critical Juncture}
+$\rightarrow$
+\texttt{Institutional Epoch}
+\end{spacing}
+
+Capoccia introduces a further concept that proves essential for the framework: the near-miss critical juncture. Because critical junctures are defined by contingency --- by what happened in the context of what could have happened --- it is entirely possible for a crisis to produce a moment of genuine institutional openness that is ultimately resolved through re-equilibration rather than change \parencite[350--351]{capoccia_study_2007}. The previous institutional arrangement is reinstated, often in modified form, and the path continues. Critical junctures may therefore fail to alter the conditions governing knowledge accumulation. Institutional change can occur without a corresponding transformation in learning conditions.
+
+This observation creates a theoretical puzzle. If formal institutions are repeatedly transformed, disrupted, or replaced, in what sense can one speak of path dependence at all? Levitsky and Murillo argue that in much of the developing world actors develop expectations of instability rather than expectations of institutional reproduction \parencite[123]{levitsky_variation_2009}. Yet from the perspective developed here, the relevant question is not whether formal institutions remain unchanged, but whether the conditions governing knowledge accumulation persist across time. Informal mechanisms may survive repeated formal transformations and thereby reproduce the same learning conditions across successive epochs.
+
+Institutional learning becomes visible when critical
+junctures alter the continuity conditions governing
+knowledge accumulation in durable ways. A sequence of critical junctures followed by increasingly favorable conditions for continuity would suggest institutional learning. A sequence of critical junctures followed by repeated interruptions or unchanged continuity conditions would suggest its absence. The key theoretical question is therefore whether successive institutional epochs generated different opportunities for knowledge accumulation.
+
+\begin{spacing}{1.5}
+\noindent
+\textbf{Between Epochs:}
+
+\texttt{\bf Critical Juncture}
+$\rightarrow$
+\texttt{Institutional Epoch}
+$\rightarrow$
+\texttt{\bf Institutional Learning}
+\end{spacing}
+
+\subsection{The Exception That Tests the Rule: The Protective Belt}
+
+The previous sections described the general mechanisms governing knowledge accumulation within epochs and institutional learning across them. Yet continuity conditions are not necessarily distributed uniformly throughout the state. Some ministries may experience survival patterns that differ systematically from those prevailing in the broader institutional environment. Explaining such variation requires an additional mechanism.
+
+The concept proposed here is the \textbf{Protective Belt}. Borrowing the structural logic of Lakatos's philosophy of science, the belt functions as a buffer that absorbs pressures that would otherwise interrupt continuity \parencite{lakatos_methodology_1978}. It consists of informal rules, external actors, and accountability relationships that raise the political cost of ministerial replacement and thereby reduce the likelihood that continuity will be interrupted.
+
+\begin{spacing}{1.5}
+\noindent
+\texttt{Protective Belt}
+$\rightarrow$
+\texttt{Continuity}
+$\rightarrow$
+\texttt{\bf Knowledge Accumulation}
+\end{spacing}
+
+The concept draws on comparative evidence showing that some portfolios systematically exhibit greater ministerial survival than others. Feliú Ribeiro and López Burian demonstrate that foreign policy portfolios survive significantly longer than domestic portfolios across Latin America \parencite{feliu_ribeiro_foreign_2023}. The mechanism they identify is external accountability. International audiences create credibility costs that presidents must absorb when replacing ministers, thereby increasing continuity independently of domestic political pressures.
+
+The protective belt is therefore not a veto player, nor a form of social capital. It is a cost structure that alters the incentives surrounding ministerial replacement. Its presence or absence determines whether the continuity conditions experienced by a ministry differ from those prevailing in the broader institutional environment.
+
+The Protective Belt does not explain institutional learning at the level of the state as a whole. Rather, it explains why some ministries may accumulate knowledge and preserve continuity even when broader learning conditions remain unfavorable. It is a localized continuity-preserving mechanism that may create islands of effectiveness without altering the broader learning conditions of the institutional order.
+
+%##
+%###
+\section{Research Design and Analytical Strategy}
+
+\subsection{Institutional Epochs as Units of Historical Comparison}
+
+The theoretical framework distinguishes between knowledge accumulation within institutional epochs and institutional learning across them. Table~\ref{tab:epochs} summarizes the institutional epochs employed in the analysis.
+
+
+%%%
+\begin{table}[h]
+\centering
+\caption{Institutional Epochs Used in the Analysis}
+\label{tab:epochs}
+\tiny
+\renewcommand{\arraystretch}{1.35}
+\begin{tabular}{p{1.5cm}p{1cm}p{0.8cm}p{3cm}p{3cm}p{2.6cm}}
+\toprule
+\textbf{Epoch} &
+\textbf{Period} &
+\textbf{End Point used} &
+\textbf{Critical Juncture} &
+\textbf{State and Democratization} &
+\textbf{Why It Ends} \\
+\midrule
+
+State Formation &
+1824--1879 &
+1883 &
+Independence (1810--1824). Liberal failure in state building; caudillo factionalism; colonial continuities intact. &
+Failed creole revolutions; indigenous participation conditioned on tribute abolition; no unified national state. &
+The War of the Pacific (1879) exposes the total absence of a functional national state. \\
+
+\midrule
+
+Oligarchic State &
+1883--1920 &
+1933 &
+War with Chile (1879--1883). Humiliated elites; demonstrated inexistence of a functional state. &
+Patrimonial reconstruction under oligarchic-gamonalista alliance; ``competitive oligarchy'' excluding 98\% of population; early anarchist labor movement. &
+Popular mobilizations and Leguía's self-coup trigger the Crisis of the Aristocratic Republic (1920--1933). \\
+
+\midrule
+
+Power-Sharing State &
+1933--1968 &
+1975 &
+Crisis of the Aristocratic Republic (1920--1933). Leguía, the 1930 recession, Haya, Mariátegui, assassination of Sánchez Cerro. &
+Tripartite system: oligarchy, APRA, and armed forces. After 1956, ``convivencia'' (APRA-oligarchy alliance); mass labor, peasant, and student movements emerge. &
+Social overflow and state paralysis trigger the Military Revolution (1968). \\
+
+\midrule
+
+Transition and Democratic Crisis &
+1975--1992 &
+1993 &
+Military Revolution (1968--1975). Destroyed oligarchy and gamonalismo through agrarian reform; centralized the state. &
+Universal suffrage (1979 Constitution); de-democratization through Shining Path massacre; collapse of the United Left. Hyperinflation and state terrorism against insurgency. &
+Absolute crisis of political parties, hyperinflation, and terrorist violence culminate in Fujimori's self-coup (1992). \\
+
+\midrule
+
+Democracy without Parties &
+1993--2022 &
+2022 &
+Terrorism crisis, hyperinflation, and Fujimori's coup (1982--1992). &
+1993 Constitution; consolidated neoliberal model and neopatrimonial state; long commodity export boom legitimizes the arrangement. Democracy without parties; extreme electoral volatility; \textit{outsider} politics. &
+Political fall of Pedro Castillo (2022), condensing 30 years of discontent with the neoliberal model, opens the Sixth Critical Juncture. \\
+
+\bottomrule
+\end{tabular}
+
+\vspace{0.2cm}
+\begin{minipage}{0.95\textwidth}
+\scriptsize
+\textit{Source:} Adapted from \textcite{lopez_jimenez_peru_2025}. Cut points indicate the years used to delimit epochs in the empirical analysis. The political fall of Pedro Castillo in 2022 is treated as the beginning of an ongoing sixth critical juncture whose long-term institutional legacy remains unresolved.
+\end{minipage}
+
+\end{table}
+
+
+The epochs summarized above are not merely chronological containers. Each represents a distinct institutional environment governing the conditions under which political experience could be accumulated, transmitted, or interrupted. Following \textcite{lopez_jimenez_peru_2025}, they are defined as path-dependent periods bounded by critical junctures that restructured the dominant logic of state organization and political competition. The critical-juncture column identifies the process that opened each epoch, while the cut-point column identifies the year used to delimit epochs in the empirical analysis. These cut points correspond to the completion of the critical juncture rather than to its onset, ensuring continuous temporal coverage of ministerial spells while avoiding the assignment of transitional years to a stable institutional order.
+
+
+If institutional learning occurred across Peru's republican history, it should 
+be observable through changes in continuity conditions across these successive 
+epochs. A sequence of epochs generating progressively longer ministerial 
+survival would suggest improving learning conditions; a sequence reproducing 
+the same patterns of interruption would suggest their absence. Because the 
+present study evaluates institutional learning through changes in continuity 
+conditions across completed epochs, the post-2022 period is analyzed separately 
+as an ongoing process rather than as a consolidated institutional epoch.
+
+\subsection{Why Not Constitutional Periods or Regime Types?}
+
+Two alternative periodization strategies present themselves naturally 
+and deserve explicit consideration. The first would organize ministerial 
+spells by constitutional period. Peru has enacted thirteen constitutions 
+since independence, each representing a formal institutional rupture. The 
+second would organize spells by regime type --- distinguishing democratic 
+from authoritarian or military periods --- following the approach standard 
+in comparative survival studies \parencite{feliu_ribeiro_foreign_2023}.
+
+Both alternatives are rejected on theoretical grounds. Constitutional 
+dates in Peru are precisely the kind of formal institutional change that 
+does not necessarily produce behavioral change. As Levitsky and Murillo 
+argue, formal rules in weak institutional environments are often 
+repeatedly overturned or rendered ineffective, with actors developing 
+expectations of instability rather than compliance 
+\parencite[123]{levitsky_variation_2009}. Peru's constitutional history 
+exemplifies this pattern: thirteen constitutions in two centuries means 
+that most constitutional moments did not produce durable path-dependent 
+change in how political experience accumulates. Using constitutional dates 
+as cut points would risk mistaking formal institutional change for 
+substantive transformation in continuity conditions --- exactly the 
+distinction this paper is built to capture.
+
+Regime-type periodization presents a different problem. Classifying historical periods as democratic or authoritarian collapses variation in continuity conditions into a categorical distinction that is not central to the argument developed here. The theoretical framework focuses on the conditions under which political experience accumulates and is preserved. Those conditions may vary substantially within both democratic and authoritarian settings, depending on the broader configuration of political power, institutional incentives, and mechanisms of ministerial replacement. A regime classification therefore risks obscuring the very dimension of variation this study seeks to identify. By contrast, the epoch framework preserves continuity as the primary analytical dimension, allowing changes in knowledge-accumulation conditions to emerge from the historical trajectory of institutional development rather than from pre-defined regime categories. For this reason, the analysis follows the structural-historical periodization proposed by \textcite{lopez_jimenez_peru_2025}, which identifies epochs according to the critical junctures that reconfigured the state's political logic rather than according to formal constitutional or regime boundaries.
+
+
+\subsection{Ministerial Spells as Units of Observation}
+
+The fundamental unit of observation in this study is the ministerial spell: 
+the uninterrupted period during which an individual occupies a specific 
+cabinet portfolio. A spell begins on the date of appointment and ends on 
+the date of departure --- whether by dismissal, resignation, death in 
+office, or the termination of the presidential administration. This 
+definition treats each continuous period of service as a discrete 
+observation, independent of what came before or after. When the same 
+individual serves multiple non-consecutive terms in the same or different 
+portfolios, each appointment is coded as a separate spell. The reason is 
+theoretical: each spell represents a distinct opportunity for continuity 
+and knowledge accumulation, which may or may not be realized.
+
+Duration is defined as the number of days elapsed between the start and 
+end dates of each spell. This is not a measure of performance, influence, 
+or effectiveness. It is a measure of time --- the raw material from which 
+continuity is built or denied. A spell of three hundred days does not 
+tell us that the minister learned anything, managed well, or left the 
+portfolio better than they found it. It tells us that three hundred days 
+were available for that process to begin. Conversely, a spell of thirty 
+days tells us that the process was interrupted before it could advance 
+beyond its earliest stages, regardless of the minister's individual 
+qualities or intentions.
+
+This distinction between duration and performance is essential for 
+interpreting what follows. The analysis does not evaluate ministers. It 
+evaluates the institutional environment that determined how long ministers 
+were permitted to remain in office. Two ministers may be equally competent, 
+equally committed, and equally well-connected, yet one serves for two years 
+while the other is replaced after two months. The difference is not 
+explained by their individual traits. It is explained by the political 
+logic --- the escape valve or the protective belt --- governing the 
+institutional environment in which they served.
+
+Duration is therefore treated here as an institutional indicator rather 
+than as an individual outcome. When aggregated across all spells within 
+an epoch, the distribution of durations provides evidence about the 
+continuity conditions that characterized that institutional period. When 
+compared across epochs, changes in that distribution provide evidence 
+about whether successive critical junctures altered those conditions in 
+durable ways. And when compared across portfolios within the same epoch, 
+differences in that distribution provide evidence about whether some 
+ministries operated under systematically different continuity conditions 
+than others --- the signature of the protective belt.
+
+The database covers five portfolios spanning the period from 1821 to 2026, 
+yielding 1,069 individual ministerial spells. The selected portfolios are 
+not intended to represent the entirety of the Peruvian state. Rather, they 
+capture positions central to the argument developed in this study. The 
+premier coordinates cabinet action and sustains executive viability; the 
+economy minister shapes fiscal and investment capacity; and the ministers 
+of Interior, Health, and Education are responsible for policy areas 
+consistently identified among citizens' principal concerns in official 
+national surveys \parencite{inei_encuesta_2024}. Together, these portfolios 
+capture both the state's capacity to govern and its capacity to address the 
+public problems most visible to citizens. Table~\ref{tab:spells_portfolio} 
+summarizes the distribution of spells across portfolios.
+
+
+
+
+
+\begin{table}[!h]
+\centering
+\caption{\label{tab:spells_portfolio}Ministerial Spells by Portfolio}
+\centering
+\resizebox{\ifdim\width>\linewidth\linewidth\else\width\fi}{!}{
+\fontsize{9}{11}\selectfont
+\begin{tabular}[t]{>{\raggedright\arraybackslash}p{3cm}>{\raggedleft\arraybackslash}p{1.5cm}>{\raggedright\arraybackslash}p{2.5cm}>{\raggedright\arraybackslash}p{7cm}}
+\toprule
+Portfolio & Spells & Coverage & Rationale for Inclusion\\
+\midrule
+Premier & 232 & 1857--2026 & Coordinates cabinet action and sustains executive viability.\\
+Economy & 298 & 1821--2026 & Shapes fiscal policy, macroeconomic management, and investment capacity.\\
+Interior & 242 & 1855--2026 & Addresses public order, internal security, and coercive capacity.\\
+Education & 213 & 1837--2026 & Governs one of the most persistent citizen-facing public policy challenges.\\
+Health & 84 & 1935--2026 & Governs a central welfare portfolio linked to citizens' everyday experience of state capacity.\\
+\addlinespace
+\textbf{\textbf{Total}} & \textbf{1069} & \textbf{1821--2026} & \textbf{Five portfolios central to executive coordination, fiscal capacity, public order, education, and welfare.}\\
+\bottomrule
+\multicolumn{4}{l}{\rule{0pt}{1em}Source: Author's ministerial-spell database.}\\
+\end{tabular}}
+\end{table}
+
+\subsection{Ministerial Duration as an Indicator of Continuity}
+
+The central empirical challenge of this study is that neither knowledge 
+accumulation nor institutional learning can be observed directly. The 
+available evidence consists of appointment and departure dates. Ministerial 
+duration is therefore treated as an observable indicator of continuity 
+rather than as a direct measure of learning.
+
+This distinction follows directly from the theoretical framework. Knowledge 
+accumulation requires that experience persist long enough to be articulated, 
+transmitted, and embedded within organizational routines. Continuity does 
+not guarantee that such processes occur, but repeated interruption makes 
+them increasingly difficult. Ministerial duration consequently provides 
+information about the temporal opportunities available for knowledge 
+accumulation --- not proof that accumulation happened, but evidence about 
+whether the conditions that make it possible were present.
+
+The interpretation adopted here is therefore indirect and operates at two 
+levels. At the level of individual spells, longer durations signal greater 
+opportunity for experience to be retained and converted into organizational 
+knowledge. At the aggregate level, the distribution of durations within an 
+epoch characterizes the continuity conditions of that institutional period 
+as a whole. Institutional learning is inferred not from the tenure of 
+individual ministers but from systematic changes in those aggregate 
+continuity conditions across successive epochs. A pattern of improving 
+durations across epochs would be consistent with improving learning 
+conditions; a pattern of stagnation or deterioration would suggest their 
+absence.
+
+\subsection{Analytical Expectations}
+
+The argument developed in this paper generates observable expectations at 
+two levels of analysis.
+
+The first concerns institutional learning across epochs. If Peru's critical 
+junctures produced durable improvements in the conditions governing 
+knowledge accumulation, those improvements should be visible in the 
+duration data. Specifically, ministerial spells should tend to be longer 
+and the risk of replacement lower in epochs following junctures that 
+altered the underlying political logic. Conversely, if critical junctures 
+repeatedly failed to transform that logic --- if they were near-misses 
+rather than genuine ruptures --- continuity conditions should remain 
+largely unchanged across epochs despite major formal institutional 
+transformations. In that case, the escape valve would continue to operate 
+across historical periods, and no systematic improvement in duration 
+patterns would be detectable.
+
+The second concerns variation within epochs. The protective-belt heuristic 
+suggests that some portfolios may partially escape the political dynamics 
+affecting the rest of the cabinet. Where external accountability raises the 
+cost of ministerial replacement, duration should be systematically longer 
+in those portfolios than the general continuity conditions of the epoch 
+would predict. The presence of such a pattern would not demonstrate 
+institutional learning at the level of the state as a whole. Rather, it 
+would indicate localized environments in which continuity and knowledge 
+accumulation are more effectively protected --- islands of relative 
+stability within a broader pattern of institutional interruption.
+
+These expectations do not constitute deterministic hypotheses. Political 
+systems are complex, and duration patterns reflect many factors beyond the 
+mechanisms identified here. The expectations instead provide a framework 
+for interpreting the evidence: they specify what improving learning 
+conditions would look like in the data and what their absence would look 
+like, allowing the analysis to evaluate whether the historical trajectory 
+of ministerial continuity in Peru is consistent with the theoretical 
+argument developed above.
+
+\subsection{Analytical Strategy}
+
+The empirical analysis proceeds in three stages, moving from description 
+to estimation.
+
+The first stage uses descriptive statistics to characterize ministerial 
+continuity across portfolios and institutional epochs. Measures of central 
+tendency --- particularly median duration --- and dispersion provide an 
+initial overview of the continuity conditions associated with each 
+historical period. Medians are preferred over means because duration 
+distributions are typically right-skewed: a small number of very long 
+spells can distort the mean substantially, while the median more 
+accurately represents the typical minister's experience. At this stage, 
+the analysis identifies whether broad patterns in the data are consistent 
+with the theoretical expectations described above.
+
+The second stage employs survival analysis to estimate the probability 
+that a minister remains in office over time. Survival analysis is 
+particularly well suited to duration data because it accounts for 
+\textit{censored} observations --- spells that had not yet ended at the 
+time the data were collected. Ignoring censoring would systematically 
+underestimate how long ministers actually serve. The non-parametric 
+Kaplan--Meier estimator produces survival curves showing, for any given 
+number of days in office, the estimated proportion of ministers still 
+serving. These curves can be computed separately for each epoch and each 
+portfolio, and compared visually and statistically. Where the curves for 
+different epochs or portfolios diverge, it suggests that the continuity 
+conditions governing those groups differ systematically. Log-rank tests 
+provide a formal statistical assessment of whether observed differences 
+between curves are likely to reflect genuine variation or random 
+fluctuation.
+
+The third stage employs semi-parametric Cox proportional-hazards models 
+to evaluate whether epoch and portfolio differences in ministerial survival 
+persist after accounting for other observable characteristics of spells. 
+The Cox model estimates the \textit{hazard} of ministerial exit --- that 
+is, the instantaneous risk of departure at any given moment --- as a 
+function of covariates. Unlike the Kaplan--Meier estimator, it allows 
+multiple factors to be considered simultaneously, making it possible to 
+assess whether the epoch and portfolio effects identified descriptively 
+remain detectable once other influences are held constant. The objective 
+is not to explain individual ministerial exits but to determine whether 
+continuity conditions vary systematically across historical epochs and 
+whether some portfolios exhibit survival patterns consistent with the 
+protective-belt argument, independently of other observable features of 
+the data.
+
+Taken together, these three stages provide an indirect but systematic 
+assessment of the theoretical argument: description establishes the 
+patterns, survival curves compare them across groups, and Cox models 
+evaluate their robustness. The evidence produced at each stage is 
+interpreted not as proof of organizational learning but as evidence about 
+whether the continuity conditions from which learning may emerge differed 
+across Peru's institutional epochs and across its ministerial portfolios.
+
+%%%%
+\section{Results}
+
+%%%
+\subsection{Descriptive Patterns of Ministerial Continuity}
+
+Before turning to formal inference, it is useful to characterize the 
+basic empirical landscape. The question is not yet whether observed 
+differences are statistically significant or theoretically meaningful 
+--- that is the work of the subsequent subsections. The question here 
+is simpler: what do two centuries of ministerial duration data look 
+like, and do the broad patterns suggest that continuity conditions 
+varied across epochs and portfolios in ways consistent with the 
+theoretical expectations developed above?
+
+Across the full dataset of 1,062 ministerial spells, the median 
+duration is 189 days --- just over six months. The mean is 
+substantially higher at 283 days, pulled upward by a small number 
+of very long spells. This divergence between median and mean is 
+characteristic of duration distributions: a handful of ministers 
+who served for years coexist with a large proportion who departed 
+within months. The median is the more informative summary statistic 
+for present purposes, as it represents the experience of the typical 
+minister rather than the outliers at either extreme. At the 25th 
+percentile, duration is 87 days --- meaning one quarter of all 
+ministerial spells ended within three months of appointment. This 
+figure alone suggests that the escape valve logic identified in the 
+theoretical framework was not an occasional response to exceptional 
+crises but a routine feature of Peruvian executive politics across 
+the full period of study.
+
+Table~\ref{tab:desc_epoch} presents median duration by institutional 
+epoch. Table~\ref{tab:desc_portfolio} presents the same statistics 
+by portfolio. Table~\ref{tab:crosstab_epoch_portfolio} presents the cross-tabulation 
+of median duration by epoch and portfolio, which provides the most 
+granular descriptive picture of how continuity conditions varied 
+across both dimensions simultaneously.
+
+\begin{table}[!h]
+\centering
+\caption{\label{tab:desc_epoch}Ministerial Duration by Institutional Epoch (days)}
+\centering
+\resizebox{\ifdim\width>\linewidth\linewidth\else\width\fi}{!}{
+\fontsize{9}{11}\selectfont
+\begin{tabular}[t]{>{\raggedright\arraybackslash}p{4cm}rrrrrr}
+\toprule
+Epoch & N & Median & Mean & SD & Min & Max\\
+\midrule
+State Formation & 270 & 131.0 & 228 & 292 & 1 & 3268\\
+Oligarchic State & 332 & 142.0 & 220 & 228 & 1 & 1771\\
+Power-Sharing State & 173 & 322.0 & 435 & 405 & 1 & 2058\\
+Transition & 81 & 321.0 & 433 & 348 & 51 & 1991\\
+Democracy w/o Parties & 206 & 209.5 & 271 & 251 & 2 & 1694\\
+\bottomrule
+\multicolumn{7}{l}{\rule{0pt}{1em}Duration in days. Source: Author's ministerial-spell database.}\\
+\end{tabular}}
+\end{table}
+
+
+\begin{table}[!h]
+\centering
+\caption{\label{tab:desc_portfolio}Ministerial Duration by Portfolio (days)}
+\centering
+\resizebox{\ifdim\width>\linewidth\linewidth\else\width\fi}{!}{
+\fontsize{9}{11}\selectfont
+\begin{tabular}[t]{lrrrrrr}
+\toprule
+Portfolio & N & Median & Mean & SD & Min & Max\\
+\midrule
+Premier & 232 & 180.5 & 261 & 272 & 1 & 1822\\
+Economy & 296 & 150.0 & 253 & 284 & 1 & 1974\\
+Interior & 240 & 178.0 & 262 & 279 & 1 & 1991\\
+Education & 212 & 233.5 & 327 & 363 & 1 & 3268\\
+Health & 82 & 316.5 & 403 & 345 & 1 & 2058\\
+\bottomrule
+\multicolumn{7}{l}{\rule{0pt}{1em}Duration in days. Source: Author's ministerial-spell database.}\\
+\end{tabular}}
+\end{table}
+
+\begin{table}[!h]
+\centering
+\caption{\label{tab:crosstab_epoch_portfolio}Median Duration by Epoch and Portfolio (days)}
+\centering
+\resizebox{\ifdim\width>\linewidth\linewidth\else\width\fi}{!}{
+\fontsize{9}{11}\selectfont
+\begin{tabular}[t]{>{\raggedright\arraybackslash}p{4cm}rrrrr}
+\toprule
+Epoch & Premier & Economy & Interior & Education & Health\\
+\midrule
+State Formation & 151.5 & 112.0 & 136.0 & 241.0 & NA\\
+Oligarchic State & 125.0 & 137.5 & 153.0 & 172.5 & NA\\
+Power-Sharing State & 236.0 & 367.0 & 341.5 & 259.0 & 389\\
+Transition & 310.5 & 313.5 & 375.5 & 309.0 & 362\\
+Democracy w/o Parties & 214.5 & 258.5 & 141.0 & 245.0 & 216\\
+\bottomrule
+\multicolumn{6}{l}{\rule{0pt}{1em}Median duration in days. NA indicates no spells for that combination. Source: Author's ministerial-spell database.}\\
+\end{tabular}}
+\end{table}
+
+Several patterns in the descriptive data deserve attention before 
+formal analysis. First, continuity conditions did not improve 
+monotonically across epochs. The Power-Sharing State and Transition 
+epochs show the longest median durations --- 322 and 321 days 
+respectively --- while the most recent democratic epoch shows a 
+decline to 210 days. The Oligarchic State, despite representing a 
+period of formal institutional reconstruction after the War of the 
+Pacific, produced median durations almost identical to the State 
+Formation epoch. These patterns are broadly consistent with the 
+near-miss argument developed in the theoretical framework: formal 
+institutional change did not necessarily translate into improved 
+continuity conditions.
+
+Second, portfolio-level variation is visible but uneven. Health and 
+Education show higher overall median durations than Premier, Economy, 
+and Interior --- but the cross-tabulation reveals that this pattern 
+is not uniform across epochs. The descriptive picture therefore 
+suggests that portfolio effects, where present, may be 
+epoch-specific rather than structural features of those ministries. 
+Whether this impression survives formal analysis is the question the 
+subsequent subsections address.
+
+These descriptive observations do not constitute evidence for or 
+against the theoretical argument. They establish the empirical 
+terrain within which the formal analysis operates.
+
+%%%
+
+\subsection{Have Peru's Critical Junctures Generated Different 
+Continuity Conditions?}
+
+The first research question asks whether Peru's institutional epochs 
+generated different continuity conditions for knowledge accumulation, 
+or whether successive critical junctures reproduced the same 
+underlying pattern of ministerial instability. The descriptive 
+patterns suggest variation across epochs, but raw medians do not 
+account for the distribution of spell durations within each period 
+or for the possibility that observed differences reflect random 
+fluctuation rather than genuine institutional change. Survival 
+analysis addresses both limitations.
+
+Figure~\ref{fig:km_epoch} presents Kaplan--Meier survival curves 
+estimated separately for each institutional epoch, pooling all five 
+portfolios within each period. Each curve shows the estimated 
+probability that a minister remains in office as time passes from 
+the date of appointment. Curves that remain elevated over time 
+represent epochs in which continuity conditions were more favorable; 
+curves that fall steeply in the early months represent epochs in 
+which ministerial replacement was rapid and routine --- the 
+observable signature of the escape valve operating at full force.
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=\textwidth]{km_epoch.pdf}
+    \caption{Kaplan--Meier Survival Curves by Institutional Epoch. 
+    Each curve shows the estimated probability that a minister 
+    remains in office over time, pooling all five portfolios 
+    (Premier, Economy, Interior, Education, and Health) within 
+    each epoch. Curves that remain elevated represent epochs with 
+    more favorable continuity conditions; curves that fall steeply 
+    in the early months indicate epochs in which ministerial 
+    replacement was rapid and routine --- the observable signature 
+    of the escape valve operating at full force. Log-rank test: 
+    $\chi^2$ = 82.3, df = 4, $p$ $<$ 0.001.
+    \textit{Source}: Author's calculations based on original 
+    ministerial-spell database, 1821--2026.}
+    \label{fig:km_epoch}
+\end{figure}
+
+The curves diverge visibly and in ways consistent with the 
+theoretical expectations. The State Formation and Oligarchic State 
+epochs produce nearly identical survival profiles --- both show 
+steep early declines, with the median minister departing well 
+before the end of the first year. The log-rank test confirms that 
+these differences are not attributable to random variation 
+($\chi^2$ = 82.3, df = 4, $p$ $<$ 0.001). The null hypothesis of 
+equal survival across epochs is rejected with high confidence.
+\begin{table}[!h]
+\centering
+\caption{\label{tab:logrank_epoch}Log-Rank Test of Survival Differences Across Institutional Epochs}
+\centering
+\fontsize{10}{12}\selectfont
+\begin{tabular}[t]{>{\raggedright\arraybackslash}p{4.5cm}>{\raggedleft\arraybackslash}p{1cm}>{\raggedleft\arraybackslash}p{1.5cm}>{\raggedleft\arraybackslash}p{1.5cm}>{\raggedleft\arraybackslash}p{1.5cm}}
+\toprule
+Epoch & N & Observed & Expected & O $-$ E\\
+\midrule
+State Formation & 270 & 270 & 214.5 & 55.5\\
+Oligarchic State & 332 & 332 & 257.0 & 75.0\\
+Power-Sharing State & 173 & 173 & 258.4 & -85.4\\
+Transition & 81 & 81 & 122.4 & -41.4\\
+Democracy w/o Parties & 206 & 194 & 197.6 & -3.6\\
+\bottomrule
+\multicolumn{5}{l}{\rule{0pt}{1em}Log-rank test: $\chi^2$ = 82.3, df = 4, $p$ $<$ 0.001.}\\
+\multicolumn{5}{l}{\rule{0pt}{1em}O $-$ E: observed minus expected exits under equal survival.}\\
+\multicolumn{5}{l}{\rule{0pt}{1em}Negative values indicate fewer exits than expected (better continuity conditions).}\\
+\end{tabular}
+\end{table}
+
+
+The O-E column of the log-rank test --- comparing observed to 
+expected exits under the null hypothesis of equal survival --- 
+sharpens the interpretation. The State Formation and Oligarchic 
+epochs both produced substantially more exits than expected: 270 observed against 214.5 expected in the founding period, and 332 
+observed against 257 expected in the Oligarchic epoch. Despite 
+the formal institutional reconstruction that followed the War of 
+the Pacific, ministers in the Oligarchic period exited at the 
+same elevated rate as those in the founding epoch. The underlying 
+political logic of ministerial replacement persisted across the 
+juncture unchanged.
+
+The Power-Sharing State produced the largest single deviation in 
+the opposite direction: 173 observed exits against 258 expected. 
+Ministers in this epoch survived substantially longer than the 
+pooled average would predict --- the clearest signal in the data 
+of a genuine shift in continuity conditions. The Transition epoch 
+sustained this improvement: 81 observed exits against 122 expected. 
+Taken together, these two epochs represent the period of greatest 
+ministerial continuity in Peru's republican history.
+
+The Democracy without Parties epoch, by contrast, tracks almost 
+exactly at the system average: 194 observed exits against 198 
+expected. The democratic period neither outperforms nor 
+underperforms the pooled distribution --- it reverts toward the 
+overall mean rather than sustaining the improved conditions of the 
+power-sharing and transition periods. This pattern is consistent with the near-miss argument: the 
+constitutional refoundation of 1993 altered the formal 
+institutional landscape without sustaining the continuity 
+conditions that the preceding epochs had produced. The twelve 
+censored observations in the dataset --- ministerial appointments 
+still active at the time of data collection --- fall entirely 
+within this epoch, reflecting the ongoing nature of the current 
+institutional period rather than a data limitation.
+
+To evaluate whether these differences persist after accounting for 
+portfolio composition, Table~\ref{tab:cox_models} presents Cox 
+proportional hazards models. Model~1 estimates epoch effects alone, 
+using State Formation as the reference category. Model~3 adds 
+portfolio as a covariate, allowing assessment of whether epoch 
+effects survive adjustment for the differential distribution of 
+portfolios across historical periods.
+\begin{table}[!h]
+\centering
+\caption{\label{tab:cox_models}Cox Proportional Hazards Models of Ministerial Exit}
+\centering
+\fontsize{10}{12}\selectfont
+\begin{tabular}[t]{>{\raggedright\arraybackslash}p{5.5cm}>{\raggedright\arraybackslash}p{1.5cm}>{\raggedright\arraybackslash}p{3.5cm}>{\raggedright\arraybackslash}p{2cm}}
+\toprule
+ & HR & 95\% CI & $p$\\
+\midrule
+\textit{Model 1: Epoch only} &  &  & \\
+Oligarchic State & 1.032 & {}[0.878, 1.212] & 0.702\\
+Power-Sharing State & 0.516 & {}[0.425, 0.627] & $<$0.001***\\
+Transition & 0.515 & {}[0.401, 0.661] & $<$0.001***\\
+Democracy w/o Parties & 0.779 & {}[0.648, 0.937] & 0.008**\\
+\addlinespace
+\textit{Model 3: Epoch + Portfolio} &  &  & \\
+Oligarchic State & 1.03 & {}[0.875, 1.212] & 0.721\\
+Power-Sharing State & 0.529 & {}[0.433, 0.646] & $<$0.001***\\
+Transition & 0.524 & {}[0.407, 0.676] & $<$0.001***\\
+Democracy w/o Parties & 0.803 & {}[0.662, 0.972] & 0.025*\\
+\addlinespace
+Premier & 0.993 & {}[0.828, 1.19] & 0.935\\
+Economy & 1.001 & {}[0.842, 1.189] & 0.995\\
+Education & 0.792 & {}[0.657, 0.954] & 0.014*\\
+Health & 0.811 & {}[0.622, 1.057] & 0.122\\
+\bottomrule
+\multicolumn{4}{l}{\rule{0pt}{1em}Hazard ratios (HR) from Cox proportional hazards models.}\\
+\multicolumn{4}{l}{\rule{0pt}{1em}HR $<$ 1 indicates lower exit risk relative to the reference category.}\\
+\multicolumn{4}{l}{\rule{0pt}{1em}Reference categories: State Formation (epoch), Interior (portfolio).}\\
+\multicolumn{4}{l}{\rule{0pt}{1em}* $p$ $<$ 0.05, ** $p$ $<$ 0.01, *** $p$ $<$ 0.001.}\\
+\multicolumn{4}{l}{\rule{0pt}{1em}N = 1,062 spells, 1,050 events.}\\
+\end{tabular}
+\end{table}
+
+The results are consistent across both specifications. Relative to 
+State Formation, the Oligarchic State shows no significant reduction 
+in exit hazard (HR = 1.03, $p$ = 0.72 in Model~3). The 
+Power-Sharing State produces a large and highly significant 
+reduction (HR = 0.529, $p$ $<$ 0.001) --- ministers in this epoch 
+faced roughly half the exit risk of their counterparts in the 
+founding period. The Transition epoch maintained this improvement 
+almost exactly (HR = 0.524, $p$ $<$ 0.001). The Democracy without 
+Parties epoch shows a partial regression (HR = 0.803, $p$ = 0.025 
+in Model~3), significantly better than State Formation but 
+substantially worse than the power-sharing and transition epochs.
+
+A likelihood ratio test confirms that epochs explain far more 
+variation in ministerial survival than portfolio membership alone. 
+Adding epoch to a portfolio-only model improves fit by LRT = 73.46 
+on 4 degrees of freedom ($p$ $<$ 0.001), while adding portfolio to 
+an epoch-only model produces a more modest improvement of 
+LRT = 10.69 on 4 degrees of freedom ($p$ = 0.030). The 
+institutional period in which a minister serves matters more for 
+survival than the portfolio they hold.
+
+Taken together, these results suggest a partial and non-monotonic 
+answer to the first research question. Peru's critical junctures 
+did not uniformly reproduce the same continuity conditions across 
+two centuries. The transition from the Oligarchic State to the 
+Power-Sharing State produced a genuine and durable improvement --- 
+the largest single shift detectable in the data. But the democratic 
+epoch that followed Fujimori's constitutional refoundation failed 
+to sustain those conditions. The continuity conditions of the most 
+recent epoch revert toward the founding period rather than the 
+mid-century peak. This pattern is broadly consistent with the 
+near-miss argument: successive critical junctures altered the 
+formal institutional landscape without consistently transforming 
+the informal mechanisms through which political instability is 
+managed.
+
+\subsection{Do Some Portfolios Systematically Escape the 
+Dominant Pattern?}
+
+The second research question asks whether some sectors of the 
+state systematically escape the dominant continuity logic of their 
+epoch, exhibiting duration patterns consistent with the presence 
+of a protective belt. The epoch analysis established that the 
+institutional period matters more for ministerial survival than 
+any individual characteristic. The question now is whether, within 
+that institutional logic, some portfolios consistently deviate from 
+what the epoch-level pattern would predict.
+
+Figure~\ref{fig:km_portfolio} presents Kaplan--Meier survival 
+curves estimated separately for each portfolio, pooling all 
+institutional epochs. Each curve shows the estimated probability 
+that a minister remains in office over time. Portfolios whose 
+curves remain elevated relative to others exhibit systematically 
+better continuity conditions across the full period of study.
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=\textwidth]{km_portfolio.pdf}
+    \caption{Kaplan--Meier Survival Curves by Portfolio. 
+    Each curve shows the estimated probability that a minister 
+    remains in office over time, pooling all institutional epochs 
+    within each portfolio. Log-rank test: $\chi^2$ = 21.1, 
+    df = 4, $p$ = 0.0003.
+    \textit{Source}: Author's calculations based on original 
+    ministerial-spell database, 1821--2026.}
+    \label{fig:km_portfolio}
+\end{figure}
+
+The curves diverge and the log-rank test confirms that portfolio 
+differences are unlikely to reflect random variation ($\chi^2$ = 
+21.1, df = 4, $p$ = 0.0003). However, the pattern is not the one 
+the protective belt argument would naively predict. Health and 
+Education show the highest overall survival, while Economy --- the 
+portfolio most directly embedded in external accountability 
+structures --- shows no pooled advantage over Interior. This 
+apparent contradiction dissolves once the epoch dimension is 
+reintroduced: pooling across all epochs obscures the historically 
+specific nature of the belt.
+
+Table~\ref{tab:logrank_portfolio} presents the log-rank O-E 
+statistics by portfolio.
+
+\begin{table}[!h]
+\centering
+\caption{\label{tab:logrank_portfolio}Log-Rank Test of Survival Differences Across Portfolios}
+\centering
+\fontsize{10}{12}\selectfont
+\begin{tabular}[t]{>{\raggedright\arraybackslash}p{3.5cm}>{\raggedleft\arraybackslash}p{1cm}>{\raggedleft\arraybackslash}p{1.5cm}>{\raggedleft\arraybackslash}p{1.5cm}>{\raggedleft\arraybackslash}p{1.5cm}}
+\toprule
+Portfolio & N & Observed & Expected & O $-$ E\\
+\midrule
+Interior & 240 & 238 & 220.3 & 17.7\\
+Premier & 232 & 228 & 213.1 & 14.9\\
+Economy & 296 & 294 & 262.4 & 31.6\\
+Education & 212 & 210 & 238.1 & -28.1\\
+Health & 82 & 80 & 116.1 & -36.1\\
+\bottomrule
+\multicolumn{5}{l}{\rule{0pt}{1em}Log-rank test: $\chi^2$ = 21.1, df = 4, $p$ = 0.0003.}\\
+\multicolumn{5}{l}{\rule{0pt}{1em}O $-$ E: observed minus expected exits under equal survival.}\\
+\multicolumn{5}{l}{\rule{0pt}{1em}Negative values indicate fewer exits than expected.}\\
+\end{tabular}
+\end{table}
+
+The O-E column confirms that Health (80 observed against 116 
+expected) and Education (210 observed against 238 expected) 
+produce fewer exits than expected across the full period, while 
+Economy produces slightly more exits than expected (294 observed 
+against 262 expected). But this pooled picture is misleading. 
+Health exists only from 1939 onward and therefore draws 
+exclusively from the three later epochs, which all show improved 
+continuity conditions relative to State Formation and the 
+Oligarchic period. Its apparent survival advantage largely 
+reflects epoch composition rather than a genuine portfolio effect. 
+Model~3 of the Cox analysis confirms this: once epoch is 
+controlled, Health's hazard ratio is 0.811 and no longer 
+statistically significant ($p$ = 0.122).
+
+Economy's pooled disadvantage similarly reflects epoch 
+composition. In the two earliest epochs --- State Formation and 
+the Oligarchic period --- Economy ministers served extremely short 
+spells, reflecting the absence of any external accountability 
+structure that might raise the cost of their replacement. It is 
+only in the later epochs, when fiscal rules, sovereign debt 
+markets, and multilateral oversight became structurally embedded, 
+that Economy ministers begin to exhibit greater continuity than 
+the broader political environment would predict. Interior and Premier ministers, by contrast, exited faster than 
+the pooled average would predict --- O$-$E values of $+$17.7 and 
+$+$14.9 respectively --- confirming that these portfolios track 
+closely with the dominant escape valve logic across the full 
+period of study.
+
+To test whether the Economy portfolio gained a survival advantage 
+specifically in the Democracy without Parties epoch, 
+Figure~\ref{fig:km_belt} presents Kaplan--Meier survival curves 
+comparing Economy and Interior ministers within each institutional 
+epoch separately.
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=\textwidth]{km_belt.pdf}
+    \caption{Kaplan--Meier Survival Curves: Economy vs.\ Interior 
+    by Institutional Epoch. Each panel compares ministerial 
+    survival in the Economy and Interior portfolios within the 
+    same epoch. Divergence between curves within a panel indicates 
+    epoch-specific portfolio effects. The Economy portfolio shows 
+    no survival advantage in the four earlier epochs but diverges 
+    markedly from Interior in the Democracy without Parties epoch, 
+    consistent with the protective belt argument.
+    \textit{Source}: Author's calculations based on original 
+    ministerial-spell database, 1821--2026.}
+    \label{fig:km_belt}
+\end{figure}
+
+The pattern in Figure~\ref{fig:km_belt} is precisely what the 
+protective belt argument predicts. In the State Formation, 
+Oligarchic, Power-Sharing, and Transition epochs, the Economy 
+and Interior curves are nearly indistinguishable: Economy 
+ministers faced the same exit risk as their Interior counterparts, 
+and no belt is visible in the data. In the Democracy without 
+Parties epoch, the curves diverge substantially. Economy ministers 
+in this period exhibit markedly greater survival probability than 
+Interior ministers at every point in time --- the visual signature 
+of a portfolio operating under a different cost structure for 
+ministerial replacement.
+
+\begin{table}[!h]
+\centering
+\caption{\label{tab:cox_belt}Cox Model 4: Economy Portfolio Effects by Epoch (Protective Belt Test)}
+\centering
+\fontsize{10}{12}\selectfont
+\begin{tabular}[t]{>{\raggedright\arraybackslash}p{6cm}>{\raggedleft\arraybackslash}p{1.5cm}>{\raggedright\arraybackslash}p{3.5cm}>{\raggedright\arraybackslash}p{2cm}}
+\toprule
+Term & HR & 95\% CI & $p$\\
+\midrule
+Economy (main effect) & 1.206 & {}[0.869, 1.672] & 0.262\\
+Economy × Oligarchic State & 0.749 & {}[0.479, 1.172] & 0.206\\
+Economy × Power-Sharing State & 1.069 & {}[0.6, 1.902] & 0.822\\
+Economy × Transition & 0.850 & {}[0.395, 1.831] & 0.678\\
+Economy × Democracy w/o Parties & 0.506 & {}[0.292, 0.874] & 0.015*\\
+\bottomrule
+\multicolumn{4}{l}{\rule{0pt}{1em}Hazard ratios from Cox Model 4 (epoch $\times$ portfolio interaction).}\\
+\multicolumn{4}{l}{\rule{0pt}{1em}Reference categories: State Formation (epoch), Interior (portfolio).}\\
+\multicolumn{4}{l}{\rule{0pt}{1em}HR $<$ 1 indicates lower exit risk relative to Interior in State Formation.}\\
+\multicolumn{4}{l}{\rule{0pt}{1em}* $p$ $<$ 0.05, ** $p$ $<$ 0.01, *** $p$ $<$ 0.001.}\\
+\multicolumn{4}{l}{\rule{0pt}{1em}N = 1,062 spells, 1,050 events.}\\
+\end{tabular}
+\end{table}
+
+Table~\ref{tab:cox_belt} presents the Economy portfolio 
+interaction terms from Cox Model~4. The interaction between the 
+Democracy without Parties epoch and the Economy portfolio is 
+negative and statistically significant (HR = 0.506, $p$ = 0.015), 
+indicating that Economy ministers in this epoch faced roughly half 
+the exit risk of Interior ministers in the same period, over and 
+above the general epoch effect. No other epoch-Economy interaction 
+approaches significance, confirming that the belt is not a 
+structural feature of the Economy portfolio across all periods 
+but a historically specific phenomenon that consolidated after 
+1993.
+
+A likelihood ratio test comparing Model~3 to Model~4 shows that 
+the interaction terms improve model fit (LRT = 22.44, df = 14, 
+$p$ = 0.070). The improvement is marginal at conventional 
+thresholds, consistent with the finding that the belt effect is 
+concentrated in a single epoch-portfolio combination rather than 
+distributed broadly across the interaction structure.
+
+These results provide a partial and qualified answer to the second 
+research question. Some portfolios do escape the dominant 
+continuity logic of their epoch --- but not in the way that a 
+simple portfolio ranking would suggest. The protective belt is not 
+an inherent feature of the Economy ministry. It is a historically 
+constructed cost structure that emerged after 1993 when external 
+accountability relationships --- international creditors, fiscal 
+rules, sovereign debt markets --- raised the political price of 
+Economy minister replacement beyond what domestic pressure alone 
+could sustain. Before that consolidation, Economy ministers were 
+as expendable as any other. After it, they were not. The 
+instability itself remained; what changed was which portfolios 
+the escape valve could reach.
+
+\section{Discussion}
+
+The empirical results presented above invite interpretation at two 
+levels: what they reveal about Peru specifically, and what they 
+suggest about the relationship between institutional change, 
+continuity, and organizational learning more broadly.
+
+\subsection{Institutional Change Without Institutional Learning}
+
+The central finding of this study is that Peru's critical junctures 
+did not produce monotonic improvements in the conditions governing 
+ministerial continuity. Two centuries of republican history, five 
+institutional epochs, and 1,062 ministerial spells later, the most 
+recent democratic period generates continuity conditions closer to 
+the founding epoch than to the mid-century peak. This is not a 
+story of gradual institutional development interrupted by occasional 
+setbacks. It is a story of structural reproduction interrupted by 
+one genuine improvement --- the Power-Sharing State --- that 
+subsequent critical junctures failed to sustain.
+
+The distinction between institutional change and institutional 
+learning, introduced in the theoretical framework, finds its 
+clearest empirical expression here. Peru has changed its 
+institutions repeatedly --- thirteen constitutions, multiple regime 
+transitions, democratic openings and authoritarian closures. Yet 
+the continuity conditions under which ministerial experience 
+accumulates have not improved in any consistent direction. The 
+Oligarchic State, despite representing a period of formal 
+reconstruction after the humiliation of the War of the Pacific, 
+produced median ministerial durations almost identical to the 
+founding epoch. The constitutional refoundation of 1993, despite 
+introducing macroeconomic stabilization and a new institutional 
+framework, failed to sustain the continuity conditions that the 
+Power-Sharing and Transition epochs had produced. Formal 
+institutional change and improvement in learning conditions have 
+repeatedly failed to coincide.
+
+This pattern is precisely what the near-miss framework predicts. 
+Each major rupture --- the War of the Pacific, the Crisis of the 
+Aristocratic Republic, the Military Revolution, Fujimori's 
+self-coup --- represented a moment of genuine contingency in which 
+alternative institutional trajectories were plausible. In each 
+case, the informal mechanism through which political pressure is 
+absorbed --- ministerial dismissal as the escape valve --- survived 
+the juncture and was reproduced in the subsequent path. The 
+formal rules changed. The informal institution did not.
+
+\subsection{The Instability Itself Is the Institution}
+
+The most theoretically significant finding is not the variation 
+across epochs but the mechanism that explains the reproduction of 
+poor continuity conditions across them. The escape valve is not 
+simply a symptom of weak institutions. It is itself an institution 
+--- informal, durable, and self-reinforcing. Each time a minister 
+is sacrificed to relieve political pressure, the expectation that 
+dismissal is the appropriate response to crisis is reinforced. 
+The political cost of \emph{not} activating the escape valve rises. 
+The informal institution deepens its lock-in.
+
+This finding flips the conventional interpretation of Peruvian 
+political instability. Most accounts treat chronic ministerial 
+turnover as evidence of institutional weakness --- the absence of 
+stable rules, norms, and enforcement mechanisms. The present 
+analysis suggests the opposite: the turnover is stable precisely 
+because it is institutionalized. What persists across two centuries 
+is not the absence of institutions but the presence of an informal 
+one whose purpose is to absorb political pressure without requiring 
+structural change.
+
+Tomasi di Lampedusa captured the logic before political science 
+named it: \textit{``Se vogliamo che tutto rimanga com'è, bisogna 
+che tutto cambi''} --- if we want everything to remain as it is, 
+everything must change. Peru's political class has learned this 
+lesson well. Governments change. Cabinets change. Constitutions 
+change. The repertoire through which instability is managed 
+remains largely intact. The minister is Tancredi's gesture: a 
+sacrifice offered so that the system does not have to transform 
+itself.
+
+\subsection{The Protective Belt as Proof of the Conditional}
+
+The protective belt finding does more than identify an exception 
+to the dominant pattern. It provides the critical theoretical test 
+that distinguishes between two interpretations of Peru's chronic 
+instability.
+
+The first interpretation holds that instability is culturally or 
+structurally inevitable --- an expression of deep social 
+fragmentation, weak civic capacity, and the absence of the 
+rationality preconditions that would allow competence-based 
+ministerial evaluation. On this reading, Peru cannot produce 
+sustained ministerial continuity because the conditions for doing 
+so do not exist.
+
+The second interpretation holds that instability is institutionally 
+produced --- the outcome of a specific cost structure in which 
+dismissal is cheap and continuity is not rewarded. On this reading, 
+Peru can produce sustained continuity wherever the cost structure 
+changes, and the escape valve is not a cultural inevitability but 
+a political equilibrium that can be disrupted by external forces.
+
+The Economy portfolio in the Democracy without Parties epoch 
+supports the second interpretation. When international creditors, 
+sovereign debt markets, fiscal rules, and multilateral oversight 
+raised the cost of Economy minister replacement beyond what 
+domestic political pressure could sustain, continuity improved --- 
+not because Peruvian political culture changed, not because 
+presidents became more committed to institutional stability, but 
+because the incentive structure changed. The belt is not a 
+cultural achievement. It is a cost structure imposed from outside.
+
+This finding has implications beyond Peru. It suggests that 
+protective belts --- localized continuity-preserving mechanisms 
+generated by external accountability --- may operate in any 
+executive branch where certain portfolios are embedded in 
+international financial or diplomatic networks. The mechanism is 
+not specific to the Peruvian case. What is specific to Peru is 
+the contrast between the narrow sector where the belt operates 
+and the vast majority of the state where it does not.
+
+\subsection{What the Democratic Epoch Reveals}
+
+The partial regression of continuity conditions in the Democracy 
+without Parties epoch deserves specific attention. The data show 
+that the most recent democratic period --- characterized by 
+universal suffrage, competitive elections, constitutional 
+continuity, and macroeconomic stability --- produced worse 
+continuity conditions than the military and power-sharing periods 
+that preceded it. This finding will appear paradoxical to readers 
+who expect democracy to improve institutional quality.
+
+The paradox dissolves once the escape valve logic is applied. 
+Democratic accountability in a system without programmatic parties 
+creates strong incentives for ministerial dismissal. Presidents 
+facing fragmented congresses, high electoral volatility, and 
+personalist political competition cannot build stable coalitions 
+through policy commitments. What they can do is demonstrate 
+responsiveness --- and the most visible form of responsiveness 
+available is the ministerial reshuffle. Democracy without parties 
+does not weaken the escape valve. It intensifies it, because the 
+political cost of \emph{not} reshuffling in response to pressure 
+is higher when electoral survival depends on visible performance 
+signals rather than on party loyalty.
+
+The 11.4 percent of spells ending within thirty days in the 
+democratic epoch --- nearly triple the rate of the Power-Sharing 
+epoch --- is the quantitative signature of this dynamic. Ministers 
+are appointed and removed before they can structure the problems 
+they were appointed to address, let alone convert their experience 
+into institutional knowledge. The knowledge spiral cannot start. 
+The organized anarchy reproduces itself. And the next crisis finds 
+the same ill-structured problems waiting, with the same absence 
+of accumulated knowledge, for the next minister to begin again 
+from zero.
+
+\section{Conclusion}
+
+This paper began with a question that two centuries of Peruvian 
+republican history make unavoidable: why has a political system 
+that has changed so much --- constitutions, regimes, coalitions, 
+economic models --- changed so little in the way it manages the 
+people responsible for governing? The answer developed here is 
+not that Peru lacks institutions. It is that Peru has an 
+institution --- the escape valve --- whose function is precisely 
+to absorb the pressure for change without producing it.
+
+The analysis rests on an original dataset of 1,062 ministerial 
+spells covering five portfolios from 1821 to 2026, organized into 
+five institutional epochs defined by the critical junctures that 
+periodically restructured Peru's political logic. Ministerial 
+duration is treated not as an outcome to be explained but as a 
+signal --- an observable trace of the continuity conditions under 
+which governing experience either accumulates into institutional 
+knowledge or is repeatedly lost. The central empirical question 
+is whether Peru's critical junctures ever produced durable 
+improvements in those conditions. The answer is partial: one 
+juncture did, most did not, and the most recent democratic epoch 
+represents a partial regression toward the founding period's 
+pattern of chronic interruption.
+
+Four conclusions follow from the analysis.
+
+\textbf{First}, institutional epochs explain ministerial survival 
+far better than portfolio membership. The institutional period in 
+which a minister serves --- not their individual traits, not the 
+portfolio they hold --- is the primary determinant of how long 
+they remain in office. This finding situates the present analysis 
+within the ministerial survival literature while departing from 
+its standard assumptions: rather than asking what traits or 
+contextual factors predict individual duration, it asks what 
+patterns of duration reveal about the institutional environment 
+that produces them.
+
+\textbf{Second}, Peru's critical junctures did not uniformly 
+improve continuity conditions. The largest and most durable shift 
+in the data --- a reduction of roughly fifty percent in exit 
+hazard --- occurred in the transition from the Oligarchic State 
+to the Power-Sharing State. The Transition epoch sustained those 
+conditions. The democratic epoch that followed Fujimori's 
+constitutional refoundation did not. Formal institutional change 
+and improvement in learning conditions have repeatedly failed 
+to coincide, consistent with the near-miss argument developed 
+in the theoretical framework.
+
+\textbf{Third}, the instability itself is the institution. What 
+has been reproduced across two centuries is not the absence of 
+stable rules but the presence of an informal one: the expectation 
+that ministerial dismissal is the appropriate response to political 
+crisis, regardless of the minister's competence or the structural 
+nature of the problem. This informal escape valve is self-reinforcing 
+--- each activation raises the political cost of non-activation 
+and deepens the lock-in of the pattern. Path dependence in Peru 
+operates primarily at the informal level while the formal 
+institutional landscape churns.
+
+\textbf{Fourth}, the protective belt is real but historically 
+specific. The Economy portfolio gained a significant survival 
+advantage only in the Democracy without Parties epoch, when 
+external accountability structures --- international creditors, 
+fiscal rules, sovereign debt markets, multilateral oversight --- 
+raised the cost of Economy minister replacement beyond what 
+domestic political pressure alone could sustain. In all earlier 
+epochs, Economy ministers faced the same exit hazard as Interior 
+ministers. The belt was not inherited from the portfolio's 
+institutional position. It was constructed by a specific 
+historical configuration of external constraints. And crucially, 
+it coexisted with the broader escape valve logic operating 
+everywhere else in the cabinet. The state did not escape the 
+learning trap. One corner of it did.
+
+\subsection{Contributions and Limitations}
+
+This paper makes three contributions to the existing literature. 
+The first is methodological: it introduces the institutional 
+epoch as the primary unit of historical comparison in ministerial 
+survival analysis, replacing the standard practice of pooling 
+spells across history or controlling for time as a continuous 
+covariate. The epoch framework allows survival analysis to detect 
+whether critical junctures produced durable changes in continuity 
+conditions --- a question the existing literature has not asked.
+
+The second contribution is theoretical: it connects the 
+ministerial survival literature to organizational learning theory 
+through the concept of knowledge accumulation. Survival time is 
+reframed not as an individual outcome but as a systemic signal. 
+This reframing generates the protective belt concept as a natural 
+corollary: wherever external accountability raises the cost of 
+continuity interruption, a localized space for knowledge 
+accumulation emerges within a broader environment of institutional 
+instability.
+
+The third contribution is empirical: two centuries of ministerial 
+duration data for Peru, organized into a dataset that did not 
+previously exist and that extends the Latin American ministerial 
+survival literature into the nineteenth century and into a case 
+that the comparative literature has largely treated as too 
+unstable for systematic analysis.
+
+The analysis has limitations that define the agenda for future 
+work. The most fundamental is that organizational learning is not 
+directly observed. Ministerial duration is a proxy for the 
+continuity conditions from which learning may emerge, not a 
+measure of learning itself. Demonstrating that longer tenure 
+actually produced better policy outcomes, more effective 
+bureaucracies, or improved state capacity would require 
+ministry-level performance data that are not currently available 
+for the full historical period. Future work could extend the 
+analysis to include time-varying indicators of political pressure 
+--- protests, censure motions, approval ratings, executive-legislative 
+conflict --- to test the escape valve mechanism more directly. 
+It could also extend the protective belt argument to other 
+portfolios and other countries where external accountability 
+structures vary, generating comparative leverage on the 
+conditions under which belts form and dissolve.
+
+\subsection{A Final Observation}
+
+The France--Peru comparison with which this paper opened has a 
+resolution that the data make visible. France broke its path 
+at a critical juncture that produced not merely new institutions 
+but new continuity conditions --- a durable shift in how long 
+premiers serve and therefore in how much governing experience 
+can accumulate. Peru has had the junctures without the shift. 
+The disruption nexus arrived repeatedly. The ideas lying around 
+were the same ones that had failed before. And the escape valve 
+absorbed the pressure each time, ensuring that the system could 
+change everything --- governments, cabinets, constitutions --- 
+so that the informal institution at its core could remain 
+exactly as it was.
+
+Whether Peru's sixth critical juncture, still unfolding as this 
+paper goes to press, will produce a different outcome remains 
+genuinely open. The data cannot answer that question. What they 
+can say is that the conditions for a different answer have never 
+been more visible --- or more contested.
+
+\printbibliography
+
+\end{document}
+

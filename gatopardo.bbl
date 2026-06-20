@@ -1,0 +1,3005 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{apa/apasortcite//global/global/global}
+    \entry{alexiadou_commitment_2019}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=d959e4e21af161803b8a390f7b7cdaff}{%
+           family={Alexiadou},
+           familyi={A\bibinitperiod},
+           given={Despina},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0beea44fb2fdfeacc11f06f7f830ac7c}{%
+           family={Gunaydin},
+           familyi={G\bibinitperiod},
+           given={Hakan},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{1445925354d53a82fbd8586cdd54dcd6}
+      \strng{fullhash}{1445925354d53a82fbd8586cdd54dcd6}
+      \strng{fullhashraw}{1445925354d53a82fbd8586cdd54dcd6}
+      \strng{bibnamehash}{1445925354d53a82fbd8586cdd54dcd6}
+      \strng{authorbibnamehash}{1445925354d53a82fbd8586cdd54dcd6}
+      \strng{authornamehash}{1445925354d53a82fbd8586cdd54dcd6}
+      \strng{authorfullhash}{1445925354d53a82fbd8586cdd54dcd6}
+      \strng{authorfullhashraw}{1445925354d53a82fbd8586cdd54dcd6}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Abstract Why do prime ministers or presidents appoint non‐elected experts, also known as technocrats, during economic crises? Do they appoint them for their expertise or for their commitment to pro‐market reforms? Answering this question is crucial for understanding and predicting the longer‐term role of technocrats in democracies. With the aid of unique data on the political and personal background of finance ministers in 13 parliamentary and semi‐presidential European democracies this article shows that commitment, not expertise is the primary driver of technocratic appointments during major economic crises. Technocrats are preferred over experienced politicians when the latter lack commitment to policy reform. An important implication of the findings is that technocratic appointments to top economic portfolios in West European countries are unlikely to become the norm outside economic crises, assuming economic crises are short‐lived and not recurring.}
+      \field{issn}{0304-4130, 1475-6765}
+      \field{journaltitle}{European Journal of Political Research}
+      \field{month}{8}
+      \field{number}{3}
+      \field{shorttitle}{Commitment or expertise?}
+      \field{title}{Commitment or expertise? {Technocratic} appointments as political responses to economic crises}
+      \field{urlday}{14}
+      \field{urlmonth}{5}
+      \field{urlyear}{2025}
+      \field{volume}{58}
+      \field{year}{2019}
+      \field{urldateera}{ce}
+      \field{pages}{845\bibrangedash 865}
+      \range{pages}{21}
+      \verb{doi}
+      \verb 10.1111/1475-6765.12338
+      \endverb
+      \verb{file}
+      \verb Accepted Version:/Users/josemanuelmagallanes/Zotero/storage/UUGXKJ4Y/Alexiadou and Gunaydin - 2019 - Commitment or expertise Technocratic appointments.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://ejpr.onlinelibrary.wiley.com/doi/10.1111/1475-6765.12338
+      \endverb
+      \verb{url}
+      \verb https://ejpr.onlinelibrary.wiley.com/doi/10.1111/1475-6765.12338
+      \endverb
+    \endentry
+    \entry{allison_conceptual_1969}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=1dbde1b3139b446b58ed4835ab58b50b}{%
+           family={Allison},
+           familyi={A\bibinitperiod},
+           given={Graham\bibnamedelima T.},
+           giveni={G\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{1dbde1b3139b446b58ed4835ab58b50b}
+      \strng{fullhash}{1dbde1b3139b446b58ed4835ab58b50b}
+      \strng{fullhashraw}{1dbde1b3139b446b58ed4835ab58b50b}
+      \strng{bibnamehash}{1dbde1b3139b446b58ed4835ab58b50b}
+      \strng{authorbibnamehash}{1dbde1b3139b446b58ed4835ab58b50b}
+      \strng{authornamehash}{1dbde1b3139b446b58ed4835ab58b50b}
+      \strng{authorfullhash}{1dbde1b3139b446b58ed4835ab58b50b}
+      \strng{authorfullhashraw}{1dbde1b3139b446b58ed4835ab58b50b}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0003-0554, 1537-5943}
+      \field{journaltitle}{American Political Science Review}
+      \field{month}{9}
+      \field{number}{3}
+      \field{title}{Conceptual {Models} and the {Cuban} {Missile} {Crisis}}
+      \field{urlday}{3}
+      \field{urlmonth}{8}
+      \field{urlyear}{2019}
+      \field{volume}{63}
+      \field{year}{1969}
+      \field{urldateera}{ce}
+      \field{pages}{689\bibrangedash 718}
+      \range{pages}{30}
+      \verb{doi}
+      \verb 10.2307/1954423
+      \endverb
+      \verb{urlraw}
+      \verb https://www.cambridge.org/core/product/identifier/S0003055400000010/type/journal_article
+      \endverb
+      \verb{url}
+      \verb https://www.cambridge.org/core/product/identifier/S0003055400000010/type/journal_article
+      \endverb
+    \endentry
+    \entry{avendano_rotacion_2012}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=f0cfd30e074f2860c0b8c1eb70cf722f}{%
+           family={Avendaño},
+           familyi={A\bibinitperiod},
+           given={Octavio},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3752503f4b2ebdf55d4fb0deb33d6277}{%
+           family={Dávila},
+           familyi={D\bibinitperiod},
+           given={Mireya},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{23fc91d28f3b1645d0d5b91ec9bc55a3}
+      \strng{fullhash}{23fc91d28f3b1645d0d5b91ec9bc55a3}
+      \strng{fullhashraw}{23fc91d28f3b1645d0d5b91ec9bc55a3}
+      \strng{bibnamehash}{23fc91d28f3b1645d0d5b91ec9bc55a3}
+      \strng{authorbibnamehash}{23fc91d28f3b1645d0d5b91ec9bc55a3}
+      \strng{authornamehash}{23fc91d28f3b1645d0d5b91ec9bc55a3}
+      \strng{authorfullhash}{23fc91d28f3b1645d0d5b91ec9bc55a3}
+      \strng{authorfullhashraw}{23fc91d28f3b1645d0d5b91ec9bc55a3}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Este artículo analiza el fenómeno de la rotación ministerial durante los cuatro gobiernos de la Concertación, que se sucedieron en el período 1990-2010. Junto con describir la participación de los partidos en la conformación de los gabinetes, se examina el impacto de la rotación para la estabilidad del gobierno y para la coalición de centro-izquierda. La rotación ministerial es entendida como el movimiento de ingreso y salida del gabinete ministerial en el marco de una administración gubernamental. En cuanto a la carrera política la rotación se enmarca en la trayectoria que ciertos individuos asumen con el fin de adquirir experiencia, acumular capital político, y desde luego acceder a cargos de representación.}
+      \field{issn}{0719-5338, 0716-1077}
+      \field{journaltitle}{Política. Revista de Ciencia Política}
+      \field{month}{1}
+      \field{number}{2}
+      \field{title}{Rotación ministerial y estabilidad coalicional en {Chile}, 1990-2010}
+      \field{urlday}{9}
+      \field{urlmonth}{5}
+      \field{urlyear}{2025}
+      \field{volume}{50}
+      \field{year}{2012}
+      \field{urldateera}{ce}
+      \field{pages}{87\bibrangedash 108}
+      \range{pages}{22}
+      \verb{doi}
+      \verb 10.5354/0719-5338.2012.25968
+      \endverb
+      \verb{file}
+      \verb Full Text:/Users/josemanuelmagallanes/Zotero/storage/IQF7YCX8/Avendaño and Dávila - 2012 - Rotación ministerial y estabilidad coalicional en .pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://revistapolitica.uchile.cl/index.php/RP/article/view/25968
+      \endverb
+      \verb{url}
+      \verb https://revistapolitica.uchile.cl/index.php/RP/article/view/25968
+      \endverb
+    \endentry
+    \entry{baturo_office_2014}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=70c1ec991aa14a790bc80151caff3e6c}{%
+           family={Baturo},
+           familyi={B\bibinitperiod},
+           given={Alexander},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a55581f111159afd0a1e62c8fc2c8dbc}{%
+           family={Elkink},
+           familyi={E\bibinitperiod},
+           given={Johan\bibnamedelima A.},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{1d5b4def5e23c4efc4636ce64da4a7a4}
+      \strng{fullhash}{1d5b4def5e23c4efc4636ce64da4a7a4}
+      \strng{fullhashraw}{1d5b4def5e23c4efc4636ce64da4a7a4}
+      \strng{bibnamehash}{1d5b4def5e23c4efc4636ce64da4a7a4}
+      \strng{authorbibnamehash}{1d5b4def5e23c4efc4636ce64da4a7a4}
+      \strng{authornamehash}{1d5b4def5e23c4efc4636ce64da4a7a4}
+      \strng{authorfullhash}{1d5b4def5e23c4efc4636ce64da4a7a4}
+      \strng{authorfullhashraw}{1d5b4def5e23c4efc4636ce64da4a7a4}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{issn}{0022-3816, 1468-2508}
+      \field{journaltitle}{The Journal of Politics}
+      \field{month}{7}
+      \field{number}{3}
+      \field{shorttitle}{Office or {Officeholder}?}
+      \field{title}{Office or {Officeholder}? {Regime} {Deinstitutionalization} and {Sources} of {Individual} {Political} {Influence}}
+      \field{urlday}{13}
+      \field{urlmonth}{6}
+      \field{urlyear}{2026}
+      \field{volume}{76}
+      \field{year}{2014}
+      \field{urldateera}{ce}
+      \field{pages}{859\bibrangedash 872}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1017/S0022381614000280
+      \endverb
+      \verb{file}
+      \verb Baturo_officeOr officeHolder:D\:\\Users\\jmagallanes\\Documents\\GitHub\\PUCP\\premieres\\papers\\Baturo_officeOr officeHolder.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.journals.uchicago.edu/doi/10.1017/S0022381614000280
+      \endverb
+      \verb{url}
+      \verb https://www.journals.uchicago.edu/doi/10.1017/S0022381614000280
+      \endverb
+    \endentry
+    \entry{blondel_ministerial_1988}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8ad554f8a2ec53d6f7a24c0669c05ab8}{%
+           family={Blondel},
+           familyi={B\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{8ad554f8a2ec53d6f7a24c0669c05ab8}
+      \strng{fullhash}{8ad554f8a2ec53d6f7a24c0669c05ab8}
+      \strng{fullhashraw}{8ad554f8a2ec53d6f7a24c0669c05ab8}
+      \strng{bibnamehash}{8ad554f8a2ec53d6f7a24c0669c05ab8}
+      \strng{authorbibnamehash}{8ad554f8a2ec53d6f7a24c0669c05ab8}
+      \strng{authornamehash}{8ad554f8a2ec53d6f7a24c0669c05ab8}
+      \strng{authorfullhash}{8ad554f8a2ec53d6f7a24c0669c05ab8}
+      \strng{authorfullhashraw}{8ad554f8a2ec53d6f7a24c0669c05ab8}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Abstract. The characteristics of parliamentary government vary markedly from one Western European country to another. Although we still do not know in detail the nature and amplitude of these variations, they are sufficiently manifest to warrant close examination. One way in which these variations can be assessed is through the analysis of the career patterns of ministers. These are interesting both in themselves and because they provide information about the nature of the decision-making process: for instance, ministers who stay in office for very short periods are less likely to be involved in collective decisions than ministers who stay in office for a decade or more. Differences are particularly marked among ministerial career patterns in the Austrian and Belgian cabinets. Not only do Austrian ministers stay in office longer: they tend to come to office only once and then remain in the same post; they often do not come to the government by the parliamentary route, many coming from the civil service, industry, or interest groups. In all these respects, Belgian ministers have opposite characteristics. Thus it does seem that while both governments are ostensibly parliamentary, the Austrian government tends to be managerial, while the Belgian government is parliamentary and more truly ‘political’.}
+      \field{issn}{0304-4130, 1475-6765}
+      \field{journaltitle}{European Journal of Political Research}
+      \field{month}{1}
+      \field{number}{1}
+      \field{shorttitle}{Ministerial careers and the nature of parliamentary government}
+      \field{title}{Ministerial careers and the nature of parliamentary government: the cases of {Austria} and {Belgium}}
+      \field{urlday}{13}
+      \field{urlmonth}{6}
+      \field{urlyear}{2026}
+      \field{volume}{16}
+      \field{year}{1988}
+      \field{urldateera}{ce}
+      \field{pages}{51\bibrangedash 71}
+      \range{pages}{21}
+      \verb{doi}
+      \verb 10.1111/j.1475-6765.1988.tb00141.x
+      \endverb
+      \verb{file}
+      \verb blondel_1987_EUIWP_274:D\:\\Users\\jmagallanes\\Documents\\GitHub\\PUCP\\premieres\\papers\\blondel_1987_EUIWP_274.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.cambridge.org/core/product/identifier/S0304413000009218/type/journal_article
+      \endverb
+      \verb{url}
+      \verb https://www.cambridge.org/core/product/identifier/S0304413000009218/type/journal_article
+      \endverb
+    \endentry
+    \entry{camerlo_government_2024}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=878251309d07d0ee3203c0715812f8f9}{%
+           family={Camerlo},
+           familyi={C\bibinitperiod},
+           given={Marcelo},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7987e854099727aa96698a1ec0bf0655}{%
+           family={Castaldo},
+           familyi={C\bibinitperiod},
+           given={Antonino},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{364c373471f867da94f4611cb0d017c9}
+      \strng{fullhash}{364c373471f867da94f4611cb0d017c9}
+      \strng{fullhashraw}{364c373471f867da94f4611cb0d017c9}
+      \strng{bibnamehash}{364c373471f867da94f4611cb0d017c9}
+      \strng{authorbibnamehash}{364c373471f867da94f4611cb0d017c9}
+      \strng{authornamehash}{364c373471f867da94f4611cb0d017c9}
+      \strng{authorfullhash}{364c373471f867da94f4611cb0d017c9}
+      \strng{authorfullhashraw}{364c373471f867da94f4611cb0d017c9}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{The party afﬁliation of cabinet ministers is a critical but neglected notion. While its application and theoretical centrality is indisputable in many research ﬁelds, explicit deﬁnitions are difﬁcult to ﬁnd, while operationalizations tend to rely on rudimentary categorizations. Departing from formulating a deﬁnition consistent with the party government model, we propose a ﬂexible typology to categorize and rank variants of partisans both within and beyond consolidated parliamentary democracies. We show that the new approach can capture important unobserved dynamics well.}
+      \field{issn}{1354-0688, 1460-3683}
+      \field{journaltitle}{Party Politics}
+      \field{month}{5}
+      \field{number}{3}
+      \field{shorttitle}{Government partisans}
+      \field{title}{Government partisans: {A} practical typology}
+      \field{urlday}{13}
+      \field{urlmonth}{6}
+      \field{urlyear}{2026}
+      \field{volume}{30}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \field{pages}{505\bibrangedash 518}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1177/13540688231159862
+      \endverb
+      \verb{file}
+      \verb camerlo-castaldo-2023-typology:D\:\\Users\\jmagallanes\\Documents\\GitHub\\PUCP\\premieres\\papers\\camerlo-castaldo-2023-typology.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://journals.sagepub.com/doi/10.1177/13540688231159862
+      \endverb
+      \verb{url}
+      \verb https://journals.sagepub.com/doi/10.1177/13540688231159862
+      \endverb
+    \endentry
+    \entry{camerlo_por_2022}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=878251309d07d0ee3203c0715812f8f9}{%
+           family={Camerlo},
+           familyi={C\bibinitperiod},
+           given={Marcelo},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a5c761e1369524c86269638d7c1da5a2}{%
+           family={Gallardo},
+           familyi={G\bibinitperiod},
+           given={Cecilia\bibnamedelima Martínez},
+           giveni={C\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {es}%
+      }
+      \strng{namehash}{537424737a7c6b46ce97bbe6f795d41c}
+      \strng{fullhash}{537424737a7c6b46ce97bbe6f795d41c}
+      \strng{fullhashraw}{537424737a7c6b46ce97bbe6f795d41c}
+      \strng{bibnamehash}{537424737a7c6b46ce97bbe6f795d41c}
+      \strng{authorbibnamehash}{537424737a7c6b46ce97bbe6f795d41c}
+      \strng{authornamehash}{537424737a7c6b46ce97bbe6f795d41c}
+      \strng{authorfullhash}{537424737a7c6b46ce97bbe6f795d41c}
+      \strng{authorfullhashraw}{537424737a7c6b46ce97bbe6f795d41c}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Resumen No todas las carteras ministeriales tienen la misma importancia. Pero a pesar de que la literatura académica reconoce implícitamente la importancia del valor relativo de cada cartera para la formación de gobiernos, los criterios utilizados para determinar por qué son relevantes ciertos ministerios raramente son explicitados, discutidos y justificados. La falta de criterios establecidos es especialmente importante en contextos donde las negociaciones para formar un gobierno ocurren entre partidos poco institucionalizados, en donde dominan los gobiernos monocolor o donde grupos no partidistas son también parte del proceso. En este artículo proponemos un marco analítico que especifica cuatro dimensiones que definen la importancia ministerial. Una cartera es importante en la medida en que ofrece oportunidades para ejecutar políticas públicas relevantes al gobierno, para influir en la agenda política, para asignar fondos discrecionales y para intervenir en el desempeño de otros ministerios.}
+      \field{issn}{1665-2037}
+      \field{journaltitle}{Política y gobierno}
+      \field{month}{3}
+      \field{note}{Number: 1}
+      \field{number}{1}
+      \field{shorttitle}{¿{Por} qué son importantes los ministerios importantes?}
+      \field{title}{¿{Por} qué son importantes los ministerios importantes? {Un} marco de análisis}
+      \field{urlday}{18}
+      \field{urlmonth}{1}
+      \field{urlyear}{2024}
+      \field{volume}{29}
+      \field{year}{2022}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb http://www.politicaygobierno.cide.edu/index.php/pyg/article/view/1561
+      \endverb
+      \verb{url}
+      \verb http://www.politicaygobierno.cide.edu/index.php/pyg/article/view/1561
+      \endverb
+      \keyw{gabinetes,importancia ministerial,formación de gabinetes,presidencialismo}
+    \endentry
+    \entry{camerlo_minister_2015}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=878251309d07d0ee3203c0715812f8f9}{%
+           family={Camerlo},
+           familyi={C\bibinitperiod},
+           given={Marcelo},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=befd602a5a2441aae3e3c85f9bca5e04}{%
+           family={Pérez-Liñán},
+           familyi={P\bibinithyphendelim L\bibinitperiod},
+           given={Aníbal},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{8591f924a813170e0c4d5fedff35567e}
+      \strng{fullhash}{8591f924a813170e0c4d5fedff35567e}
+      \strng{fullhashraw}{8591f924a813170e0c4d5fedff35567e}
+      \strng{bibnamehash}{8591f924a813170e0c4d5fedff35567e}
+      \strng{authorbibnamehash}{8591f924a813170e0c4d5fedff35567e}
+      \strng{authornamehash}{8591f924a813170e0c4d5fedff35567e}
+      \strng{authorfullhash}{8591f924a813170e0c4d5fedff35567e}
+      \strng{authorfullhashraw}{8591f924a813170e0c4d5fedff35567e}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0022-3816, 1468-2508}
+      \field{journaltitle}{The Journal of Politics}
+      \field{month}{7}
+      \field{note}{Number: 3}
+      \field{number}{3}
+      \field{title}{Minister {Turnover}, {Critical} {Events}, and the {Electoral} {Calendar} in {Presidential} {Democracies}}
+      \field{urlday}{18}
+      \field{urlmonth}{1}
+      \field{urlyear}{2024}
+      \field{volume}{77}
+      \field{year}{2015}
+      \field{urldateera}{ce}
+      \field{pages}{608\bibrangedash 619}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1086/681028
+      \endverb
+      \verb{urlraw}
+      \verb https://www.journals.uchicago.edu/doi/10.1086/681028
+      \endverb
+      \verb{url}
+      \verb https://www.journals.uchicago.edu/doi/10.1086/681028
+      \endverb
+    \endentry
+    \entry{camerlo_poderes_2024}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=878251309d07d0ee3203c0715812f8f9}{%
+           family={Camerlo},
+           familyi={C\bibinitperiod},
+           given={Marcelo},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=28de2117a7d85e398b05b55f69837d26}{%
+           family={Clerici},
+           familyi={C\bibinitperiod},
+           given={Paula},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6e29aec0755333d6640a8fe9b1729f0b}{%
+           family={Molina},
+           familyi={M\bibinitperiod},
+           given={Anabella},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {es}%
+      }
+      \strng{namehash}{b08efd42696fdfe31eca86fb34493a57}
+      \strng{fullhash}{c908cb6b5b26e2c79794e6d24cd893e5}
+      \strng{fullhashraw}{c908cb6b5b26e2c79794e6d24cd893e5}
+      \strng{bibnamehash}{c908cb6b5b26e2c79794e6d24cd893e5}
+      \strng{authorbibnamehash}{c908cb6b5b26e2c79794e6d24cd893e5}
+      \strng{authornamehash}{b08efd42696fdfe31eca86fb34493a57}
+      \strng{authorfullhash}{c908cb6b5b26e2c79794e6d24cd893e5}
+      \strng{authorfullhashraw}{c908cb6b5b26e2c79794e6d24cd893e5}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Objective/context: Party recruitment is a crucial governance tool in contemporary democracies. Presidential and parliamentary heads of government distribute ministerial portfolios to party members in exchange for essential political resources, such as legislative support. This article explores the relationship between government formation and political parties, with parties that are not very institutionalized. In particular, it examines the extent to which arguments about presidential cabinet formation hold up when the hierarchical level of party ministers is considered. Methodology: This statistical study uses a generalized linear model (GLM) with a binomial distribution and a logit link function with robust standard errors. It aims to carry out causality exploration to test the original indicators of the proposed dependent variables. Conclusions: Hierarchy and partisan powers are relevant factors to complement existing explanations of ministerial recruitment strategies. Originality: Comparative research on government formation and its connection to political parties has made significant progress, focusing on the distinction between ministers affiliated and not affiliated with a party. However, this dichotomous approach neglects consideration of the hierarchical position within the party structure, a fundamental aspect of the governing party model underlying parliamentary democracies. This article presents a trichotomous measure that considers the hierarchical level of ministers.}
+      \field{issn}{1900-6004, 0121-5612}
+      \field{journaltitle}{Colombia Internacional}
+      \field{month}{10}
+      \field{number}{120}
+      \field{title}{Poderes partidarios y reclutamiento ministerial. {El} caso argentino}
+      \field{urlday}{13}
+      \field{urlmonth}{6}
+      \field{urlyear}{2026}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \field{pages}{23\bibrangedash 50}
+      \range{pages}{28}
+      \verb{doi}
+      \verb 10.7440/colombiaint120.2024.02
+      \endverb
+      \verb{file}
+      \verb camerlo2024:D\:\\Users\\jmagallanes\\Documents\\GitHub\\PUCP\\premieres\\papers\\camerlo2024.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://revistas.uniandes.edu.co/index.php/colombia-int/article/view/9471
+      \endverb
+      \verb{url}
+      \verb https://revistas.uniandes.edu.co/index.php/colombia-int/article/view/9471
+      \endverb
+    \endentry
+    \entry{capoccia_study_2007}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=06ca7b9552299ab0139e82031f22ffaa}{%
+           family={Capoccia},
+           familyi={C\bibinitperiod},
+           given={Giovanni},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=88835aa210360cc0345509b1de750849}{%
+           family={Kelemen},
+           familyi={K\bibinitperiod},
+           given={R.\bibnamedelimi Daniel},
+           giveni={R\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{b63e48961e67e584fd18fbf34929a49e}
+      \strng{fullhash}{b63e48961e67e584fd18fbf34929a49e}
+      \strng{fullhashraw}{b63e48961e67e584fd18fbf34929a49e}
+      \strng{bibnamehash}{b63e48961e67e584fd18fbf34929a49e}
+      \strng{authorbibnamehash}{b63e48961e67e584fd18fbf34929a49e}
+      \strng{authornamehash}{b63e48961e67e584fd18fbf34929a49e}
+      \strng{authorfullhash}{b63e48961e67e584fd18fbf34929a49e}
+      \strng{authorfullhashraw}{b63e48961e67e584fd18fbf34929a49e}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{[The causal logic behind many arguments in historical institutionalism emphasizes the enduring impact of choices made during critical junctures in history. These choices close off alternative options and lead to the establishment of institutions that generate self-reinforcing path-dependent processes. Despite the theoretical and practical importance of critical junctures, however, analyses of path dependence often devote little attention to them. The article reconstructs the concept of critical junctures, delimits its range of application, and provides methodological guidance for its use in historical institutional analyses. Contingency is the key characteristic of critical junctures, and counterfactual reasoning and narrative methods are necessary to analyze contingent factors and their impact. Finally, the authors address specific issues relevant to both cross-sectional and longitudinal comparisons of critical junctures.]}
+      \field{issn}{00438871, 10863338}
+      \field{journaltitle}{World Politics}
+      \field{number}{3}
+      \field{title}{The {Study} of {Critical} {Junctures}: {Theory}, {Narrative}, and {Counterfactuals} in {Historical} {Institutionalism}}
+      \field{urlday}{6}
+      \field{urlmonth}{6}
+      \field{urlyear}{2025}
+      \field{volume}{59}
+      \field{year}{2007}
+      \field{urldateera}{ce}
+      \field{pages}{341\bibrangedash 369}
+      \range{pages}{29}
+      \verb{urlraw}
+      \verb http://www.jstor.org/stable/40060162
+      \endverb
+      \verb{url}
+      \verb http://www.jstor.org/stable/40060162
+      \endverb
+    \endentry
+    \entry{cohen_garbage_1972}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=96054330445518b28d793fbf550a0611}{%
+           family={Cohen},
+           familyi={C\bibinitperiod},
+           given={Michael\bibnamedelima D.},
+           giveni={M\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=86a71029191e03b750fe6ecd1c33e389}{%
+           family={March},
+           familyi={M\bibinitperiod},
+           given={James\bibnamedelima G.},
+           giveni={J\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=10001b3246f560c21572959cd4cdd0ad}{%
+           family={Olsen},
+           familyi={O\bibinitperiod},
+           given={Johan\bibnamedelima P.},
+           giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ee935fcb47f41aaf2c528caa81402855}
+      \strng{fullhash}{864a6e52d6d11042bef773a92259eab8}
+      \strng{fullhashraw}{864a6e52d6d11042bef773a92259eab8}
+      \strng{bibnamehash}{864a6e52d6d11042bef773a92259eab8}
+      \strng{authorbibnamehash}{864a6e52d6d11042bef773a92259eab8}
+      \strng{authornamehash}{ee935fcb47f41aaf2c528caa81402855}
+      \strng{authorfullhash}{864a6e52d6d11042bef773a92259eab8}
+      \strng{authorfullhashraw}{864a6e52d6d11042bef773a92259eab8}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{00018392}
+      \field{journaltitle}{Administrative Science Quarterly}
+      \field{month}{3}
+      \field{number}{1}
+      \field{title}{A {Garbage} {Can} {Model} of {Organizational} {Choice}}
+      \field{urlday}{18}
+      \field{urlmonth}{9}
+      \field{urlyear}{2020}
+      \field{volume}{17}
+      \field{year}{1972}
+      \field{urldateera}{ce}
+      \field{pages}{1}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.2307/2392088
+      \endverb
+      \verb{file}
+      \verb Submitted Version:/Users/josemanuelmagallanes/Zotero/storage/H8NP9V59/Cohen et al. - 1972 - A Garbage Can Model of Organizational Choice.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.jstor.org/stable/2392088?origin=crossref
+      \endverb
+      \verb{url}
+      \verb https://www.jstor.org/stable/2392088?origin=crossref
+      \endverb
+    \endentry
+    \entry{dewan_corrective_2005}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=45905b08c89852c1d7fc38f831274baf}{%
+           family={Dewan},
+           familyi={D\bibinitperiod},
+           given={Torun},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=dca51ad1c971b8dd55b701de70716b4e}{%
+           family={Dowding},
+           familyi={D\bibinitperiod},
+           given={Keith},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{e576476901ab484fab33fbb28217a61a}
+      \strng{fullhash}{e576476901ab484fab33fbb28217a61a}
+      \strng{fullhashraw}{e576476901ab484fab33fbb28217a61a}
+      \strng{bibnamehash}{e576476901ab484fab33fbb28217a61a}
+      \strng{authorbibnamehash}{e576476901ab484fab33fbb28217a61a}
+      \strng{authornamehash}{e576476901ab484fab33fbb28217a61a}
+      \strng{authorfullhash}{e576476901ab484fab33fbb28217a61a}
+      \strng{authorfullhashraw}{e576476901ab484fab33fbb28217a61a}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Using data from the United Kingdom, we estimate the effects of ministerial resignation on government popularity. We test a counterfactual argument that resignations should have a corrective effect, that is, there is an increase in popularity following a resignation when taking into account the negative effect on popularity of the resignation issue. We get empirical estimates by using the age of ministers involved in resignation issues as an instrument. Our IV estimates provide empirical support for the corrective effect .}
+      \field{issn}{0092-5853, 1540-5907}
+      \field{journaltitle}{American Journal of Political Science}
+      \field{month}{1}
+      \field{number}{1}
+      \field{title}{The {Corrective} {Effect} of {Ministerial} {Resignations} on {Government} {Popularity}}
+      \field{urlday}{10}
+      \field{urlmonth}{5}
+      \field{urlyear}{2025}
+      \field{volume}{49}
+      \field{year}{2005}
+      \field{urldateera}{ce}
+      \field{pages}{46\bibrangedash 56}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1111/j.0092-5853.2005.00109.x
+      \endverb
+      \verb{urlraw}
+      \verb https://onlinelibrary.wiley.com/doi/10.1111/j.0092-5853.2005.00109.x
+      \endverb
+      \verb{url}
+      \verb https://onlinelibrary.wiley.com/doi/10.1111/j.0092-5853.2005.00109.x
+      \endverb
+    \endentry
+    \entry{feliu_ribeiro_foreign_2023}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=46e346acd8d59c8d24693eda9bd5b7a0}{%
+           family={Feliú\bibnamedelima Ribeiro},
+           familyi={F\bibinitperiod\bibinitdelim R\bibinitperiod},
+           given={Pedro},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=60d7f65963dfe25406c3fb5f564a6a0a}{%
+           family={López\bibnamedelima Burian},
+           familyi={L\bibinitperiod\bibinitdelim B\bibinitperiod},
+           given={Camilo},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{b5d0504b11c2e4d929ae94985b7280c2}
+      \strng{fullhash}{b5d0504b11c2e4d929ae94985b7280c2}
+      \strng{fullhashraw}{b5d0504b11c2e4d929ae94985b7280c2}
+      \strng{bibnamehash}{b5d0504b11c2e4d929ae94985b7280c2}
+      \strng{authorbibnamehash}{b5d0504b11c2e4d929ae94985b7280c2}
+      \strng{authornamehash}{b5d0504b11c2e4d929ae94985b7280c2}
+      \strng{authorfullhash}{b5d0504b11c2e4d929ae94985b7280c2}
+      \strng{authorfullhashraw}{b5d0504b11c2e4d929ae94985b7280c2}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{This research note analyzes the incentives of different types of policy areas for a president to keep or dismiss a minister. It uses ministerial survival analysis to compare foreign and domestic policy areas, focusing on comparable and analogous presidential decisions among countries and portfolios. The research utilizes ministerial survival data for education, finance, health, and foreign policy between 1945 and 2020 in Argentina, Brazil, Chile, Mexico, Paraguay, Peru, and Uruguay. Using Cox regression models, we find that a foreign policy portfolio has a positive effect on ministerial survival, but the specificity of this portfolio does not hold for autocratic governments. Autocracies show higher levels of ministerial survival in all four portfolios, but a foreign policy portfolio is no more stable than domestic portfolios. Democratic presidents have the incentive to signal stability to the international audience, preserving the foreign policy portfolio from the frequent ministerial changes in domestic portfolios.}
+      \field{issn}{1531-426X, 1548-2456}
+      \field{journaltitle}{Latin American Politics and Society}
+      \field{month}{11}
+      \field{number}{4}
+      \field{shorttitle}{Foreign {Policy} {Specificity}}
+      \field{title}{Foreign {Policy} {Specificity}: {An} {Analysis} of {Ministerial} {Survival} in {Latin} {America}, 1945–2020}
+      \field{urlday}{12}
+      \field{urlmonth}{6}
+      \field{urlyear}{2026}
+      \field{volume}{65}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \field{pages}{176\bibrangedash 194}
+      \range{pages}{19}
+      \verb{doi}
+      \verb 10.1017/lap.2023.21
+      \endverb
+      \verb{file}
+      \verb foreign-policy-specificity-an-analysis-of-ministerial-survival-in-latin-america-1945-2020:D\:\\Users\\jmagallanes\\Documents\\GitHub\\PUCP\\premieres\\papers\\foreign-policy-specificity-an-analysis-of-ministerial-survival-in-latin-america-1945-2020.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.cambridge.org/core/product/identifier/S1531426X23000213/type/journal_article
+      \endverb
+      \verb{url}
+      \verb https://www.cambridge.org/core/product/identifier/S1531426X23000213/type/journal_article
+      \endverb
+    \endentry
+    \entry{fischer_duration_2012}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=46f4d9c82d2f6934a17a3afefe910a0e}{%
+           family={Fischer},
+           familyi={F\bibinitperiod},
+           given={Jörn},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=dca51ad1c971b8dd55b701de70716b4e}{%
+           family={Dowding},
+           familyi={D\bibinitperiod},
+           given={Keith},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bfa8114dfe2e6eb336e88291d744b3e8}{%
+           family={Dumont},
+           familyi={D\bibinitperiod},
+           given={Patrick},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{03579b3cb84a77bd14da8418934aaf6c}
+      \strng{fullhash}{d6f9066adc9a117065f2b9d55f885cf2}
+      \strng{fullhashraw}{d6f9066adc9a117065f2b9d55f885cf2}
+      \strng{bibnamehash}{d6f9066adc9a117065f2b9d55f885cf2}
+      \strng{authorbibnamehash}{d6f9066adc9a117065f2b9d55f885cf2}
+      \strng{authornamehash}{03579b3cb84a77bd14da8418934aaf6c}
+      \strng{authorfullhash}{d6f9066adc9a117065f2b9d55f885cf2}
+      \strng{authorfullhashraw}{d6f9066adc9a117065f2b9d55f885cf2}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This article surveys the growing research programme on the duration of cabinet ministers. It examines some of the conceptual and methodological issues confronting research, including the nature and measurement of durability, ministerial terms and techniques. It considers some of the theories and hypotheses that have been generated by researchers. Using evidence from studies from around the world, it argues that institutional factors, including regime type, constitutional and parliamentary rules, and party systems, affect ministerial durability. Personal ministerial characteristics, such as gender, education and age, also affect durability. It examines future avenues of research in this field.}
+      \field{issn}{0192-5121, 1460-373X}
+      \field{journaltitle}{International Political Science Review}
+      \field{month}{11}
+      \field{number}{5}
+      \field{title}{The duration and durability of cabinet ministers}
+      \field{urlday}{9}
+      \field{urlmonth}{5}
+      \field{urlyear}{2025}
+      \field{volume}{33}
+      \field{year}{2012}
+      \field{urldateera}{ce}
+      \field{pages}{505\bibrangedash 519}
+      \range{pages}{15}
+      \verb{doi}
+      \verb 10.1177/0192512112462971
+      \endverb
+      \verb{urlraw}
+      \verb https://journals.sagepub.com/doi/10.1177/0192512112462971
+      \endverb
+      \verb{url}
+      \verb https://journals.sagepub.com/doi/10.1177/0192512112462971
+      \endverb
+    \endentry
+    \entry{foss_simon_2005}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=1,uniquepart=given,hash=e2f3fe87bcabde0db1381b72a5d9f6ec}{%
+           family={Foss},
+           familyi={F\bibinitperiod},
+           given={Kirsten},
+           giveni={K\bibinitperiod},
+           givenun=1}}%
+        {{un=1,uniquepart=given,hash=a1b7cb31df4a6f86710a6968399bf893}{%
+           family={Foss},
+           familyi={F\bibinitperiod},
+           given={Nicolai\bibnamedelima J.},
+           giveni={N\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=1}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{f8185e487b0d5155e91aabaabfdd1934}
+      \strng{fullhash}{f8185e487b0d5155e91aabaabfdd1934}
+      \strng{fullhashraw}{f8185e487b0d5155e91aabaabfdd1934}
+      \strng{bibnamehash}{f8185e487b0d5155e91aabaabfdd1934}
+      \strng{authorbibnamehash}{f8185e487b0d5155e91aabaabfdd1934}
+      \strng{authornamehash}{f8185e487b0d5155e91aabaabfdd1934}
+      \strng{authorfullhash}{f8185e487b0d5155e91aabaabfdd1934}
+      \strng{authorfullhashraw}{f8185e487b0d5155e91aabaabfdd1934}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Two of Herbert Simon’s best-known papers are “The Architecture of Complexity” and “The Structure of Ill-Structured Problems.” We discuss the neglected links between these two papers, highlighting the role of decomposition in the context of problems on which constraints have been imposed as a general approach to problem solving. We apply these Simonian ideas to organizational issues, specifically new organizational forms. Specifically, Simonian ideas allow us to develop a morphology of new organizational forms and to point to some design problems that characterize these forms.}
+      \field{issn}{1556-5068}
+      \field{journaltitle}{SSRN Electronic Journal}
+      \field{shorttitle}{Simon on {Problem}-{Solving}}
+      \field{title}{Simon on {Problem}-{Solving}: {Implications} for {New} {Organizational} {Forms}}
+      \field{urlday}{14}
+      \field{urlmonth}{6}
+      \field{urlyear}{2026}
+      \field{year}{2005}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.2139/ssrn.982084
+      \endverb
+      \verb{file}
+      \verb Simon_on_problem_solving_Implications_for_new_orga:/Users/josemanuelmagallanes/PUCP/premieres/papers/Simon_on_problem_solving_Implications_for_new_orga.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://www.ssrn.com/abstract=982084
+      \endverb
+      \verb{url}
+      \verb http://www.ssrn.com/abstract=982084
+      \endverb
+    \endentry
+    \entry{galvez_montero_historia_2016}{book}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=e695e6be1065120ca1e0a0c31d3f3207}{%
+           family={Gálvez\bibnamedelima Montero},
+           familyi={G\bibinitperiod\bibinitdelim M\bibinitperiod},
+           given={José\bibnamedelima Francisco},
+           giveni={J\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b8e7367aeda4f0ea174a0e559f8dcc10}{%
+           family={García\bibnamedelima Vega},
+           familyi={G\bibinitperiod\bibinitdelim V\bibinitperiod},
+           given={Enrique\bibnamedelima Silvestre},
+           giveni={E\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Lima}%
+      }
+      \list{publisher}{1}{%
+        {Empresa Peruana de Servicios Editoriales S.A}%
+      }
+      \strng{namehash}{22737aae41c209fc91ad1fb65a2a5fd6}
+      \strng{fullhash}{22737aae41c209fc91ad1fb65a2a5fd6}
+      \strng{fullhashraw}{22737aae41c209fc91ad1fb65a2a5fd6}
+      \strng{bibnamehash}{22737aae41c209fc91ad1fb65a2a5fd6}
+      \strng{authorbibnamehash}{22737aae41c209fc91ad1fb65a2a5fd6}
+      \strng{authornamehash}{22737aae41c209fc91ad1fb65a2a5fd6}
+      \strng{authorfullhash}{22737aae41c209fc91ad1fb65a2a5fd6}
+      \strng{authorfullhashraw}{22737aae41c209fc91ad1fb65a2a5fd6}
+      \field{extraname}{1}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-87-93429-87-1}
+      \field{title}{Historia de la {Presidencia} del {Consejo} de {Ministros} (1820-1956)}
+      \field{volume}{I}
+      \field{year}{2016}
+    \endentry
+    \entry{galvez_montero_historia_2016-1}{book}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=e695e6be1065120ca1e0a0c31d3f3207}{%
+           family={Gálvez\bibnamedelima Montero},
+           familyi={G\bibinitperiod\bibinitdelim M\bibinitperiod},
+           given={José\bibnamedelima Francisco},
+           giveni={J\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b8e7367aeda4f0ea174a0e559f8dcc10}{%
+           family={García\bibnamedelima Vega},
+           familyi={G\bibinitperiod\bibinitdelim V\bibinitperiod},
+           given={Enrique\bibnamedelima Silvestre},
+           giveni={E\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Lima}%
+      }
+      \list{publisher}{1}{%
+        {Empresa Peruana de Servicios Editoriales S.A}%
+      }
+      \strng{namehash}{22737aae41c209fc91ad1fb65a2a5fd6}
+      \strng{fullhash}{22737aae41c209fc91ad1fb65a2a5fd6}
+      \strng{fullhashraw}{22737aae41c209fc91ad1fb65a2a5fd6}
+      \strng{bibnamehash}{22737aae41c209fc91ad1fb65a2a5fd6}
+      \strng{authorbibnamehash}{22737aae41c209fc91ad1fb65a2a5fd6}
+      \strng{authornamehash}{22737aae41c209fc91ad1fb65a2a5fd6}
+      \strng{authorfullhash}{22737aae41c209fc91ad1fb65a2a5fd6}
+      \strng{authorfullhashraw}{22737aae41c209fc91ad1fb65a2a5fd6}
+      \field{extraname}{2}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-87-93429-88-8}
+      \field{title}{Historia de la {Presidencia} del {Consejo} de {Ministros} (1956-2016)}
+      \field{volume}{II}
+      \field{year}{2016}
+    \endentry
+    \entry{huber_replacing_2008}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=9b8f09b2d466723dc93fec40a45e8078}{%
+           family={Huber},
+           familyi={H\bibinitperiod},
+           given={John\bibnamedelima D.},
+           giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0a220cef74d7ea289c4d626e9fcfff0b}{%
+           family={Martinez-Gallardo},
+           familyi={M\bibinithyphendelim G\bibinitperiod},
+           given={Cecilia},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{d5e1d52c55d7e870da6084275d0826da}
+      \strng{fullhash}{d5e1d52c55d7e870da6084275d0826da}
+      \strng{fullhashraw}{d5e1d52c55d7e870da6084275d0826da}
+      \strng{bibnamehash}{d5e1d52c55d7e870da6084275d0826da}
+      \strng{authorbibnamehash}{d5e1d52c55d7e870da6084275d0826da}
+      \strng{authornamehash}{d5e1d52c55d7e870da6084275d0826da}
+      \strng{authorfullhash}{d5e1d52c55d7e870da6084275d0826da}
+      \strng{authorfullhashraw}{d5e1d52c55d7e870da6084275d0826da}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{We examine the stability of individual ministers across parliamentary democracies. Our data show that this stability is only loosely related to the stability of cabinets, making it impossible to rely primarily on arguments about cabinet duration to explain patterns of individual stability. We argue that to explain patterns of individual stability, it is useful to focus on the problems that party leaders have in identifying which individuals have the qualities necessary to do their jobs well. The institutional powers of ministers, coalition attributes, and party-specific variables should affect the uncertainty that party leaders have about which individuals will be successful ministers, on one hand, and the ability of party leaders to replace unsuccessful ministers, on the other. Our empirical tests support these arguments. The analysis therefore has implications for expectations regarding the circumstances under which minister stability should positively or negatively influence the policymaking performance of government.}
+      \field{issn}{0003-0554, 1537-5943}
+      \field{journaltitle}{American Political Science Review}
+      \field{month}{5}
+      \field{number}{2}
+      \field{shorttitle}{Replacing {Cabinet} {Ministers}}
+      \field{title}{Replacing {Cabinet} {Ministers}: {Patterns} of {Ministerial} {Stability} in {Parliamentary} {Democracies}}
+      \field{urlday}{9}
+      \field{urlmonth}{5}
+      \field{urlyear}{2025}
+      \field{volume}{102}
+      \field{year}{2008}
+      \field{urldateera}{ce}
+      \field{pages}{169\bibrangedash 180}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1017/S000305540808012X
+      \endverb
+      \verb{urlraw}
+      \verb https://www.cambridge.org/core/product/identifier/S000305540808012X/type/journal_article
+      \endverb
+      \verb{url}
+      \verb https://www.cambridge.org/core/product/identifier/S000305540808012X/type/journal_article
+      \endverb
+    \endentry
+    \entry{inei_encuesta_2024}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=4d7bf55010a4bce3e53bfcf6615cccdb}{%
+           family={{INEI}},
+           familyi={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{4d7bf55010a4bce3e53bfcf6615cccdb}
+      \strng{fullhash}{4d7bf55010a4bce3e53bfcf6615cccdb}
+      \strng{fullhashraw}{4d7bf55010a4bce3e53bfcf6615cccdb}
+      \strng{bibnamehash}{4d7bf55010a4bce3e53bfcf6615cccdb}
+      \strng{authorbibnamehash}{4d7bf55010a4bce3e53bfcf6615cccdb}
+      \strng{authornamehash}{4d7bf55010a4bce3e53bfcf6615cccdb}
+      \strng{authorfullhash}{4d7bf55010a4bce3e53bfcf6615cccdb}
+      \strng{authorfullhashraw}{4d7bf55010a4bce3e53bfcf6615cccdb}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Encuesta {Nacional} de {Hogares}}
+      \field{type}{Encuesta}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://proyectos.inei.gob.pe/microdatos/
+      \endverb
+      \verb{url}
+      \verb https://proyectos.inei.gob.pe/microdatos/
+      \endverb
+    \endentry
+    \entry{jara_iniguez_rotacion_2019}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=6f298ff7cf85983b6b3f91cdcd65a56d}{%
+           family={Jara\bibnamedelima Iñiguez},
+           familyi={J\bibinitperiod\bibinitdelim I\bibinitperiod},
+           given={Irma},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c3664dcec20fcbbb30980e55229e421d}{%
+           family={Cedeño\bibnamedelima Alcívar},
+           familyi={C\bibinitperiod\bibinitdelim A\bibinitperiod},
+           given={Jenny},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {spa}%
+      }
+      \list{publisher}{1}{%
+        {Universidad Espíritu Santo}%
+      }
+      \strng{namehash}{16133494c82a7d23c24f8d2207d2228e}
+      \strng{fullhash}{16133494c82a7d23c24f8d2207d2228e}
+      \strng{fullhashraw}{16133494c82a7d23c24f8d2207d2228e}
+      \strng{bibnamehash}{16133494c82a7d23c24f8d2207d2228e}
+      \strng{authorbibnamehash}{16133494c82a7d23c24f8d2207d2228e}
+      \strng{authornamehash}{16133494c82a7d23c24f8d2207d2228e}
+      \strng{authorfullhash}{16133494c82a7d23c24f8d2207d2228e}
+      \strng{authorfullhashraw}{16133494c82a7d23c24f8d2207d2228e}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The study analyzes the rotation of high level public managers in Ecuador and their use as an instrument of political trust from the Executive, in contrast to a life cycle model of managerial performance, to determine if it is a problem to obtain results in the management. A qualitative and diachronic analysis of rotation rates and the time of permanence in the position of the managers is carried out from a sample of Ministries that represent an important weight in relation to the State management model for the five-year period 2012-2016; as a result, it is shown that with high levels of turnover problems are configured to effect a professional management and, although this is used as a political and electoral tool for the movement of the authorities, at these levels its strategic utility decreases. El estudio analiza la rotación de los directivos públicos de alto nivel en Ecuador y su utilización como instrumento de confianza política desde el Ejecutivo, en contraste con un modelo de ciclo de vida del desempeño directivo, para determinar si es un problema para la obtención de resultados en la gestión.  Se realiza un análisis cualitativo y diacrónico de los índices de rotación y el tiempo de permanencia en el cargo de los directivos desde una muestra de Ministerios que representan un peso importante con relación al modelo de gestión de Estado para el quinquenio 2012-2016; como resultado, se muestra que con altos niveles de rotación se configuran problemas para efectivizar una dirección profesional y, aunque esta sea utilizada como herramienta política y electoral para el movimiento de las autoridades, a dichos niveles disminuye su utilidad estratégica.}
+      \field{chapter}{PODIUM}
+      \field{issn}{1390-5473, 2588-0969}
+      \field{journaltitle}{PODIUM}
+      \field{note}{Number: 35}
+      \field{number}{35}
+      \field{title}{Rotación de {Directivos} {Públicos}. ¿{Problema} de gestión o solución de confianza política?}
+      \field{urlday}{18}
+      \field{urlmonth}{1}
+      \field{urlyear}{2024}
+      \field{year}{2019}
+      \field{urldateera}{ce}
+      \field{pages}{1\bibrangedash 22}
+      \range{pages}{22}
+      \verb{urlraw}
+      \verb https://dialnet.unirioja.es/servlet/articulo?codigo=7291233
+      \endverb
+      \verb{url}
+      \verb https://dialnet.unirioja.es/servlet/articulo?codigo=7291233
+      \endverb
+    \endentry
+    \entry{krznaric_how_2024}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=5322ef54cefb608dd885bc8f6b177eff}{%
+           family={Krznaric},
+           familyi={K\bibinitperiod},
+           given={Roman},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{5322ef54cefb608dd885bc8f6b177eff}
+      \strng{fullhash}{5322ef54cefb608dd885bc8f6b177eff}
+      \strng{fullhashraw}{5322ef54cefb608dd885bc8f6b177eff}
+      \strng{bibnamehash}{5322ef54cefb608dd885bc8f6b177eff}
+      \strng{authorbibnamehash}{5322ef54cefb608dd885bc8f6b177eff}
+      \strng{authornamehash}{5322ef54cefb608dd885bc8f6b177eff}
+      \strng{authorfullhash}{5322ef54cefb608dd885bc8f6b177eff}
+      \strng{authorfullhashraw}{5322ef54cefb608dd885bc8f6b177eff}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{NPR's Ailsa Chang talks with Oxford University philosopher Roman Krznaric about the disruption nexus, a theory for social change he outlines in his new book, History For Tomorrow.}
+      \field{month}{7}
+      \field{title}{How big crisis has to be to provoke radical social change, according to a philosopher}
+      \field{urlday}{12}
+      \field{urlmonth}{6}
+      \field{urlyear}{2026}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:/Users/josemanuelmagallanes/Zotero/storage/UG6FHZG5/how-big-crisis-has-to-be-to-provoke-radical-social-change-according-to-a-philosopher.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.npr.org/2024/07/05/nx-s1-5020171/how-big-crisis-has-to-be-to-provoke-radical-social-change-according-to-a-philosopher
+      \endverb
+      \verb{url}
+      \verb https://www.npr.org/2024/07/05/nx-s1-5020171/how-big-crisis-has-to-be-to-provoke-radical-social-change-according-to-a-philosopher
+      \endverb
+    \endentry
+    \entry{lakatos_methodology_1978}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=67394518e7d074783c9d162210b2db78}{%
+           family={Lakatos},
+           familyi={L\bibinitperiod},
+           given={Imre},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=ed21b4fc4128b1aca0007c05451eaae0}{%
+           family={Worrall},
+           familyi={W\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod}}}%
+        {{hash=bcf3170cf0f74925acc2f923e3932adb}{%
+           family={Currie},
+           familyi={C\bibinitperiod},
+           given={Gregory},
+           giveni={G\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{67394518e7d074783c9d162210b2db78}
+      \strng{fullhash}{67394518e7d074783c9d162210b2db78}
+      \strng{fullhashraw}{67394518e7d074783c9d162210b2db78}
+      \strng{bibnamehash}{67394518e7d074783c9d162210b2db78}
+      \strng{authorbibnamehash}{67394518e7d074783c9d162210b2db78}
+      \strng{authornamehash}{67394518e7d074783c9d162210b2db78}
+      \strng{authorfullhash}{67394518e7d074783c9d162210b2db78}
+      \strng{authorfullhashraw}{67394518e7d074783c9d162210b2db78}
+      \strng{editorbibnamehash}{0c0dde878fa46d4797e7a3d5c53b6d32}
+      \strng{editornamehash}{0c0dde878fa46d4797e7a3d5c53b6d32}
+      \strng{editorfullhash}{0c0dde878fa46d4797e7a3d5c53b6d32}
+      \strng{editorfullhashraw}{0c0dde878fa46d4797e7a3d5c53b6d32}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Imre Lakatos' philosophical and scientific papers are published here in two volumes. Volume I brings together his very influential but scattered papers on the philosophy of the physical sciences, and includes one important unpublished essay on the effect of Newton's scientific achievement. Volume II presents his work on the philosophy of mathematics (much of it unpublished), together with some critical essays on contemporary philosophers of science and some famous polemical writings on political and educational issues. Imre Lakatos had an influence out of all proportion to the length of his philosophical career. This collection exhibits and confirms the originality, range and the essential unity of his work. It demonstrates too the force and spirit he brought to every issue with which he engaged, from his most abstract mathematical work to his passionate 'Letter to the director of the LSE'. Lakatos' ideas are now the focus of widespread and increasing interest, and these volumes should make possible for the first time their study as a whole and their proper assessment.}
+      \field{edition}{1}
+      \field{isbn}{978-0-521-21644-9 978-0-521-28031-0 978-0-511-62112-3}
+      \field{month}{5}
+      \field{shorttitle}{The {Methodology} of {Scientific} {Research} {Programmes}}
+      \field{title}{The {Methodology} of {Scientific} {Research} {Programmes}: {Philosophical} {Papers}}
+      \field{urlday}{14}
+      \field{urlmonth}{4}
+      \field{urlyear}{2025}
+      \field{year}{1978}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.1017/CBO9780511621123
+      \endverb
+      \verb{urlraw}
+      \verb https://www.cambridge.org/core/product/identifier/9780511621123/type/book
+      \endverb
+      \verb{url}
+      \verb https://www.cambridge.org/core/product/identifier/9780511621123/type/book
+      \endverb
+    \endentry
+    \entry{levitsky_variation_2009}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=5a385c7fc53d40f894bd4af8fd60a689}{%
+           family={Levitsky},
+           familyi={L\bibinitperiod},
+           given={Steven},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ccf39c309f1e119a4aa74210e57f5280}{%
+           family={Murillo},
+           familyi={M\bibinitperiod},
+           given={María\bibnamedelima Victoria},
+           giveni={M\bibinitperiod\bibinitdelim V\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{65af5d0bc44519ba04a41edd08cd6f38}
+      \strng{fullhash}{65af5d0bc44519ba04a41edd08cd6f38}
+      \strng{fullhashraw}{65af5d0bc44519ba04a41edd08cd6f38}
+      \strng{bibnamehash}{65af5d0bc44519ba04a41edd08cd6f38}
+      \strng{authorbibnamehash}{65af5d0bc44519ba04a41edd08cd6f38}
+      \strng{authornamehash}{65af5d0bc44519ba04a41edd08cd6f38}
+      \strng{authorfullhash}{65af5d0bc44519ba04a41edd08cd6f38}
+      \strng{authorfullhashraw}{65af5d0bc44519ba04a41edd08cd6f38}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Comparative research on political institutions has begun to turn from issues of formal institutional design to issues of institutional strength. Rather than assuming a tight ﬁt between formal rules and political behavior, these studies examine how variation in the stability and/or enforcement of formal rules shapes actors’ expectations and behavior. This article explores the emerging research agenda on institutional strength. It disaggregates the concept of institutional strength into two dimensions—enforcement and stability—and it argues that institutions vary widely on both dimensions. The article then examines the sources of this variation and its implications for comparative research. It shows how recent research on weak institutions may be used to reﬁne existing theories of institutional effects, design, and development, which should broaden the comparative scope of these theories. The conclusion examines ways of developing comparative measures of institutional strength.}
+      \field{issn}{1094-2939, 1545-1577}
+      \field{journaltitle}{Annual Review of Political Science}
+      \field{month}{6}
+      \field{number}{1}
+      \field{title}{Variation in {Institutional} {Strength}}
+      \field{urlday}{14}
+      \field{urlmonth}{6}
+      \field{urlyear}{2026}
+      \field{volume}{12}
+      \field{year}{2009}
+      \field{urldateera}{ce}
+      \field{pages}{115\bibrangedash 133}
+      \range{pages}{19}
+      \verb{doi}
+      \verb 10.1146/annurev.polisci.11.091106.121756
+      \endverb
+      \verb{file}
+      \verb levitskyMurillo:/Users/josemanuelmagallanes/PUCP/premieres/papers/levitskyMurillo.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.annualreviews.org/doi/10.1146/annurev.polisci.11.091106.121756
+      \endverb
+      \verb{url}
+      \verb https://www.annualreviews.org/doi/10.1146/annurev.polisci.11.091106.121756
+      \endverb
+    \endentry
+    \entry{levitt_organizational_1988}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=a7281c9f9a83523e8b76a0104a18ebe4}{%
+           family={Levitt},
+           familyi={L\bibinitperiod},
+           given={Barbara},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=86a71029191e03b750fe6ecd1c33e389}{%
+           family={March},
+           familyi={M\bibinitperiod},
+           given={James\bibnamedelima G.},
+           giveni={J\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{04a2ff6c8b0c3619c9449eefa726dae9}
+      \strng{fullhash}{04a2ff6c8b0c3619c9449eefa726dae9}
+      \strng{fullhashraw}{04a2ff6c8b0c3619c9449eefa726dae9}
+      \strng{bibnamehash}{04a2ff6c8b0c3619c9449eefa726dae9}
+      \strng{authorbibnamehash}{04a2ff6c8b0c3619c9449eefa726dae9}
+      \strng{authornamehash}{04a2ff6c8b0c3619c9449eefa726dae9}
+      \strng{authorfullhash}{04a2ff6c8b0c3619c9449eefa726dae9}
+      \strng{authorfullhashraw}{04a2ff6c8b0c3619c9449eefa726dae9}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This paper reviews the literature on organizational learning. Organizational learning is viewed as routine-based, history-dependent, and target-oriented. Organizations are seen as learning by encoding inferences from history into routines that guide behavior. Within this perspective on organizational learning, topics covered include how organizations learn from direct experience, how organizations learn from the experience of others, and how organizations develop conceptual frameworks or paradigms for interpreting that experience. The section on organizational memory discusses how organizations encode, store, and retrieve the lessons of history despite the turnover of personnel and the passage of time. Organizational learning is further complicated by the ecological structure of the simultaneously adapting behavior of other organizations, and by an endogenously changing environment. The final section discusses the limitations as well as the possibilities of organizational learning as a form of intelligence.}
+      \field{issn}{0360-0572, 1545-2115}
+      \field{journaltitle}{Annual Review of Sociology}
+      \field{month}{8}
+      \field{number}{1}
+      \field{title}{Organizational {Learning}}
+      \field{urlday}{13}
+      \field{urlmonth}{6}
+      \field{urlyear}{2026}
+      \field{volume}{14}
+      \field{year}{1988}
+      \field{urldateera}{ce}
+      \field{pages}{319\bibrangedash 338}
+      \range{pages}{20}
+      \verb{doi}
+      \verb 10.1146/annurev.so.14.080188.001535
+      \endverb
+      \verb{urlraw}
+      \verb https://www.annualreviews.org/doi/10.1146/annurev.so.14.080188.001535
+      \endverb
+      \verb{url}
+      \verb https://www.annualreviews.org/doi/10.1146/annurev.so.14.080188.001535
+      \endverb
+    \endentry
+    \entry{lopez_jimenez_peru_2025}{book}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=dfafb7fccde2628439cbd06418557f85}{%
+           family={Lopez\bibnamedelima Jimenez},
+           familyi={L\bibinitperiod\bibinitdelim J\bibinitperiod},
+           given={Sinesio},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0692044e9613150740906f570e214d50}{%
+           family={Magallanes\bibnamedelima Reyes},
+           familyi={M\bibinitperiod\bibinitdelim R\bibinitperiod},
+           given={Jose\bibnamedelima Manuel},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cc5da86a17b7f795bf5995afd7642f6a}{%
+           family={Rengifo\bibnamedelima Briceño},
+           familyi={R\bibinitperiod\bibinitdelim B\bibinitperiod},
+           given={Gabriela},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Lima, Perú}%
+      }
+      \list{publisher}{1}{%
+        {CISEPA}%
+      }
+      \strng{namehash}{5c11005dd25d5412015897e72592f4ab}
+      \strng{fullhash}{3f8d3d177996927cda822a69a29db2a6}
+      \strng{fullhashraw}{3f8d3d177996927cda822a69a29db2a6}
+      \strng{bibnamehash}{3f8d3d177996927cda822a69a29db2a6}
+      \strng{authorbibnamehash}{3f8d3d177996927cda822a69a29db2a6}
+      \strng{authornamehash}{5c11005dd25d5412015897e72592f4ab}
+      \strng{authorfullhash}{3f8d3d177996927cda822a69a29db2a6}
+      \strng{authorfullhashraw}{3f8d3d177996927cda822a69a29db2a6}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{El {Peru} y sus coyunturas criticas:{Estado}, {Democratización}, y {Democracia} en los siglos {XIX} y {XX}}
+      \field{year}{2025}
+    \endentry
+    \entry{mejia_es_2021}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=b008f41b56f74779c294d168913b3c22}{%
+           family={Mejía},
+           familyi={M\bibinitperiod},
+           given={Luis\bibnamedelima Bernardo},
+           giveni={L\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c7cbfa546431a7e13c452ba1a9bfdead}{%
+           family={Barinas\bibnamedelima Forero},
+           familyi={B\bibinitperiod\bibinitdelim F\bibinitperiod},
+           given={Andrés\bibnamedelima Felipe},
+           giveni={A\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d3cb569484e2dfd7dcfc4639205aa879}{%
+           family={Mora\bibnamedelima Oviedo},
+           familyi={M\bibinitperiod\bibinitdelim O\bibinitperiod},
+           given={Michelle\bibnamedelima Lorena},
+           giveni={M\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{42f1d28be1926c95b7e99de5657cf34e}
+      \strng{fullhash}{2a8dc29c7586655ece1008400629ddd3}
+      \strng{fullhashraw}{2a8dc29c7586655ece1008400629ddd3}
+      \strng{bibnamehash}{2a8dc29c7586655ece1008400629ddd3}
+      \strng{authorbibnamehash}{2a8dc29c7586655ece1008400629ddd3}
+      \strng{authornamehash}{42f1d28be1926c95b7e99de5657cf34e}
+      \strng{authorfullhash}{2a8dc29c7586655ece1008400629ddd3}
+      \strng{authorfullhashraw}{2a8dc29c7586655ece1008400629ddd3}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Este artículo analiza la formación y supervivencia de los gabinetes presidenciales en Colombia entre 1958 y 2018. Se comparan dos períodos de la historia política del país. Durante el primer período, de 1958 a 1990, Colombia funcionó con un sistema bipartidista. El segundo período, de 1991 a la actualidad, se caracteriza por la aper­tura del régimen político a nuevos partidos y la formación de gobiernos de coalición. Para esto, utilizamos modelos semiparamétricos y regresiones de Cox que nos permiten estimar la supervivencia de 581 nombramientos ministeriales e identificar los predictores de supervivencia en sus cargos a partir tanto de las características individuales de los ministros como de las características institucionales del sistema. El estudio muestra que la estabilidad en los cargos de los ministros durante el periodo bipartidista es menor que la duración de los ministros durante la etapa de presidencialismos de coalición.}
+      \field{issn}{2145-5112, 0124-4035}
+      \field{journaltitle}{Desafíos}
+      \field{month}{6}
+      \field{note}{Number: 2}
+      \field{number}{2}
+      \field{shorttitle}{¿{Es} hora de un cambio de ministro?}
+      \field{title}{¿{Es} hora de un cambio de ministro? {La} supervivencia del gabinete en {Colombia} 1958-2018}
+      \field{urlday}{17}
+      \field{urlmonth}{1}
+      \field{urlyear}{2024}
+      \field{volume}{33}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.12804/revistas.urosario.edu.co/desafios/a.8524
+      \endverb
+      \verb{urlraw}
+      \verb https://revistas.urosario.edu.co/index.php/desafios/article/view/8524
+      \endverb
+      \verb{url}
+      \verb https://revistas.urosario.edu.co/index.php/desafios/article/view/8524
+      \endverb
+    \endentry
+    \entry{nonaka_knowledge-creating_1998}{inbook}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=cca9c4b53df82e6b8269603781ff2d3a}{%
+           family={Nonaka},
+           familyi={N\bibinitperiod},
+           given={Ikujiro},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{cca9c4b53df82e6b8269603781ff2d3a}
+      \strng{fullhash}{cca9c4b53df82e6b8269603781ff2d3a}
+      \strng{fullhashraw}{cca9c4b53df82e6b8269603781ff2d3a}
+      \strng{bibnamehash}{cca9c4b53df82e6b8269603781ff2d3a}
+      \strng{authorbibnamehash}{cca9c4b53df82e6b8269603781ff2d3a}
+      \strng{authornamehash}{cca9c4b53df82e6b8269603781ff2d3a}
+      \strng{authorfullhash}{cca9c4b53df82e6b8269603781ff2d3a}
+      \strng{authorfullhashraw}{cca9c4b53df82e6b8269603781ff2d3a}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{The {Economic} {Impact} of {Knowledge}}
+      \field{isbn}{978-0-7506-7009-8}
+      \field{title}{The {Knowledge}-{Creating} {Company}}
+      \field{urlday}{13}
+      \field{urlmonth}{6}
+      \field{urlyear}{2026}
+      \field{year}{1998}
+      \field{urldateera}{ce}
+      \field{pages}{175\bibrangedash 187}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1016/B978-0-7506-7009-8.50016-1
+      \endverb
+      \verb{file}
+      \verb Nonaka_The Knowledge-Creating Company_harvard:/Users/josemanuelmagallanes/PUCP/premieres/papers/Nonaka_The Knowledge-Creating Company_harvard.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/B9780750670098500161
+      \endverb
+      \verb{url}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/B9780750670098500161
+      \endverb
+    \endentry
+  \enddatalist
+  \datalist[entry]{apa/global//global/global/global}
+    \entry{alexiadou_commitment_2019}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=d959e4e21af161803b8a390f7b7cdaff}{%
+           family={Alexiadou},
+           familyi={A\bibinitperiod},
+           given={Despina},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0beea44fb2fdfeacc11f06f7f830ac7c}{%
+           family={Gunaydin},
+           familyi={G\bibinitperiod},
+           given={Hakan},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{1445925354d53a82fbd8586cdd54dcd6}
+      \strng{fullhash}{1445925354d53a82fbd8586cdd54dcd6}
+      \strng{fullhashraw}{1445925354d53a82fbd8586cdd54dcd6}
+      \strng{bibnamehash}{1445925354d53a82fbd8586cdd54dcd6}
+      \strng{authorbibnamehash}{1445925354d53a82fbd8586cdd54dcd6}
+      \strng{authornamehash}{1445925354d53a82fbd8586cdd54dcd6}
+      \strng{authorfullhash}{1445925354d53a82fbd8586cdd54dcd6}
+      \strng{authorfullhashraw}{1445925354d53a82fbd8586cdd54dcd6}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Abstract Why do prime ministers or presidents appoint non‐elected experts, also known as technocrats, during economic crises? Do they appoint them for their expertise or for their commitment to pro‐market reforms? Answering this question is crucial for understanding and predicting the longer‐term role of technocrats in democracies. With the aid of unique data on the political and personal background of finance ministers in 13 parliamentary and semi‐presidential European democracies this article shows that commitment, not expertise is the primary driver of technocratic appointments during major economic crises. Technocrats are preferred over experienced politicians when the latter lack commitment to policy reform. An important implication of the findings is that technocratic appointments to top economic portfolios in West European countries are unlikely to become the norm outside economic crises, assuming economic crises are short‐lived and not recurring.}
+      \field{issn}{0304-4130, 1475-6765}
+      \field{journaltitle}{European Journal of Political Research}
+      \field{month}{8}
+      \field{number}{3}
+      \field{shorttitle}{Commitment or expertise?}
+      \field{title}{Commitment or expertise? {Technocratic} appointments as political responses to economic crises}
+      \field{urlday}{14}
+      \field{urlmonth}{5}
+      \field{urlyear}{2025}
+      \field{volume}{58}
+      \field{year}{2019}
+      \field{urldateera}{ce}
+      \field{pages}{845\bibrangedash 865}
+      \range{pages}{21}
+      \verb{doi}
+      \verb 10.1111/1475-6765.12338
+      \endverb
+      \verb{file}
+      \verb Accepted Version:/Users/josemanuelmagallanes/Zotero/storage/UUGXKJ4Y/Alexiadou and Gunaydin - 2019 - Commitment or expertise Technocratic appointments.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://ejpr.onlinelibrary.wiley.com/doi/10.1111/1475-6765.12338
+      \endverb
+      \verb{url}
+      \verb https://ejpr.onlinelibrary.wiley.com/doi/10.1111/1475-6765.12338
+      \endverb
+    \endentry
+    \entry{allison_conceptual_1969}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=1dbde1b3139b446b58ed4835ab58b50b}{%
+           family={Allison},
+           familyi={A\bibinitperiod},
+           given={Graham\bibnamedelima T.},
+           giveni={G\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{1dbde1b3139b446b58ed4835ab58b50b}
+      \strng{fullhash}{1dbde1b3139b446b58ed4835ab58b50b}
+      \strng{fullhashraw}{1dbde1b3139b446b58ed4835ab58b50b}
+      \strng{bibnamehash}{1dbde1b3139b446b58ed4835ab58b50b}
+      \strng{authorbibnamehash}{1dbde1b3139b446b58ed4835ab58b50b}
+      \strng{authornamehash}{1dbde1b3139b446b58ed4835ab58b50b}
+      \strng{authorfullhash}{1dbde1b3139b446b58ed4835ab58b50b}
+      \strng{authorfullhashraw}{1dbde1b3139b446b58ed4835ab58b50b}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0003-0554, 1537-5943}
+      \field{journaltitle}{American Political Science Review}
+      \field{month}{9}
+      \field{number}{3}
+      \field{title}{Conceptual {Models} and the {Cuban} {Missile} {Crisis}}
+      \field{urlday}{3}
+      \field{urlmonth}{8}
+      \field{urlyear}{2019}
+      \field{volume}{63}
+      \field{year}{1969}
+      \field{urldateera}{ce}
+      \field{pages}{689\bibrangedash 718}
+      \range{pages}{30}
+      \verb{doi}
+      \verb 10.2307/1954423
+      \endverb
+      \verb{urlraw}
+      \verb https://www.cambridge.org/core/product/identifier/S0003055400000010/type/journal_article
+      \endverb
+      \verb{url}
+      \verb https://www.cambridge.org/core/product/identifier/S0003055400000010/type/journal_article
+      \endverb
+    \endentry
+    \entry{avendano_rotacion_2012}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=f0cfd30e074f2860c0b8c1eb70cf722f}{%
+           family={Avendaño},
+           familyi={A\bibinitperiod},
+           given={Octavio},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3752503f4b2ebdf55d4fb0deb33d6277}{%
+           family={Dávila},
+           familyi={D\bibinitperiod},
+           given={Mireya},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{23fc91d28f3b1645d0d5b91ec9bc55a3}
+      \strng{fullhash}{23fc91d28f3b1645d0d5b91ec9bc55a3}
+      \strng{fullhashraw}{23fc91d28f3b1645d0d5b91ec9bc55a3}
+      \strng{bibnamehash}{23fc91d28f3b1645d0d5b91ec9bc55a3}
+      \strng{authorbibnamehash}{23fc91d28f3b1645d0d5b91ec9bc55a3}
+      \strng{authornamehash}{23fc91d28f3b1645d0d5b91ec9bc55a3}
+      \strng{authorfullhash}{23fc91d28f3b1645d0d5b91ec9bc55a3}
+      \strng{authorfullhashraw}{23fc91d28f3b1645d0d5b91ec9bc55a3}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Este artículo analiza el fenómeno de la rotación ministerial durante los cuatro gobiernos de la Concertación, que se sucedieron en el período 1990-2010. Junto con describir la participación de los partidos en la conformación de los gabinetes, se examina el impacto de la rotación para la estabilidad del gobierno y para la coalición de centro-izquierda. La rotación ministerial es entendida como el movimiento de ingreso y salida del gabinete ministerial en el marco de una administración gubernamental. En cuanto a la carrera política la rotación se enmarca en la trayectoria que ciertos individuos asumen con el fin de adquirir experiencia, acumular capital político, y desde luego acceder a cargos de representación.}
+      \field{issn}{0719-5338, 0716-1077}
+      \field{journaltitle}{Política. Revista de Ciencia Política}
+      \field{month}{1}
+      \field{number}{2}
+      \field{title}{Rotación ministerial y estabilidad coalicional en {Chile}, 1990-2010}
+      \field{urlday}{9}
+      \field{urlmonth}{5}
+      \field{urlyear}{2025}
+      \field{volume}{50}
+      \field{year}{2012}
+      \field{urldateera}{ce}
+      \field{pages}{87\bibrangedash 108}
+      \range{pages}{22}
+      \verb{doi}
+      \verb 10.5354/0719-5338.2012.25968
+      \endverb
+      \verb{file}
+      \verb Full Text:/Users/josemanuelmagallanes/Zotero/storage/IQF7YCX8/Avendaño and Dávila - 2012 - Rotación ministerial y estabilidad coalicional en .pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://revistapolitica.uchile.cl/index.php/RP/article/view/25968
+      \endverb
+      \verb{url}
+      \verb https://revistapolitica.uchile.cl/index.php/RP/article/view/25968
+      \endverb
+    \endentry
+    \entry{baturo_office_2014}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=70c1ec991aa14a790bc80151caff3e6c}{%
+           family={Baturo},
+           familyi={B\bibinitperiod},
+           given={Alexander},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a55581f111159afd0a1e62c8fc2c8dbc}{%
+           family={Elkink},
+           familyi={E\bibinitperiod},
+           given={Johan\bibnamedelima A.},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{1d5b4def5e23c4efc4636ce64da4a7a4}
+      \strng{fullhash}{1d5b4def5e23c4efc4636ce64da4a7a4}
+      \strng{fullhashraw}{1d5b4def5e23c4efc4636ce64da4a7a4}
+      \strng{bibnamehash}{1d5b4def5e23c4efc4636ce64da4a7a4}
+      \strng{authorbibnamehash}{1d5b4def5e23c4efc4636ce64da4a7a4}
+      \strng{authornamehash}{1d5b4def5e23c4efc4636ce64da4a7a4}
+      \strng{authorfullhash}{1d5b4def5e23c4efc4636ce64da4a7a4}
+      \strng{authorfullhashraw}{1d5b4def5e23c4efc4636ce64da4a7a4}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{issn}{0022-3816, 1468-2508}
+      \field{journaltitle}{The Journal of Politics}
+      \field{month}{7}
+      \field{number}{3}
+      \field{shorttitle}{Office or {Officeholder}?}
+      \field{title}{Office or {Officeholder}? {Regime} {Deinstitutionalization} and {Sources} of {Individual} {Political} {Influence}}
+      \field{urlday}{13}
+      \field{urlmonth}{6}
+      \field{urlyear}{2026}
+      \field{volume}{76}
+      \field{year}{2014}
+      \field{urldateera}{ce}
+      \field{pages}{859\bibrangedash 872}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1017/S0022381614000280
+      \endverb
+      \verb{file}
+      \verb Baturo_officeOr officeHolder:D\:\\Users\\jmagallanes\\Documents\\GitHub\\PUCP\\premieres\\papers\\Baturo_officeOr officeHolder.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.journals.uchicago.edu/doi/10.1017/S0022381614000280
+      \endverb
+      \verb{url}
+      \verb https://www.journals.uchicago.edu/doi/10.1017/S0022381614000280
+      \endverb
+    \endentry
+    \entry{blondel_ministerial_1988}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8ad554f8a2ec53d6f7a24c0669c05ab8}{%
+           family={Blondel},
+           familyi={B\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{8ad554f8a2ec53d6f7a24c0669c05ab8}
+      \strng{fullhash}{8ad554f8a2ec53d6f7a24c0669c05ab8}
+      \strng{fullhashraw}{8ad554f8a2ec53d6f7a24c0669c05ab8}
+      \strng{bibnamehash}{8ad554f8a2ec53d6f7a24c0669c05ab8}
+      \strng{authorbibnamehash}{8ad554f8a2ec53d6f7a24c0669c05ab8}
+      \strng{authornamehash}{8ad554f8a2ec53d6f7a24c0669c05ab8}
+      \strng{authorfullhash}{8ad554f8a2ec53d6f7a24c0669c05ab8}
+      \strng{authorfullhashraw}{8ad554f8a2ec53d6f7a24c0669c05ab8}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Abstract. The characteristics of parliamentary government vary markedly from one Western European country to another. Although we still do not know in detail the nature and amplitude of these variations, they are sufficiently manifest to warrant close examination. One way in which these variations can be assessed is through the analysis of the career patterns of ministers. These are interesting both in themselves and because they provide information about the nature of the decision-making process: for instance, ministers who stay in office for very short periods are less likely to be involved in collective decisions than ministers who stay in office for a decade or more. Differences are particularly marked among ministerial career patterns in the Austrian and Belgian cabinets. Not only do Austrian ministers stay in office longer: they tend to come to office only once and then remain in the same post; they often do not come to the government by the parliamentary route, many coming from the civil service, industry, or interest groups. In all these respects, Belgian ministers have opposite characteristics. Thus it does seem that while both governments are ostensibly parliamentary, the Austrian government tends to be managerial, while the Belgian government is parliamentary and more truly ‘political’.}
+      \field{issn}{0304-4130, 1475-6765}
+      \field{journaltitle}{European Journal of Political Research}
+      \field{month}{1}
+      \field{number}{1}
+      \field{shorttitle}{Ministerial careers and the nature of parliamentary government}
+      \field{title}{Ministerial careers and the nature of parliamentary government: the cases of {Austria} and {Belgium}}
+      \field{urlday}{13}
+      \field{urlmonth}{6}
+      \field{urlyear}{2026}
+      \field{volume}{16}
+      \field{year}{1988}
+      \field{urldateera}{ce}
+      \field{pages}{51\bibrangedash 71}
+      \range{pages}{21}
+      \verb{doi}
+      \verb 10.1111/j.1475-6765.1988.tb00141.x
+      \endverb
+      \verb{file}
+      \verb blondel_1987_EUIWP_274:D\:\\Users\\jmagallanes\\Documents\\GitHub\\PUCP\\premieres\\papers\\blondel_1987_EUIWP_274.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.cambridge.org/core/product/identifier/S0304413000009218/type/journal_article
+      \endverb
+      \verb{url}
+      \verb https://www.cambridge.org/core/product/identifier/S0304413000009218/type/journal_article
+      \endverb
+    \endentry
+    \entry{camerlo_government_2024}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=878251309d07d0ee3203c0715812f8f9}{%
+           family={Camerlo},
+           familyi={C\bibinitperiod},
+           given={Marcelo},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7987e854099727aa96698a1ec0bf0655}{%
+           family={Castaldo},
+           familyi={C\bibinitperiod},
+           given={Antonino},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{364c373471f867da94f4611cb0d017c9}
+      \strng{fullhash}{364c373471f867da94f4611cb0d017c9}
+      \strng{fullhashraw}{364c373471f867da94f4611cb0d017c9}
+      \strng{bibnamehash}{364c373471f867da94f4611cb0d017c9}
+      \strng{authorbibnamehash}{364c373471f867da94f4611cb0d017c9}
+      \strng{authornamehash}{364c373471f867da94f4611cb0d017c9}
+      \strng{authorfullhash}{364c373471f867da94f4611cb0d017c9}
+      \strng{authorfullhashraw}{364c373471f867da94f4611cb0d017c9}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{The party afﬁliation of cabinet ministers is a critical but neglected notion. While its application and theoretical centrality is indisputable in many research ﬁelds, explicit deﬁnitions are difﬁcult to ﬁnd, while operationalizations tend to rely on rudimentary categorizations. Departing from formulating a deﬁnition consistent with the party government model, we propose a ﬂexible typology to categorize and rank variants of partisans both within and beyond consolidated parliamentary democracies. We show that the new approach can capture important unobserved dynamics well.}
+      \field{issn}{1354-0688, 1460-3683}
+      \field{journaltitle}{Party Politics}
+      \field{month}{5}
+      \field{number}{3}
+      \field{shorttitle}{Government partisans}
+      \field{title}{Government partisans: {A} practical typology}
+      \field{urlday}{13}
+      \field{urlmonth}{6}
+      \field{urlyear}{2026}
+      \field{volume}{30}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \field{pages}{505\bibrangedash 518}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1177/13540688231159862
+      \endverb
+      \verb{file}
+      \verb camerlo-castaldo-2023-typology:D\:\\Users\\jmagallanes\\Documents\\GitHub\\PUCP\\premieres\\papers\\camerlo-castaldo-2023-typology.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://journals.sagepub.com/doi/10.1177/13540688231159862
+      \endverb
+      \verb{url}
+      \verb https://journals.sagepub.com/doi/10.1177/13540688231159862
+      \endverb
+    \endentry
+    \entry{camerlo_poderes_2024}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=878251309d07d0ee3203c0715812f8f9}{%
+           family={Camerlo},
+           familyi={C\bibinitperiod},
+           given={Marcelo},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=28de2117a7d85e398b05b55f69837d26}{%
+           family={Clerici},
+           familyi={C\bibinitperiod},
+           given={Paula},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6e29aec0755333d6640a8fe9b1729f0b}{%
+           family={Molina},
+           familyi={M\bibinitperiod},
+           given={Anabella},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {es}%
+      }
+      \strng{namehash}{b08efd42696fdfe31eca86fb34493a57}
+      \strng{fullhash}{c908cb6b5b26e2c79794e6d24cd893e5}
+      \strng{fullhashraw}{c908cb6b5b26e2c79794e6d24cd893e5}
+      \strng{bibnamehash}{c908cb6b5b26e2c79794e6d24cd893e5}
+      \strng{authorbibnamehash}{c908cb6b5b26e2c79794e6d24cd893e5}
+      \strng{authornamehash}{b08efd42696fdfe31eca86fb34493a57}
+      \strng{authorfullhash}{c908cb6b5b26e2c79794e6d24cd893e5}
+      \strng{authorfullhashraw}{c908cb6b5b26e2c79794e6d24cd893e5}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Objective/context: Party recruitment is a crucial governance tool in contemporary democracies. Presidential and parliamentary heads of government distribute ministerial portfolios to party members in exchange for essential political resources, such as legislative support. This article explores the relationship between government formation and political parties, with parties that are not very institutionalized. In particular, it examines the extent to which arguments about presidential cabinet formation hold up when the hierarchical level of party ministers is considered. Methodology: This statistical study uses a generalized linear model (GLM) with a binomial distribution and a logit link function with robust standard errors. It aims to carry out causality exploration to test the original indicators of the proposed dependent variables. Conclusions: Hierarchy and partisan powers are relevant factors to complement existing explanations of ministerial recruitment strategies. Originality: Comparative research on government formation and its connection to political parties has made significant progress, focusing on the distinction between ministers affiliated and not affiliated with a party. However, this dichotomous approach neglects consideration of the hierarchical position within the party structure, a fundamental aspect of the governing party model underlying parliamentary democracies. This article presents a trichotomous measure that considers the hierarchical level of ministers.}
+      \field{issn}{1900-6004, 0121-5612}
+      \field{journaltitle}{Colombia Internacional}
+      \field{month}{10}
+      \field{number}{120}
+      \field{title}{Poderes partidarios y reclutamiento ministerial. {El} caso argentino}
+      \field{urlday}{13}
+      \field{urlmonth}{6}
+      \field{urlyear}{2026}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \field{pages}{23\bibrangedash 50}
+      \range{pages}{28}
+      \verb{doi}
+      \verb 10.7440/colombiaint120.2024.02
+      \endverb
+      \verb{file}
+      \verb camerlo2024:D\:\\Users\\jmagallanes\\Documents\\GitHub\\PUCP\\premieres\\papers\\camerlo2024.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://revistas.uniandes.edu.co/index.php/colombia-int/article/view/9471
+      \endverb
+      \verb{url}
+      \verb https://revistas.uniandes.edu.co/index.php/colombia-int/article/view/9471
+      \endverb
+    \endentry
+    \entry{camerlo_por_2022}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=878251309d07d0ee3203c0715812f8f9}{%
+           family={Camerlo},
+           familyi={C\bibinitperiod},
+           given={Marcelo},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a5c761e1369524c86269638d7c1da5a2}{%
+           family={Gallardo},
+           familyi={G\bibinitperiod},
+           given={Cecilia\bibnamedelima Martínez},
+           giveni={C\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {es}%
+      }
+      \strng{namehash}{537424737a7c6b46ce97bbe6f795d41c}
+      \strng{fullhash}{537424737a7c6b46ce97bbe6f795d41c}
+      \strng{fullhashraw}{537424737a7c6b46ce97bbe6f795d41c}
+      \strng{bibnamehash}{537424737a7c6b46ce97bbe6f795d41c}
+      \strng{authorbibnamehash}{537424737a7c6b46ce97bbe6f795d41c}
+      \strng{authornamehash}{537424737a7c6b46ce97bbe6f795d41c}
+      \strng{authorfullhash}{537424737a7c6b46ce97bbe6f795d41c}
+      \strng{authorfullhashraw}{537424737a7c6b46ce97bbe6f795d41c}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Resumen No todas las carteras ministeriales tienen la misma importancia. Pero a pesar de que la literatura académica reconoce implícitamente la importancia del valor relativo de cada cartera para la formación de gobiernos, los criterios utilizados para determinar por qué son relevantes ciertos ministerios raramente son explicitados, discutidos y justificados. La falta de criterios establecidos es especialmente importante en contextos donde las negociaciones para formar un gobierno ocurren entre partidos poco institucionalizados, en donde dominan los gobiernos monocolor o donde grupos no partidistas son también parte del proceso. En este artículo proponemos un marco analítico que especifica cuatro dimensiones que definen la importancia ministerial. Una cartera es importante en la medida en que ofrece oportunidades para ejecutar políticas públicas relevantes al gobierno, para influir en la agenda política, para asignar fondos discrecionales y para intervenir en el desempeño de otros ministerios.}
+      \field{issn}{1665-2037}
+      \field{journaltitle}{Política y gobierno}
+      \field{month}{3}
+      \field{note}{Number: 1}
+      \field{number}{1}
+      \field{shorttitle}{¿{Por} qué son importantes los ministerios importantes?}
+      \field{title}{¿{Por} qué son importantes los ministerios importantes? {Un} marco de análisis}
+      \field{urlday}{18}
+      \field{urlmonth}{1}
+      \field{urlyear}{2024}
+      \field{volume}{29}
+      \field{year}{2022}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb http://www.politicaygobierno.cide.edu/index.php/pyg/article/view/1561
+      \endverb
+      \verb{url}
+      \verb http://www.politicaygobierno.cide.edu/index.php/pyg/article/view/1561
+      \endverb
+      \keyw{gabinetes,importancia ministerial,formación de gabinetes,presidencialismo}
+    \endentry
+    \entry{camerlo_minister_2015}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=878251309d07d0ee3203c0715812f8f9}{%
+           family={Camerlo},
+           familyi={C\bibinitperiod},
+           given={Marcelo},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=befd602a5a2441aae3e3c85f9bca5e04}{%
+           family={Pérez-Liñán},
+           familyi={P\bibinithyphendelim L\bibinitperiod},
+           given={Aníbal},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{8591f924a813170e0c4d5fedff35567e}
+      \strng{fullhash}{8591f924a813170e0c4d5fedff35567e}
+      \strng{fullhashraw}{8591f924a813170e0c4d5fedff35567e}
+      \strng{bibnamehash}{8591f924a813170e0c4d5fedff35567e}
+      \strng{authorbibnamehash}{8591f924a813170e0c4d5fedff35567e}
+      \strng{authornamehash}{8591f924a813170e0c4d5fedff35567e}
+      \strng{authorfullhash}{8591f924a813170e0c4d5fedff35567e}
+      \strng{authorfullhashraw}{8591f924a813170e0c4d5fedff35567e}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0022-3816, 1468-2508}
+      \field{journaltitle}{The Journal of Politics}
+      \field{month}{7}
+      \field{note}{Number: 3}
+      \field{number}{3}
+      \field{title}{Minister {Turnover}, {Critical} {Events}, and the {Electoral} {Calendar} in {Presidential} {Democracies}}
+      \field{urlday}{18}
+      \field{urlmonth}{1}
+      \field{urlyear}{2024}
+      \field{volume}{77}
+      \field{year}{2015}
+      \field{urldateera}{ce}
+      \field{pages}{608\bibrangedash 619}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1086/681028
+      \endverb
+      \verb{urlraw}
+      \verb https://www.journals.uchicago.edu/doi/10.1086/681028
+      \endverb
+      \verb{url}
+      \verb https://www.journals.uchicago.edu/doi/10.1086/681028
+      \endverb
+    \endentry
+    \entry{capoccia_study_2007}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=06ca7b9552299ab0139e82031f22ffaa}{%
+           family={Capoccia},
+           familyi={C\bibinitperiod},
+           given={Giovanni},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=88835aa210360cc0345509b1de750849}{%
+           family={Kelemen},
+           familyi={K\bibinitperiod},
+           given={R.\bibnamedelimi Daniel},
+           giveni={R\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{b63e48961e67e584fd18fbf34929a49e}
+      \strng{fullhash}{b63e48961e67e584fd18fbf34929a49e}
+      \strng{fullhashraw}{b63e48961e67e584fd18fbf34929a49e}
+      \strng{bibnamehash}{b63e48961e67e584fd18fbf34929a49e}
+      \strng{authorbibnamehash}{b63e48961e67e584fd18fbf34929a49e}
+      \strng{authornamehash}{b63e48961e67e584fd18fbf34929a49e}
+      \strng{authorfullhash}{b63e48961e67e584fd18fbf34929a49e}
+      \strng{authorfullhashraw}{b63e48961e67e584fd18fbf34929a49e}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{[The causal logic behind many arguments in historical institutionalism emphasizes the enduring impact of choices made during critical junctures in history. These choices close off alternative options and lead to the establishment of institutions that generate self-reinforcing path-dependent processes. Despite the theoretical and practical importance of critical junctures, however, analyses of path dependence often devote little attention to them. The article reconstructs the concept of critical junctures, delimits its range of application, and provides methodological guidance for its use in historical institutional analyses. Contingency is the key characteristic of critical junctures, and counterfactual reasoning and narrative methods are necessary to analyze contingent factors and their impact. Finally, the authors address specific issues relevant to both cross-sectional and longitudinal comparisons of critical junctures.]}
+      \field{issn}{00438871, 10863338}
+      \field{journaltitle}{World Politics}
+      \field{number}{3}
+      \field{title}{The {Study} of {Critical} {Junctures}: {Theory}, {Narrative}, and {Counterfactuals} in {Historical} {Institutionalism}}
+      \field{urlday}{6}
+      \field{urlmonth}{6}
+      \field{urlyear}{2025}
+      \field{volume}{59}
+      \field{year}{2007}
+      \field{urldateera}{ce}
+      \field{pages}{341\bibrangedash 369}
+      \range{pages}{29}
+      \verb{urlraw}
+      \verb http://www.jstor.org/stable/40060162
+      \endverb
+      \verb{url}
+      \verb http://www.jstor.org/stable/40060162
+      \endverb
+    \endentry
+    \entry{cohen_garbage_1972}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=96054330445518b28d793fbf550a0611}{%
+           family={Cohen},
+           familyi={C\bibinitperiod},
+           given={Michael\bibnamedelima D.},
+           giveni={M\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=86a71029191e03b750fe6ecd1c33e389}{%
+           family={March},
+           familyi={M\bibinitperiod},
+           given={James\bibnamedelima G.},
+           giveni={J\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=10001b3246f560c21572959cd4cdd0ad}{%
+           family={Olsen},
+           familyi={O\bibinitperiod},
+           given={Johan\bibnamedelima P.},
+           giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ee935fcb47f41aaf2c528caa81402855}
+      \strng{fullhash}{864a6e52d6d11042bef773a92259eab8}
+      \strng{fullhashraw}{864a6e52d6d11042bef773a92259eab8}
+      \strng{bibnamehash}{864a6e52d6d11042bef773a92259eab8}
+      \strng{authorbibnamehash}{864a6e52d6d11042bef773a92259eab8}
+      \strng{authornamehash}{ee935fcb47f41aaf2c528caa81402855}
+      \strng{authorfullhash}{864a6e52d6d11042bef773a92259eab8}
+      \strng{authorfullhashraw}{864a6e52d6d11042bef773a92259eab8}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{00018392}
+      \field{journaltitle}{Administrative Science Quarterly}
+      \field{month}{3}
+      \field{number}{1}
+      \field{title}{A {Garbage} {Can} {Model} of {Organizational} {Choice}}
+      \field{urlday}{18}
+      \field{urlmonth}{9}
+      \field{urlyear}{2020}
+      \field{volume}{17}
+      \field{year}{1972}
+      \field{urldateera}{ce}
+      \field{pages}{1}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.2307/2392088
+      \endverb
+      \verb{file}
+      \verb Submitted Version:/Users/josemanuelmagallanes/Zotero/storage/H8NP9V59/Cohen et al. - 1972 - A Garbage Can Model of Organizational Choice.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.jstor.org/stable/2392088?origin=crossref
+      \endverb
+      \verb{url}
+      \verb https://www.jstor.org/stable/2392088?origin=crossref
+      \endverb
+    \endentry
+    \entry{dewan_corrective_2005}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=45905b08c89852c1d7fc38f831274baf}{%
+           family={Dewan},
+           familyi={D\bibinitperiod},
+           given={Torun},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=dca51ad1c971b8dd55b701de70716b4e}{%
+           family={Dowding},
+           familyi={D\bibinitperiod},
+           given={Keith},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{e576476901ab484fab33fbb28217a61a}
+      \strng{fullhash}{e576476901ab484fab33fbb28217a61a}
+      \strng{fullhashraw}{e576476901ab484fab33fbb28217a61a}
+      \strng{bibnamehash}{e576476901ab484fab33fbb28217a61a}
+      \strng{authorbibnamehash}{e576476901ab484fab33fbb28217a61a}
+      \strng{authornamehash}{e576476901ab484fab33fbb28217a61a}
+      \strng{authorfullhash}{e576476901ab484fab33fbb28217a61a}
+      \strng{authorfullhashraw}{e576476901ab484fab33fbb28217a61a}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Using data from the United Kingdom, we estimate the effects of ministerial resignation on government popularity. We test a counterfactual argument that resignations should have a corrective effect, that is, there is an increase in popularity following a resignation when taking into account the negative effect on popularity of the resignation issue. We get empirical estimates by using the age of ministers involved in resignation issues as an instrument. Our IV estimates provide empirical support for the corrective effect .}
+      \field{issn}{0092-5853, 1540-5907}
+      \field{journaltitle}{American Journal of Political Science}
+      \field{month}{1}
+      \field{number}{1}
+      \field{title}{The {Corrective} {Effect} of {Ministerial} {Resignations} on {Government} {Popularity}}
+      \field{urlday}{10}
+      \field{urlmonth}{5}
+      \field{urlyear}{2025}
+      \field{volume}{49}
+      \field{year}{2005}
+      \field{urldateera}{ce}
+      \field{pages}{46\bibrangedash 56}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1111/j.0092-5853.2005.00109.x
+      \endverb
+      \verb{urlraw}
+      \verb https://onlinelibrary.wiley.com/doi/10.1111/j.0092-5853.2005.00109.x
+      \endverb
+      \verb{url}
+      \verb https://onlinelibrary.wiley.com/doi/10.1111/j.0092-5853.2005.00109.x
+      \endverb
+    \endentry
+    \entry{feliu_ribeiro_foreign_2023}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=46e346acd8d59c8d24693eda9bd5b7a0}{%
+           family={Feliú\bibnamedelima Ribeiro},
+           familyi={F\bibinitperiod\bibinitdelim R\bibinitperiod},
+           given={Pedro},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=60d7f65963dfe25406c3fb5f564a6a0a}{%
+           family={López\bibnamedelima Burian},
+           familyi={L\bibinitperiod\bibinitdelim B\bibinitperiod},
+           given={Camilo},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{b5d0504b11c2e4d929ae94985b7280c2}
+      \strng{fullhash}{b5d0504b11c2e4d929ae94985b7280c2}
+      \strng{fullhashraw}{b5d0504b11c2e4d929ae94985b7280c2}
+      \strng{bibnamehash}{b5d0504b11c2e4d929ae94985b7280c2}
+      \strng{authorbibnamehash}{b5d0504b11c2e4d929ae94985b7280c2}
+      \strng{authornamehash}{b5d0504b11c2e4d929ae94985b7280c2}
+      \strng{authorfullhash}{b5d0504b11c2e4d929ae94985b7280c2}
+      \strng{authorfullhashraw}{b5d0504b11c2e4d929ae94985b7280c2}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{This research note analyzes the incentives of different types of policy areas for a president to keep or dismiss a minister. It uses ministerial survival analysis to compare foreign and domestic policy areas, focusing on comparable and analogous presidential decisions among countries and portfolios. The research utilizes ministerial survival data for education, finance, health, and foreign policy between 1945 and 2020 in Argentina, Brazil, Chile, Mexico, Paraguay, Peru, and Uruguay. Using Cox regression models, we find that a foreign policy portfolio has a positive effect on ministerial survival, but the specificity of this portfolio does not hold for autocratic governments. Autocracies show higher levels of ministerial survival in all four portfolios, but a foreign policy portfolio is no more stable than domestic portfolios. Democratic presidents have the incentive to signal stability to the international audience, preserving the foreign policy portfolio from the frequent ministerial changes in domestic portfolios.}
+      \field{issn}{1531-426X, 1548-2456}
+      \field{journaltitle}{Latin American Politics and Society}
+      \field{month}{11}
+      \field{number}{4}
+      \field{shorttitle}{Foreign {Policy} {Specificity}}
+      \field{title}{Foreign {Policy} {Specificity}: {An} {Analysis} of {Ministerial} {Survival} in {Latin} {America}, 1945–2020}
+      \field{urlday}{12}
+      \field{urlmonth}{6}
+      \field{urlyear}{2026}
+      \field{volume}{65}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \field{pages}{176\bibrangedash 194}
+      \range{pages}{19}
+      \verb{doi}
+      \verb 10.1017/lap.2023.21
+      \endverb
+      \verb{file}
+      \verb foreign-policy-specificity-an-analysis-of-ministerial-survival-in-latin-america-1945-2020:D\:\\Users\\jmagallanes\\Documents\\GitHub\\PUCP\\premieres\\papers\\foreign-policy-specificity-an-analysis-of-ministerial-survival-in-latin-america-1945-2020.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.cambridge.org/core/product/identifier/S1531426X23000213/type/journal_article
+      \endverb
+      \verb{url}
+      \verb https://www.cambridge.org/core/product/identifier/S1531426X23000213/type/journal_article
+      \endverb
+    \endentry
+    \entry{fischer_duration_2012}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=46f4d9c82d2f6934a17a3afefe910a0e}{%
+           family={Fischer},
+           familyi={F\bibinitperiod},
+           given={Jörn},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=dca51ad1c971b8dd55b701de70716b4e}{%
+           family={Dowding},
+           familyi={D\bibinitperiod},
+           given={Keith},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bfa8114dfe2e6eb336e88291d744b3e8}{%
+           family={Dumont},
+           familyi={D\bibinitperiod},
+           given={Patrick},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{03579b3cb84a77bd14da8418934aaf6c}
+      \strng{fullhash}{d6f9066adc9a117065f2b9d55f885cf2}
+      \strng{fullhashraw}{d6f9066adc9a117065f2b9d55f885cf2}
+      \strng{bibnamehash}{d6f9066adc9a117065f2b9d55f885cf2}
+      \strng{authorbibnamehash}{d6f9066adc9a117065f2b9d55f885cf2}
+      \strng{authornamehash}{03579b3cb84a77bd14da8418934aaf6c}
+      \strng{authorfullhash}{d6f9066adc9a117065f2b9d55f885cf2}
+      \strng{authorfullhashraw}{d6f9066adc9a117065f2b9d55f885cf2}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This article surveys the growing research programme on the duration of cabinet ministers. It examines some of the conceptual and methodological issues confronting research, including the nature and measurement of durability, ministerial terms and techniques. It considers some of the theories and hypotheses that have been generated by researchers. Using evidence from studies from around the world, it argues that institutional factors, including regime type, constitutional and parliamentary rules, and party systems, affect ministerial durability. Personal ministerial characteristics, such as gender, education and age, also affect durability. It examines future avenues of research in this field.}
+      \field{issn}{0192-5121, 1460-373X}
+      \field{journaltitle}{International Political Science Review}
+      \field{month}{11}
+      \field{number}{5}
+      \field{title}{The duration and durability of cabinet ministers}
+      \field{urlday}{9}
+      \field{urlmonth}{5}
+      \field{urlyear}{2025}
+      \field{volume}{33}
+      \field{year}{2012}
+      \field{urldateera}{ce}
+      \field{pages}{505\bibrangedash 519}
+      \range{pages}{15}
+      \verb{doi}
+      \verb 10.1177/0192512112462971
+      \endverb
+      \verb{urlraw}
+      \verb https://journals.sagepub.com/doi/10.1177/0192512112462971
+      \endverb
+      \verb{url}
+      \verb https://journals.sagepub.com/doi/10.1177/0192512112462971
+      \endverb
+    \endentry
+    \entry{foss_simon_2005}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=1,uniquepart=given,hash=e2f3fe87bcabde0db1381b72a5d9f6ec}{%
+           family={Foss},
+           familyi={F\bibinitperiod},
+           given={Kirsten},
+           giveni={K\bibinitperiod},
+           givenun=1}}%
+        {{un=1,uniquepart=given,hash=a1b7cb31df4a6f86710a6968399bf893}{%
+           family={Foss},
+           familyi={F\bibinitperiod},
+           given={Nicolai\bibnamedelima J.},
+           giveni={N\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=1}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{f8185e487b0d5155e91aabaabfdd1934}
+      \strng{fullhash}{f8185e487b0d5155e91aabaabfdd1934}
+      \strng{fullhashraw}{f8185e487b0d5155e91aabaabfdd1934}
+      \strng{bibnamehash}{f8185e487b0d5155e91aabaabfdd1934}
+      \strng{authorbibnamehash}{f8185e487b0d5155e91aabaabfdd1934}
+      \strng{authornamehash}{f8185e487b0d5155e91aabaabfdd1934}
+      \strng{authorfullhash}{f8185e487b0d5155e91aabaabfdd1934}
+      \strng{authorfullhashraw}{f8185e487b0d5155e91aabaabfdd1934}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Two of Herbert Simon’s best-known papers are “The Architecture of Complexity” and “The Structure of Ill-Structured Problems.” We discuss the neglected links between these two papers, highlighting the role of decomposition in the context of problems on which constraints have been imposed as a general approach to problem solving. We apply these Simonian ideas to organizational issues, specifically new organizational forms. Specifically, Simonian ideas allow us to develop a morphology of new organizational forms and to point to some design problems that characterize these forms.}
+      \field{issn}{1556-5068}
+      \field{journaltitle}{SSRN Electronic Journal}
+      \field{shorttitle}{Simon on {Problem}-{Solving}}
+      \field{title}{Simon on {Problem}-{Solving}: {Implications} for {New} {Organizational} {Forms}}
+      \field{urlday}{14}
+      \field{urlmonth}{6}
+      \field{urlyear}{2026}
+      \field{year}{2005}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.2139/ssrn.982084
+      \endverb
+      \verb{file}
+      \verb Simon_on_problem_solving_Implications_for_new_orga:/Users/josemanuelmagallanes/PUCP/premieres/papers/Simon_on_problem_solving_Implications_for_new_orga.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://www.ssrn.com/abstract=982084
+      \endverb
+      \verb{url}
+      \verb http://www.ssrn.com/abstract=982084
+      \endverb
+    \endentry
+    \entry{galvez_montero_historia_2016}{book}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=e695e6be1065120ca1e0a0c31d3f3207}{%
+           family={Gálvez\bibnamedelima Montero},
+           familyi={G\bibinitperiod\bibinitdelim M\bibinitperiod},
+           given={José\bibnamedelima Francisco},
+           giveni={J\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b8e7367aeda4f0ea174a0e559f8dcc10}{%
+           family={García\bibnamedelima Vega},
+           familyi={G\bibinitperiod\bibinitdelim V\bibinitperiod},
+           given={Enrique\bibnamedelima Silvestre},
+           giveni={E\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Lima}%
+      }
+      \list{publisher}{1}{%
+        {Empresa Peruana de Servicios Editoriales S.A}%
+      }
+      \strng{namehash}{22737aae41c209fc91ad1fb65a2a5fd6}
+      \strng{fullhash}{22737aae41c209fc91ad1fb65a2a5fd6}
+      \strng{fullhashraw}{22737aae41c209fc91ad1fb65a2a5fd6}
+      \strng{bibnamehash}{22737aae41c209fc91ad1fb65a2a5fd6}
+      \strng{authorbibnamehash}{22737aae41c209fc91ad1fb65a2a5fd6}
+      \strng{authornamehash}{22737aae41c209fc91ad1fb65a2a5fd6}
+      \strng{authorfullhash}{22737aae41c209fc91ad1fb65a2a5fd6}
+      \strng{authorfullhashraw}{22737aae41c209fc91ad1fb65a2a5fd6}
+      \field{extraname}{1}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-87-93429-87-1}
+      \field{title}{Historia de la {Presidencia} del {Consejo} de {Ministros} (1820-1956)}
+      \field{volume}{I}
+      \field{year}{2016}
+    \endentry
+    \entry{galvez_montero_historia_2016-1}{book}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=e695e6be1065120ca1e0a0c31d3f3207}{%
+           family={Gálvez\bibnamedelima Montero},
+           familyi={G\bibinitperiod\bibinitdelim M\bibinitperiod},
+           given={José\bibnamedelima Francisco},
+           giveni={J\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b8e7367aeda4f0ea174a0e559f8dcc10}{%
+           family={García\bibnamedelima Vega},
+           familyi={G\bibinitperiod\bibinitdelim V\bibinitperiod},
+           given={Enrique\bibnamedelima Silvestre},
+           giveni={E\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Lima}%
+      }
+      \list{publisher}{1}{%
+        {Empresa Peruana de Servicios Editoriales S.A}%
+      }
+      \strng{namehash}{22737aae41c209fc91ad1fb65a2a5fd6}
+      \strng{fullhash}{22737aae41c209fc91ad1fb65a2a5fd6}
+      \strng{fullhashraw}{22737aae41c209fc91ad1fb65a2a5fd6}
+      \strng{bibnamehash}{22737aae41c209fc91ad1fb65a2a5fd6}
+      \strng{authorbibnamehash}{22737aae41c209fc91ad1fb65a2a5fd6}
+      \strng{authornamehash}{22737aae41c209fc91ad1fb65a2a5fd6}
+      \strng{authorfullhash}{22737aae41c209fc91ad1fb65a2a5fd6}
+      \strng{authorfullhashraw}{22737aae41c209fc91ad1fb65a2a5fd6}
+      \field{extraname}{2}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-87-93429-88-8}
+      \field{title}{Historia de la {Presidencia} del {Consejo} de {Ministros} (1956-2016)}
+      \field{volume}{II}
+      \field{year}{2016}
+    \endentry
+    \entry{huber_replacing_2008}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=9b8f09b2d466723dc93fec40a45e8078}{%
+           family={Huber},
+           familyi={H\bibinitperiod},
+           given={John\bibnamedelima D.},
+           giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0a220cef74d7ea289c4d626e9fcfff0b}{%
+           family={Martinez-Gallardo},
+           familyi={M\bibinithyphendelim G\bibinitperiod},
+           given={Cecilia},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{d5e1d52c55d7e870da6084275d0826da}
+      \strng{fullhash}{d5e1d52c55d7e870da6084275d0826da}
+      \strng{fullhashraw}{d5e1d52c55d7e870da6084275d0826da}
+      \strng{bibnamehash}{d5e1d52c55d7e870da6084275d0826da}
+      \strng{authorbibnamehash}{d5e1d52c55d7e870da6084275d0826da}
+      \strng{authornamehash}{d5e1d52c55d7e870da6084275d0826da}
+      \strng{authorfullhash}{d5e1d52c55d7e870da6084275d0826da}
+      \strng{authorfullhashraw}{d5e1d52c55d7e870da6084275d0826da}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{We examine the stability of individual ministers across parliamentary democracies. Our data show that this stability is only loosely related to the stability of cabinets, making it impossible to rely primarily on arguments about cabinet duration to explain patterns of individual stability. We argue that to explain patterns of individual stability, it is useful to focus on the problems that party leaders have in identifying which individuals have the qualities necessary to do their jobs well. The institutional powers of ministers, coalition attributes, and party-specific variables should affect the uncertainty that party leaders have about which individuals will be successful ministers, on one hand, and the ability of party leaders to replace unsuccessful ministers, on the other. Our empirical tests support these arguments. The analysis therefore has implications for expectations regarding the circumstances under which minister stability should positively or negatively influence the policymaking performance of government.}
+      \field{issn}{0003-0554, 1537-5943}
+      \field{journaltitle}{American Political Science Review}
+      \field{month}{5}
+      \field{number}{2}
+      \field{shorttitle}{Replacing {Cabinet} {Ministers}}
+      \field{title}{Replacing {Cabinet} {Ministers}: {Patterns} of {Ministerial} {Stability} in {Parliamentary} {Democracies}}
+      \field{urlday}{9}
+      \field{urlmonth}{5}
+      \field{urlyear}{2025}
+      \field{volume}{102}
+      \field{year}{2008}
+      \field{urldateera}{ce}
+      \field{pages}{169\bibrangedash 180}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1017/S000305540808012X
+      \endverb
+      \verb{urlraw}
+      \verb https://www.cambridge.org/core/product/identifier/S000305540808012X/type/journal_article
+      \endverb
+      \verb{url}
+      \verb https://www.cambridge.org/core/product/identifier/S000305540808012X/type/journal_article
+      \endverb
+    \endentry
+    \entry{inei_encuesta_2024}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=4d7bf55010a4bce3e53bfcf6615cccdb}{%
+           family={{INEI}},
+           familyi={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{4d7bf55010a4bce3e53bfcf6615cccdb}
+      \strng{fullhash}{4d7bf55010a4bce3e53bfcf6615cccdb}
+      \strng{fullhashraw}{4d7bf55010a4bce3e53bfcf6615cccdb}
+      \strng{bibnamehash}{4d7bf55010a4bce3e53bfcf6615cccdb}
+      \strng{authorbibnamehash}{4d7bf55010a4bce3e53bfcf6615cccdb}
+      \strng{authornamehash}{4d7bf55010a4bce3e53bfcf6615cccdb}
+      \strng{authorfullhash}{4d7bf55010a4bce3e53bfcf6615cccdb}
+      \strng{authorfullhashraw}{4d7bf55010a4bce3e53bfcf6615cccdb}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Encuesta {Nacional} de {Hogares}}
+      \field{type}{Encuesta}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://proyectos.inei.gob.pe/microdatos/
+      \endverb
+      \verb{url}
+      \verb https://proyectos.inei.gob.pe/microdatos/
+      \endverb
+    \endentry
+    \entry{jara_iniguez_rotacion_2019}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=6f298ff7cf85983b6b3f91cdcd65a56d}{%
+           family={Jara\bibnamedelima Iñiguez},
+           familyi={J\bibinitperiod\bibinitdelim I\bibinitperiod},
+           given={Irma},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c3664dcec20fcbbb30980e55229e421d}{%
+           family={Cedeño\bibnamedelima Alcívar},
+           familyi={C\bibinitperiod\bibinitdelim A\bibinitperiod},
+           given={Jenny},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {spa}%
+      }
+      \list{publisher}{1}{%
+        {Universidad Espíritu Santo}%
+      }
+      \strng{namehash}{16133494c82a7d23c24f8d2207d2228e}
+      \strng{fullhash}{16133494c82a7d23c24f8d2207d2228e}
+      \strng{fullhashraw}{16133494c82a7d23c24f8d2207d2228e}
+      \strng{bibnamehash}{16133494c82a7d23c24f8d2207d2228e}
+      \strng{authorbibnamehash}{16133494c82a7d23c24f8d2207d2228e}
+      \strng{authornamehash}{16133494c82a7d23c24f8d2207d2228e}
+      \strng{authorfullhash}{16133494c82a7d23c24f8d2207d2228e}
+      \strng{authorfullhashraw}{16133494c82a7d23c24f8d2207d2228e}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The study analyzes the rotation of high level public managers in Ecuador and their use as an instrument of political trust from the Executive, in contrast to a life cycle model of managerial performance, to determine if it is a problem to obtain results in the management. A qualitative and diachronic analysis of rotation rates and the time of permanence in the position of the managers is carried out from a sample of Ministries that represent an important weight in relation to the State management model for the five-year period 2012-2016; as a result, it is shown that with high levels of turnover problems are configured to effect a professional management and, although this is used as a political and electoral tool for the movement of the authorities, at these levels its strategic utility decreases. El estudio analiza la rotación de los directivos públicos de alto nivel en Ecuador y su utilización como instrumento de confianza política desde el Ejecutivo, en contraste con un modelo de ciclo de vida del desempeño directivo, para determinar si es un problema para la obtención de resultados en la gestión.  Se realiza un análisis cualitativo y diacrónico de los índices de rotación y el tiempo de permanencia en el cargo de los directivos desde una muestra de Ministerios que representan un peso importante con relación al modelo de gestión de Estado para el quinquenio 2012-2016; como resultado, se muestra que con altos niveles de rotación se configuran problemas para efectivizar una dirección profesional y, aunque esta sea utilizada como herramienta política y electoral para el movimiento de las autoridades, a dichos niveles disminuye su utilidad estratégica.}
+      \field{chapter}{PODIUM}
+      \field{issn}{1390-5473, 2588-0969}
+      \field{journaltitle}{PODIUM}
+      \field{note}{Number: 35}
+      \field{number}{35}
+      \field{title}{Rotación de {Directivos} {Públicos}. ¿{Problema} de gestión o solución de confianza política?}
+      \field{urlday}{18}
+      \field{urlmonth}{1}
+      \field{urlyear}{2024}
+      \field{year}{2019}
+      \field{urldateera}{ce}
+      \field{pages}{1\bibrangedash 22}
+      \range{pages}{22}
+      \verb{urlraw}
+      \verb https://dialnet.unirioja.es/servlet/articulo?codigo=7291233
+      \endverb
+      \verb{url}
+      \verb https://dialnet.unirioja.es/servlet/articulo?codigo=7291233
+      \endverb
+    \endentry
+    \entry{krznaric_how_2024}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=5322ef54cefb608dd885bc8f6b177eff}{%
+           family={Krznaric},
+           familyi={K\bibinitperiod},
+           given={Roman},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{5322ef54cefb608dd885bc8f6b177eff}
+      \strng{fullhash}{5322ef54cefb608dd885bc8f6b177eff}
+      \strng{fullhashraw}{5322ef54cefb608dd885bc8f6b177eff}
+      \strng{bibnamehash}{5322ef54cefb608dd885bc8f6b177eff}
+      \strng{authorbibnamehash}{5322ef54cefb608dd885bc8f6b177eff}
+      \strng{authornamehash}{5322ef54cefb608dd885bc8f6b177eff}
+      \strng{authorfullhash}{5322ef54cefb608dd885bc8f6b177eff}
+      \strng{authorfullhashraw}{5322ef54cefb608dd885bc8f6b177eff}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{NPR's Ailsa Chang talks with Oxford University philosopher Roman Krznaric about the disruption nexus, a theory for social change he outlines in his new book, History For Tomorrow.}
+      \field{month}{7}
+      \field{title}{How big crisis has to be to provoke radical social change, according to a philosopher}
+      \field{urlday}{12}
+      \field{urlmonth}{6}
+      \field{urlyear}{2026}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:/Users/josemanuelmagallanes/Zotero/storage/UG6FHZG5/how-big-crisis-has-to-be-to-provoke-radical-social-change-according-to-a-philosopher.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.npr.org/2024/07/05/nx-s1-5020171/how-big-crisis-has-to-be-to-provoke-radical-social-change-according-to-a-philosopher
+      \endverb
+      \verb{url}
+      \verb https://www.npr.org/2024/07/05/nx-s1-5020171/how-big-crisis-has-to-be-to-provoke-radical-social-change-according-to-a-philosopher
+      \endverb
+    \endentry
+    \entry{lakatos_methodology_1978}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=67394518e7d074783c9d162210b2db78}{%
+           family={Lakatos},
+           familyi={L\bibinitperiod},
+           given={Imre},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=ed21b4fc4128b1aca0007c05451eaae0}{%
+           family={Worrall},
+           familyi={W\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod}}}%
+        {{hash=bcf3170cf0f74925acc2f923e3932adb}{%
+           family={Currie},
+           familyi={C\bibinitperiod},
+           given={Gregory},
+           giveni={G\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{67394518e7d074783c9d162210b2db78}
+      \strng{fullhash}{67394518e7d074783c9d162210b2db78}
+      \strng{fullhashraw}{67394518e7d074783c9d162210b2db78}
+      \strng{bibnamehash}{67394518e7d074783c9d162210b2db78}
+      \strng{authorbibnamehash}{67394518e7d074783c9d162210b2db78}
+      \strng{authornamehash}{67394518e7d074783c9d162210b2db78}
+      \strng{authorfullhash}{67394518e7d074783c9d162210b2db78}
+      \strng{authorfullhashraw}{67394518e7d074783c9d162210b2db78}
+      \strng{editorbibnamehash}{0c0dde878fa46d4797e7a3d5c53b6d32}
+      \strng{editornamehash}{0c0dde878fa46d4797e7a3d5c53b6d32}
+      \strng{editorfullhash}{0c0dde878fa46d4797e7a3d5c53b6d32}
+      \strng{editorfullhashraw}{0c0dde878fa46d4797e7a3d5c53b6d32}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Imre Lakatos' philosophical and scientific papers are published here in two volumes. Volume I brings together his very influential but scattered papers on the philosophy of the physical sciences, and includes one important unpublished essay on the effect of Newton's scientific achievement. Volume II presents his work on the philosophy of mathematics (much of it unpublished), together with some critical essays on contemporary philosophers of science and some famous polemical writings on political and educational issues. Imre Lakatos had an influence out of all proportion to the length of his philosophical career. This collection exhibits and confirms the originality, range and the essential unity of his work. It demonstrates too the force and spirit he brought to every issue with which he engaged, from his most abstract mathematical work to his passionate 'Letter to the director of the LSE'. Lakatos' ideas are now the focus of widespread and increasing interest, and these volumes should make possible for the first time their study as a whole and their proper assessment.}
+      \field{edition}{1}
+      \field{isbn}{978-0-521-21644-9 978-0-521-28031-0 978-0-511-62112-3}
+      \field{month}{5}
+      \field{shorttitle}{The {Methodology} of {Scientific} {Research} {Programmes}}
+      \field{title}{The {Methodology} of {Scientific} {Research} {Programmes}: {Philosophical} {Papers}}
+      \field{urlday}{14}
+      \field{urlmonth}{4}
+      \field{urlyear}{2025}
+      \field{year}{1978}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.1017/CBO9780511621123
+      \endverb
+      \verb{urlraw}
+      \verb https://www.cambridge.org/core/product/identifier/9780511621123/type/book
+      \endverb
+      \verb{url}
+      \verb https://www.cambridge.org/core/product/identifier/9780511621123/type/book
+      \endverb
+    \endentry
+    \entry{levitsky_variation_2009}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=5a385c7fc53d40f894bd4af8fd60a689}{%
+           family={Levitsky},
+           familyi={L\bibinitperiod},
+           given={Steven},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ccf39c309f1e119a4aa74210e57f5280}{%
+           family={Murillo},
+           familyi={M\bibinitperiod},
+           given={María\bibnamedelima Victoria},
+           giveni={M\bibinitperiod\bibinitdelim V\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{65af5d0bc44519ba04a41edd08cd6f38}
+      \strng{fullhash}{65af5d0bc44519ba04a41edd08cd6f38}
+      \strng{fullhashraw}{65af5d0bc44519ba04a41edd08cd6f38}
+      \strng{bibnamehash}{65af5d0bc44519ba04a41edd08cd6f38}
+      \strng{authorbibnamehash}{65af5d0bc44519ba04a41edd08cd6f38}
+      \strng{authornamehash}{65af5d0bc44519ba04a41edd08cd6f38}
+      \strng{authorfullhash}{65af5d0bc44519ba04a41edd08cd6f38}
+      \strng{authorfullhashraw}{65af5d0bc44519ba04a41edd08cd6f38}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Comparative research on political institutions has begun to turn from issues of formal institutional design to issues of institutional strength. Rather than assuming a tight ﬁt between formal rules and political behavior, these studies examine how variation in the stability and/or enforcement of formal rules shapes actors’ expectations and behavior. This article explores the emerging research agenda on institutional strength. It disaggregates the concept of institutional strength into two dimensions—enforcement and stability—and it argues that institutions vary widely on both dimensions. The article then examines the sources of this variation and its implications for comparative research. It shows how recent research on weak institutions may be used to reﬁne existing theories of institutional effects, design, and development, which should broaden the comparative scope of these theories. The conclusion examines ways of developing comparative measures of institutional strength.}
+      \field{issn}{1094-2939, 1545-1577}
+      \field{journaltitle}{Annual Review of Political Science}
+      \field{month}{6}
+      \field{number}{1}
+      \field{title}{Variation in {Institutional} {Strength}}
+      \field{urlday}{14}
+      \field{urlmonth}{6}
+      \field{urlyear}{2026}
+      \field{volume}{12}
+      \field{year}{2009}
+      \field{urldateera}{ce}
+      \field{pages}{115\bibrangedash 133}
+      \range{pages}{19}
+      \verb{doi}
+      \verb 10.1146/annurev.polisci.11.091106.121756
+      \endverb
+      \verb{file}
+      \verb levitskyMurillo:/Users/josemanuelmagallanes/PUCP/premieres/papers/levitskyMurillo.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.annualreviews.org/doi/10.1146/annurev.polisci.11.091106.121756
+      \endverb
+      \verb{url}
+      \verb https://www.annualreviews.org/doi/10.1146/annurev.polisci.11.091106.121756
+      \endverb
+    \endentry
+    \entry{levitt_organizational_1988}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=a7281c9f9a83523e8b76a0104a18ebe4}{%
+           family={Levitt},
+           familyi={L\bibinitperiod},
+           given={Barbara},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=86a71029191e03b750fe6ecd1c33e389}{%
+           family={March},
+           familyi={M\bibinitperiod},
+           given={James\bibnamedelima G.},
+           giveni={J\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{04a2ff6c8b0c3619c9449eefa726dae9}
+      \strng{fullhash}{04a2ff6c8b0c3619c9449eefa726dae9}
+      \strng{fullhashraw}{04a2ff6c8b0c3619c9449eefa726dae9}
+      \strng{bibnamehash}{04a2ff6c8b0c3619c9449eefa726dae9}
+      \strng{authorbibnamehash}{04a2ff6c8b0c3619c9449eefa726dae9}
+      \strng{authornamehash}{04a2ff6c8b0c3619c9449eefa726dae9}
+      \strng{authorfullhash}{04a2ff6c8b0c3619c9449eefa726dae9}
+      \strng{authorfullhashraw}{04a2ff6c8b0c3619c9449eefa726dae9}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This paper reviews the literature on organizational learning. Organizational learning is viewed as routine-based, history-dependent, and target-oriented. Organizations are seen as learning by encoding inferences from history into routines that guide behavior. Within this perspective on organizational learning, topics covered include how organizations learn from direct experience, how organizations learn from the experience of others, and how organizations develop conceptual frameworks or paradigms for interpreting that experience. The section on organizational memory discusses how organizations encode, store, and retrieve the lessons of history despite the turnover of personnel and the passage of time. Organizational learning is further complicated by the ecological structure of the simultaneously adapting behavior of other organizations, and by an endogenously changing environment. The final section discusses the limitations as well as the possibilities of organizational learning as a form of intelligence.}
+      \field{issn}{0360-0572, 1545-2115}
+      \field{journaltitle}{Annual Review of Sociology}
+      \field{month}{8}
+      \field{number}{1}
+      \field{title}{Organizational {Learning}}
+      \field{urlday}{13}
+      \field{urlmonth}{6}
+      \field{urlyear}{2026}
+      \field{volume}{14}
+      \field{year}{1988}
+      \field{urldateera}{ce}
+      \field{pages}{319\bibrangedash 338}
+      \range{pages}{20}
+      \verb{doi}
+      \verb 10.1146/annurev.so.14.080188.001535
+      \endverb
+      \verb{urlraw}
+      \verb https://www.annualreviews.org/doi/10.1146/annurev.so.14.080188.001535
+      \endverb
+      \verb{url}
+      \verb https://www.annualreviews.org/doi/10.1146/annurev.so.14.080188.001535
+      \endverb
+    \endentry
+    \entry{lopez_jimenez_peru_2025}{book}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=dfafb7fccde2628439cbd06418557f85}{%
+           family={Lopez\bibnamedelima Jimenez},
+           familyi={L\bibinitperiod\bibinitdelim J\bibinitperiod},
+           given={Sinesio},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0692044e9613150740906f570e214d50}{%
+           family={Magallanes\bibnamedelima Reyes},
+           familyi={M\bibinitperiod\bibinitdelim R\bibinitperiod},
+           given={Jose\bibnamedelima Manuel},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cc5da86a17b7f795bf5995afd7642f6a}{%
+           family={Rengifo\bibnamedelima Briceño},
+           familyi={R\bibinitperiod\bibinitdelim B\bibinitperiod},
+           given={Gabriela},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Lima, Perú}%
+      }
+      \list{publisher}{1}{%
+        {CISEPA}%
+      }
+      \strng{namehash}{5c11005dd25d5412015897e72592f4ab}
+      \strng{fullhash}{3f8d3d177996927cda822a69a29db2a6}
+      \strng{fullhashraw}{3f8d3d177996927cda822a69a29db2a6}
+      \strng{bibnamehash}{3f8d3d177996927cda822a69a29db2a6}
+      \strng{authorbibnamehash}{3f8d3d177996927cda822a69a29db2a6}
+      \strng{authornamehash}{5c11005dd25d5412015897e72592f4ab}
+      \strng{authorfullhash}{3f8d3d177996927cda822a69a29db2a6}
+      \strng{authorfullhashraw}{3f8d3d177996927cda822a69a29db2a6}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{El {Peru} y sus coyunturas criticas:{Estado}, {Democratización}, y {Democracia} en los siglos {XIX} y {XX}}
+      \field{year}{2025}
+    \endentry
+    \entry{mejia_es_2021}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=b008f41b56f74779c294d168913b3c22}{%
+           family={Mejía},
+           familyi={M\bibinitperiod},
+           given={Luis\bibnamedelima Bernardo},
+           giveni={L\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c7cbfa546431a7e13c452ba1a9bfdead}{%
+           family={Barinas\bibnamedelima Forero},
+           familyi={B\bibinitperiod\bibinitdelim F\bibinitperiod},
+           given={Andrés\bibnamedelima Felipe},
+           giveni={A\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d3cb569484e2dfd7dcfc4639205aa879}{%
+           family={Mora\bibnamedelima Oviedo},
+           familyi={M\bibinitperiod\bibinitdelim O\bibinitperiod},
+           given={Michelle\bibnamedelima Lorena},
+           giveni={M\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{42f1d28be1926c95b7e99de5657cf34e}
+      \strng{fullhash}{2a8dc29c7586655ece1008400629ddd3}
+      \strng{fullhashraw}{2a8dc29c7586655ece1008400629ddd3}
+      \strng{bibnamehash}{2a8dc29c7586655ece1008400629ddd3}
+      \strng{authorbibnamehash}{2a8dc29c7586655ece1008400629ddd3}
+      \strng{authornamehash}{42f1d28be1926c95b7e99de5657cf34e}
+      \strng{authorfullhash}{2a8dc29c7586655ece1008400629ddd3}
+      \strng{authorfullhashraw}{2a8dc29c7586655ece1008400629ddd3}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Este artículo analiza la formación y supervivencia de los gabinetes presidenciales en Colombia entre 1958 y 2018. Se comparan dos períodos de la historia política del país. Durante el primer período, de 1958 a 1990, Colombia funcionó con un sistema bipartidista. El segundo período, de 1991 a la actualidad, se caracteriza por la aper­tura del régimen político a nuevos partidos y la formación de gobiernos de coalición. Para esto, utilizamos modelos semiparamétricos y regresiones de Cox que nos permiten estimar la supervivencia de 581 nombramientos ministeriales e identificar los predictores de supervivencia en sus cargos a partir tanto de las características individuales de los ministros como de las características institucionales del sistema. El estudio muestra que la estabilidad en los cargos de los ministros durante el periodo bipartidista es menor que la duración de los ministros durante la etapa de presidencialismos de coalición.}
+      \field{issn}{2145-5112, 0124-4035}
+      \field{journaltitle}{Desafíos}
+      \field{month}{6}
+      \field{note}{Number: 2}
+      \field{number}{2}
+      \field{shorttitle}{¿{Es} hora de un cambio de ministro?}
+      \field{title}{¿{Es} hora de un cambio de ministro? {La} supervivencia del gabinete en {Colombia} 1958-2018}
+      \field{urlday}{17}
+      \field{urlmonth}{1}
+      \field{urlyear}{2024}
+      \field{volume}{33}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.12804/revistas.urosario.edu.co/desafios/a.8524
+      \endverb
+      \verb{urlraw}
+      \verb https://revistas.urosario.edu.co/index.php/desafios/article/view/8524
+      \endverb
+      \verb{url}
+      \verb https://revistas.urosario.edu.co/index.php/desafios/article/view/8524
+      \endverb
+    \endentry
+    \entry{nonaka_knowledge-creating_1998}{inbook}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=cca9c4b53df82e6b8269603781ff2d3a}{%
+           family={Nonaka},
+           familyi={N\bibinitperiod},
+           given={Ikujiro},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{cca9c4b53df82e6b8269603781ff2d3a}
+      \strng{fullhash}{cca9c4b53df82e6b8269603781ff2d3a}
+      \strng{fullhashraw}{cca9c4b53df82e6b8269603781ff2d3a}
+      \strng{bibnamehash}{cca9c4b53df82e6b8269603781ff2d3a}
+      \strng{authorbibnamehash}{cca9c4b53df82e6b8269603781ff2d3a}
+      \strng{authornamehash}{cca9c4b53df82e6b8269603781ff2d3a}
+      \strng{authorfullhash}{cca9c4b53df82e6b8269603781ff2d3a}
+      \strng{authorfullhashraw}{cca9c4b53df82e6b8269603781ff2d3a}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{The {Economic} {Impact} of {Knowledge}}
+      \field{isbn}{978-0-7506-7009-8}
+      \field{title}{The {Knowledge}-{Creating} {Company}}
+      \field{urlday}{13}
+      \field{urlmonth}{6}
+      \field{urlyear}{2026}
+      \field{year}{1998}
+      \field{urldateera}{ce}
+      \field{pages}{175\bibrangedash 187}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1016/B978-0-7506-7009-8.50016-1
+      \endverb
+      \verb{file}
+      \verb Nonaka_The Knowledge-Creating Company_harvard:/Users/josemanuelmagallanes/PUCP/premieres/papers/Nonaka_The Knowledge-Creating Company_harvard.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/B9780750670098500161
+      \endverb
+      \verb{url}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/B9780750670098500161
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
