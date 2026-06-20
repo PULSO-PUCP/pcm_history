@@ -144,6 +144,607 @@ summary(df$duration)
 table(df$epoch)
 table(df$event)
 ```
+```{r}
+library(tidyverse)
+library(knitr)
+library(kableExtra)
+
+desc_epoch <- df %>%
+  group_by(epoch) %>%
+  summarise(
+    N      = n(),
+    Median = median(duration, na.rm = TRUE),
+    Mean   = round(mean(duration, na.rm = TRUE), 0),
+    SD     = round(sd(duration, na.rm = TRUE), 0),
+    Min    = min(duration, na.rm = TRUE),
+    Max    = max(duration, na.rm = TRUE),
+    .groups = "drop"
+  ) %>%
+  mutate(epoch = c(
+    "State Formation",
+    "Oligarchic State",
+    "Power-Sharing State",
+    "Transition",
+    "Democracy w/o Parties"
+  ))
+
+cat(
+  desc_epoch %>%
+    kbl(
+      format    = "latex",
+      booktabs  = TRUE,
+      escape    = FALSE,
+      caption   = "Ministerial Duration by Institutional Epoch (days)",
+      label     = "desc_epoch",
+      col.names = c("Epoch","N","Median","Mean","SD","Min","Max")
+    ) %>%
+    kable_styling(
+      latex_options = c("hold_position","scale_down"),
+      font_size = 9
+    ) %>%
+    column_spec(1, width = "4cm") %>%
+    footnote(
+      general = "Duration in days. Source: Author's ministerial-spell database.",
+      general_title = "",
+      escape = FALSE
+    )
+)
+```
+```{r}
+desc_portfolio <- df %>%
+  group_by(portfolio) %>%
+  summarise(
+    N      = n(),
+    Median = median(duration, na.rm = TRUE),
+    Mean   = round(mean(duration, na.rm = TRUE), 0),
+    SD     = round(sd(duration, na.rm = TRUE), 0),
+    Min    = min(duration, na.rm = TRUE),
+    Max    = max(duration, na.rm = TRUE),
+    .groups = "drop"
+  ) %>%
+  arrange(match(portfolio,
+    c("Premier","Economy","Interior","Education","Health")))
+
+cat(
+  desc_portfolio %>%
+    kbl(
+      format    = "latex",
+      booktabs  = TRUE,
+      escape    = FALSE,
+      caption   = "Ministerial Duration by Portfolio (days)",
+      label     = "desc_portfolio",
+      col.names = c("Portfolio","N","Median","Mean","SD","Min","Max")
+    ) %>%
+    kable_styling(
+      latex_options = c("hold_position","scale_down"),
+      font_size = 9
+    ) %>%
+    footnote(
+      general = "Duration in days. Source: Author's ministerial-spell database.",
+      general_title = "",
+      escape = FALSE
+    )
+)
+```
+
+```{r}
+crosstab <- df %>%
+  group_by(epoch, portfolio) %>%
+  summarise(
+    median_dur = median(duration, na.rm = TRUE),
+    .groups = "drop"
+  ) %>%
+  pivot_wider(
+    names_from  = portfolio,
+    values_from = median_dur
+  ) %>%
+  mutate(epoch = c(
+    "State Formation",
+    "Oligarchic State",
+    "Power-Sharing State",
+    "Transition",
+    "Democracy w/o Parties"
+  )) %>%
+  select(epoch, Premier, Economy, Interior, Education, Health)
+
+cat(
+  crosstab %>%
+    kbl(
+      format    = "latex",
+      booktabs  = TRUE,
+      escape    = FALSE,
+      caption   = "Median Duration by Epoch and Portfolio (days)",
+      label     = "crosstab_epoch_portfolio",
+      col.names = c("Epoch","Premier","Economy",
+                    "Interior","Education","Health")
+    ) %>%
+    kable_styling(
+      latex_options = c("hold_position","scale_down"),
+      font_size = 9
+    ) %>%
+    column_spec(1, width = "4cm") %>%
+    footnote(
+      general = "Median duration in days. NA indicates no spells for that combination. Source: Author's ministerial-spell database.",
+      general_title = "",
+      escape = FALSE
+    )
+)
+```
+
+
+#4.3
+```{r}
+library(survival)
+library(survminer)
+library(patchwork)
+library(tidyverse)
+
+# ============================================================
+# Shared theme settings
+# ============================================================
+
+surv_theme <- theme_minimal(base_size = 11) +
+  theme(
+    legend.position   = "bottom",
+    legend.text       = element_text(size = 9),
+    panel.grid.minor  = element_blank(),
+    panel.grid.major  = element_line(color = "grey90"),
+    plot.title        = element_text(size = 11, face = "bold"),
+    axis.title        = element_text(size = 10)
+  )
+
+# ============================================================
+# FIGURE 1 — KM by epoch
+# ============================================================
+
+km_epoch <- survfit(surv_obj ~ epoch, data = df)
+
+p1 <- ggsurvplot(
+  km_epoch,
+  data        = df,
+  palette     = c("#d62728","#ff7f0e","#2ca02c","#1f77b4","#9467bd"),
+  legend.labs = c(
+    "State Formation (1824-1883)",
+    "Oligarchic State (1883-1933)",
+    "Power-Sharing State (1933-1975)",
+    "Transition (1975-1993)",
+    "Democracy w/o Parties (1993-2022)"
+  ),
+  legend.title = "",
+  xlab        = "Time in Office",
+  ylab        = "Probability of Remaining in Office",
+  xlim        = c(0, 1500),
+  break.x.by  = 365,
+  xscale      = 1,
+  axes.offset = FALSE,
+  ggtheme     = surv_theme,
+  legend      = "bottom",
+  size        = 0.8,
+  conf.int    = FALSE,
+  risk.table  = FALSE
+)$plot +
+  scale_x_continuous(
+    limits = c(0, 1500),
+    breaks = c(0, 365, 730, 1095, 1460),
+    labels = c("0", "1yr", "2yr", "3yr", "4yr")
+  ) +
+  guides(color = guide_legend(ncol = 2))
+
+ggsave("km_epoch.pdf", plot = p1,
+       width = 7, height = 5, device = cairo_pdf)
+ggsave("km_epoch.png", plot = p1,
+       width = 7, height = 5, dpi = 300)
+print(p1)
+
+# ============================================================
+# FIGURE 2 — KM by portfolio
+# ============================================================
+
+km_portfolio <- survfit(surv_obj ~ portfolio, data = df)
+
+p2 <- ggsurvplot(
+  km_portfolio,
+  data        = df,
+  palette     = c("#d62728","#2ca02c","#9467bd","#ff7f0e","#1f77b4"),
+  legend.labs = c("Economy","Education","Health","Interior","Premier"),
+  legend.title = "",
+  xlab        = "Time in Office",
+  ylab        = "Probability of Remaining in Office",
+  xlim        = c(0, 1500),
+  break.x.by  = 365,
+  axes.offset = FALSE,
+  ggtheme     = surv_theme,
+  legend      = "bottom",
+  size        = 0.8,
+  conf.int    = FALSE,
+  risk.table  = FALSE
+)$plot +
+  scale_x_continuous(
+    limits = c(0, 1500),
+    breaks = c(0, 365, 730, 1095, 1460),
+    labels = c("0", "1yr", "2yr", "3yr", "4yr")
+  )
+
+ggsave("km_portfolio.pdf", plot = p2,
+       width = 7, height = 5, device = cairo_pdf)
+ggsave("km_portfolio.png", plot = p2,
+       width = 7, height = 5, dpi = 300)
+print(p2)
+
+# ============================================================
+# FIGURE 3 — Economy vs Interior by epoch (belt test)
+# ============================================================
+
+df_belt <- df %>%
+  filter(portfolio %in% c("Economy", "Interior")) %>%
+  mutate(
+    epoch_label = factor(recode(epoch,
+      "1_State_Formation" = "State Formation",
+      "2_Oligarchic"      = "Oligarchic State",
+      "3_Power_Sharing"   = "Power-Sharing State",
+      "4_Transition"      = "Transition",
+      "5_Democracy"       = "Democracy w/o Parties"
+    ), levels = c(
+      "State Formation",
+      "Oligarchic State",
+      "Power-Sharing State",
+      "Transition",
+      "Democracy w/o Parties"
+    ))
+  )
+
+plots <- lapply(
+  levels(df_belt$epoch_label), function(e) {
+    sub <- df_belt %>% filter(epoch_label == e)
+    fit <- survfit(Surv(duration, event) ~ portfolio, data = sub)
+    ggsurvplot(
+      fit,
+      data        = sub,
+      palette     = c("#d62728", "#ff7f0e"),
+      legend.labs = c("Economy", "Interior"),
+      legend.title = "",
+      title       = e,
+      xlab        = "Time in Office",
+      ylab        = "Prob. Remaining",
+      xlim        = c(0, 1500),
+      break.x.by  = 365,
+      axes.offset = FALSE,
+      ggtheme     = surv_theme,
+      legend      = "bottom",
+      size        = 0.8,
+      conf.int    = FALSE,
+      font.title  = c(9, "bold"),
+      font.x      = 8,
+      font.y      = 8,
+      font.tickslab = 7
+    )$plot +
+      scale_x_continuous(
+        limits = c(0, 1500),
+        breaks = c(0, 365, 730),
+        labels = c("0", "1yr", "2yr")
+      )
+  }
+)
+
+p3 <- (plots[[1]] | plots[[2]] | plots[[3]]) /
+      (plots[[4]] | plots[[5]] | plot_spacer()) +
+  plot_annotation(
+    caption = "Economy vs. Interior ministerial survival by institutional epoch."
+  )
+
+ggsave("km_belt.pdf", plot = p3,
+       width = 12, height = 8, device = cairo_pdf)
+ggsave("km_belt.png", plot = p3,
+       width = 12, height = 8, dpi = 300)
+print(p3)
+```
+
+
+```{r}
+library(kableExtra)
+
+lr_table <- data.frame(
+  Epoch    = c(
+    "State Formation",
+    "Oligarchic State",
+    "Power-Sharing State",
+    "Transition",
+    "Democracy w/o Parties"
+  ),
+  N        = as.numeric(logrank_epoch$n),
+  Observed = as.numeric(logrank_epoch$obs),
+  Expected = round(as.numeric(logrank_epoch$exp), 1),
+  OminusE  = round(as.numeric(logrank_epoch$obs) -
+                   as.numeric(logrank_epoch$exp), 1)
+)
+
+cat(
+  lr_table %>%
+    kbl(
+      format    = "latex",
+      booktabs  = TRUE,
+      escape    = FALSE,
+      caption   = "Log-Rank Test of Survival Differences Across Institutional Epochs",
+      label     = "logrank_epoch",
+      col.names = c("Epoch", "N", "Observed", "Expected", "O $-$ E")
+    ) %>%
+    kable_styling(
+      latex_options = c("hold_position"),
+      font_size     = 10
+    ) %>%
+    column_spec(1, width = "4.5cm") %>%
+    column_spec(2, width = "1cm") %>%
+    column_spec(3, width = "1.5cm") %>%
+    column_spec(4, width = "1.5cm") %>%
+    column_spec(5, width = "1.5cm") %>%
+    kableExtra::footnote(
+      general = c(
+        "Log-rank test: $\\\\chi^2$ = 82.3, df = 4, $p$ $<$ 0.001.",
+        "O $-$ E: observed minus expected exits under equal survival.",
+        "Negative values indicate fewer exits than expected (better continuity conditions)."
+      ),
+      general_title = "",
+      escape = FALSE
+    )
+)
+```
+```{r}
+# Ensure factors are set correctly
+df <- df %>%
+  mutate(
+    epoch = factor(epoch, levels = c(
+      "1_State_Formation",
+      "2_Oligarchic",
+      "3_Power_Sharing",
+      "4_Transition",
+      "5_Democracy"
+    )),
+    portfolio = factor(portfolio, levels = c(
+      "Interior",
+      "Premier",
+      "Economy",
+      "Education",
+      "Health"
+    ))
+  )
+
+# Recreate survival object
+surv_obj <- Surv(time = df$duration, event = df$event)
+
+# Rerun all models
+cox1 <- coxph(surv_obj ~ epoch,             data = df)
+cox2 <- coxph(surv_obj ~ portfolio,          data = df)
+cox3 <- coxph(surv_obj ~ epoch + portfolio,  data = df)
+cox4 <- coxph(surv_obj ~ epoch * portfolio,  data = df)
+
+# Confirm
+summary(cox1)
+```
+
+
+
+```{r}
+library(broom)
+library(kableExtra)
+
+# Tidy models
+m1_tidy <- tidy(cox1, exponentiate = TRUE, conf.int = TRUE) %>%
+  mutate(model = "Model 1")
+m3_tidy <- tidy(cox3, exponentiate = TRUE, conf.int = TRUE) %>%
+  mutate(model = "Model 3")
+
+cox_table <- bind_rows(m1_tidy, m3_tidy) %>%
+  mutate(
+    term = recode(term,
+      "epoch2_Oligarchic"     = "Oligarchic State",
+      "epoch3_Power_Sharing"  = "Power-Sharing State",
+      "epoch4_Transition"     = "Transition",
+      "epoch5_Democracy"      = "Democracy w/o Parties",
+      "portfolioPremier"      = "Premier",
+      "portfolioEconomy"      = "Economy",
+      "portfolioEducation"    = "Education",
+      "portfolioHealth"       = "Health"
+    ),
+    HR = round(estimate, 3),
+    CI = paste0("[", round(conf.low, 3), ", ",
+                     round(conf.high, 3), "]"),
+    p  = case_when(
+      p.value < 0.001 ~ "$<$0.001***",
+      p.value < 0.01  ~ paste0(round(p.value, 3), "**"),
+      p.value < 0.05  ~ paste0(round(p.value, 3), "*"),
+      TRUE            ~ as.character(round(p.value, 3))
+    )
+  ) %>%
+  select(model, term, HR, CI, p)
+
+# Split and combine with headers
+m1_out <- cox_table %>%
+  filter(model == "Model 1") %>%
+  select(-model)
+
+m3_out <- cox_table %>%
+  filter(model == "Model 3") %>%
+  select(-model)
+
+combined <- bind_rows(
+  tibble(term = "\\textit{Model 1: Epoch only}",
+         HR = NA, CI = "", p = ""),
+  m1_out,
+  tibble(term = "\\textit{Model 3: Epoch + Portfolio}",
+         HR = NA, CI = "", p = ""),
+  m3_out
+) %>%
+  mutate(HR = ifelse(is.na(HR), "", as.character(HR)))
+
+cat(
+  combined %>%
+    kbl(
+      format    = "latex",
+      booktabs  = TRUE,
+      escape    = FALSE,
+      caption   = "Cox Proportional Hazards Models of Ministerial Exit",
+      label     = "cox_models",
+      col.names = c("", "HR", "95\\% CI", "$p$")
+    ) %>%
+    kable_styling(
+      latex_options = c("hold_position"),
+      font_size     = 10
+    ) %>%
+    column_spec(1, width = "5.5cm") %>%
+    column_spec(2, width = "1.5cm") %>%
+    column_spec(3, width = "3.5cm") %>%
+    column_spec(4, width = "2cm") %>%
+    kableExtra::footnote(
+      general = c(
+        "Hazard ratios (HR) from Cox proportional hazards models.",
+        "HR $<$ 1 indicates lower exit risk relative to the reference category.",
+        "Reference categories: State Formation (epoch), Interior (portfolio).",
+        "* $p$ $<$ 0.05, ** $p$ $<$ 0.01, *** $p$ $<$ 0.001.",
+        "N = 1,062 spells, 1,050 events."
+      ),
+      general_title = "",
+      escape = FALSE
+    )
+)
+```
+
+
+# next
+```{r}
+logrank_portfolio <- survdiff(surv_obj ~ portfolio, data = df)
+
+lr_port <- data.frame(
+  Portfolio = c("Interior", "Premier", "Economy",
+                "Education", "Health"),
+  N         = as.numeric(logrank_portfolio$n),
+  Observed  = as.numeric(logrank_portfolio$obs),
+  Expected  = round(as.numeric(logrank_portfolio$exp), 1),
+  OminusE   = round(as.numeric(logrank_portfolio$obs) -
+                    as.numeric(logrank_portfolio$exp), 1)
+)
+
+
+
+cat(
+  lr_port %>%
+    kbl(
+      format    = "latex",
+      booktabs  = TRUE,
+      escape    = FALSE,
+      caption   = "Log-Rank Test of Survival Differences Across Portfolios",
+      label     = "logrank_portfolio",
+      col.names = c("Portfolio","N","Observed","Expected","O $-$ E")
+    ) %>%
+    kable_styling(
+      latex_options = c("hold_position"),
+      font_size     = 10
+    ) %>%
+    column_spec(1, width = "3.5cm") %>%
+    column_spec(2, width = "1cm") %>%
+    column_spec(3, width = "1.5cm") %>%
+    column_spec(4, width = "1.5cm") %>%
+    column_spec(5, width = "1.5cm") %>%
+    kableExtra::footnote(
+      general = c(
+        "Log-rank test: $\\\\chi^2$ = 21.1, df = 4, $p$ = 0.0003.",
+        "O $-$ E: observed minus expected exits under equal survival.",
+        "Negative values indicate fewer exits than expected."
+      ),
+      general_title = "",
+      escape = FALSE
+    )
+)
+```
+
+
+```{r}
+data.frame(
+  names = names(logrank_portfolio$n),
+  N     = as.numeric(logrank_portfolio$n),
+  Obs   = as.numeric(logrank_portfolio$obs),
+  Exp   = round(as.numeric(logrank_portfolio$exp), 1)
+)
+```
+
+
+
+
+```{r}
+library(broom)
+library(kableExtra)
+
+m4_tidy <- tidy(cox4, exponentiate = TRUE, conf.int = TRUE)
+
+# Extract only Economy interactions
+belt_table <- m4_tidy %>%
+  filter(grepl("Economy", term)) %>%
+  mutate(
+    term = recode(term,
+      "portfolioEconomy"                    = "Economy (main effect)",
+      "epoch2_Oligarchic:portfolioEconomy"  = "Economy × Oligarchic State",
+      "epoch3_Power_Sharing:portfolioEconomy" = "Economy × Power-Sharing State",
+      "epoch4_Transition:portfolioEconomy"  = "Economy × Transition",
+      "epoch5_Democracy:portfolioEconomy"   = "Economy × Democracy w/o Parties"
+    ),
+    HR = round(estimate, 3),
+    CI = paste0("[", round(conf.low, 3), ", ",
+                     round(conf.high, 3), "]"),
+    p  = case_when(
+      p.value < 0.001 ~ "$<$0.001***",
+      p.value < 0.01  ~ paste0(round(p.value, 3), "**"),
+      p.value < 0.05  ~ paste0(round(p.value, 3), "*"),
+      TRUE            ~ as.character(round(p.value, 3))
+    )
+  ) %>%
+  select(term, HR, CI, p)
+
+cat(
+  belt_table %>%
+    kbl(
+      format    = "latex",
+      booktabs  = TRUE,
+      escape    = FALSE,
+      caption   = "Cox Model 4: Economy Portfolio Effects by Epoch (Protective Belt Test)",
+      label     = "cox_belt",
+      col.names = c("Term", "HR", "95\\% CI", "$p$")
+    ) %>%
+    kable_styling(
+      latex_options = c("hold_position"),
+      font_size     = 10
+    ) %>%
+    column_spec(1, width = "6cm") %>%
+    column_spec(2, width = "1.5cm") %>%
+    column_spec(3, width = "3.5cm") %>%
+    column_spec(4, width = "2cm") %>%
+    kableExtra::footnote(
+      general = c(
+        "Hazard ratios from Cox Model 4 (epoch $\\\\times$ portfolio interaction).",
+        "Reference categories: State Formation (epoch), Interior (portfolio).",
+        "HR $<$ 1 indicates lower exit risk relative to Interior in State Formation.",
+        "* $p$ $<$ 0.05, ** $p$ $<$ 0.01, *** $p$ $<$ 0.001.",
+        "N = 1,062 spells, 1,050 events."
+      ),
+      general_title = "",
+      escape = FALSE
+    )
+)
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ```{r}
 # KM by epoch
