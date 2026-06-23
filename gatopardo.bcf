@@ -3132,11 +3132,10 @@
     <bcf:citekey order="55" intorder="1">lopez_jimenez_peru_2025</bcf:citekey>
     <bcf:citekey order="56" intorder="1">lopez_jimenez_peru_2025</bcf:citekey>
     <bcf:citekey order="57" intorder="1">lopez_jimenez_peru_2025</bcf:citekey>
-    <bcf:citekey order="58" intorder="1">feliu_ribeiro_foreign_2023</bcf:citekey>
-    <bcf:citekey order="59" intorder="1">levitsky_variation_2009</bcf:citekey>
+    <bcf:citekey order="58" intorder="1">lopez_jimenez_peru_2025</bcf:citekey>
+    <bcf:citekey order="59" intorder="1">lopez_jimenez_peru_2025</bcf:citekey>
     <bcf:citekey order="60" intorder="1">lopez_jimenez_peru_2025</bcf:citekey>
     <bcf:citekey order="61" intorder="1">lopez_jimenez_peru_2025</bcf:citekey>
-    <bcf:citekey order="62" intorder="1">inei_encuesta_2024</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="apa">
