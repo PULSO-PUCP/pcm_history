@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.6.20)  20 JUN 2026 15:39
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.6.20)  22 JUN 2026 11:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -522,13 +522,6 @@ File: pgflibraryarrows.meta.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgfarrowlinewidth=\dimen301
 ) (/Users/josemanuelmagallanes/Library/TinyTeX/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarypositioning.code.tex
 File: tikzlibrarypositioning.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-) (/Users/josemanuelmagallanes/Library/TinyTeX/texmf-dist/tex/latex/base/inputenc.sty
-Package: inputenc 2024/02/08 v1.3d Input encoding file
-\inpenc@prehook=\toks32
-\inpenc@posthook=\toks33
-
-Package inputenc Warning: inputenc package ignored with utf8 based engines.
-
 ) (/Users/josemanuelmagallanes/Library/TinyTeX/texmf-dist/tex/latex/epigraph/epigraph.sty
 Package: epigraph 2020/01/02 v1.5e typesetting epigraphs
 (/Users/josemanuelmagallanes/Library/TinyTeX/texmf-dist/tex/latex/nextpage/nextpage.sty
@@ -547,7 +540,7 @@ Package: array 2026/02/24 v2.7b Tabular extension package (FMi)
 \col@sep=\dimen302
 \ar@mcellbox=\box67
 \extrarowheight=\dimen303
-\NC@list=\toks34
+\NC@list=\toks32
 \extratabsurround=\skip93
 \backup@length=\skip94
 \ar@cellbox=\box68
@@ -572,9 +565,9 @@ Package: adjustbox 2025/02/26 v1.3c Adjusting TeX boxes (trim, clip, ...)
 (/Users/josemanuelmagallanes/Library/TinyTeX/texmf-dist/tex/latex/xkeyval/xkeyval.sty
 Package: xkeyval 2025/11/04 v2.10 package option processing (HA)
 (/Users/josemanuelmagallanes/Library/TinyTeX/texmf-dist/tex/generic/xkeyval/xkeyval.tex (/Users/josemanuelmagallanes/Library/TinyTeX/texmf-dist/tex/generic/xkeyval/xkvutils.tex
-\XKV@toks=\toks35
-\XKV@tempa@toks=\toks36
-\XKV@tempb@toks=\toks37
+\XKV@toks=\toks33
+\XKV@tempa@toks=\toks34
+\XKV@tempb@toks=\toks35
 )
 \XKV@depth=\count334
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
@@ -604,12 +597,12 @@ File: tc-xetex.def 2019/01/04 v2.2 Clipping driver for xetex
 \adjbox@ptotalheight=\dimen315
 ) (/Users/josemanuelmagallanes/Library/TinyTeX/texmf-dist/tex/latex/microtype/microtype.sty
 Package: microtype 2026/03/01 v3.2d Micro-typographical refinements (RS)
-\MT@toks=\toks38
+\MT@toks=\toks36
 \MT@tempbox=\box70
 \MT@count=\count335
 LaTeX Info: Redefining \noprotrusionifhmode on input line 1084.
 LaTeX Info: Redefining \leftprotrusion on input line 1085.
-\MT@prot@toks=\toks39
+\MT@prot@toks=\toks37
 LaTeX Info: Redefining \rightprotrusion on input line 1104.
 LaTeX Info: Redefining \textls on input line 1449.
 \MT@outer@kern=\dimen316
@@ -1065,8 +1058,11 @@ File: premiers_decennial.pdf Graphic file (type pdf)
 [3] [4]
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <5> on input line 152.
-[5] [6] [7] [8] [9]
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 239.
+[5] [6] [7] [8]
+Underfull \vbox (badness 1748) has occurred while \output is active []
+
+[9]
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 244.
 (/Users/josemanuelmagallanes/Library/TinyTeX/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
@@ -1074,317 +1070,354 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `lmtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-[10] [11]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-[12]
-Underfull \hbox (badness 10000) in paragraph at lines 370--370
+[10] [11] [12]
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 338.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 338.
+[13]
+Underfull \hbox (badness 10000) in paragraph at lines 377--377
 []|\T1/lmr/bx/n/6 End
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 370--370
+Underfull \hbox (badness 10000) in paragraph at lines 377--377
 \T1/lmr/bx/n/6 Point
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 377--377
+Underfull \hbox (badness 10000) in paragraph at lines 384--384
 []|\T1/lmr/m/n/6 1824--
  []
 
 
-Underfull \hbox (badness 4886) in paragraph at lines 379--379
+Underfull \hbox (badness 4886) in paragraph at lines 386--386
 \T1/lmr/m/n/6 Lib-eral fail-ure in state
  []
 
 
-Underfull \hbox (badness 1810) in paragraph at lines 380--380
+Underfull \hbox (badness 1810) in paragraph at lines 387--387
 []|\T1/lmr/m/n/6 Failed cre-ole rev-o-lu-tions;
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 380--380
+Underfull \hbox (badness 10000) in paragraph at lines 387--387
 \T1/lmr/m/n/6 in-dige-nous par-tic-i-pa-tion
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 380--380
+Underfull \hbox (badness 10000) in paragraph at lines 387--387
 \T1/lmr/m/n/6 con-di-tioned on trib-ute
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 385--385
+Underfull \hbox (badness 10000) in paragraph at lines 392--392
 []|\T1/lmr/m/n/6 Oligarchic
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 386--386
+Underfull \hbox (badness 10000) in paragraph at lines 393--393
 []|\T1/lmr/m/n/6 1883--
  []
 
 
-Underfull \hbox (badness 5578) in paragraph at lines 388--388
+Underfull \hbox (badness 5578) in paragraph at lines 395--395
 []|\T1/lmr/m/n/6 War with Chile (1879--
  []
 
 
-Underfull \hbox (badness 4291) in paragraph at lines 388--388
+Underfull \hbox (badness 4291) in paragraph at lines 395--395
 \T1/lmr/m/n/6 demon-strated in-ex-is-tence
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 389--389
+Underfull \hbox (badness 10000) in paragraph at lines 396--396
 []|\T1/lmr/m/n/6 Patrimonial re-con-struc-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 389--389
+Underfull \hbox (badness 10000) in paragraph at lines 396--396
 \T1/lmr/m/n/6 tion un-der oligarchic-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 389--389
+Underfull \hbox (badness 10000) in paragraph at lines 396--396
 \T1/lmr/m/n/6 gamonalista al-liance;
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 389--389
+Underfull \hbox (badness 10000) in paragraph at lines 396--396
 \T1/lmr/m/n/6 ``com-pet-i-tive oli-garchy''
  []
 
 
-Underfull \hbox (badness 3098) in paragraph at lines 390--391
+Underfull \hbox (badness 3098) in paragraph at lines 397--398
 []|\T1/lmr/m/n/6 Popular mo-bi-liza-tions
  []
 
 
-Underfull \hbox (badness 2856) in paragraph at lines 390--391
+Underfull \hbox (badness 2856) in paragraph at lines 397--398
 \T1/lmr/m/n/6 trig-ger the Cri-sis of
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 394--394
+Underfull \hbox (badness 10000) in paragraph at lines 401--401
 []|\T1/lmr/m/n/6 Power-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 394--394
+Underfull \hbox (badness 10000) in paragraph at lines 401--401
 \T1/lmr/m/n/6 Sharing
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 395--395
+Underfull \hbox (badness 10000) in paragraph at lines 402--402
 []|\T1/lmr/m/n/6 1933--
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 397--397
+Underfull \hbox (badness 10000) in paragraph at lines 404--404
 \T1/lmr/m/n/6 Re-pub-lic (1920--1933).
  []
 
 
-Underfull \hbox (badness 7907) in paragraph at lines 398--398
+Underfull \hbox (badness 7907) in paragraph at lines 405--405
 []|\T1/lmr/m/n/6 Tripartite sys-tem: oli-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 398--398
+Underfull \hbox (badness 10000) in paragraph at lines 405--405
 \T1/lmr/m/n/6 garchy, APRA, and
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 398--398
+Underfull \hbox (badness 10000) in paragraph at lines 405--405
 \T1/lmr/m/n/6 ``con-viven-cia'' (APRA-
  []
 
 
-Underfull \hbox (badness 1178) in paragraph at lines 398--398
+Underfull \hbox (badness 1178) in paragraph at lines 405--405
 \T1/lmr/m/n/6 oligarchy al-liance); mass
  []
 
 
-Underfull \hbox (badness 1303) in paragraph at lines 398--398
+Underfull \hbox (badness 1303) in paragraph at lines 405--405
 \T1/lmr/m/n/6 la-bor, peas-ant, and stu-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 399--400
+Underfull \hbox (badness 10000) in paragraph at lines 406--407
 []|\T1/lmr/m/n/6 Social over-flow and
  []
 
 
-Underfull \hbox (badness 6204) in paragraph at lines 399--400
+Underfull \hbox (badness 6204) in paragraph at lines 406--407
 \T1/lmr/m/n/6 the Mil-i-tary Rev-o-lu-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 403--403
+Underfull \hbox (badness 10000) in paragraph at lines 410--410
 []|\T1/lmr/m/n/6 Transition
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 403--403
+Underfull \hbox (badness 10000) in paragraph at lines 410--410
 \T1/lmr/m/n/6 and Demo-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 404--404
+Underfull \hbox (badness 10000) in paragraph at lines 411--411
 []|\T1/lmr/m/n/6 1975--
  []
 
 
-Underfull \hbox (badness 1616) in paragraph at lines 406--406
+Underfull \hbox (badness 1616) in paragraph at lines 413--413
 \T1/lmr/m/n/6 agrar-ian re-form; cen-tral-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 407--407
+Underfull \hbox (badness 10000) in paragraph at lines 414--414
 []|\T1/lmr/m/n/6 Universal suf-frage
  []
 
 
-Underfull \hbox (badness 3492) in paragraph at lines 407--407
+Underfull \hbox (badness 3492) in paragraph at lines 414--414
 \T1/lmr/m/n/6 (1979 Con-sti-tu-tion); de-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 407--407
+Underfull \hbox (badness 10000) in paragraph at lines 414--414
 \T1/lmr/m/n/6 democratization through
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 407--407
+Underfull \hbox (badness 10000) in paragraph at lines 414--414
 \T1/lmr/m/n/6 Shin-ing Path mas-sacre;
  []
 
 
-Underfull \hbox (badness 7558) in paragraph at lines 407--407
+Underfull \hbox (badness 7558) in paragraph at lines 414--414
 \T1/lmr/m/n/6 col-lapse of the United
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 407--407
+Underfull \hbox (badness 10000) in paragraph at lines 414--414
 \T1/lmr/m/n/6 state ter-ror-ism against
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 412--412
+Underfull \hbox (badness 10000) in paragraph at lines 419--419
 []|\T1/lmr/m/n/6 Democracy
  []
 
 
-Underfull \hbox (badness 1748) in paragraph at lines 412--412
+Underfull \hbox (badness 1748) in paragraph at lines 419--419
 \T1/lmr/m/n/6 with-out Par-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 413--413
+Underfull \hbox (badness 10000) in paragraph at lines 420--420
 []|\T1/lmr/m/n/6 1993--
  []
 
 
-Underfull \hbox (badness 8019) in paragraph at lines 415--415
+Underfull \hbox (badness 8019) in paragraph at lines 422--422
 []|\T1/lmr/m/n/6 Terrorism cri-sis, hy-per-
  []
 
 
-Underfull \hbox (badness 2221) in paragraph at lines 415--415
+Underfull \hbox (badness 2221) in paragraph at lines 422--422
 \T1/lmr/m/n/6 in-fla-tion, and Fu-ji-mori's
  []
 
 
-Underfull \hbox (badness 6910) in paragraph at lines 416--416
+Underfull \hbox (badness 6910) in paragraph at lines 423--423
 \T1/lmr/m/n/6 i-dated ne-olib-eral model
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 416--416
+Underfull \hbox (badness 10000) in paragraph at lines 423--423
 \T1/lmr/m/n/6 long com-mod-ity ex-port
  []
 
 
-Underfull \hbox (badness 1325) in paragraph at lines 416--416
+Underfull \hbox (badness 1325) in paragraph at lines 423--423
 \T1/lmr/m/n/6 boom le-git-imizes the ar-
  []
 
 
-Underfull \hbox (badness 3138) in paragraph at lines 416--416
+Underfull \hbox (badness 3138) in paragraph at lines 423--423
 \T1/lmr/m/n/6 range-ment. Democ-racy
  []
 
 
-Underfull \hbox (badness 1019) in paragraph at lines 416--416
+Underfull \hbox (badness 1019) in paragraph at lines 423--423
 \T1/lmr/m/n/6 with-out par-ties; ex-treme
  []
 
 
-Underfull \hbox (badness 4792) in paragraph at lines 416--416
+Underfull \hbox (badness 4792) in paragraph at lines 423--423
 \T1/lmr/m/n/6 elec-toral volatil-ity; \T1/lmr/m/it/6 out-
  []
 
 
-Underfull \hbox (badness 4673) in paragraph at lines 417--418
+Underfull \hbox (badness 4673) in paragraph at lines 424--425
 \T1/lmr/m/n/6 Castillo (2022), con-
  []
 
 
-Underfull \hbox (badness 2103) in paragraph at lines 417--418
+Underfull \hbox (badness 2103) in paragraph at lines 424--425
 \T1/lmr/m/n/6 con-tent with the ne-
  []
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[13]
+[14]
 Underfull \vbox (badness 2213) has occurred while \output is active []
 
-[14] [15] [16] [17] [18] [19]
+[15] [16] [17] [18]
+Underfull \hbox (badness 10000) in paragraph at lines 581--581
+[]|\T1/lmr/m/n/10.95 Knowledge ac-cu-mu-la-
+ []
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[20]
-File: km_epoch.pdf Graphic file (type pdf)
-<use km_epoch.pdf>
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 860.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 860.
-[21] [22] [23] [24]
-File: km_portfolio.pdf Graphic file (type pdf)
-<use km_portfolio.pdf>
+Underfull \hbox (badness 5667) in paragraph at lines 583--584
+\T1/lmr/m/n/10.95 dian, mean, dis-per-sion)
+ []
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[25]
+Underfull \hbox (badness 10000) in paragraph at lines 585--585
+[]|\T1/lmr/m/n/10.95 Institutional learn-ing
+ []
 
-LaTeX Warning: Text page 26 contains only floats.
 
-[26]
-File: km_belt.pdf Graphic file (type pdf)
-<use km_belt.pdf>
-[27] [28] [29] [30]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \hbox (badness 3557) in paragraph at lines 586--586
+[]|\T1/lmr/m/n/10.95 Differences in con-ti-nu-ity
+ []
 
-[31] [32] [33] [34]
+
+Underfull \hbox (badness 3657) in paragraph at lines 586--586
+\T1/lmr/m/n/10.95 con-di-tions across suc-ces-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 587--588
+[]|\T1/lmr/m/n/10.95 Kaplan--Meier sur-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 587--588
+\T1/lmr/m/n/10.95 vival com-par-isons, log-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 587--588
+\T1/lmr/m/n/10.95 rank tests, and Cox
+ []
+
+
+Underfull \hbox (badness 1533) in paragraph at lines 590--590
+[]|\T1/lmr/m/n/10.95 Differences in min-is-te-rial
+ []
+
+
+Underfull \hbox (badness 1867) in paragraph at lines 590--590
+\T1/lmr/m/n/10.95 sur-vival across port-fo-lios
+ []
+
+
+Underfull \hbox (badness 2119) in paragraph at lines 590--590
+\T1/lmr/m/n/10.95 within the same in-sti-tu-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 591--592
+[]|\T1/lmr/m/n/10.95 Kaplan--Meier sur-vival
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 591--592
+\T1/lmr/m/n/10.95 com-par-isons and Cox
+ []
+
+[19] [20]
 Missing character: There is no – ("2013) in font ec-lmr12!
-[35] [36] (./gatopardo.aux)
+[21] [22] (./gatopardo.aux)
  ***********
 LaTeX2e <2026-06-01>
 L3 programming layer <2026-06-18>
  ***********
 Package rerunfilecheck Info: File `gatopardo.out' has not changed.
-(rerunfilecheck)             Checksum: 75AD8E45F0C23F4CABA1CA39BE774CE3;7181.
+(rerunfilecheck)             Checksum: 9888DFA4743E5E7266A2C7F65A7472A0;4651.
 Package logreq Info: Writing requests to 'gatopardo.run.xml'.
 \openout1 = `gatopardo.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 34523 strings out of 469837
- 678201 string characters out of 5467329
- 1635024 words of memory out of 5000000
- 62921 multiletter control sequences out of 15000+600000
- 736305 words of font info for 103 fonts, out of 8000000 for 9000
+ 34470 strings out of 469837
+ 677008 string characters out of 5467329
+ 1628461 words of memory out of 5000000
+ 62871 multiletter control sequences out of 15000+600000
+ 738404 words of font info for 105 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  99i,12n,118p,1857b,5753s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on gatopardo.pdf (36 pages).
+Output written on gatopardo.pdf (22 pages).
