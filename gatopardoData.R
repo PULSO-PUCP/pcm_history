@@ -5,6 +5,7 @@
 rm(list = ls())
 gatopardo=read.csv("sectores_all.csv")
 # str(gatopardo)
+gatopardo$cartera=ifelse(gatopardo$cartera=='salud',"Salud",gatopardo$cartera)
 gatopardo$fecha_start <- as.Date(gatopardo$fecha_start)
 gatopardo$fecha_end   <- as.Date(gatopardo$fecha_end)
 
@@ -33,5 +34,14 @@ gatopardo <- gatopardo |>
       TRUE        ~ "Current_CriticalJuncture"
     )
   )
+
+myOrder=c("State_Formation_before1883", "Oligarchic_State_before1933", "PowerSharing_State_before1975", "Transition_and_Crisis_before1993","Democracy_WithoutParties_upto2021","Current_CriticalJuncture")
+
+gatopardo$epoch=factor(gatopardo$epoch,levels = myOrder, ordered = T)
+gatopardo$cartera=relevel(factor(gatopardo$cartera), ref = "MEF")
+str(gatopardo)
+table(gatopardo$epoch)
+
+table(gatopardo$cartera)
 saveRDS(gatopardo,"gatopardo.RDS")
 rm(list = ls())
