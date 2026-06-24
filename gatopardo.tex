@@ -323,7 +323,7 @@ Unlike Proposition~\ref{eq:epoch_learning}, Proposition~\ref{eq:belt_knowledge} 
 
 %##
 %###
-\section{Research Design and Analytical Strategy}
+\section{Research Design and Analytical Strategy}\label{sec:research_design}
 
 The theoretical framework developed in the previous chapter proposes three related propositions. Proposition~\ref{eq:continuity_accumulation} establishes continuity as a prerequisite for knowledge accumulation within institutional settings. Proposition~\ref{eq:epoch_learning} argues that institutional learning becomes visible when successive institutional epochs generate more favorable continuity conditions. Proposition~\ref{eq:belt_knowledge} identifies the protective belt as a localized mechanism through which continuity may be preserved within specific ministerial portfolios.
 
@@ -707,15 +707,48 @@ The statistical procedures employed in this study evaluate continuity rather tha
 \section{Results}
 \subsection{Continuity Conditions Within Institutional Epochs}
 
-The first proposition of the theoretical framework argued that continuity creates opportunities for knowledge accumulation within institutional environments. As discussed in Chapter~\ref{sec:research_design}, this proposition is not evaluated as a direct empirical test. Instead, it provides the interpretive foundation through which ministerial duration acquires substantive meaning. The empirical objective of this section is therefore descriptive: to characterize the continuity conditions observed within each institutional epoch.
+The first proposition of the theoretical framework argued that continuity creates opportunities for knowledge accumulation within institutional environments. As discussed in Section~\ref{sec:research_design}, this proposition is not evaluated as a direct empirical test. Instead, it provides the interpretive foundation through which ministerial duration acquires substantive meaning. The empirical objective of this section is therefore descriptive: to characterize the continuity conditions observed within each institutional epoch.
 
 Table~\ref{tab:epoch_descriptives} presents summary statistics for ministerial duration across the five institutional epochs identified in the historical-institutionalist framework. The analysis focuses on the Presidency of the Council of Ministers (PCM) and the Ministry of Economy and Finance (MEF), the two portfolios that constitute the core empirical basis of the study.
 
-The results indicate substantial variation in continuity conditions across epochs. Median ministerial duration ranges from approximately 118 days during State Formation to more than 300 days during both the Power-Sharing State and the Transition and Democratic Crisis periods. These differences suggest that ministers operated under markedly different continuity conditions across Peru's republican history.
 
-The State Formation and Oligarchic State epochs exhibit the weakest continuity conditions. Median ministerial durations remained below five months in both periods, reflecting frequent ministerial replacement and limited opportunities for sustained administrative experience. By contrast, the Power-Sharing State displays the strongest continuity conditions observed in the dataset, with median ministerial durations exceeding ten months. The Transition and Democratic Crisis period exhibits a similar pattern despite its association with economic collapse, political violence, and institutional instability.
+\begin{table}
 
-The Democracy without Parties epoch occupies an intermediate position. Ministerial duration is substantially higher than during the nineteenth century but lower than during the Power-Sharing State and Transition and Democratic Crisis periods. This finding suggests that the contemporary period combines elements of continuity and instability rather than representing either extreme.
+\caption{Ministerial Duration by Institutional Epoch (PCM and MEF)
+    \label{tab:epoch_descriptives}}
+\centering
+\begin{tabular}[t]{lrrrrr}
+\toprule
+epoch & N & Q1 & Median & Q3 & Max\\
+\midrule
+1. State Formation & 167 & 43 & 118 & 274 & 1181\\
+2. Oligarchic State & 167 & 66 & 131 & 272 & 1771\\
+3. Power-Sharing State & 74 & 143 & 311 & 527 & 1822\\
+4. Transition and Crisis & 35 & 183 & 313 & 526 & 889\\
+5. Democracy without Parties & 66 & 172 & 259 & 348 & 1974\\
+6. Current Critical Juncture & 21 & 19 & 125 & 211 & 440\\
+\bottomrule
+\end{tabular}
+\end{table}
+The results indicate substantial variation in continuity conditions across institutional epochs. As shown in Table~\ref{tab:epoch_descriptives}, median ministerial duration ranges from 118 days during State Formation to more than 300 days during both the Power-Sharing State and the Transition and Crisis periods. The interquartile ranges reveal similarly pronounced differences in the distribution of ministerial tenure across historical contexts. These patterns suggest that ministers operated under markedly different continuity conditions throughout Peru's republican history.
+
+The State Formation and Oligarchic State epochs exhibit the weakest continuity conditions among the consolidated institutional periods. Median ministerial durations remained below five months in both epochs (118 and 131 days respectively), and half of all appointments lasted less than approximately nine months. These patterns are consistent with frequent ministerial replacement and limited opportunities for sustained administrative experience.
+
+By contrast, the Power-Sharing State displays the strongest continuity conditions observed among the completed institutional epochs. The median duration reached 311 days, with the upper quartile extending beyond 500 days. The Transition and Crisis period exhibits a remarkably similar pattern despite its association with economic collapse, political violence, and institutional instability. In both epochs, half of all ministerial appointments survived for approximately ten months or longer, suggesting substantially more favorable continuity conditions than those observed during the nineteenth century.
+
+The Democracy without Parties epoch occupies an intermediate position. Its median duration of 259 days exceeds that of both State Formation and the Oligarchic State but remains below the levels observed during the Power-Sharing State and Transition and Crisis periods. Rather than representing either exceptionally strong continuity or chronic instability, the period appears to combine elements of both.
+
+Finally, the Current Critical Juncture exhibits a sharp decline in continuity conditions. The median ministerial duration falls to 125 days, a level comparable to those observed during the State Formation and Oligarchic State epochs. Although the limited number of observations and the ongoing nature of the period caution against strong conclusions, the descriptive evidence suggests a substantial deterioration in continuity relative to the preceding epoch.
+
+Figure~\ref{fig:medianPlots} displays the median ministerial duration and interquartile range for the PCM and MEF across institutional epochs. The figure reveals substantially greater variation across epochs than across portfolios. State Formation and the Oligarchic State exhibit relatively short ministerial tenures, whereas the Power-Sharing State and the Transition and Crisis period display markedly longer durations. Democracy without Parties occupies an intermediate position. The Current Critical Juncture shows a pronounced decline in duration, with continuity levels resembling those observed during the nineteenth century. Across most epochs, PCM and MEF display broadly similar continuity patterns, suggesting that historical context exerts a stronger influence on ministerial survival than portfolio-specific characteristics.
+
+\begin{figure}
+\centering
+\includegraphics{gatopardo-fig:medianPlots}
+\caption{Ministerial continuity across institutional epochs for the Presidency of the Council of Ministers (PCM), and the Ministry of Economy and Finance (MEF). Points represent median ministerial duration; horizontal bars indicate the interquartile range (Q1--Q3).}
+\label{fig:medianPlots}
+\end{figure}
+
 
 Figure~\ref{fig:km_epochs} provides a non-parametric representation of continuity conditions through Kaplan--Meier survival functions. The survival curves reinforce the descriptive evidence presented in Table~\ref{tab:epoch_descriptives}. State Formation and the Oligarchic State consistently exhibit the lowest survival probabilities, while the Power-Sharing State and the Transition and Democratic Crisis period exhibit the highest. Democracy without Parties again occupies an intermediate position.
 
@@ -724,24 +757,8 @@ Several observations emerge from these patterns. First, continuity conditions we
 Taken together, the descriptive evidence establishes that continuity conditions varied substantially across institutional epochs. This finding provides the empirical baseline for evaluating whether those differences reflect broader patterns of institutional learning and whether continuity was distributed unevenly across ministerial portfolios.
 
 
-\begin{table}
 
-\caption{Ministerial Duration by Institutional Epoch (PCM and MEF)}
-\centering
-\begin{tabular}[t]{lrrrrr}
-\toprule
-epoch & N & Q1 & Median & Q3 & IQR\\
-\midrule
-State\_Formation\_before1883 & 167 & 43 & 118 & 274 & 230\\
-Oligarchic\_State\_before1933 & 167 & 66 & 131 & 272 & 206\\
-PowerSharing\_State\_before1975 & 74 & 143 & 311 & 527 & 384\\
-Transition\_and\_Crisis\_before1993 & 35 & 183 & 313 & 526 & 344\\
-Democracy\_WithoutParties\_upto2021 & 66 & 172 & 259 & 348 & 176\\
-\addlinespace
-Current\_CriticalJuncture & 21 & 19 & 125 & 211 & 192\\
-\bottomrule
-\end{tabular}
-\end{table}% 
+% 
 % 
 % <<>>=
 % gatopardo |>
