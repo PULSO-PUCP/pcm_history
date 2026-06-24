@@ -705,6 +705,174 @@ The statistical procedures employed in this study evaluate continuity rather tha
 
 %%%%
 \section{Results}
+\subsection{Continuity Conditions Within Institutional Epochs}
+
+The first proposition of the theoretical framework argued that continuity creates opportunities for knowledge accumulation within institutional environments. As discussed in Chapter~\ref{sec:research_design}, this proposition is not evaluated as a direct empirical test. Instead, it provides the interpretive foundation through which ministerial duration acquires substantive meaning. The empirical objective of this section is therefore descriptive: to characterize the continuity conditions observed within each institutional epoch.
+
+Table~\ref{tab:epoch_descriptives} presents summary statistics for ministerial duration across the five institutional epochs identified in the historical-institutionalist framework. The analysis focuses on the Presidency of the Council of Ministers (PCM) and the Ministry of Economy and Finance (MEF), the two portfolios that constitute the core empirical basis of the study.
+
+The results indicate substantial variation in continuity conditions across epochs. Median ministerial duration ranges from approximately 118 days during State Formation to more than 300 days during both the Power-Sharing State and the Transition and Democratic Crisis periods. These differences suggest that ministers operated under markedly different continuity conditions across Peru's republican history.
+
+The State Formation and Oligarchic State epochs exhibit the weakest continuity conditions. Median ministerial durations remained below five months in both periods, reflecting frequent ministerial replacement and limited opportunities for sustained administrative experience. By contrast, the Power-Sharing State displays the strongest continuity conditions observed in the dataset, with median ministerial durations exceeding ten months. The Transition and Democratic Crisis period exhibits a similar pattern despite its association with economic collapse, political violence, and institutional instability.
+
+The Democracy without Parties epoch occupies an intermediate position. Ministerial duration is substantially higher than during the nineteenth century but lower than during the Power-Sharing State and Transition and Democratic Crisis periods. This finding suggests that the contemporary period combines elements of continuity and instability rather than representing either extreme.
+
+Figure~\ref{fig:km_epochs} provides a non-parametric representation of continuity conditions through Kaplan--Meier survival functions. The survival curves reinforce the descriptive evidence presented in Table~\ref{tab:epoch_descriptives}. State Formation and the Oligarchic State consistently exhibit the lowest survival probabilities, while the Power-Sharing State and the Transition and Democratic Crisis period exhibit the highest. Democracy without Parties again occupies an intermediate position.
+
+Several observations emerge from these patterns. First, continuity conditions were clearly not constant across institutional epochs. Ministers faced substantially different probabilities of remaining in office depending on the historical context in which they served. Second, the ordering of the epochs does not suggest a simple progression toward increasingly stable ministerial tenure. Instead, continuity appears concentrated in specific historical configurations rather than distributed monotonically across time. Third, some of the strongest continuity conditions emerge during periods commonly associated with restricted political competition or concentrated executive authority, a finding that will become important in the interpretation of the subsequent analyses.
+
+Taken together, the descriptive evidence establishes that continuity conditions varied substantially across institutional epochs. This finding provides the empirical baseline for evaluating whether those differences reflect broader patterns of institutional learning and whether continuity was distributed unevenly across ministerial portfolios.
+
+
+\begin{table}
+
+\caption{Ministerial Duration by Institutional Epoch (PCM and MEF)}
+\centering
+\begin{tabular}[t]{lrrrrr}
+\toprule
+epoch & N & Q1 & Median & Q3 & IQR\\
+\midrule
+State\_Formation\_before1883 & 167 & 43 & 118 & 274 & 230\\
+Oligarchic\_State\_before1933 & 167 & 66 & 131 & 272 & 206\\
+PowerSharing\_State\_before1975 & 74 & 143 & 311 & 527 & 384\\
+Transition\_and\_Crisis\_before1993 & 35 & 183 & 313 & 526 & 344\\
+Democracy\_WithoutParties\_upto2021 & 66 & 172 & 259 & 348 & 176\\
+\addlinespace
+Current\_CriticalJuncture & 21 & 19 & 125 & 211 & 192\\
+\bottomrule
+\end{tabular}
+\end{table}% 
+% 
+% <<>>=
+% gatopardo |>
+%  filter(cartera %in% c("PCM","MEF")) |>
+%  group_by(epoch)|>
+%   summarise(
+%     N=n(),
+%     median_duration=median(duration, na.rm=TRUE),
+%     mean_duration=mean(duration, na.rm=TRUE),
+%     sd_duration=sd(duration, na.rm=TRUE)
+%   )
+% @
+% 
+% 
+% <<>>=
+% library(survival)
+% 
+% km_epoch <- survfit(
+%   Surv(duration,event) ~ epoch,
+%   data = gatopardo |> filter(cartera %in% c("PCM","MEF"))
+% )
+% 
+% plot(
+%  km_epoch,
+%  col = 1:5,
+%  lwd = 2,
+%  xlab = "Days in office",
+%  ylab = "Survival probability"
+% )
+% 
+% legend(
+%  "topright",
+%  legend = levels(as.factor(gatopardo$epoch)),
+%  col = 1:5,
+%  lwd = 2,
+%  bty = "n"
+% )
+% @
+% 
+% 
+% <<>>=
+% survdiff(
+%   Surv(duration,event) ~ epoch,
+%   data = gatopardo |> filter(cartera %in% c("PCM","MEF"))
+% )
+% @
+% 
+% 
+% 
+% <<>>=
+% coxph(
+%   Surv(duration,event) ~ epoch,
+%   data = gatopardo |> filter(cartera %in% c("PCM","MEF"))
+% )
+% @
+% 
+% 
+% <<>>=
+% gatopardo |>
+%  filter(cartera %in% c("PCM","MEF")) |>
+%  group_by(cartera) |>
+%  summarise(
+%    N=n(),
+%    median_duration=median(duration,na.rm=TRUE),
+%    mean_duration=mean(duration,na.rm=TRUE),
+%    sd_duration=sd(duration,na.rm=TRUE)
+%  )
+% @
+% 
+% <<>>=
+% gatopardo |>
+%  filter(cartera %in% c("PCM","MEF")) |>
+%  group_by(epoch, cartera) |>
+%  summarise(
+%    N=n(),
+%    median_duration=median(duration,na.rm=TRUE),
+%    mean_duration=mean(duration,na.rm=TRUE)
+%  )
+% @
+% 
+% 
+% <<>>=
+% survdiff(
+%   Surv(duration,event) ~ cartera,
+%   data = gatopardo |>
+%     filter(cartera %in% c("PCM","MEF"))
+% )
+% @
+% 
+% 
+% <<>>=
+% 
+% coxph(
+%   Surv(duration,event) ~ epoch * cartera,
+%   data = gatopardo |>
+%     filter(cartera %in% c("PCM","MEF"))
+% )
+% 
+% @
+% 
+% 
+% <<>>=
+% gatopardo |>
+%   filter(epoch=="Democracy without Parties") |>
+%   group_by(cartera) |>
+%   summarise(
+%     N=n(),
+%     median_duration=median(duration,na.rm=TRUE),
+%     mean_duration=mean(duration,na.rm=TRUE),
+%     sd_duration=sd(duration,na.rm=TRUE)
+%   ) |>
+%   arrange(desc(median_duration))
+% @
+% 
+% 
+% <<>>=
+% survdiff(
+%   Surv(duration,event) ~ cartera,
+%   data = gatopardo |>
+%     filter(epoch=="Democracy without Parties")
+% )
+% @
+% 
+% 
+% <<>>=
+% coxph(
+%   Surv(duration, event) ~ relevel(factor(cartera), ref = "MEF"),
+%   data = gatopardo |>
+%     filter(epoch == "Democracy without Parties")
+% ) |> summary()
+% @
 
 \subsection{Continuity Conditions Within Institutional Epochs}
 

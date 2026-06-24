@@ -26,16 +26,15 @@ gatopardo <- gatopardo |>
     year = year(fecha_start),
     
     epoch = case_when(
-      year < 1883 ~ "State_Formation_before1883",
-      year < 1933 ~ "Oligarchic_State_before1933",
-      year < 1975 ~ "PowerSharing_State_before1975",
-      year < 1993 ~ "Transition_and_Crisis_before1993",
-      year < 2022 ~ "Democracy_WithoutParties_upto2021",
-      TRUE        ~ "Current_CriticalJuncture"
-    )
-  )
+      year < 1883 ~ "1. State Formation",
+      year < 1933 ~ "2. Oligarchic State",
+      year < 1975 ~ "3. Power-Sharing State",
+      year < 1993 ~ "4. Transition and Crisis",
+      year < 2022 ~ "5. Democracy without Parties",
+      TRUE        ~ "6. Current Critical Juncture"
+    ))
 
-myOrder=c("State_Formation_before1883", "Oligarchic_State_before1933", "PowerSharing_State_before1975", "Transition_and_Crisis_before1993","Democracy_WithoutParties_upto2021","Current_CriticalJuncture")
+myOrder=c("1. State Formation","2. Oligarchic State","3. Power-Sharing State","4. Transition and Crisis","5. Democracy without Parties","6. Current Critical Juncture")
 
 gatopardo$epoch=factor(gatopardo$epoch,levels = myOrder, ordered = T)
 gatopardo$cartera=relevel(factor(gatopardo$cartera), ref = "MEF")

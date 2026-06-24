@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.6.20)  23 JUN 2026 20:23
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.6.20)  24 JUN 2026 07:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1569,26 +1569,43 @@ Underfull \hbox (badness 1286) in paragraph at lines 691--692
 \T1/lmr/m/n/10.95 tional haz-ards mod-els with
  []
 
-[23] [24] [25]
+
+LaTeX Warning: Reference `sec:research_design' on page 23 undefined on input line 710.
+
+[23]
+
+LaTeX Warning: Reference `tab:epoch_descriptives' on page 24 undefined on input line 712.
+
+[24]
+
+LaTeX Warning: Reference `fig:km_epochs' on page 25 undefined on input line 720.
+
+
+LaTeX Warning: Reference `tab:epoch_descriptives' on page 25 undefined on input line 720.
+
+[25] [26] [27]
 Missing character: There is no – ("2013) in font ec-lmr12!
-[26] [27] (./gatopardo.aux)
+[28] [29] (./gatopardo.aux)
  ***********
 LaTeX2e <2026-06-01>
 L3 programming layer <2026-06-18>
  ***********
+
+LaTeX Warning: There were undefined references.
+
 Package rerunfilecheck Info: File `gatopardo.out' has not changed.
-(rerunfilecheck)             Checksum: 3F48274D8C6795E8A7E253A188C93F1B;9431.
+(rerunfilecheck)             Checksum: 927AC315E3416E0A059201A2FBC0BFE9;9746.
 Package logreq Info: Writing requests to 'gatopardo.run.xml'.
 \openout1 = `gatopardo.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 34464 strings out of 469837
- 676976 string characters out of 5467329
- 1632725 words of memory out of 5000000
- 62867 multiletter control sequences out of 15000+600000
+ 34467 strings out of 469837
+ 677036 string characters out of 5467329
+ 1634050 words of memory out of 5000000
+ 62870 multiletter control sequences out of 15000+600000
  726060 words of font info for 100 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  99i,13n,118p,1857b,5753s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on gatopardo.pdf (27 pages).
+Output written on gatopardo.pdf (29 pages).

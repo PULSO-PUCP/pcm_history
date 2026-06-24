@@ -707,7 +707,9 @@ The statistical procedures employed in this study evaluate continuity rather tha
 
 %%%%
 \section{Results}
-
+<<echo=FALSE>>=
+gatopardo=readRDS(url('https://github.com/PULSO-PUCP/pcm_history/raw/main/gatopardo.RDS'))
+@
 \subsection{Continuity Conditions Within Institutional Epochs}
 
 The first proposition of the theoretical framework argued that continuity creates opportunities for knowledge accumulation within institutional environments. As discussed in Chapter~\ref{sec:research_design}, this proposition is not evaluated as a direct empirical test. Instead, it provides the interpretive foundation through which ministerial duration acquires substantive meaning. The empirical objective of this section is therefore descriptive: to characterize the continuity conditions observed within each institutional epoch.
@@ -727,170 +729,159 @@ Several observations emerge from these patterns. First, continuity conditions we
 Taken together, the descriptive evidence establishes that continuity conditions varied substantially across institutional epochs. This finding provides the empirical baseline for evaluating whether those differences reflect broader patterns of institutional learning and whether continuity was distributed unevenly across ministerial portfolios.
 
 
-<<echo=FALSE>>=
-gatopardo=read.csv("sectores_all.csv")
-# str(gatopardo)
-gatopardo$fecha_start <- as.Date(gatopardo$fecha_start)
-gatopardo$fecha_end   <- as.Date(gatopardo$fecha_end)
-
-gatopardo$duration <- as.numeric(
-  gatopardo$fecha_end - gatopardo$fecha_start
-)
-
-gatopardo$event <- ifelse(
-  is.na(gatopardo$fecha_end),
-  0,
-  1
-)
+<<results=tex, echo=FALSE>>=
 library(dplyr)
-library(lubridate)
+library(knitr)
 
-gatopardo <- gatopardo |>
-  mutate(
-    year = year(fecha_start),
-
-    epoch = case_when(
-  year < 1883 ~ "State_Formation_before1883",
-  year < 1933 ~ "Oligarchic_State_before1933",
-  year < 1975 ~ "PowerSharing_State_before1975",
-  year < 1993 ~ "Transition_and_Crisis_before1993",
-  year < 2022 ~ "Democracy_WithoutParties_upto2021",
-  TRUE        ~ "Current_CriticalJuncture"
-)
-  )
-@
-
-
-<<>>=
 gatopardo |>
- filter(cartera %in% c("PCM","MEF")) |>
- group_by(epoch)|>
+  filter(cartera %in% c("PCM","MEF")) |>
+  group_by(epoch) |>
   summarise(
-    N=n(),
-    median_duration=median(duration, na.rm=TRUE),
-    mean_duration=mean(duration, na.rm=TRUE),
-    sd_duration=sd(duration, na.rm=TRUE)
-  )
-@
-
-
-<<>>=
-library(survival)
-
-km_epoch <- survfit(
-  Surv(duration,event) ~ epoch,
-  data = gatopardo |> filter(cartera %in% c("PCM","MEF"))
-)
-
-plot(
- km_epoch,
- col = 1:5,
- lwd = 2,
- xlab = "Days in office",
- ylab = "Survival probability"
-)
-
-legend(
- "topright",
- legend = levels(as.factor(gatopardo$epoch)),
- col = 1:5,
- lwd = 2,
- bty = "n"
-)
-@
-
-
-<<>>=
-survdiff(
-  Surv(duration,event) ~ epoch,
-  data = gatopardo |> filter(cartera %in% c("PCM","MEF"))
-)
-@
-
-
-
-<<>>=
-coxph(
-  Surv(duration,event) ~ epoch,
-  data = gatopardo |> filter(cartera %in% c("PCM","MEF"))
-)
-@
-
-
-<<>>=
-gatopardo |>
- filter(cartera %in% c("PCM","MEF")) |>
- group_by(cartera) |>
- summarise(
-   N=n(),
-   median_duration=median(duration,na.rm=TRUE),
-   mean_duration=mean(duration,na.rm=TRUE),
-   sd_duration=sd(duration,na.rm=TRUE)
- )
-@
-
-<<>>=
-gatopardo |>
- filter(cartera %in% c("PCM","MEF")) |>
- group_by(epoch, cartera) |>
- summarise(
-   N=n(),
-   median_duration=median(duration,na.rm=TRUE),
-   mean_duration=mean(duration,na.rm=TRUE)
- )
-@
-
-
-<<>>=
-survdiff(
-  Surv(duration,event) ~ cartera,
-  data = gatopardo |>
-    filter(cartera %in% c("PCM","MEF"))
-)
-@
-
-
-<<>>=
-
-coxph(
-  Surv(duration,event) ~ epoch * cartera,
-  data = gatopardo |>
-    filter(cartera %in% c("PCM","MEF"))
-)
-
-@
-
-
-<<>>=
-gatopardo |>
-  filter(epoch=="Democracy without Parties") |>
-  group_by(cartera) |>
-  summarise(
-    N=n(),
-    median_duration=median(duration,na.rm=TRUE),
-    mean_duration=mean(duration,na.rm=TRUE),
-    sd_duration=sd(duration,na.rm=TRUE)
+    N = n(),
+    Q1 = quantile(duration, .25, na.rm = TRUE),
+    Median = median(duration, na.rm = TRUE),
+    Q3 = quantile(duration, .75, na.rm = TRUE),
+    IQR = IQR(duration, na.rm = TRUE),
+    .groups = "drop"
   ) |>
-  arrange(desc(median_duration))
+  kable(
+    caption = "Ministerial Duration by Institutional Epoch (PCM and MEF)",
+    booktabs = TRUE,format = 'latex',
+    digits = 0
+  )
 @
-
-
-<<>>=
-survdiff(
-  Surv(duration,event) ~ cartera,
-  data = gatopardo |>
-    filter(epoch=="Democracy without Parties")
-)
-@
-
-
-<<>>=
-coxph(
-  Surv(duration, event) ~ relevel(factor(cartera), ref = "MEF"),
-  data = gatopardo |>
-    filter(epoch == "Democracy without Parties")
-) |> summary()
-@
+% 
+% 
+% <<>>=
+% gatopardo |>
+%  filter(cartera %in% c("PCM","MEF")) |>
+%  group_by(epoch)|>
+%   summarise(
+%     N=n(),
+%     median_duration=median(duration, na.rm=TRUE),
+%     mean_duration=mean(duration, na.rm=TRUE),
+%     sd_duration=sd(duration, na.rm=TRUE)
+%   )
+% @
+% 
+% 
+% <<>>=
+% library(survival)
+% 
+% km_epoch <- survfit(
+%   Surv(duration,event) ~ epoch,
+%   data = gatopardo |> filter(cartera %in% c("PCM","MEF"))
+% )
+% 
+% plot(
+%  km_epoch,
+%  col = 1:5,
+%  lwd = 2,
+%  xlab = "Days in office",
+%  ylab = "Survival probability"
+% )
+% 
+% legend(
+%  "topright",
+%  legend = levels(as.factor(gatopardo$epoch)),
+%  col = 1:5,
+%  lwd = 2,
+%  bty = "n"
+% )
+% @
+% 
+% 
+% <<>>=
+% survdiff(
+%   Surv(duration,event) ~ epoch,
+%   data = gatopardo |> filter(cartera %in% c("PCM","MEF"))
+% )
+% @
+% 
+% 
+% 
+% <<>>=
+% coxph(
+%   Surv(duration,event) ~ epoch,
+%   data = gatopardo |> filter(cartera %in% c("PCM","MEF"))
+% )
+% @
+% 
+% 
+% <<>>=
+% gatopardo |>
+%  filter(cartera %in% c("PCM","MEF")) |>
+%  group_by(cartera) |>
+%  summarise(
+%    N=n(),
+%    median_duration=median(duration,na.rm=TRUE),
+%    mean_duration=mean(duration,na.rm=TRUE),
+%    sd_duration=sd(duration,na.rm=TRUE)
+%  )
+% @
+% 
+% <<>>=
+% gatopardo |>
+%  filter(cartera %in% c("PCM","MEF")) |>
+%  group_by(epoch, cartera) |>
+%  summarise(
+%    N=n(),
+%    median_duration=median(duration,na.rm=TRUE),
+%    mean_duration=mean(duration,na.rm=TRUE)
+%  )
+% @
+% 
+% 
+% <<>>=
+% survdiff(
+%   Surv(duration,event) ~ cartera,
+%   data = gatopardo |>
+%     filter(cartera %in% c("PCM","MEF"))
+% )
+% @
+% 
+% 
+% <<>>=
+% 
+% coxph(
+%   Surv(duration,event) ~ epoch * cartera,
+%   data = gatopardo |>
+%     filter(cartera %in% c("PCM","MEF"))
+% )
+% 
+% @
+% 
+% 
+% <<>>=
+% gatopardo |>
+%   filter(epoch=="Democracy without Parties") |>
+%   group_by(cartera) |>
+%   summarise(
+%     N=n(),
+%     median_duration=median(duration,na.rm=TRUE),
+%     mean_duration=mean(duration,na.rm=TRUE),
+%     sd_duration=sd(duration,na.rm=TRUE)
+%   ) |>
+%   arrange(desc(median_duration))
+% @
+% 
+% 
+% <<>>=
+% survdiff(
+%   Surv(duration,event) ~ cartera,
+%   data = gatopardo |>
+%     filter(epoch=="Democracy without Parties")
+% )
+% @
+% 
+% 
+% <<>>=
+% coxph(
+%   Surv(duration, event) ~ relevel(factor(cartera), ref = "MEF"),
+%   data = gatopardo |>
+%     filter(epoch == "Democracy without Parties")
+% ) |> summary()
+% @
 
 \subsection{Continuity Conditions Within Institutional Epochs}
 
