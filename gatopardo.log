@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.6.20)  24 JUN 2026 08:34
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.6.20)  24 JUN 2026 18:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1572,32 +1572,33 @@ Underfull \hbox (badness 1286) in paragraph at lines 691--692
 [23] [24] [25]
 File: gatopardo-fig:medianPlots.pdf Graphic file (type pdf)
 <use gatopardo-fig:medianPlots.pdf>
-
-LaTeX Warning: Reference `fig:km_epochs' on page 26 undefined on input line 753.
-
+File: gatopardo-fig:km_epochs.pdf Graphic file (type pdf)
+<use gatopardo-fig:km_epochs.pdf>
 [26] [27] [28]
+Missing character: There is no — ("2014) in font ec-lmr12!
+Missing character: There is no — ("2014) in font ec-lmr12!
+Missing character: There is no — ("2014) in font ec-lmr12!
+Missing character: There is no — ("2014) in font ec-lmr12!
+[29] [30] [31]
 Missing character: There is no – ("2013) in font ec-lmr12!
-[29] [30] (./gatopardo.aux)
+[32] [33] (./gatopardo.aux)
  ***********
 LaTeX2e <2026-06-01>
 L3 programming layer <2026-06-18>
  ***********
-
-LaTeX Warning: There were undefined references.
-
 Package rerunfilecheck Info: File `gatopardo.out' has not changed.
-(rerunfilecheck)             Checksum: 927AC315E3416E0A059201A2FBC0BFE9;9746.
+(rerunfilecheck)             Checksum: 4FC607FD5C6901C2E9B5C8975201F9B5;8395.
 Package logreq Info: Writing requests to 'gatopardo.run.xml'.
 \openout1 = `gatopardo.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 34478 strings out of 469837
- 677415 string characters out of 5467329
- 1634489 words of memory out of 5000000
- 62881 multiletter control sequences out of 15000+600000
+ 34489 strings out of 469837
+ 677775 string characters out of 5467329
+ 1632641 words of memory out of 5000000
+ 62892 multiletter control sequences out of 15000+600000
  726060 words of font info for 100 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  99i,13n,118p,1857b,5753s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on gatopardo.pdf (30 pages).
+Output written on gatopardo.pdf (33 pages).

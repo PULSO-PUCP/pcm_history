@@ -734,13 +734,13 @@ The results indicate substantial variation in continuity conditions across insti
 
 The State Formation and Oligarchic State epochs exhibit the weakest continuity conditions among the consolidated institutional periods. Median ministerial durations remained below five months in both epochs (118 and 131 days respectively), and half of all appointments lasted less than approximately nine months. These patterns are consistent with frequent ministerial replacement and limited opportunities for sustained administrative experience.
 
-By contrast, the Power-Sharing State displays the strongest continuity conditions observed among the completed institutional epochs. The median duration reached 311 days, with the upper quartile extending beyond 500 days. The Transition and Crisis period exhibits a remarkably similar pattern despite its association with economic collapse, political violence, and institutional instability. In both epochs, half of all ministerial appointments survived for approximately ten months or longer, suggesting substantially more favorable continuity conditions than those observed during the nineteenth century.
+By contrast, The Power-Sharing State displays the strongest continuity conditions observed among the institutional epochs examined here. The median duration reached 311 days, with the upper quartile extending beyond 500 days. The Transition and Crisis period exhibits a remarkably similar pattern despite its association with economic collapse, political violence, and institutional instability. In both epochs, half of all ministerial appointments survived for approximately ten months or longer, suggesting substantially more favorable continuity conditions than those observed during the nineteenth century.
 
 The Democracy without Parties epoch occupies an intermediate position. Its median duration of 259 days exceeds that of both State Formation and the Oligarchic State but remains below the levels observed during the Power-Sharing State and Transition and Crisis periods. Rather than representing either exceptionally strong continuity or chronic instability, the period appears to combine elements of both.
 
 Finally, the Current Critical Juncture exhibits a sharp decline in continuity conditions. The median ministerial duration falls to 125 days, a level comparable to those observed during the State Formation and Oligarchic State epochs. Although the limited number of observations and the ongoing nature of the period caution against strong conclusions, the descriptive evidence suggests a substantial deterioration in continuity relative to the preceding epoch.
 
-Figure~\ref{fig:medianPlots} displays the median ministerial duration and interquartile range for the PCM and MEF across institutional epochs. The figure reveals substantially greater variation across epochs than across portfolios. State Formation and the Oligarchic State exhibit relatively short ministerial tenures, whereas the Power-Sharing State and the Transition and Crisis period display markedly longer durations. Democracy without Parties occupies an intermediate position. The Current Critical Juncture shows a pronounced decline in duration, with continuity levels resembling those observed during the nineteenth century. Across most epochs, PCM and MEF display broadly similar continuity patterns, suggesting that historical context exerts a stronger influence on ministerial survival than portfolio-specific characteristics.
+Figure~\ref{fig:medianPlots} displays the median ministerial duration and interquartile range for the PCM and MEF across institutional epochs. The figure reveals substantially greater variation across epochs than across portfolios. State Formation and the Oligarchic State exhibit relatively short ministerial tenures, whereas the Power-Sharing State and the Transition and Crisis period display markedly longer durations. Democracy without Parties occupies an intermediate position. The Current Critical Juncture shows a pronounced decline in duration, with continuity levels resembling those observed during the dawn of the Republican era in the nineteenth century. Across most epochs, PCM and MEF display broadly similar continuity patterns, suggesting that historical context exerts a stronger influence on ministerial survival than portfolio-specific characteristics.
 
 \begin{figure}
 \centering
@@ -750,162 +750,89 @@ Figure~\ref{fig:medianPlots} displays the median ministerial duration and interq
 \end{figure}
 
 
-Figure~\ref{fig:km_epochs} provides a non-parametric representation of continuity conditions through Kaplan--Meier survival functions. The survival curves reinforce the descriptive evidence presented in Table~\ref{tab:epoch_descriptives}. State Formation and the Oligarchic State consistently exhibit the lowest survival probabilities, while the Power-Sharing State and the Transition and Democratic Crisis period exhibit the highest. Democracy without Parties again occupies an intermediate position.
+Figure~\ref{fig:km_epochs} presents the Kaplan--Meier survival functions for ministerial tenure across institutional epochs. The curves represent the probability that a minister remains in office beyond a given number of days. Curves that decline more slowly indicate stronger continuity conditions because ministers face a lower probability of replacement at any point in time. The horizontal reference line marks a survival probability of 0.5, corresponding to the median ministerial duration. The numbered annotations identify the historical sequence of institutional epochs and indicate where each curve reaches its median survival time.
+\begin{figure}
+\centering
+\includegraphics{gatopardo-fig:km_epochs}
+\caption{Kaplan--Meier estimates of ministerial continuity across institutional epochs. Curves represent the probability that ministers remain in office beyond a given duration. Results are based on appointments to the Presidency of the Council of Ministers (PCM) and the Ministry of Economy and Finance (MEF).}
+\label{fig:km_epochs}
+\end{figure}
 
-Several observations emerge from these patterns. First, continuity conditions were clearly not constant across institutional epochs. Ministers faced substantially different probabilities of remaining in office depending on the historical context in which they served. Second, the ordering of the epochs does not suggest a simple progression toward increasingly stable ministerial tenure. Instead, continuity appears concentrated in specific historical configurations rather than distributed monotonically across time. Third, some of the strongest continuity conditions emerge during periods commonly associated with restricted political competition or concentrated executive authority, a finding that will become important in the interpretation of the subsequent analyses.
-
-Taken together, the descriptive evidence establishes that continuity conditions varied substantially across institutional epochs. This finding provides the empirical baseline for evaluating whether those differences reflect broader patterns of institutional learning and whether continuity was distributed unevenly across ministerial portfolios.
 
 
+Figure~\ref{fig:km_epochs} reinforces the descriptive evidence presented in Table~\ref{tab:epoch_descriptives}. Three broad continuity regimes emerge from the survival curves. State Formation, the Oligarchic State, and the Current Critical Juncture exhibit the weakest continuity conditions. In these epochs, survival probabilities decline rapidly, indicating a relatively high probability of ministerial replacement shortly after entering office. The close proximity of their median survival points indicates remarkably similar continuity conditions despite these epochs being separated by more than a century.
 
-% 
-% 
-% <<>>=
-% gatopardo |>
-%  filter(cartera %in% c("PCM","MEF")) |>
-%  group_by(epoch)|>
-%   summarise(
-%     N=n(),
-%     median_duration=median(duration, na.rm=TRUE),
-%     mean_duration=mean(duration, na.rm=TRUE),
-%     sd_duration=sd(duration, na.rm=TRUE)
-%   )
-% @
-% 
-% 
-% <<>>=
-% library(survival)
-% 
-% km_epoch <- survfit(
-%   Surv(duration,event) ~ epoch,
-%   data = gatopardo |> filter(cartera %in% c("PCM","MEF"))
-% )
-% 
-% plot(
-%  km_epoch,
-%  col = 1:5,
-%  lwd = 2,
-%  xlab = "Days in office",
-%  ylab = "Survival probability"
-% )
-% 
-% legend(
-%  "topright",
-%  legend = levels(as.factor(gatopardo$epoch)),
-%  col = 1:5,
-%  lwd = 2,
-%  bty = "n"
-% )
-% @
-% 
-% 
-% <<>>=
-% survdiff(
-%   Surv(duration,event) ~ epoch,
-%   data = gatopardo |> filter(cartera %in% c("PCM","MEF"))
-% )
-% @
-% 
-% 
-% 
-% <<>>=
-% coxph(
-%   Surv(duration,event) ~ epoch,
-%   data = gatopardo |> filter(cartera %in% c("PCM","MEF"))
-% )
-% @
-% 
-% 
-% <<>>=
-% gatopardo |>
-%  filter(cartera %in% c("PCM","MEF")) |>
-%  group_by(cartera) |>
-%  summarise(
-%    N=n(),
-%    median_duration=median(duration,na.rm=TRUE),
-%    mean_duration=mean(duration,na.rm=TRUE),
-%    sd_duration=sd(duration,na.rm=TRUE)
-%  )
-% @
-% 
-% <<>>=
-% gatopardo |>
-%  filter(cartera %in% c("PCM","MEF")) |>
-%  group_by(epoch, cartera) |>
-%  summarise(
-%    N=n(),
-%    median_duration=median(duration,na.rm=TRUE),
-%    mean_duration=mean(duration,na.rm=TRUE)
-%  )
-% @
-% 
-% 
-% <<>>=
-% survdiff(
-%   Surv(duration,event) ~ cartera,
-%   data = gatopardo |>
-%     filter(cartera %in% c("PCM","MEF"))
-% )
-% @
-% 
-% 
-% <<>>=
-% 
-% coxph(
-%   Surv(duration,event) ~ epoch * cartera,
-%   data = gatopardo |>
-%     filter(cartera %in% c("PCM","MEF"))
-% )
-% 
-% @
-% 
-% 
-% <<>>=
-% gatopardo |>
-%   filter(epoch=="Democracy without Parties") |>
-%   group_by(cartera) |>
-%   summarise(
-%     N=n(),
-%     median_duration=median(duration,na.rm=TRUE),
-%     mean_duration=mean(duration,na.rm=TRUE),
-%     sd_duration=sd(duration,na.rm=TRUE)
-%   ) |>
-%   arrange(desc(median_duration))
-% @
-% 
-% 
-% <<>>=
-% survdiff(
-%   Surv(duration,event) ~ cartera,
-%   data = gatopardo |>
-%     filter(epoch=="Democracy without Parties")
-% )
-% @
-% 
-% 
-% <<>>=
-% coxph(
-%   Surv(duration, event) ~ relevel(factor(cartera), ref = "MEF"),
-%   data = gatopardo |>
-%     filter(epoch == "Democracy without Parties")
-% ) |> summary()
-% @
+An intermediate pattern characterizes the Democracy without Parties epoch. Ministers remained in office longer than during the low-continuity regimes, yet ministerial survival remained below the levels observed during the two most stable historical periods.
 
-\subsection{Continuity Conditions Within Institutional Epochs}
+The strongest continuity conditions are observed during the Power-Sharing State and the Transition and Crisis epochs. Their survival functions remain consistently above those of the remaining periods throughout most of the duration range, indicating substantially lower hazards of ministerial replacement. These two epochs also display the highest median survival times, suggesting that ministers remained in office substantially longer, creating greater opportunities for the accumulation of administrative experience.
 
-\subsubsection{Descriptive Patterns of Ministerial Duration}
+Overall, the Kaplan--Meier estimates show that continuity conditions clustered into three empirically distinguishable historical regimes: weak continuity (epochs 1, 2, and 6), intermediate continuity (epoch 5), and strong continuity (epochs 3 and 4). This descriptive pattern provides the empirical basis for the formal comparisons presented in the following section.
 
-\subsubsection{Survival Functions Within Institutional Epochs}
 
-\subsubsection{Interpreting Continuity Conditions}
+\subsection{Institutional Learning Between Institutional Epochs}
 
-\subsection{Institutional Learning Between Epochs}
+Proposition~2 extends the descriptive analysis by asking whether continuity conditions vary systematically across institutional epochs in a manner consistent with institutional learning. If administrative experience accumulates and is preserved through successive institutional orders, later epochs should provide increasingly favorable conditions for ministerial continuity. Under this expectation, ministerial survival should broadly follow the chronological sequence of institutional development.
+
+The descriptive evidence presented in the previous section revealed substantial variation in ministerial continuity across historical periods. However, visual differences in survival curves do not establish whether the observed patterns reflect systematic institutional variation or random fluctuations in ministerial tenure. This section therefore evaluates Proposition~2 using formal statistical comparisons of ministerial survival across institutional epochs.
+
+
+
 
 \subsubsection{Comparing Survival Across Institutional Epochs}
 
-\subsubsection{Log-Rank Tests of Epoch Differences}
+The first step is to evaluate whether the survival functions observed across institutional epochs differ more than would be expected by chance. The Kaplan--Meier curves presented in Figure~\ref{fig:km_epochs} suggested substantial differences in ministerial continuity, but visual inspection alone cannot establish whether those differences are statistically meaningful.
+
+To assess this, I use a log-rank test comparing ministerial survival across institutional epochs. The log-rank test evaluates the null hypothesis that all epochs share the same survival function. In substantive terms, this means testing whether ministers face similar replacement risks across historical periods. A statistically significant result indicates that continuity conditions differ across epochs, although it does not by itself identify the direction or magnitude of those differences. Direction and magnitude are examined in the Cox models presented in the next subsection.
+
+\begin{table}
+
+\caption{Log-Rank Test of Ministerial Survival Across Institutional Epochs\label{tab:logrank_epoch}}
+\centering
+\begin{tabular}[t]{lrrl}
+\toprule
+Test & Chisq & df & p\_value\\
+\midrule
+Log-rank test & 46.47 & 5 & < .001\\
+\bottomrule
+\end{tabular}
+\end{table}
+Table~\ref{tab:logrank_epoch} reports the results of the log-rank test comparing ministerial survival across institutional epochs. The null hypothesis that ministers experience identical survival functions across institutional epochs is strongly rejected ($\chi^2 = 46.47$, $df = 5$, $p < .001$). This finding indicates that continuity conditions differed systematically across Peru's institutional history and confirms that the differences observed in the Kaplan--Meier curves are unlikely to reflect random variation alone.
+
+The log-rank test, however, is a global test of equality and does not identify which institutional epochs exhibit higher or lower ministerial replacement risks. Nor does it quantify the magnitude of these differences. To address these questions, the next subsection estimates Cox proportional hazards models, which provide relative hazard ratios for each institutional epoch while preserving the time-to-event structure of the data.
+
 
 \subsubsection{Cox Models of Institutional Learning}
+
+While the log-rank test establishes that ministerial survival differs across institutional epochs, it does not quantify the direction or magnitude of those differences. To identify the direction and magnitude of these differences, I estimate Cox proportional hazards models in which institutional epoch serves as the principal explanatory variable. The Cox model estimates the relative hazard of ministerial replacement while making no assumptions about the underlying baseline hazard function. Hazard ratios below one indicate lower risks of ministerial replacement—and therefore stronger continuity conditions—relative to the reference epoch, whereas hazard ratios above one indicate weaker continuity conditions.
+
+
+\begin{table}
+
+\caption{Cox Proportional Hazards Model of Ministerial Replacement by Institutional Epoch\label{tab:cox_epoch}}
+\centering
+\begin{tabular}[t]{lrll}
+\toprule
+Institutional Epoch & Hazard Ratio & 95\% CI & p-value\\
+\midrule
+1. State Formation & 1.71 & 1.28--2.28 & < .001\\
+2. Oligarchic State & 1.49 & 1.12--1.99 & 0.006\\
+3. Power-Sharing State & 0.82 & 0.58--1.14 & 0.234\\
+4. Transition and Crisis & 0.85 & 0.56--1.28 & 0.433\\
+6. Current Critical Juncture & 2.06 & 1.25--3.42 & 0.005\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Table~\ref{tab:cox_epoch} quantifies the differences in ministerial replacement risks relative to the Democracy without Parties epoch, which serves as the reference category. Hazard ratios greater than one indicate a higher risk of ministerial replacement—and therefore weaker continuity conditions—whereas hazard ratios below one indicate lower replacement risks and stronger continuity conditions.
+
+The results reinforce the descriptive patterns observed in the previous section. Relative to the Democracy without Parties epoch, ministers serving during State Formation experienced a 71\% higher hazard of replacement ($HR = 1.71$, $p < .001$), while those serving during the Oligarchic State faced a 49\% higher hazard ($HR = 1.49$, $p = .006$). Relative to the Democracy without Parties epoch, the Current Critical Juncture exhibits the highest estimated replacement risk, with ministers facing more than twice the hazard of replacement ($HR = 2.06$, $p = .005$).
+
+By contrast, ministers serving during the Power-Sharing State ($HR = 0.82$) and the Transition and Crisis period ($HR = 0.85$) exhibit lower estimated replacement risks than those serving during the Democracy without Parties epoch. Although neither estimate reaches conventional levels of statistical significance, both hazard ratios are below one and are consistent with the ordering suggested by the Kaplan--Meier survival functions.
+
+Taken together, the Cox estimates support the conclusion that institutional epochs are associated with systematically different continuity conditions. However, the estimated hazard ratios do not conform to the monotonic progression expected under a cumulative institutional learning process. Instead, they suggest that continuity conditions improved and deteriorated across successive institutional orders, with the strongest continuity observed during the Power-Sharing State and the weakest during the Current Critical Juncture.
+
+\textbf{Assessment of Proposition 2}. The evidence provides partial support for the institutional learning proposition. Continuity conditions differ systematically across institutional epochs, indicating that historical institutional contexts shape ministerial survival. However, the observed pattern does not follow the monotonic progression expected under cumulative institutional learning. Rather than increasing steadily across successive institutional orders, continuity conditions fluctuate considerably, with the strongest continuity observed during the Power-Sharing State and the weakest during the Current Critical Juncture. These findings suggest that opportunities for institutional learning depend on the political and institutional characteristics of each historical order rather than accumulating monotonically across successive institutional epochs.
+
 
 \subsection{Protective Belts Across Ministerial Portfolios}
 
