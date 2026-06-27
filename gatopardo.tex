@@ -17,11 +17,16 @@
 \usepackage{caption}
 \usepackage{microtype}
 \usepackage{setspace}
+\usepackage{amsmath}
 \usepackage{anyfontsize}
 \newcolumntype{L}[1]{>{\RaggedRight\arraybackslash}p{#1}}
 \justifying
 % Configure APA7 Citations
 \usepackage[style=apa, backend=biber]{biblatex}
+% in console
+% file.remove("gatopardo.aux", "gatopardo.bcf", "gatopardo.bbl", "gatopardo.blg", "gatopardo.run.xml")
+% system("pdflatex gatopardo.tex")
+% system("biber gatopardo")
 \addbibresource{Premieres.bib} 
 
 % ============================================================
@@ -103,39 +108,31 @@ This vicious circle is generally called path dependence --- a sophisticated way 
 
 France, before the Fifth Republic, was not very different from Peru during the previous hundred years. Both experienced remarkably high levels of executive instability, reflected in similar numbers of premier appointments per decade. Figure~\ref{fig:premiers} tells the story visually. Peru peaked at 23 appointments in the 1890s; France reached 20 in the 1930s. Yet the advent of the Fifth Republic in 1958 initiated sharply diverging trajectories. French premier appointments fell to a stable band of three to six per decade and have remained there ever since, while Peru is returning to levels observed in the nineteenth century. Peru has experienced no shortage of potential disruption nexuses --- or, as we will later call them, critical junctures: independence without state-building, the War of the Pacific, hyperinflation, terrorism, the fall of Fujimori, and a permanent constitutional crisis since 2016. Each represented a moment in which alternative institutional trajectories became plausible.
 
-The question, however, is not whether institutional change occurred. Peru's republican history is full of reforms, constitutions, regime transitions, and political ruptures. The question is whether those ruptures produced institutional learning. By institutional learning, we mean the capacity of an institutional order to generate more favorable conditions for preserving, accumulating, and transmitting political experience over time. From this perspective, a critical juncture is successful not simply because it produces a new institutional arrangement, but because it leaves behind a legacy that alters how the system responds to future crises. France appears to have experienced such a transformation after 1958. Peru's trajectory raises the possibility that institutional change and institutional learning do not necessarily coincide.
 
-
-
+The question, however, is not whether institutional change occurred. Peru's republican history is full of reforms, constitutions, regime transitions, and political ruptures. The question is whether those ruptures altered the conditions under which political experience could be preserved, accumulated, and transmitted over time. From this perspective, a critical juncture is important not simply because it produces a new institutional arrangement, but because it may establish a political legacy capable of reshaping the broader political framework within which governments operate. France appears to have experienced such a transformation after 1958. Peru's trajectory raises the possibility that institutional innovation and the accumulation of political experience do not necessarily coincide.
 
 \begin{figure}[htbp]
     \centering
     \includegraphics[width=\textwidth]{premiers_decennial.pdf}
     \caption{Premier Appointments per Decade: France vs.\ Peru, 1848--2026.\\
-    \textit{Sources}: Author's dataset (based on \textcite{galvez_montero_historia_2016, galvez_montero_historia_2016-1}); Wikipedia
-    list of French prime ministers (1848--2026).}
+    \textit{Sources}: Author's dataset (based on \textcite{galvez_montero_historia_2016, galvez_montero_historia_2016-1}); Wikipedia list of French prime ministers (1848--2026).}
     \label{fig:premiers}
 \end{figure}
 
+This paper approaches that question through ministerial duration. Ministerial survival does not measure political experience directly. Rather, it provides observable evidence about the continuity under which political experience may accumulate. Political science has traditionally examined these issues through separate research traditions. Ministerial duration has been studied using survival and event-history analysis, whereas long-term political development has been examined through the comparative-historical literature on critical junctures and path dependence. This paper brings these traditions together by using ministerial duration to evaluate whether successive political frameworks generated different opportunities for the accumulation of political experience.
 
-I approach institutional learning through ministerial duration data using the heuristic of institutional epochs. Within epochs, duration provides evidence about the conditions under which knowledge accumulates; across epochs, changes in those patterns provide evidence about institutional learning. Political science has traditionally studied these phenomena separately. Ministerial duration has been analyzed through the tools of survival and event-history analysis, while institutional change has been examined through the comparative-historical literature on critical junctures and path dependence. This paper combines both traditions. It uses ministerial duration data to evaluate whether critical junctures produced enduring changes in the conditions under which political experience accumulates.
+The analysis is organized around two complementary heuristics. The first compares patterns of ministerial continuity across historically distinct political frameworks in order to examine how opportunities for knowledge accumulation varied over time. The second compares ministerial continuity across portfolios operating within the same political framework, recognizing that some governmental functions may be institutionally protected from the broader dynamics affecting the rest of the cabinet. Together, these two perspectives distinguish historical variation from organizational variation in the conditions under which political experience accumulates.
 
-The  \textit{epoch} heuristic is the institutional period that encompasses one or more presidential administrations and is defined by the critical junctures that periodically restructure the state's political logic. Epochs capture what neither individual traits nor political context alone can explain: the continuity conditions under which experience is either accumulated or repeatedly lost. If institutional learning occurs, it should be observable through changes in those conditions across successive epochs.
+The question guiding this study is straightforward: \emph{Have Peru's successive political frameworks generated increasingly favorable opportunities for the accumulation of political experience?}
 
-Within epochs, this work conceptualizes a  second analytical heuristic, the \textit{protective belt}: an \emph{ad hoc} architecture of rules, actors, and external accountability relationships that, where it exists, helps preserve continuity despite the political logic governing the rest of the cabinet. By protecting continuity, the belt creates opportunities for knowledge accumulation within epochs and may allow certain sectors to function as islands of institutional effectiveness within a broader environment of instability. The protective belt does not explain institutional learning at the level of the state as a whole. Rather, it explains why some ministries may accumulate knowledge and preserve continuity even when the broader institutional environment remains unfavorable.
+This question cannot be answered directly. Knowledge accumulation is not directly observable in historical data. Instead, the study approaches the problem indirectly through patterns of ministerial duration. If continuity provides the necessary condition for knowledge accumulation, then systematic differences in ministerial continuity should reveal differences in the opportunities under which political experience accumulates.
 
-The question guiding this study is straightforward: \emph{Have Peru's critical junctures ever produced institutional learning?}
+The theoretical framework translates this general question into three empirical questions. \emph{First}, what continuity conditions characterized each political framework? \emph{Second}, did those continuity conditions differ systematically across successive political frameworks? \emph{Third}, within the same political framework, do some ministerial portfolios systematically exhibit greater continuity than others?
 
-This question cannot be answered directly. Institutional learning is not observed in the data. Instead, the study approaches the question indirectly through patterns of ministerial duration. If institutional learning improves the conditions under which political experience accumulates and is preserved, then such improvements should be reflected in changes in ministerial continuity across institutional epochs. Ministerial duration therefore provides an approximate indicator of the continuity conditions from which institutional learning may emerge.
-
-The theoretical framework developed in this paper distinguishes between knowledge accumulation within institutional epochs and institutional learning across them. This distinction allows the central question to be translated into three empirical questions that can be addressed with duration data. \emph{First}, what continuity conditions for knowledge accumulation characterized each institutional epoch? \emph{Second}, did those continuity conditions change across successive epochs in ways consistent with institutional learning, or did critical junctures repeatedly reproduce the same underlying pattern of ministerial instability? \emph{Third}, do some sectors of the state systematically escape the continuity conditions of their epoch, exhibiting survival patterns consistent with the presence of a protective belt, and if so, what does their existence reveal about the broader dynamics of continuity, knowledge accumulation, and institutional effectiveness?
-
-
-To answer these questions, we construct an original dataset of individual ministerial spells covering the period from 1821 to 2026. The dataset includes the portfolios most relevant to the argument developed here: the premier, who coordinates the cabinet and sustains the political viability of the executive; the economy minister, whose decisions shape the state's fiscal and investment capacity; and the ministers of Interior, Health, and Education, whose portfolios address some of the most consequential and persistent public challenges facing the country, according to official yearly surveys \parencite{inei_encuesta_2024}. The spells are organized into six institutional epochs defined by the critical junctures that periodically restructured Peru's political logic \parencite{lopez_jimenez_peru_2025}. Combining descriptive analysis with survival models, the study evaluates whether patterns of ministerial continuity reveal different conditions for knowledge accumulation within epochs, whether those conditions changed across successive epochs, and whether some sectors exhibit continuity patterns consistent with the presence of a protective belt.
+To answer these questions, we construct an original dataset of individual ministerial spells covering the period from 1821 to 2026. The dataset includes the portfolios most relevant to the argument developed here: the premier, who coordinates the cabinet and sustains the political viability of the executive; the economy minister, whose decisions shape the state's fiscal and investment capacity; and the ministers of Interior, Health, and Education, whose portfolios address some of the country's most persistent public challenges according to official yearly surveys \parencite{inei_encuesta_2024}. The ministerial spells are subsequently organized into historically distinct political frameworks derived from Peru's critical junctures \parencite{lopez_jimenez_peru_2025}. Combining descriptive analysis with survival models, the study evaluates how opportunities for knowledge accumulation varied across political frameworks and across ministerial portfolios.
 
 
-
-
+%%%
 
 \section{Literature Review}
 
@@ -206,501 +203,290 @@ Taken together, these studies show that ministerial survival depends not only on
 
 The two families of explanations are not competing research programs. Virtually every study combines individual and contextual covariates, with political environments conditioning the effects of ministerial traits. The resulting literature has generated a rich understanding of why some ministers survive longer than others.
 
+What the literature has not asked is a prior question: what do patterns of ministerial survival reveal about the conditions under which political experience is collectively preserved, accumulated, and transmitted over time? Existing studies treat ministerial duration as the outcome to be explained. This paper instead treats ministerial duration as evidence about continuity. Rather than asking why one minister survives longer than another, it asks what patterns of ministerial continuity reveal about the political environments within which knowledge may accumulate.
 
-What the literature has not asked is a prior question: what patterns of survival reveal about the continuity conditions through which political experience is collectively preserved, accumulated, and transmitted over time. Existing studies treat duration as the outcome to be explained. This paper treats duration as evidence about the institutional conditions that sustain continuity. Rather than asking why one minister survives longer than another, we ask what patterns of ministerial continuity reveal about the environments within which political experience can accumulate over time.
-
-
-
+The next section develops a deductive theoretical framework. It begins by establishing continuity as the necessary condition for knowledge accumulation. It then explains why opportunities for knowledge accumulation vary across political frameworks and why continuity may also vary across ministerial portfolios operating within the same political framework. Together, these propositions provide the conceptual foundation for interpreting ministerial duration as evidence about the historical and organizational conditions under which political experience accumulates.
 
 
-The next section develops a theoretical framework linking continuity, knowledge accumulation, and institutional learning, and introduces critical junctures and institutional epochs as the analytical devices through which those processes can be studied historically.
+
+\section{Theoretical Framework}
+\label{sec:theoretical_framework}
 
 
-\section{Theoretical Framework}\label{sec:theoretical_framework}
+The theoretical framework developed in this paper is organized deductively. It begins by establishing an axiom defining the conditions under which political knowledge may accumulate. From this axiom, two propositions specify the historical and organizational contexts in which continuity conditions vary. Proposition~1 explains variation in continuity conditions across institutional epochs, while Proposition~2 explains variation in continuity conditions across ministerial portfolios within institutional epochs. Together, the axiom and propositions establish the conceptual vocabulary, logical structure, and empirical interpretation used throughout the remainder of the paper.
 
-\subsection{From Ministerial Survival to Institutional Learning}
+Throughout the discussion, arrows ($\rightarrow$) are used as heuristic representations of hypothesized causal influence. They indicate a proposed direction of influence rather than a specific sign, magnitude, or deterministic effect.
+
+
+\subsection{Axiom A1: Knowledge Accumulation Requires Continuity}
 
 The literature reviewed above treats ministerial survival as the outcome to be explained. Most studies seek to account for variation in survival across individual appointments by focusing on ministers' personal characteristics, political context, or the interaction between the two. This paper adopts a different perspective. Rather than explaining why some ministers survive longer than others, it asks what patterns of ministerial survival reveal about the continuity conditions characterizing a particular institutional order.
 
 The starting point is the observation that ministerial duration is not politically important in itself. What duration provides is time. Time allows experience to be retained, shared, and embedded within organizations rather than repeatedly lost through replacement. From this perspective, ministerial survival becomes relevant because it provides information about continuity.
 
-Continuity, in turn, points toward a broader question: whether political systems create conditions under which experience can accumulate and be transmitted over time. A central insight of organizational learning theory is that institutions benefit from experience only when that experience can be retained and incorporated into future action \parencite{levitt_organizational_1988}. Continuity therefore constitutes a necessary condition for processes through which knowledge may accumulate within organizations.
+Continuity, in turn, points toward a broader question: whether political systems create conditions under which experience can accumulate and be transmitted over time. A central insight of organizational learning theory is that institutions benefit from experience only when that experience can be retained and incorporated into future action \parencite{levitt_organizational_1988}. Continuity is therefore a necessary condition for processes through which knowledge may accumulate within organizations.
 
-For the purposes of this study, it is useful to distinguish between \textbf{knowledge accumulation} and \textbf{institutional learning}. Knowledge accumulation refers to the retention, articulation, and transmission of experience within organizations. Institutional learning refers to changes in the broader conditions that make such accumulation more or less likely over time. The former occurs within institutional settings; the latter becomes visible through comparisons across institutional epochs.
+For the purposes of this study, the central concept is \textbf{knowledge accumulation}, understood as the retention, articulation, and transmission of experience within organizations. Ministerial duration is not treated as a direct measure of knowledge accumulation itself. Rather, it is interpreted as an observable indicator of the continuity conditions under which knowledge accumulation becomes more or less likely.
 
-This distinction implies a shift in analytical focus. Ministerial duration is not treated as a direct measure of either knowledge accumulation or institutional learning. Rather, it is interpreted as an observable indicator of continuity. What patterns of duration reveal is not learning itself, but the opportunities for learning created by particular institutional environments.
-
-The theoretical framework develops this argument in three steps. First, it explains how continuity facilitates knowledge accumulation within institutional epochs. Second, it examines how continuity conditions can be compared historically and interpreted as evidence of institutional learning. Third, it introduces the concept of the protective belt to explain why some ministerial portfolios may experience continuity conditions that differ from those prevailing in the broader institutional environment.
-
-Throughout the discussion, arrows ($\rightarrow$) are used as heuristic representations of hypothesized causal influence. They indicate a proposed direction of influence rather than a specific sign, magnitude, or deterministic effect.
-
-\subsection{Knowledge Accumulation Within Epochs}
-
-Having established continuity as the central mechanism linking ministerial duration to knowledge accumulation, the next theoretical task is to explain how that accumulation occurs. What mechanisms allow governing experience to accumulate, and what mechanisms interrupt that process?
-
-The argument developed here begins with a simple proposition: continuity creates the conditions under which knowledge accumulation may occur. Drawing on Nonaka, knowledge creation is not a single event but a cumulative process through which tacit knowledge becomes explicit, is shared within the organization, and is eventually internalized into routines and practices \parencite{nonaka_knowledge-creating_1998}. New knowledge emerges through repeated interaction among organizational members, the articulation of experience into formal procedures, and the gradual incorporation of those procedures into everyday behavior. The process cannot be compressed into a single decision, nor can it survive repeated interruptions without loss.
+The deductive structure of the theoretical framework begins with Axiom~A1:
 
 \begin{equation}
-\texttt{ Continuity}
+\tag{A1}
+\texttt{Continuity}
 \rightarrow
 \texttt{Knowledge\ Accumulation}
-\label{eq:continuity_accumulation}
+\label{ax:continuity}
 \end{equation}
 
-Proposition~\ref{eq:continuity_accumulation} is further reinforced by Cohen, March, and Olsen's theory of \emph{organized anarchy}. Organized anarchies are characterized by problematic preferences, unclear technology, and \emph{fluid participation} \parencite{cohen_garbage_1972}. Applied to cabinet politics, fluid participation resembles the absence of continuity: decision-makers are replaced before they can develop a shared understanding of the problems they were appointed to address. Under such conditions, the shared cognitive environment required for retaining, articulating, and transmitting experience becomes difficult to sustain. In this sense, fluid participation provides an alternative theoretical justification for the central claim that continuity creates opportunities for knowledge accumulation over time.
+Axiom~\ref{ax:continuity} states that political knowledge can accumulate only under conditions of continuity. Continuity does not guarantee that knowledge will accumulate, nor does it determine the quality of the knowledge ultimately produced. Rather, it establishes the necessary organizational condition under which experience may be retained, articulated, transmitted, and eventually embedded within institutional routines. Without continuity, opportunities for knowledge accumulation are repeatedly interrupted before experience can become embedded within organizational practice.
 
 
-Proposition~\ref{eq:continuity_accumulation} is also reinforced by Simon's theory of bounded rationality. Complex policy problems initially present themselves as ill-structured and become manageable only through gradual processes of problem decomposition and constraint formation \parencite[4--5]{foss_simon_2005}. When ministers confront complex social challenges, their understanding is initially tacit and incomplete. For organizations to benefit from that experience, tacit knowledge must be articulated, codified, and transformed into explicit knowledge that can be communicated and shared. This transformation requires time. Premature dismissal interrupts the conversion process, leaving experience personal rather than organizational and thereby limiting opportunities for knowledge accumulation.
+Having established continuity as the necessary condition for knowledge accumulation, the next theoretical task is to explain why this relationship holds. Why should continuity matter for the accumulation of political knowledge? The literature provides two complementary answers. The first emerges from organizational theories of knowledge management, which explain how organizations create, retain, and transmit knowledge. The second emerges from theories of public policy and political decision-making, which explain why effective governance itself requires continuity over time. Although these traditions developed largely independently, both converge on the same conclusion embodied in Axiom~\ref{ax:continuity}.
+
+The first tradition is represented by the organizational learning literature. Nonaka's theory of organizational knowledge creation conceives knowledge creation as a cumulative process through which tacit knowledge becomes explicit, is shared within the organization, and is eventually internalized into routines and practices \parencite{nonaka_knowledge-creating_1998}. New knowledge emerges through repeated interaction among organizational members, the articulation of experience into formal procedures, and the gradual incorporation of those procedures into everyday organizational behavior. This process cannot be compressed into a single decision, nor can it survive repeated interruptions without loss. Continuity therefore provides the temporal condition under which organizational knowledge can progressively accumulate.
+
+Cohen, March, and Olsen reinforce this conclusion from a different perspective. Their theory of \emph{organized anarchy} characterizes organizations by problematic preferences, unclear technology, and \emph{fluid participation} \parencite{cohen_garbage_1972}. Applied to cabinet politics, fluid participation resembles the absence of continuity: decision-makers are replaced before they can develop a shared understanding of the problems they were appointed to address. Under such conditions, the organizational environment required for retaining, articulating, and transmitting experience becomes difficult to sustain. The organizational learning tradition therefore converges on the conclusion that continuity is a prerequisite for sustained knowledge accumulation.
+
+A second line of support emerges from theories of public policy and political decision-making. Simon's theory of bounded rationality argues that complex policy challenges initially present themselves as \emph{ill-structured problems} rather than as clearly defined decision tasks. Because decision-makers operate under conditions of bounded rationality, effective problem solving requires a sequential process in which problems are progressively structured through the identification of relevant constraints, the decomposition of complexity into manageable subproblems, and the gradual refinement of alternative courses of action \parencite[4--5]{foss_simon_2005}. Each stage of problem solving provides the foundation upon which subsequent stages can proceed, making organizational progress dependent on sustained engagement over time rather than isolated decisions \parencite[12--17]{foss_simon_2005}. Premature ministerial replacement interrupts this cumulative process before problems become sufficiently structured for effective organizational action.
+
+Lindblom reaches a similar conclusion from the perspective of incremental policymaking. Because policymakers cannot fully specify objectives, evaluate every alternative, or anticipate all consequences, policy develops through successive limited comparisons that build upon previous decisions rather than through comprehensive optimization \parencite{lindblom_science_1959}. Governing therefore depends on the cumulative experience generated through repeated rounds of adjustment, making continuity a prerequisite for coherent policy development.
+
+Finally, Allison's three conceptual models independently reinforce Axiom~\ref{ax:continuity}. Under the rational actor model, continuity allows decision-makers to accumulate information and refine choices under uncertainty. Under the organizational process model, continuity enables experience to become embedded in routines and standard operating procedures \parencite{allison_conceptual_1969}. Under the governmental politics model, continuity preserves the bargaining relationships, political capital, and mutual expectations required for coordinated action among political actors. Although these three models were developed to explain governmental decision-making from different analytical perspectives, both identify continuity as the organizational condition under which experience becomes cumulative rather than episodic.
+
+Taken together, these two theoretical traditions converge on the same foundational conclusion despite approaching the problem from different directions. The organizational learning literature explains how knowledge is created, retained, and transmitted within organizations. The public policy literature explains why effective governing requires sustained engagement with complex problems, incremental adjustment, organizational routines, and durable political relationships. Although developed independently, both traditions ultimately support the same foundational principle embodied in Axiom~\ref{ax:continuity}: knowledge accumulation requires continuity.
 
 
-Proposition~\ref{eq:continuity_accumulation} receives further support from Allison's organizational process perspective. Governments confront recurring problems through routines and standard operating procedures developed from prior experience \parencite{allison_conceptual_1969}. Once knowledge has been articulated and formalized, it must be repeatedly applied before it becomes embedded in organizational routines. Chronic turnover disrupts this final stage by preventing newly created knowledge from stabilizing within organizational practice.
 
+\subsection{Proposition 1: Political Frameworks Shape Opportunities for Knowledge Accumulation}
 
-From this perspective, organizational routines constitute the institutional repository through which accumulated knowledge survives individual officeholders and becomes available to future decision-makers.
+Axiom~\ref{ax:continuity} established that knowledge accumulation requires continuity. Proposition~1 addresses a different question. If continuity enables knowledge accumulation, why should opportunities for knowledge accumulation differ across history? More specifically, why should one political framework generate different opportunities for knowledge accumulation than another? Answering this question requires moving beyond organizational processes to the broader political environments within which governments operate.
 
-Taken together, these perspectives converge on a common conclusion. Cohen, March, and Olsen explain why the social conditions required for knowledge creation may never emerge. Simon explains why the articulation of knowledge requires sustained attention to complex problems. Allison explains why newly created knowledge must be embedded in routines before organizations can benefit from it. Nonaka provides the overarching framework connecting these processes. Across all four perspectives, Proposition~\ref{eq:continuity_accumulation} captures the central mechanism of knowledge accumulation within epochs: continuity enables the retention, articulation, and transmission of experience, while chronic turnover repeatedly interrupts these processes.
+The central concept proposed here is the \textbf{political framework}. A political framework refers to a configuration of political institutions, governing arrangements, and actor relationships that structures political action during a particular historical period. Political frameworks define the broader political environment within which governments operate. Because successive political frameworks need not reproduce the same political conditions, they may also generate different opportunities for knowledge accumulation.
 
-From an empirical perspective, Proposition~\ref{eq:continuity_accumulation} establishes the theoretical significance of continuity rather than a directly observable outcome. Ministerial duration cannot reveal whether knowledge was successfully accumulated, articulated, or embedded in organizational routines. It can only indicate the continuity conditions under which such processes become more or less plausible. Proposition~\ref{eq:continuity_accumulation} therefore provides the interpretive foundation for the empirical analysis. By establishing continuity as a prerequisite for knowledge accumulation, it gives theoretical meaning to ministerial duration and provides the baseline against which subsequent comparisons across institutional epochs and ministerial portfolios are evaluated.
-
-
-\subsection{Institutional Learning Between Epochs}
-As established in Proposition~\ref{eq:continuity_accumulation}, continuity creates the conditions under which knowledge accumulation may occur within organizations. The proposition, however, is fundamentally concerned with continuity within a given institutional environment. It establishes why continuity matters, but not whether continuity conditions improve, deteriorate, or remain unchanged across time.
-
-Institutional learning introduces a different analytical question. Rather than examining continuity within an institutional epoch, it examines whether continuity conditions vary between epochs. If continuity provides opportunities for knowledge accumulation, then institutional learning becomes visible when successive institutional environments generate more favorable continuity conditions than those that preceded them.
-
-This shift in analytical focus requires moving from within-epoch description to between-epoch comparison. Knowledge accumulation is theorized as occurring within institutional epochs; institutional learning is inferred from differences in continuity conditions across them. Any theory of institutional learning therefore requires historically bounded units through which continuity can be compared over time.
-
-The comparative-historical literature provides such units through the concepts of critical junctures and path dependence. Critical junctures identify moments of institutional restructuring, while the path-dependent periods that follow constitute distinct institutional epochs. These epochs provide the historical framework through which continuity conditions can be compared.
+The concept of political framework is grounded in the Critical Juncture tradition of comparative-historical analysis. Rather than viewing political development as a continuous sequence of incremental change, this tradition conceives history as a succession of distinct political orders separated by episodes of rapid institutional transformation---critical junctures. Critical junctures generate enduring political legacies that persist through path-dependent reproduction. These legacies define historically distinct political frameworks within which political actors govern until a subsequent critical juncture establishes a different historical legacy \parencite{capoccia_study_2007,collier_critical_2022}.
 
 \begin{equation}
-\texttt{Institutional\ Epoch}
+\tag{P1}
+\texttt{Political\ Framework}
 \rightarrow
-\texttt{Continuity}
-\rightarrow
-\texttt{Institutional\ Learning}
-\label{eq:epoch_learning}
+\texttt{Knowledge\ Accumulation}
+\label{prop:framework_ka}
 \end{equation}
 
-
-Proposition~\ref{eq:epoch_learning} states the central claim of this section: institutional learning is not inferred from institutional change alone, but from whether successive epochs generate more favorable conditions for continuity than those that preceded them.
-
-The proposition immediately raises a practical question: how can institutional epochs be identified in a theoretically meaningful way? Historical periods cannot be defined arbitrarily. Rather, they must correspond to meaningful changes in the institutional environment governing continuity.
-
-Critical junctures are defined as relatively short periods of time during which there is a substantially heightened probability that agents' choices will affect the outcome of interest \parencite[348]{capoccia_study_2007}. These brief moments of structural fluidity are followed by long periods of path-dependent institutional reproduction, in which the choices made during the juncture become increasingly difficult to reverse. The standard application of this framework identifies a formal institution created or transformed at the juncture and traces its reproduction across the subsequent path. For the present argument, the implication is straightforward: if continuity conditions shape opportunities for knowledge accumulation within institutional periods, then the appropriate historical unit is the epoch --- the path-dependent phase between critical junctures --- rather than the presidential administration or the individual ministerial spell.
-
-Capoccia introduces a further concept that proves essential for the framework: the near-miss critical juncture. Because critical junctures are defined by contingency --- by what happened in the context of what could have happened --- it is entirely possible for a crisis to produce a moment of genuine institutional openness that is ultimately resolved through re-equilibration rather than change \parencite[350--351]{capoccia_study_2007}. The previous institutional arrangement is reinstated, often in modified form, and the path continues. Critical junctures may therefore fail to alter the conditions governing knowledge accumulation. Institutional change can occur without a corresponding transformation in learning conditions.
-
-This observation creates a theoretical puzzle. If formal institutions are repeatedly transformed, disrupted, or replaced, in what sense can one speak of path dependence at all? Levitsky and Murillo argue that in much of the developing world actors develop expectations of instability rather than expectations of institutional reproduction \parencite[123]{levitsky_variation_2009}. Yet from the perspective developed here, the relevant question is not whether formal institutions remain unchanged, but whether the conditions governing continuity and knowledge accumulation persist across time. Informal mechanisms may survive repeated formal transformations and thereby reproduce the same continuity conditions across successive epochs.
-
-This distinction lies at the core of Proposition~\ref{eq:epoch_learning}. Institutional learning is not inferred from the occurrence of institutional change itself, but from whether the legacies of change alter continuity in durable ways. A sequence of critical junctures followed by increasingly favorable continuity conditions would suggest institutional learning. A sequence of critical junctures followed by repeated interruptions or unchanged continuity conditions would suggest its absence. The key theoretical question is therefore whether successive institutional epochs generated different continuity conditions. To the extent that continuity provides opportunities for knowledge accumulation, improvements in continuity across epochs are interpreted as evidence consistent with institutional learning, whereas persistent interruption suggests its absence.
+Proposition~\ref{prop:framework_ka} states that political frameworks shape opportunities for knowledge accumulation. The proposition does not modify Axiom~\ref{ax:continuity}; rather, it specifies the historical context within which the axiom operates. Because knowledge accumulation requires continuity, differences between successive political frameworks become theoretically important insofar as they facilitate, constrain, or repeatedly interrupt the continuity conditions that make knowledge accumulation possible.
 
 
-\subsection{The Exception That Tests the Rule: The Protective Belt}
+An important implication follows. Institutional innovation should not automatically be interpreted as an improvement in opportunities for knowledge accumulation. Political systems may enact new constitutions, administrative reforms, or governing arrangements without fundamentally altering the conditions under which organizations accumulate experience. Conversely, successive political frameworks that differ substantially in their formal institutional architecture may nevertheless generate similar opportunities for knowledge accumulation. The relevant theoretical question is therefore not whether institutions change, but whether transitions from one political framework to another systematically alter the opportunities for knowledge accumulation.
 
-The previous sections developed two general propositions. Proposition~\ref{eq:continuity_accumulation} explains how continuity facilitates knowledge accumulation within institutional epochs, while Proposition~\ref{eq:epoch_learning} explains how continuity conditions may change across epochs. Yet continuity is not necessarily distributed uniformly across ministerial portfolios. Some ministries may experience greater continuity than others operating under the same institutional environment. Explaining such variation requires an additional mechanism.
+This proposition provides the basis for defining \textbf{institutional learning}. Institutional learning is conceptualized here as a historical property rather than an organizational one. Because knowledge accumulation cannot be observed directly across political frameworks, institutional learning is inferred from historical differences in the opportunities for knowledge accumulation generated by successive political frameworks. Proposition~\ref{prop:framework_ka} therefore establishes the historical dimension of the theoretical framework by linking transitions between political frameworks to changes in opportunities for knowledge accumulation.
 
-The concept proposed here is the Protective Belt\footnote{The term "protective belt" is borrowed from Lakatos's philosophy of science, where it refers to a surrounding structure that shields a program's core assumptions from immediate falsification \parencite{lakatos_methodology_1978}. The concept is used here metaphorically to denote institutional arrangements that protect continuity from political pressures.}. A protective belt consists of institutional arrangements that raise the political cost of ministerial replacement and thereby reduce the likelihood that continuity will be interrupted.
+
+
+
+\subsection{Proposition 2: Protective Belts Preserve Continuity Within Political Frameworks}
+
+Proposition~1 established that opportunities for knowledge accumulation vary across political frameworks. Proposition~2 addresses a different source of variation. Even within the same political framework, continuity is not necessarily distributed uniformly across ministerial portfolios. Some ministries exhibit greater continuity than others despite operating under the same historical and political environment. Explaining this within-framework variation requires an additional organizational mechanism.
+
+The concept proposed here is the \textbf{protective belt}\footnote{The term ``protective belt'' is borrowed from Lakatos's philosophy of science, where it refers to the set of auxiliary assumptions that shields the hard core of a research programme from immediate falsification \parencite{lakatos_methodology_1978}. The concept is used here metaphorically to denote institutional arrangements that shield ministerial continuity from political pressures.}. A protective belt consists of institutional arrangements that increase the political cost of ministerial replacement, thereby making continuity more likely within a particular ministerial portfolio.
 
 \begin{equation}
-\texttt{Protective Belt}
+\tag{P2}
+\texttt{Protective\ Belt}
 \rightarrow
 \texttt{Continuity}
-\rightarrow
-\texttt{Knowledge Accumulation}
-\label{eq:belt_knowledge}
+\label{prop:protective_belt}
 \end{equation}
 
-Like Proposition~\ref{eq:epoch_learning}, Proposition~\ref{eq:belt_knowledge} builds upon the prior claim that continuity creates opportunities for knowledge accumulation. The proposition does not seek to demonstrate knowledge accumulation directly. Rather, it explains why continuity conditions may differ across portfolios operating under the same institutional environment.
+Proposition~\ref{prop:protective_belt} complements rather than modifies Axiom~\ref{ax:continuity}. Whereas Axiom~\ref{ax:continuity} establishes continuity as the necessary condition for knowledge accumulation, Proposition~2 explains why continuity itself may vary across organizations operating under the same political framework. Protective belts therefore provide a localized organizational mechanism through which continuity can be preserved despite the broader political environment.
+
+Comparative evidence suggests that such protective arrangements emerge under particular patterns of political accountability. Feliú Ribeiro and López Burian show that foreign affairs portfolios survive significantly longer than domestic portfolios across Latin America \parencite{feliu_ribeiro_foreign_2023}. They argue that foreign ministers become accountable not only to domestic political actors but also to international audiences, increasing the political costs of replacement and thereby making continuity more likely. Their findings illustrate how portfolio-specific institutional arrangements can produce different continuity patterns within the same political framework.
+
+Protective belts are not expected to remain attached to the same ministerial portfolios over time. Because critical junctures reshape political legacies and redefine the priorities of successive political frameworks, the portfolios requiring greater continuity may also change. Protective belts therefore constitute organizational adaptations operating within political frameworks rather than permanent characteristics of particular ministries.
+
+Proposition~\ref{prop:protective_belt} establishes the organizational dimension of the theoretical framework. Whereas Proposition~1 explains why opportunities for knowledge accumulation vary across political frameworks, Proposition~2 explains why continuity varies across ministerial portfolios operating within the same political framework. Together, the two propositions specify the historical and organizational contexts within which Axiom~\ref{ax:continuity} operates.
 
 
-Proposition~\ref{eq:belt_knowledge} specifies a localized mechanism through which continuity may be preserved within particular portfolios even when broader institutional conditions remain unfavorable.
-
-Comparative evidence suggests that such protection may emerge under specific accountability structures. Feliú Ribeiro and López Burian show that foreign policy portfolios survive significantly longer than domestic portfolios across Latin America \parencite{feliu_ribeiro_foreign_2023}. The mechanism they identify is external accountability: international audiences create credibility costs that presidents must absorb when replacing ministers, thereby increasing continuity independently of domestic political pressures.
-
-Protective belts are not expected to remain attached to the same ministries across time. Because critical junctures reshape the institutional logic of an epoch, they may also alter which governmental functions become most important for maintaining political stability, economic credibility, or external legitimacy. Different epochs may therefore generate protective belts around different portfolios.
-
-Unlike Proposition~\ref{eq:epoch_learning}, Proposition~\ref{eq:belt_knowledge} does not explain learning at the level of the institutional order. Instead, it explains why some ministries may preserve continuity and therefore enjoy more favorable opportunities for knowledge accumulation even when broader continuity conditions remain unfavorable.
 
 %##
 %###
 \section{Research Design and Analytical Strategy}\label{sec:research_design}
 
-The theoretical framework developed in the previous chapter proposes three related propositions. Proposition~\ref{eq:continuity_accumulation} establishes continuity as a prerequisite for knowledge accumulation within institutional settings. Proposition~\ref{eq:epoch_learning} argues that institutional learning becomes visible when successive institutional epochs generate more favorable continuity conditions. Proposition~\ref{eq:belt_knowledge} identifies the protective belt as a localized mechanism through which continuity may be preserved within specific ministerial portfolios.
+The theoretical framework established three complementary statements. Axiom~\ref{ax:continuity} identifies continuity as the necessary organizational condition for knowledge accumulation. Proposition~\ref{prop:framework_ka} explains why opportunities for knowledge accumulation may vary across political frameworks, while Proposition~\ref{prop:protective_belt} explains why continuity may also vary across ministerial portfolios operating within the same political framework.
 
-These propositions occupy different roles within the analytical framework. Proposition~\ref{eq:continuity_accumulation} serves as the theoretical foundation of the study by establishing why continuity matters. Rather than constituting an independent empirical test, it provides the interpretive basis through which ministerial duration is linked to opportunities for knowledge accumulation. Propositions~\ref{eq:epoch_learning} and~\ref{eq:belt_knowledge} build upon this foundation by examining how continuity conditions vary across institutional epochs and ministerial portfolios, respectively.
+The purpose of the research design is not to observe these theoretical constructs directly. Knowledge accumulation, political frameworks, and protective belts are latent concepts rather than observable variables. Instead, the research design derives observable implications from the theoretical framework and specifies how empirical patterns should be interpreted. Ministerial duration constitutes the principal observable quantity throughout the analysis and serves as the empirical basis from which continuity is inferred.
 
-This structure raises an immediate methodological challenge. Knowledge accumulation, institutional learning, and protective belts are not directly observable. Their existence must therefore be assessed through observable implications rather than direct measurement.
+The analytical strategy therefore proceeds in three stages. First, the theoretical concepts are operationalized heuristically. Second, the observable implications of Propositions~\ref{prop:framework_ka} and~\ref{prop:protective_belt} are evaluated statistically. Third, the resulting empirical patterns are interpreted using historically grounded heuristics derived from the Critical Juncture tradition.
 
-To address this challenge, the research design is organized around two complementary layers. The first is a historical-institutionalist layer that provides the contextual framework through which continuity acquires historical meaning. The second is a measurement layer that translates the theoretical concepts developed in the previous chapter into observable indicators and empirical comparisons.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Heuristic Operationalization}
 
-Building on these two layers, the chapter develops an interpretive framework for evaluating continuity within institutional epochs, derives the comparative expectations associated with institutional learning and protective belts, presents the empirical strategy used to evaluate those expectations, and concludes by discussing the scope and limitations of the design.
-
-
-\subsection{Historical-Institutionalist Layer}
-
-The theoretical framework developed in the previous chapter treats continuity as a historically conditioned phenomenon rather than as an abstract or universal attribute of organizations. The same observed duration may reflect very different continuity conditions depending on the institutional environment in which it occurs. Continuity therefore cannot be evaluated against a universal benchmark. It must be interpreted relative to historically bounded institutional contexts.
-
-The historical-institutionalist layer provides this contextual framework. Following the critical-juncture literature, continuity is analyzed within and across institutional epochs understood as path-dependent periods bounded by moments of institutional restructuring. These epochs constitute the historical units through which continuity conditions are interpreted, compared, and situated within broader processes of institutional development.
+The theoretical concepts introduced in the previous section cannot be measured directly. Rather than treating them as directly observable variables, this study establishes theoretically justified correspondences between abstract concepts and empirical observations. These heuristic operationalizations do not claim to measure the theoretical constructs themselves; instead, they provide the interpretive bridge through which the propositions can be evaluated empirically.
 
 
-\subsubsection{Operationalizing Institutional Epochs}
+\subsubsection{Political Frameworks}
 
-Institutional epochs are operationalized using the periodization proposed by \textcite{lopez_jimenez_peru_2025}. This framework identifies a sequence of critical junctures that reconfigured the dominant logic of state organization, political competition, and social incorporation in Peru. Each resulting epoch is treated as a distinct institutional environment governing the continuity conditions under which political experience may be retained, transmitted, or interrupted.
+Political frameworks constitute the historical units through which Proposition~\ref{prop:framework_ka} is evaluated. Because political frameworks are theoretical constructs rather than directly observable entities, they require heuristic operationalization.
 
-Critical junctures themselves are not incorporated as explanatory variables in the statistical analysis. Rather, they provide the historical criteria used to delimit the epochs within which continuity is observed and compared. Table~\ref{tab:epochs} summarizes the institutional epochs employed in the analysis.
+Following the Critical Juncture tradition of comparative-historical analysis, political frameworks are operationalized through the enduring political legacies generated by completed critical junctures. Rather than partitioning history according to arbitrary chronological periods, presidential administrations, or constitutional reforms, this operationalization identifies relatively stable political environments bounded by critical junctures whose legacies redefine the conditions under which political actors govern.
+
+Table~\ref{tab:frameworks} summarizes the political frameworks employed throughout the analysis. Each framework corresponds to the dominant political legacy established by a completed critical juncture and extends until a subsequent critical juncture generates a different historical legacy. The chronology follows \textcite{lopez_jimenez_peru_2025} and provides complete coverage of Peru's republican period while preserving the historically meaningful political environments required for evaluating Proposition~\ref{prop:framework_ka}.
 
 \begin{table}[tbp]
 \centering
-\caption{Institutional Epochs Used in the Analysis}
-\label{tab:epochs}
+\caption{Political Frameworks Used in the Analysis}
+\label{tab:frameworks}
 \scriptsize
-\renewcommand{\arraystretch}{1.35}
-\begin{tabular}{p{1.3cm}p{0.8cm}p{0.8cm}p{2.8cm}p{3.5cm}p{2.6cm}}
+\renewcommand{\arraystretch}{1.25}
+\begin{tabular}{p{3.0cm}p{1.8cm}p{4.2cm}p{5.2cm}}
 \toprule
-\textbf{Epoch} &
+\textbf{Political Framework} &
 \textbf{Period} &
-\textbf{End Point used} &
-\textbf{Critical Juncture} &
-\textbf{State and Democratization} &
-\textbf{Why It Ends} \\
+\textbf{Originating Critical Juncture} &
+\textbf{Dominant Political Legacy} \\
 \midrule
 
-State Formation &
-1824--1879 &
-1883 &
-Independence (1810--1824). Liberal failure in state building; caudillo factionalism; colonial continuities intact. &
-Failed creole revolutions; indigenous participation conditioned on tribute abolition; no unified national state. &
-The War of the Pacific (1879) exposes the total absence of a functional national state. \\
+PF1 -- State Formation &
+1824--1883 &
+Independence (1810--1824) &
+Failed national state-building; persistent caudillo politics; colonial institutional continuities. \\
 
 \midrule
 
-Oligarchic State &
-1883--1920 &
-1933 &
-War with Chile (1879--1883). Humiliated elites; demonstrated inexistence of a functional state. &
-Patrimonial reconstruction under oligarchic-gamonalista alliance; ``competitive oligarchy'' excluding 98\% of population; early anarchist labor movement. &
-Popular mobilizations and Leguía's self-coup trigger the Crisis of the Aristocratic Republic (1920--1933). \\
+PF2 -- Oligarchic State &
+1883--1933 &
+War of the Pacific (1879--1883) &
+Elite reconstruction under oligarchic rule; patrimonial state consolidation and restricted political incorporation. \\
 
 \midrule
 
-Power-Sharing State &
-1933--1968 &
-1975 &
-Crisis of the Aristocratic Republic (1920--1933). Leguía, the 1930 recession, Haya, Mariátegui, assassination of Sánchez Cerro. &
-Tripartite system: oligarchy, APRA, and armed forces. After 1956, ``convivencia'' (APRA-oligarchy alliance); mass labor, peasant, and student movements emerge. &
-Social overflow and state paralysis trigger the Military Revolution (1968). \\
+PF3 -- Power-Sharing State &
+1933--1975 &
+Crisis of the Aristocratic Republic (1920--1933) &
+Tripartite political order involving oligarchy, APRA, and the armed forces; gradual incorporation of organized social actors. \\
 
 \midrule
 
-Transition and Democratic Crisis &
-1975--1992 &
-1993 &
-Military Revolution (1968--1975). Destroyed oligarchy and gamonalismo through agrarian reform; centralized the state. &
-Universal suffrage (1979 Constitution); de-democratization through Shining Path massacre; collapse of the United Left. Hyperinflation and state terrorism against insurgency. &
-Absolute crisis of political parties, hyperinflation, and terrorist violence culminate in Fujimori's self-coup (1992). \\
+PF4 -- Democratic Transition and Crisis &
+1975--1993 &
+Military Revolution (1968--1975) &
+Democratization following military rule under conditions of economic collapse, political violence, and institutional crisis. \\
 
 \midrule
 
-Democracy without Parties &
+PF5 -- Democracy without Parties &
 1993--2022 &
-2022 &
-Terrorism crisis, hyperinflation, and Fujimori's coup (1982--1992). &
-1993 Constitution; consolidated neoliberal model and neopatrimonial state; long commodity export boom legitimizes the arrangement. Democracy without parties; extreme electoral volatility; \textit{outsider} politics. &
-Political fall of Pedro Castillo (2022), condensing 30 years of discontent with the neoliberal model, opens the Sixth Critical Juncture. \\
+Fujimori Settlement (1982--1992) &
+Neoliberal political order characterized by weak parties, electoral volatility, and sustained executive predominance. \\
 
 \bottomrule
 \end{tabular}
 
 \vspace{0.2cm}
-\begin{minipage}{0.95\textwidth}
+
+\begin{minipage}{0.96\textwidth}
 \scriptsize
-\textit{Source:} Adapted from \textcite{lopez_jimenez_peru_2025}. The cut points correspond to the completion of each critical juncture and are used to delimit the institutional epochs employed in the empirical analysis.
+\textit{Note:} Political frameworks constitute heuristic operationalizations of the enduring political legacies generated by completed critical junctures. They provide the historical units employed throughout the empirical analyses. Adapted from \textcite{lopez_jimenez_peru_2025}.
 \end{minipage}
 
 \end{table}
 
-The epochs summarized in Table~\ref{tab:epochs} constitute the historical units used throughout the empirical analysis. Because the cut points correspond to the completion of each critical juncture, they permit continuous coverage of ministerial spells while avoiding the assignment of transitional periods to a stable institutional order.
-
-This operationalization provides the historical framework through which the three propositions are interpreted empirically. Proposition~\ref{eq:continuity_accumulation} is examined through continuity patterns within epochs. Proposition~\ref{eq:epoch_learning} is evaluated through comparisons between epochs. Proposition~\ref{eq:belt_knowledge} is evaluated through comparisons across portfolios operating within those same historical environments.
- If institutional learning occurred across Peru's republican history, it should be reflected in progressively more favorable continuity conditions across successive epochs. Conversely, the persistence of similar patterns of interruption would suggest the absence of such learning. Because the political consequences of the 2022 crisis remain unresolved, the post-2022 period is treated as an ongoing critical juncture rather than as a consolidated institutional epoch.
-\newpage
 
 
-\subsection{Measurement Layer}
+\subsubsection{Continuity}
 
-The historical-institutionalist layer establishes the contexts within which continuity is interpreted. The measurement layer specifies how continuity is translated into observable evidence and how that evidence is used to assess the propositions developed in Section~\ref{sec:theoretical_framework}.
+Continuity constitutes the central observable implication of the theoretical framework. It is not measured directly. Instead, continuity is inferred heuristically from ministerial duration.
 
-The central challenge is that the principal concepts of interest are not directly observable. Knowledge accumulation and institutional learning are theoretical constructs, while protective belts are inferred institutional mechanisms. What can be observed are ministerial appointments and their duration. The empirical strategy therefore proceeds indirectly: ministerial duration serves as the observable indicator from which continuity is inferred, and continuity in turn provides the basis for evaluating variation across institutional epochs and ministerial portfolios.
+Following Axiom~\ref{ax:continuity}, longer ministerial spells indicate greater opportunities for organizational continuity, whereas shorter spells indicate more frequent interruption of governing experience. Ministerial duration is therefore interpreted neither as a measure of ministerial quality, political effectiveness, nor policy success, but as evidence concerning the continuity conditions under which knowledge accumulation becomes more or less feasible.
 
-Proposition~\ref{eq:continuity_accumulation} provides the theoretical interpretation of continuity but is not evaluated directly. Instead, it establishes why continuity matters and gives substantive meaning to ministerial duration. Propositions~\ref{eq:epoch_learning} and~\ref{eq:belt_knowledge} build upon this foundation by examining whether continuity conditions vary systematically across epochs and portfolios.
-
-Duration is measured as the number of days elapsed between appointment and departure from office. The analysis does not treat duration as an indicator of ministerial quality, effectiveness, or policy success. Rather, duration serves as the observable indicator through which continuity conditions are inferred.
-
-\subsubsection{Operationalizing Knowledge Accumulation}
-
-Proposition~\ref{eq:continuity_accumulation} establishes the theoretical relationship between continuity and knowledge accumulation within institutional epochs. Knowledge accumulation itself cannot be observed directly. What can be observed are ministerial durations measured within a common institutional environment.
-
-For this reason, Proposition~\ref{eq:continuity_accumulation} is not evaluated as an independent empirical hypothesis. Rather, it provides the interpretive foundation through which ministerial duration acquires substantive meaning. Duration patterns are used to infer continuity conditions, and continuity is interpreted as creating more or less favorable opportunities for knowledge accumulation.
-
-The relevant empirical task is therefore descriptive rather than inferential. Within each institutional epoch, ministerial duration is used to characterize the continuity conditions under which governing experience may be retained, transmitted, or interrupted. These continuity profiles provide the baseline against which subsequent comparisons across institutional epochs and ministerial portfolios are interpreted.
-
-\begin{table}[!htbp]
-\centering
-\caption{Interpretation of Proposition~\ref{eq:continuity_accumulation}}
-\small
-\begin{tabular}{p{4cm}p{8cm}}
-\toprule
-\textbf{Element} & \textbf{Empirical Representation} \\
-\midrule
-Theoretical Concept & Knowledge accumulation \\
-Interpretive Mechanism & Continuity \\
-Observable Indicator & Ministerial duration \\
-Analytical Role & Establish continuity conditions within epochs \\
-Use in the Analysis & Baseline for interpreting Propositions~\ref{eq:epoch_learning} and~\ref{eq:belt_knowledge} \\
-\bottomrule
-\end{tabular}
-\end{table}
-
-\subsubsection{Operationalizing Institutional Learning}
-
-Proposition~\ref{eq:epoch_learning} links continuity conditions across institutional epochs to institutional learning. Institutional learning cannot be observed directly. What can be observed are patterns of ministerial duration aggregated within institutional epochs. The relevant comparison is therefore across successive historical periods.
-
-Ministerial duration is used to infer continuity conditions within each epoch. Institutional learning is then evaluated through comparisons of those continuity conditions across epochs. Improvements in continuity are interpreted as evidence consistent with institutional learning, whereas persistent interruption or the reproduction of similar continuity conditions suggests its absence. The proposition therefore focuses not on institutional change itself, but on whether successive institutional environments generate more favorable conditions for continuity.
+This interpretation does not imply that continuity is the only determinant of ministerial duration. Individual characteristics, political crises, presidential strategies, coalition dynamics, and other contextual factors may also influence ministerial survival. Rather, Axiom~\ref{ax:continuity} identifies continuity as the theoretical dimension of ministerial duration that is relevant for evaluating the propositions developed in this paper.
 
 
-\begin{table}[!htbp]
-\centering
-\caption{Interpretation of Proposition~\ref{eq:epoch_learning}}
-\small
-\begin{tabular}{p{4cm}p{8cm}}
-\toprule
-\textbf{Element} & \textbf{Empirical Representation} \\
-\midrule
-Theoretical Concept & Institutional learning \\
-Interpretive Mechanism & Continuity conditions \\
-Observable Indicator & Ministerial duration \\
-Primary Comparison & Between institutional epochs \\
-Evidence Consistent with the Proposition & More favorable continuity conditions in later epochs relative to earlier ones \\
-\bottomrule
-\end{tabular}
-\end{table}
+\subsubsection{Protective Belts}
 
-\subsubsection{Operationalizing Protective Belts}
+Protective belts likewise remain unobservable. Their existence is inferred indirectly from systematic differences in continuity across ministerial portfolios operating within the same political framework.
 
-Proposition~\ref{eq:belt_knowledge} identifies protective belts as mechanisms through which continuity may be preserved within specific ministerial portfolios. Protective belts cannot be observed directly. What can be observed are ministerial durations grouped by portfolio and situated within common institutional environments.
+Observed differences in continuity do not constitute direct evidence of protective belts. Rather, they represent empirical patterns that are consistent with the existence of institutional arrangements capable of shielding particular portfolios from the political pressures affecting ministerial turnover.
 
-The relevant comparison is therefore across portfolios operating under similar epoch-specific conditions. Ministerial duration is used to infer continuity conditions within each portfolio. Protective belts are inferred when particular ministries display systematically stronger continuity than other portfolios facing comparable institutional environments. The proposition therefore focuses on the distribution of continuity across government rather than on overall continuity levels.
-\begin{table}[!htbp]
-\centering
-\caption{Interpretation of Proposition~\ref{eq:belt_knowledge}}
-\small
-\begin{tabular}{p{4cm}p{8cm}}
-\toprule
-\textbf{Element} & \textbf{Empirical Representation} \\
-\midrule
-Theoretical Concept & Protective belt \\
-Interpretive Mechanism & Relative continuity advantage \\
-Observable Indicator & Ministerial duration \\
-Primary Comparison & Across ministerial portfolios within comparable institutional environments \\
-Evidence Consistent with the Proposition & Some portfolios exhibit systematically stronger continuity than others operating under the same epoch conditions \\
-\bottomrule
-\end{tabular}
-\end{table}
-
-Protective belts are inferred from continuity advantages rather than directly observed. Consequently, the analysis evaluates whether particular portfolios exhibit continuity patterns consistent with the existence of protective arrangements, but it cannot identify the specific political mechanisms responsible for generating such protection. Establishing the origins and operation of protective belts would require qualitative evidence beyond the scope of the present study.
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Analytical Strategy}
 
+The empirical implications of the propositions are evaluated through two complementary comparisons.
 
-The historical-institutionalist layer defines the contexts within which continuity is interpreted, while the measurement layer specifies how continuity is observed. The analytical strategy translates these foundations into an empirical inquiry. It identifies the observations included in the analysis, establishes the criteria used to interpret continuity patterns, and presents the statistical procedures employed to evaluate the comparative implications of the theoretical framework.
+The first comparison evaluates Proposition~\ref{prop:framework_ka}. Because political frameworks represent successive historical environments, the relevant empirical implication concerns changes in continuity associated with transitions between political frameworks,
 
-\subsubsection{Selection Criteria}
+\[
+\Delta PF_{i,i+1}
+\longrightarrow
+\Delta C_{i,i+1}.
+\]
 
-The empirical analysis relies on an original dataset of ministerial appointments covering Peru's republican history from 1827 to 2022. The dataset records the entry and exit dates of cabinet ministers, the portfolio occupied, the administration under which the appointment occurred, and the institutional epoch to which each appointment is assigned.
+where $\Delta PF_{i,i+1}$ denotes the transition between two successive political frameworks, and $\Delta C_{i,i+1}$ denotes the corresponding change in continuity inferred from ministerial duration.
 
-The primary unit of observation is the \textbf{ministerial spell}, defined as a continuous period during which an individual occupies a cabinet portfolio. A spell begins on the date of appointment and ends on the date of departure, whether through resignation, dismissal, death in office, or the termination of the administration. When the same individual serves multiple non-consecutive terms, each appointment is treated as a separate spell because each constitutes a distinct opportunity for continuity.
+The second comparison evaluates Proposition~\ref{prop:protective_belt}. Because protective belts operate within political frameworks, the relevant empirical implication concerns systematic differences in continuity across ministerial portfolios within the same political framework:
 
-The analysis focuses primarily on two ministerial portfolios: the Presidency of the Council of Ministers (PCM) and the Ministry of Economy and Finance (MEF). These portfolios were selected because they occupy distinct positions within the architecture of state governance. The PCM represents political coordination within the executive, whereas the MEF represents economic management and fiscal credibility.
+[
+\exists PB_{k}^{(f)}
+\longrightarrow
+\Delta C_{k}^{(f)} \neq 0
+]
 
-Together, these portfolios provide a theoretically meaningful contrast through which continuity can be examined across Peru's republican history. Their extensive historical coverage permits comparisons both within and between institutional epochs, making them particularly suitable for evaluating Proposition~\ref{eq:epoch_learning}.
-
-Additional portfolios are incorporated to broaden the portfolio comparisons associated with Proposition~\ref{eq:belt_knowledge}. However, historical records for other ministries are substantially less complete across the republican period, resulting in smaller and less consistent datasets. Consequently, PCM and MEF constitute the principal empirical basis of the analysis, while other portfolios serve primarily as exploratory comparisons for identifying potential protective-belt effects.
-
-
-\subsubsection{Interpretive Framework}
-
-The purpose of the empirical analysis is not merely to describe ministerial duration, but to interpret duration patterns through the theoretical and historical framework developed in the preceding chapters. The same observed duration may carry different implications depending on the proposition under consideration and the historical context in which it occurs.
-
-Results are therefore interpreted through two complementary lenses: expectations derived from the historical-institutionalist layer and expectations derived from the measurement layer.
-
-
-\paragraph{Expectations from the Historical Layer}
-
-The periodization developed in \textcite{lopez_jimenez_peru_2025} provides more than a classification of historical periods. It offers theoretically grounded expectations regarding the continuity conditions associated with different forms of state organization, political competition, and social incorporation. These expectations serve as the historical benchmark against which observed duration patterns are interpreted.
-
-The purpose of the empirical analysis is not simply to determine whether ministers survived longer or shorter periods of time. Rather, it is to evaluate whether observed continuity patterns are consistent with the broader historical interpretation proposed by the critical-juncture framework. Consistency between historical expectations and observed duration patterns strengthens confidence in the interpretation of continuity as a meaningful institutional phenomenon. Divergences are treated as theoretically informative findings that may reveal dimensions of continuity, knowledge accumulation, or institutional learning not fully captured by the existing narrative.
-
-Particular attention is devoted to the contrasting trajectories of the PCM and the MEF. The historical framework suggests that different epochs may assign different strategic importance to political coordination and economic management. Consequently, continuity advantages may shift between these portfolios as the institutional logic of the state changes over time.
+where (PB_{k}^{(f)}) denotes the existence of a protective belt for ministerial portfolio (k) within political framework (f), and (\Delta C_{k}^{(f)}) denotes the continuity differential of portfolio (k) relative to the other portfolios operating under the same political framework.
 
 
-Table~\ref{tab:historical_expectations} summarizes the expectations derived from the historical-institutionalist framework.
-
-\begin{table}[!htbp]
-\centering
-\caption{Historically Grounded Expectations by Institutional Epoch}
-\label{tab:historical_expectations}
-\scriptsize
-\renewcommand{\arraystretch}{1.25}
-\begin{tabular}{p{2.4cm}p{3.5cm}p{3.5cm}p{3.5cm}}
-\toprule
-\textbf{Institutional Epoch} &
-\shortstack{\textbf{Within Epochs}\\Continuity Conditions} &
-\shortstack{\textbf{Between Epochs}\\Institutional Learning} &
-\shortstack{\textbf{Across Portfolios}\\Protective Belt} \\
-\midrule
-
-State Formation &
-Very weak continuity conditions due to chronic instability and limited state capacity. &
-Baseline period. &
-No expectation of systematic protection. \\
-
-\midrule
-
-Oligarchic State &
-Improved continuity conditions associated with administrative consolidation and elite coordination. &
-Improvement relative to State Formation. &
-No clear PCM--MEF differentiation expected. \\
-
-\midrule
-
-Power-Sharing State &
-Mixed and unstable continuity conditions reflecting persistent political conflict. &
-Limited evidence of learning relative to the previous epoch. &
-No strong expectation of portfolio protection. \\
-
-\midrule
-
-Transition and Democratic Crisis &
-Severely interrupted continuity conditions associated with political violence, hyperinflation, and institutional breakdown. &
-Breakdown of continuity conditions. &
-High turnover expected in both PCM and MEF. \\
-
-\midrule
-
-Democracy without Parties &
-Uneven continuity conditions, potentially concentrated in selected sectors. &
-No generalized learning despite institutional persistence. &
-MEF expected to exhibit stronger continuity than PCM. \\
-
-\bottomrule
-\end{tabular}
-\end{table}
+These two empirical implications distinguish two fundamentally different sources of variation. Proposition~\ref{prop:framework_ka} concerns historical variation across political frameworks. Proposition~\ref{prop:protective_belt} concerns organizational variation within political frameworks.
 
 
 
-\paragraph{Expectations from the Measurement Layer}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-The measurement layer establishes how theoretical concepts are linked to observable evidence. Ministerial duration constitutes the primary observable indicator. Continuity is inferred from duration patterns, while knowledge accumulation, institutional learning, and protective belts are not directly observed.
+\subsection{Interpretation Heuristics}
 
-Because the three propositions occupy different roles within the theoretical framework, they are interpreted differently at the empirical level. Proposition~\ref{eq:continuity_accumulation} provides the interpretive foundation of the analysis by establishing continuity as the mechanism through which opportunities for knowledge accumulation emerge. Propositions~\ref{eq:epoch_learning} and~\ref{eq:belt_knowledge} are evaluated through comparisons of continuity conditions across institutional epochs and ministerial portfolios, respectively.
+The statistical analyses evaluate the empirical implications of Propositions~\ref{prop:framework_ka} and~\ref{prop:protective_belt}. Translating the resulting statistical patterns into statements about political development requires an interpretive framework. The heuristics presented here do not constitute additional propositions. Rather, they establish how the empirical results are interpreted with respect to the theoretical framework developed in the previous section.
 
-Table~\ref{tab:evaluation_criteria} summarizes the empirical criteria used to interpret each proposition.
-\begin{table}[tbp]
-\centering
-\caption{Empirical Criteria for Interpreting the Propositions}
-\label{tab:evaluation_criteria}
-\small
-\renewcommand{\arraystretch}{1.25}
-\begin{tabular}{p{3.5cm}p{4cm}p{5cm}}
-\toprule
-\textbf{Proposition} &
-\textbf{Empirical Focus} &
-\textbf{Evidence Consistent with the Proposition} \\
-\midrule
+For Proposition~\ref{prop:framework_ka}, the object of interpretation is the historical trajectory of continuity across successive political frameworks. Positive changes in continuity indicate increasingly favorable opportunities for knowledge accumulation, whereas negative changes indicate increasingly unfavorable opportunities. Stable continuity indicates that opportunities for knowledge accumulation remain broadly unchanged across political frameworks, whereas oscillating trajectories indicate that such opportunities vary across successive political environments.
 
-Knowledge Accumulation
-(Within Epochs)
-&
-Characterization of continuity conditions within institutional epochs.
-&
-Longer and more stable ministerial tenures indicate more favorable continuity conditions under which knowledge accumulation may occur. \\
+For Proposition~\ref{prop:protective_belt}, the object of interpretation is organizational differentiation. Persistent continuity differentials associated with particular ministerial portfolios are interpreted as evidence consistent with the existence of protective belts. The persistence, emergence, or disappearance of such continuity differentials across political frameworks provides the empirical basis for evaluating whether protective arrangements remain stable or evolve over time.
 
-\midrule
+These heuristics distinguish two complementary dimensions of interpretation. Historical comparisons evaluate variation in continuity across political frameworks, whereas organizational comparisons evaluate variation in continuity across ministerial portfolios within political frameworks. Together, these two dimensions establish the empirical basis upon which the broader historical interpretation developed in the Discussion section is constructed.
 
-Institutional Learning
-(Between Epochs)
-&
-Comparison of continuity conditions across institutional epochs.
-&
-Later epochs exhibit more favorable continuity conditions than earlier ones. \\
-
-\midrule
-
-Protective Belts
-(Across Portfolios)
-&
-Comparison of continuity conditions across ministerial portfolios.
-&
-Certain portfolios display systematically stronger continuity than others operating under comparable epoch conditions. \\
-
-\bottomrule
-\end{tabular}
-\end{table}
+The substantive historical interpretation of these empirical patterns draws upon the Critical Juncture tradition of comparative-historical analysis. Concepts such as political legacies, path dependence, contingent historical development, and near-miss critical junctures are therefore employed in the Discussion to interpret the observed trajectories of continuity rather than as additional causal propositions to be tested statistically.
 
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Statistical Procedures}
 
-\paragraph{Statistical Evaluation}
+The empirical implications of Propositions~\ref{prop:framework_ka} and~\ref{prop:protective_belt} are evaluated using standard methods from survival analysis. Because the outcome of interest is the duration of ministerial appointments until replacement, survival analysis provides an appropriate framework for characterizing continuity while accommodating right-censored observations.
 
-Observed continuity patterns must ultimately be compared against the expectations derived from the theoretical framework. Survival analysis provides the statistical tools used to describe continuity conditions and evaluate the comparative implications of the framework. Because the three propositions occupy different analytical roles, the statistical procedures also serve different purposes. Proposition~\ref{eq:continuity_accumulation} relies primarily on descriptive evidence regarding continuity within institutional epochs, whereas Propositions~\ref{eq:epoch_learning} and~\ref{eq:belt_knowledge} require formal comparisons across epochs and portfolios.
+Kaplan--Meier estimators are first employed to provide nonparametric descriptions of ministerial survival across political frameworks and ministerial portfolios. These survival functions offer descriptive representations of the continuity conditions associated with each comparison.
 
-Table~\ref{tab:statistical_support} summarizes the relationship between each proposition, its primary comparison, and the statistical procedures employed.
+Differences between survival functions are subsequently evaluated using log-rank tests. These tests assess whether observed differences in continuity are statistically distinguishable across political frameworks and across ministerial portfolios.
 
-\begin{table}[tbp]
-\centering
-\caption{Statistical Support for the Theoretical Propositions}
-\label{tab:statistical_support}
-\small
-\renewcommand{\arraystretch}{1.25}
-\begin{tabular}{p{3.5cm}p{3.5cm}p{5cm}}
-\toprule
-\textbf{Theoretical Proposition} &
-\textbf{Primary Comparison} &
-\textbf{Statistical Support} \\
-\midrule
+Finally, Cox proportional hazards models are employed to estimate the relative hazard of ministerial replacement associated with political frameworks and ministerial portfolios. Hazard ratios are interpreted as relative risks of ministerial replacement, where lower hazards indicate more favorable continuity conditions. The Cox models complement the nonparametric analyses by quantifying the magnitude of observed differences in continuity.
 
-Knowledge Accumulation
-&
-Within institutional epochs
-&
-Descriptive duration statistics; Kaplan--Meier survival functions used to characterize continuity conditions. \\
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Model Specification}
 
-\midrule
+The statistical analyses mirror the two propositions developed in the theoretical framework. Proposition~\ref{prop:framework_ka} is evaluated by comparing continuity across successive political frameworks. Proposition~\ref{prop:protective_belt} is evaluated by comparing continuity across ministerial portfolios within political frameworks.
 
-Institutional Learning
-&
-Between institutional epochs
-&
-Kaplan--Meier comparisons; log-rank tests; Cox proportional hazards models with epoch indicators. \\
+Kaplan--Meier estimators, log-rank tests, and Cox proportional hazards models are applied to both comparisons. The first evaluates historical variation in continuity, whereas the second evaluates organizational variation in continuity.
 
-\midrule
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Data}
 
-Protective Belts
-&
-Across ministerial portfolios
-&
-Kaplan--Meier comparisons; log-rank tests; Cox proportional hazards models with portfolio indicators. \\
+The empirical analysis employs an original dataset of ministerial appointments in Peru spanning the republican period from Independence through 2022. The unit of observation is an individual ministerial spell, beginning with formal appointment and ending with ministerial replacement or right censoring at the close of the observation period.
 
-\bottomrule
-\end{tabular}
+The empirical analysis proceeds in two stages. The primary comparison focuses on the Ministry of Economy and Finance (MEF) and the Presidency of the Council of Ministers (PCM), the two portfolios used to evaluate Proposition~\ref{prop:protective_belt}. A second stage extends the analysis to three additional portfolios---Interior, Health, and Education---to determine whether the continuity patterns observed in the primary comparison are specific to those ministries or characterize broader organizational patterns across the executive branch.
 
-\vspace{0.2cm}
-\begin{minipage}{0.95\textwidth}
-\scriptsize
-\textit{Note:} Statistical procedures evaluate continuity, the observable indicator specified in the measurement layer. Proposition~\ref{eq:continuity_accumulation} provides the interpretive foundation of the framework and is characterized descriptively rather than tested directly. Propositions~\ref{eq:epoch_learning} and~\ref{eq:belt_knowledge} are evaluated through comparisons of continuity conditions across institutional epochs and ministerial portfolios.
-\end{minipage}
-\end{table}
+For each ministerial spell, the dataset records the dates of appointment and replacement, the corresponding ministerial portfolio, and the political framework under which the appointment occurred. Political frameworks are assigned according to the operationalization presented in Table~\ref{tab:frameworks}. The selected portfolios retain sufficiently comparable governmental functions across successive political frameworks to permit meaningful historical comparison.
 
-The statistical procedures employed in this study evaluate continuity rather than knowledge accumulation, institutional learning, or protective belts directly. These concepts remain theoretical interpretations derived from observed continuity patterns situated within historically bounded institutional contexts. Consequently, the analysis should be understood as an evaluation of continuity conditions and their historical variation, rather than as a direct measurement of learning or knowledge accumulation.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Limitations}
+
+The research design evaluates observable implications rather than theoretical constructs directly. Political frameworks, knowledge accumulation, institutional learning, and protective belts are theoretical constructs whose empirical evaluation relies upon heuristic operationalizations. Continuity is inferred indirectly from ministerial duration rather than observed directly.
+
+Accordingly, the statistical analyses do not estimate the causal effect of continuity on knowledge accumulation. Instead, they evaluate whether observed historical and organizational patterns of ministerial continuity are consistent with the empirical implications derived from Propositions~\ref{prop:framework_ka} and~\ref{prop:protective_belt}. The broader implications of these patterns for political development are developed in the Discussion.
+
+
 
 
 %%%%

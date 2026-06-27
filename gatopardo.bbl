@@ -655,6 +655,50 @@
       \verb https://www.jstor.org/stable/2392088?origin=crossref
       \endverb
     \endentry
+    \entry{collier_critical_2022}{book}{}{}
+      \name{editor}{2}{}{%
+        {{un=0,uniquepart=base,hash=94113ef23c25de6882e45c4245eae4b0}{%
+           family={Collier},
+           familyi={C\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4a9f2b7c11c1c5257e68eb4553394c84}{%
+           family={Munck},
+           familyi={M\bibinitperiod},
+           given={Gerardo\bibnamedelima L.},
+           giveni={G\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Lanham}%
+      }
+      \list{publisher}{2}{%
+        {Rowman}%
+        {Littlefield}%
+      }
+      \strng{namehash}{dbfff44497cdb739cadef433ec9b2a54}
+      \strng{fullhash}{dbfff44497cdb739cadef433ec9b2a54}
+      \strng{fullhashraw}{dbfff44497cdb739cadef433ec9b2a54}
+      \strng{bibnamehash}{dbfff44497cdb739cadef433ec9b2a54}
+      \strng{editorbibnamehash}{dbfff44497cdb739cadef433ec9b2a54}
+      \strng{editornamehash}{dbfff44497cdb739cadef433ec9b2a54}
+      \strng{editorfullhash}{dbfff44497cdb739cadef433ec9b2a54}
+      \strng{editorfullhashraw}{dbfff44497cdb739cadef433ec9b2a54}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Critical juncture theory seeks to understand how social orders are created, become entrenched, and change. In this book, leading practitioners offer the first coordinated effort to define this field, assess its theoretical and methodological foundations, and use a critical assessment of current practices as a basis for guiding its future}
+      \field{isbn}{978-1-5381-6614-7}
+      \field{shorttitle}{Critical junctures and historical legacies}
+      \field{title}{{Critical} junctures and historical legacies: {insights} and methods for comparative social science}
+      \field{year}{2022}
+      \keyw{Comparative method,Critical theory,Social change,Social sciences,Social structure}
+    \endentry
     \entry{dewan_corrective_2005}{article}{}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=45905b08c89852c1d7fc38f831274baf}{%
@@ -1233,66 +1277,6 @@
       \verb https://www.cambridge.org/core/product/identifier/9780511621123/type/book
       \endverb
     \endentry
-    \entry{levitsky_variation_2009}{article}{}{}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=5a385c7fc53d40f894bd4af8fd60a689}{%
-           family={Levitsky},
-           familyi={L\bibinitperiod},
-           given={Steven},
-           giveni={S\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=ccf39c309f1e119a4aa74210e57f5280}{%
-           family={Murillo},
-           familyi={M\bibinitperiod},
-           given={María\bibnamedelima Victoria},
-           giveni={M\bibinitperiod\bibinitdelim V\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{language}{1}{%
-        {en}%
-      }
-      \strng{namehash}{65af5d0bc44519ba04a41edd08cd6f38}
-      \strng{fullhash}{65af5d0bc44519ba04a41edd08cd6f38}
-      \strng{fullhashraw}{65af5d0bc44519ba04a41edd08cd6f38}
-      \strng{bibnamehash}{65af5d0bc44519ba04a41edd08cd6f38}
-      \strng{authorbibnamehash}{65af5d0bc44519ba04a41edd08cd6f38}
-      \strng{authornamehash}{65af5d0bc44519ba04a41edd08cd6f38}
-      \strng{authorfullhash}{65af5d0bc44519ba04a41edd08cd6f38}
-      \strng{authorfullhashraw}{65af5d0bc44519ba04a41edd08cd6f38}
-      \field{sortinit}{L}
-      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{Comparative research on political institutions has begun to turn from issues of formal institutional design to issues of institutional strength. Rather than assuming a tight ﬁt between formal rules and political behavior, these studies examine how variation in the stability and/or enforcement of formal rules shapes actors’ expectations and behavior. This article explores the emerging research agenda on institutional strength. It disaggregates the concept of institutional strength into two dimensions—enforcement and stability—and it argues that institutions vary widely on both dimensions. The article then examines the sources of this variation and its implications for comparative research. It shows how recent research on weak institutions may be used to reﬁne existing theories of institutional effects, design, and development, which should broaden the comparative scope of these theories. The conclusion examines ways of developing comparative measures of institutional strength.}
-      \field{issn}{1094-2939, 1545-1577}
-      \field{journaltitle}{Annual Review of Political Science}
-      \field{month}{6}
-      \field{number}{1}
-      \field{title}{Variation in {Institutional} {Strength}}
-      \field{urlday}{14}
-      \field{urlmonth}{6}
-      \field{urlyear}{2026}
-      \field{volume}{12}
-      \field{year}{2009}
-      \field{urldateera}{ce}
-      \field{pages}{115\bibrangedash 133}
-      \range{pages}{19}
-      \verb{doi}
-      \verb 10.1146/annurev.polisci.11.091106.121756
-      \endverb
-      \verb{file}
-      \verb levitskyMurillo:/Users/josemanuelmagallanes/PUCP/premieres/papers/levitskyMurillo.pdf:application/pdf
-      \endverb
-      \verb{urlraw}
-      \verb https://www.annualreviews.org/doi/10.1146/annurev.polisci.11.091106.121756
-      \endverb
-      \verb{url}
-      \verb https://www.annualreviews.org/doi/10.1146/annurev.polisci.11.091106.121756
-      \endverb
-    \endentry
     \entry{levitt_organizational_1988}{article}{}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=a7281c9f9a83523e8b76a0104a18ebe4}{%
@@ -1348,6 +1332,52 @@
       \endverb
       \verb{url}
       \verb https://www.annualreviews.org/doi/10.1146/annurev.so.14.080188.001535
+      \endverb
+    \endentry
+    \entry{lindblom_science_1959}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=e3f6ccbf26aa766fb636af9462e8a2ee}{%
+           family={Lindblom},
+           familyi={L\bibinitperiod},
+           given={Charles\bibnamedelima E.},
+           giveni={C\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{e3f6ccbf26aa766fb636af9462e8a2ee}
+      \strng{fullhash}{e3f6ccbf26aa766fb636af9462e8a2ee}
+      \strng{fullhashraw}{e3f6ccbf26aa766fb636af9462e8a2ee}
+      \strng{bibnamehash}{e3f6ccbf26aa766fb636af9462e8a2ee}
+      \strng{authorbibnamehash}{e3f6ccbf26aa766fb636af9462e8a2ee}
+      \strng{authornamehash}{e3f6ccbf26aa766fb636af9462e8a2ee}
+      \strng{authorfullhash}{e3f6ccbf26aa766fb636af9462e8a2ee}
+      \strng{authorfullhashraw}{e3f6ccbf26aa766fb636af9462e8a2ee}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{00333352}
+      \field{journaltitle}{Public Administration Review}
+      \field{number}{2}
+      \field{title}{The {Science} of "{Muddling} {Through}"}
+      \field{urlday}{17}
+      \field{urlmonth}{6}
+      \field{urlyear}{2026}
+      \field{volume}{19}
+      \field{year}{1959}
+      \field{urldateera}{ce}
+      \field{pages}{79}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.2307/973677
+      \endverb
+      \verb{urlraw}
+      \verb https://www.jstor.org/stable/973677?origin=crossref
+      \endverb
+      \verb{url}
+      \verb https://www.jstor.org/stable/973677?origin=crossref
       \endverb
     \endentry
     \entry{lopez_jimenez_peru_2025}{book}{}{}
@@ -2146,6 +2176,50 @@
       \verb https://www.jstor.org/stable/2392088?origin=crossref
       \endverb
     \endentry
+    \entry{collier_critical_2022}{book}{}{}
+      \name{editor}{2}{}{%
+        {{un=0,uniquepart=base,hash=94113ef23c25de6882e45c4245eae4b0}{%
+           family={Collier},
+           familyi={C\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4a9f2b7c11c1c5257e68eb4553394c84}{%
+           family={Munck},
+           familyi={M\bibinitperiod},
+           given={Gerardo\bibnamedelima L.},
+           giveni={G\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Lanham}%
+      }
+      \list{publisher}{2}{%
+        {Rowman}%
+        {Littlefield}%
+      }
+      \strng{namehash}{dbfff44497cdb739cadef433ec9b2a54}
+      \strng{fullhash}{dbfff44497cdb739cadef433ec9b2a54}
+      \strng{fullhashraw}{dbfff44497cdb739cadef433ec9b2a54}
+      \strng{bibnamehash}{dbfff44497cdb739cadef433ec9b2a54}
+      \strng{editorbibnamehash}{dbfff44497cdb739cadef433ec9b2a54}
+      \strng{editornamehash}{dbfff44497cdb739cadef433ec9b2a54}
+      \strng{editorfullhash}{dbfff44497cdb739cadef433ec9b2a54}
+      \strng{editorfullhashraw}{dbfff44497cdb739cadef433ec9b2a54}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Critical juncture theory seeks to understand how social orders are created, become entrenched, and change. In this book, leading practitioners offer the first coordinated effort to define this field, assess its theoretical and methodological foundations, and use a critical assessment of current practices as a basis for guiding its future}
+      \field{isbn}{978-1-5381-6614-7}
+      \field{shorttitle}{Critical junctures and historical legacies}
+      \field{title}{{Critical} junctures and historical legacies: {insights} and methods for comparative social science}
+      \field{year}{2022}
+      \keyw{Comparative method,Critical theory,Social change,Social sciences,Social structure}
+    \endentry
     \entry{dewan_corrective_2005}{article}{}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=45905b08c89852c1d7fc38f831274baf}{%
@@ -2724,66 +2798,6 @@
       \verb https://www.cambridge.org/core/product/identifier/9780511621123/type/book
       \endverb
     \endentry
-    \entry{levitsky_variation_2009}{article}{}{}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=5a385c7fc53d40f894bd4af8fd60a689}{%
-           family={Levitsky},
-           familyi={L\bibinitperiod},
-           given={Steven},
-           giveni={S\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=ccf39c309f1e119a4aa74210e57f5280}{%
-           family={Murillo},
-           familyi={M\bibinitperiod},
-           given={María\bibnamedelima Victoria},
-           giveni={M\bibinitperiod\bibinitdelim V\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{language}{1}{%
-        {en}%
-      }
-      \strng{namehash}{65af5d0bc44519ba04a41edd08cd6f38}
-      \strng{fullhash}{65af5d0bc44519ba04a41edd08cd6f38}
-      \strng{fullhashraw}{65af5d0bc44519ba04a41edd08cd6f38}
-      \strng{bibnamehash}{65af5d0bc44519ba04a41edd08cd6f38}
-      \strng{authorbibnamehash}{65af5d0bc44519ba04a41edd08cd6f38}
-      \strng{authornamehash}{65af5d0bc44519ba04a41edd08cd6f38}
-      \strng{authorfullhash}{65af5d0bc44519ba04a41edd08cd6f38}
-      \strng{authorfullhashraw}{65af5d0bc44519ba04a41edd08cd6f38}
-      \field{sortinit}{L}
-      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{Comparative research on political institutions has begun to turn from issues of formal institutional design to issues of institutional strength. Rather than assuming a tight ﬁt between formal rules and political behavior, these studies examine how variation in the stability and/or enforcement of formal rules shapes actors’ expectations and behavior. This article explores the emerging research agenda on institutional strength. It disaggregates the concept of institutional strength into two dimensions—enforcement and stability—and it argues that institutions vary widely on both dimensions. The article then examines the sources of this variation and its implications for comparative research. It shows how recent research on weak institutions may be used to reﬁne existing theories of institutional effects, design, and development, which should broaden the comparative scope of these theories. The conclusion examines ways of developing comparative measures of institutional strength.}
-      \field{issn}{1094-2939, 1545-1577}
-      \field{journaltitle}{Annual Review of Political Science}
-      \field{month}{6}
-      \field{number}{1}
-      \field{title}{Variation in {Institutional} {Strength}}
-      \field{urlday}{14}
-      \field{urlmonth}{6}
-      \field{urlyear}{2026}
-      \field{volume}{12}
-      \field{year}{2009}
-      \field{urldateera}{ce}
-      \field{pages}{115\bibrangedash 133}
-      \range{pages}{19}
-      \verb{doi}
-      \verb 10.1146/annurev.polisci.11.091106.121756
-      \endverb
-      \verb{file}
-      \verb levitskyMurillo:/Users/josemanuelmagallanes/PUCP/premieres/papers/levitskyMurillo.pdf:application/pdf
-      \endverb
-      \verb{urlraw}
-      \verb https://www.annualreviews.org/doi/10.1146/annurev.polisci.11.091106.121756
-      \endverb
-      \verb{url}
-      \verb https://www.annualreviews.org/doi/10.1146/annurev.polisci.11.091106.121756
-      \endverb
-    \endentry
     \entry{levitt_organizational_1988}{article}{}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=a7281c9f9a83523e8b76a0104a18ebe4}{%
@@ -2839,6 +2853,52 @@
       \endverb
       \verb{url}
       \verb https://www.annualreviews.org/doi/10.1146/annurev.so.14.080188.001535
+      \endverb
+    \endentry
+    \entry{lindblom_science_1959}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=e3f6ccbf26aa766fb636af9462e8a2ee}{%
+           family={Lindblom},
+           familyi={L\bibinitperiod},
+           given={Charles\bibnamedelima E.},
+           giveni={C\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{e3f6ccbf26aa766fb636af9462e8a2ee}
+      \strng{fullhash}{e3f6ccbf26aa766fb636af9462e8a2ee}
+      \strng{fullhashraw}{e3f6ccbf26aa766fb636af9462e8a2ee}
+      \strng{bibnamehash}{e3f6ccbf26aa766fb636af9462e8a2ee}
+      \strng{authorbibnamehash}{e3f6ccbf26aa766fb636af9462e8a2ee}
+      \strng{authornamehash}{e3f6ccbf26aa766fb636af9462e8a2ee}
+      \strng{authorfullhash}{e3f6ccbf26aa766fb636af9462e8a2ee}
+      \strng{authorfullhashraw}{e3f6ccbf26aa766fb636af9462e8a2ee}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{00333352}
+      \field{journaltitle}{Public Administration Review}
+      \field{number}{2}
+      \field{title}{The {Science} of "{Muddling} {Through}"}
+      \field{urlday}{17}
+      \field{urlmonth}{6}
+      \field{urlyear}{2026}
+      \field{volume}{19}
+      \field{year}{1959}
+      \field{urldateera}{ce}
+      \field{pages}{79}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.2307/973677
+      \endverb
+      \verb{urlraw}
+      \verb https://www.jstor.org/stable/973677?origin=crossref
+      \endverb
+      \verb{url}
+      \verb https://www.jstor.org/stable/973677?origin=crossref
       \endverb
     \endentry
     \entry{lopez_jimenez_peru_2025}{book}{}{}

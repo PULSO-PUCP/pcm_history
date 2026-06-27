@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.6.20)  24 JUN 2026 18:57
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.6.20)  27 JUN 2026 08:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -622,6 +622,70 @@ File: microtype.cfg 2026/03/01 v3.2d microtype main configuration file (RS)
 LaTeX Info: Redefining \microtypesetup on input line 3065.
 ) (/Users/josemanuelmagallanes/Library/TinyTeX/texmf-dist/tex/latex/setspace/setspace.sty
 Package: setspace 2022/12/04 v6.7b set line spacing
+) (/Users/josemanuelmagallanes/Library/TinyTeX/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2026/05/19 v2.18d AMS math features
+\@mathmargin=\skip110
+For additional information on amsmath, use the `?' option.
+(/Users/josemanuelmagallanes/Library/TinyTeX/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2024/11/17 v2.01 AMS text
+(/Users/josemanuelmagallanes/Library/TinyTeX/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks38
+\ex@=\dimen317
+)) (/Users/josemanuelmagallanes/Library/TinyTeX/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+LaTeX Info: Redefining \boldsymbol on input line 28.
+\pmbraise@=\dimen318
+) (/Users/josemanuelmagallanes/Library/TinyTeX/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count337
+LaTeX Info: Redefining \frac on input line 233.
+\uproot@=\count338
+\leftroot@=\count339
+LaTeX Info: Redefining \overline on input line 398.
+LaTeX Info: Redefining \colon on input line 409.
+\classnum@=\count340
+\DOTSCASE@=\count341
+LaTeX Info: Redefining \ldots on input line 495.
+LaTeX Info: Redefining \dots on input line 498.
+LaTeX Info: Redefining \cdots on input line 619.
+\Mathstrutbox@=\box71
+\strutbox@=\box72
+LaTeX Info: Redefining \big on input line 721.
+LaTeX Info: Redefining \Big on input line 722.
+LaTeX Info: Redefining \bigg on input line 723.
+LaTeX Info: Redefining \Bigg on input line 724.
+\big@size=\dimen319
+LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
+\macc@depth=\count342
+LaTeX Info: Redefining \bmod on input line 904.
+LaTeX Info: Redefining \pmod on input line 909.
+LaTeX Info: Redefining \smash on input line 939.
+LaTeX Info: Redefining \relbar on input line 969.
+LaTeX Info: Redefining \Relbar on input line 970.
+\c@MaxMatrixCols=\count343
+\dotsspace@=\muskip18
+\c@parentequation=\count344
+\dspbrk@lvl=\count345
+\tag@help=\toks39
+\row@=\count346
+\column@=\count347
+\maxfields@=\count348
+\andhelp@=\toks40
+\eqnshift@=\dimen320
+\alignsep@=\dimen321
+\tagshift@=\dimen322
+\tagwidth@=\dimen323
+\totwidth@=\dimen324
+\lineht@=\dimen325
+\@envbody=\toks41
+\multlinegap=\skip111
+\multlinetaggap=\skip112
+\mathdisplay@stack=\toks42
+LaTeX Info: Redefining \[ on input line 2965.
+LaTeX Info: Redefining \] on input line 2966.
 ) (/Users/josemanuelmagallanes/Library/TinyTeX/texmf-dist/tex/latex/anyfontsize/anyfontsize.sty
 Invalid UTF-8 byte or sequence at line 3 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 3 replaced by U+FFFD.
@@ -630,69 +694,69 @@ Package: anyfontsize 2007/11/22 anyfontsize.sty by pts
 Package: biblatex 2025/07/10 v3.21 programmable bibliographies (PK/MW)
 (/Users/josemanuelmagallanes/Library/TinyTeX/texmf-dist/tex/latex/logreq/logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count337
+\lrq@indent=\count349
 (/Users/josemanuelmagallanes/Library/TinyTeX/texmf-dist/tex/latex/logreq/logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 )) (/Users/josemanuelmagallanes/Library/TinyTeX/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
 )
-\c@tabx@nest=\count338
-\c@listtotal=\count339
-\c@listcount=\count340
-\c@liststart=\count341
-\c@liststop=\count342
-\c@citecount=\count343
-\c@citetotal=\count344
-\c@multicitecount=\count345
-\c@multicitetotal=\count346
-\c@instcount=\count347
-\c@maxnames=\count348
-\c@minnames=\count349
-\c@maxitems=\count350
-\c@minitems=\count351
-\c@citecounter=\count352
-\c@maxcitecounter=\count353
-\c@savedcitecounter=\count354
-\c@uniquelist=\count355
-\c@uniquename=\count356
-\c@refsection=\count357
-\c@refsegment=\count358
-\c@maxextratitle=\count359
-\c@maxextratitleyear=\count360
-\c@maxextraname=\count361
-\c@maxextradate=\count362
-\c@maxextraalpha=\count363
-\c@abbrvpenalty=\count364
-\c@highnamepenalty=\count365
-\c@lownamepenalty=\count366
-\c@maxparens=\count367
-\c@parenlevel=\count368
-\blx@tempcnta=\count369
-\blx@tempcntb=\count370
-\blx@tempcntc=\count371
-\c@blx@maxsection=\count372
-\blx@maxsegment@0=\count373
-\blx@notetype=\count374
-\blx@parenlevel@text=\count375
-\blx@parenlevel@foot=\count376
-\blx@sectionciteorder@0=\count377
-\blx@sectionciteorderinternal@0=\count378
-\blx@entrysetcounter=\count379
-\blx@biblioinstance=\count380
-\labelnumberwidth=\skip110
-\labelalphawidth=\skip111
-\biblabelsep=\skip112
-\bibitemsep=\skip113
-\bibnamesep=\skip114
-\bibinitsep=\skip115
-\bibparsep=\skip116
-\bibhang=\skip117
+\c@tabx@nest=\count350
+\c@listtotal=\count351
+\c@listcount=\count352
+\c@liststart=\count353
+\c@liststop=\count354
+\c@citecount=\count355
+\c@citetotal=\count356
+\c@multicitecount=\count357
+\c@multicitetotal=\count358
+\c@instcount=\count359
+\c@maxnames=\count360
+\c@minnames=\count361
+\c@maxitems=\count362
+\c@minitems=\count363
+\c@citecounter=\count364
+\c@maxcitecounter=\count365
+\c@savedcitecounter=\count366
+\c@uniquelist=\count367
+\c@uniquename=\count368
+\c@refsection=\count369
+\c@refsegment=\count370
+\c@maxextratitle=\count371
+\c@maxextratitleyear=\count372
+\c@maxextraname=\count373
+\c@maxextradate=\count374
+\c@maxextraalpha=\count375
+\c@abbrvpenalty=\count376
+\c@highnamepenalty=\count377
+\c@lownamepenalty=\count378
+\c@maxparens=\count379
+\c@parenlevel=\count380
+\blx@tempcnta=\count381
+\blx@tempcntb=\count382
+\blx@tempcntc=\count383
+\c@blx@maxsection=\count384
+\blx@maxsegment@0=\count385
+\blx@notetype=\count386
+\blx@parenlevel@text=\count387
+\blx@parenlevel@foot=\count388
+\blx@sectionciteorder@0=\count389
+\blx@sectionciteorderinternal@0=\count390
+\blx@entrysetcounter=\count391
+\blx@biblioinstance=\count392
+\labelnumberwidth=\skip113
+\labelalphawidth=\skip114
+\biblabelsep=\skip115
+\bibitemsep=\skip116
+\bibnamesep=\skip117
+\bibinitsep=\skip118
+\bibparsep=\skip119
+\bibhang=\skip120
 \blx@bcfin=\read3
 \blx@bcfout=\write4
 \blx@langwohyphens=\language3
-\c@mincomprange=\count381
-\c@maxcomprange=\count382
-\c@mincompwidth=\count383
+\c@mincomprange=\count393
+\c@maxcomprange=\count394
+\c@mincompwidth=\count395
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
 (/Users/josemanuelmagallanes/Library/TinyTeX/texmf-dist/tex/latex/biblatex/blx-dm.def
@@ -705,98 +769,98 @@ File: apa.dbx 2025/08/27 v9.20 APA biblatex style data model
 )
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count384
-\c@savedafterword=\count385
-\c@annotator=\count386
-\c@savedannotator=\count387
-\c@author=\count388
-\c@savedauthor=\count389
-\c@bookauthor=\count390
-\c@savedbookauthor=\count391
-\c@commentator=\count392
-\c@savedcommentator=\count393
-\c@editor=\count394
-\c@savededitor=\count395
-\c@editora=\count396
-\c@savededitora=\count397
-\c@editorb=\count398
-\c@savededitorb=\count399
-\c@editorc=\count400
-\c@savededitorc=\count401
-\c@foreword=\count402
-\c@savedforeword=\count403
-\c@holder=\count404
-\c@savedholder=\count405
-\c@introduction=\count406
-\c@savedintroduction=\count407
-\c@namea=\count408
-\c@savednamea=\count409
-\c@nameb=\count410
-\c@savednameb=\count411
-\c@namec=\count412
-\c@savednamec=\count413
-\c@translator=\count414
-\c@savedtranslator=\count415
-\c@shortauthor=\count416
-\c@savedshortauthor=\count417
-\c@shorteditor=\count418
-\c@savedshorteditor=\count419
-\c@narrator=\count420
-\c@savednarrator=\count421
-\c@execproducer=\count422
-\c@savedexecproducer=\count423
-\c@execdirector=\count424
-\c@savedexecdirector=\count425
-\c@with=\count426
-\c@savedwith=\count427
-\c@labelname=\count428
-\c@savedlabelname=\count429
-\c@institution=\count430
-\c@savedinstitution=\count431
-\c@lista=\count432
-\c@savedlista=\count433
-\c@listb=\count434
-\c@savedlistb=\count435
-\c@listc=\count436
-\c@savedlistc=\count437
-\c@listd=\count438
-\c@savedlistd=\count439
-\c@liste=\count440
-\c@savedliste=\count441
-\c@listf=\count442
-\c@savedlistf=\count443
-\c@location=\count444
-\c@savedlocation=\count445
-\c@organization=\count446
-\c@savedorganization=\count447
-\c@origlocation=\count448
-\c@savedoriglocation=\count449
-\c@origpublisher=\count450
-\c@savedorigpublisher=\count451
-\c@publisher=\count452
-\c@savedpublisher=\count453
-\c@language=\count454
-\c@savedlanguage=\count455
-\c@origlanguage=\count456
-\c@savedoriglanguage=\count457
-\c@citation=\count458
-\c@savedcitation=\count459
-\c@pageref=\count460
-\c@savedpageref=\count461
-\shorthandwidth=\skip118
-\shortjournalwidth=\skip119
-\shortserieswidth=\skip120
-\shorttitlewidth=\skip121
-\shortauthorwidth=\skip122
-\shorteditorwidth=\skip123
-\locallabelnumberwidth=\skip124
-\locallabelalphawidth=\skip125
-\localshorthandwidth=\skip126
-\localshortjournalwidth=\skip127
-\localshortserieswidth=\skip128
-\localshorttitlewidth=\skip129
-\localshortauthorwidth=\skip130
-\localshorteditorwidth=\skip131
+\c@afterword=\count396
+\c@savedafterword=\count397
+\c@annotator=\count398
+\c@savedannotator=\count399
+\c@author=\count400
+\c@savedauthor=\count401
+\c@bookauthor=\count402
+\c@savedbookauthor=\count403
+\c@commentator=\count404
+\c@savedcommentator=\count405
+\c@editor=\count406
+\c@savededitor=\count407
+\c@editora=\count408
+\c@savededitora=\count409
+\c@editorb=\count410
+\c@savededitorb=\count411
+\c@editorc=\count412
+\c@savededitorc=\count413
+\c@foreword=\count414
+\c@savedforeword=\count415
+\c@holder=\count416
+\c@savedholder=\count417
+\c@introduction=\count418
+\c@savedintroduction=\count419
+\c@namea=\count420
+\c@savednamea=\count421
+\c@nameb=\count422
+\c@savednameb=\count423
+\c@namec=\count424
+\c@savednamec=\count425
+\c@translator=\count426
+\c@savedtranslator=\count427
+\c@shortauthor=\count428
+\c@savedshortauthor=\count429
+\c@shorteditor=\count430
+\c@savedshorteditor=\count431
+\c@narrator=\count432
+\c@savednarrator=\count433
+\c@execproducer=\count434
+\c@savedexecproducer=\count435
+\c@execdirector=\count436
+\c@savedexecdirector=\count437
+\c@with=\count438
+\c@savedwith=\count439
+\c@labelname=\count440
+\c@savedlabelname=\count441
+\c@institution=\count442
+\c@savedinstitution=\count443
+\c@lista=\count444
+\c@savedlista=\count445
+\c@listb=\count446
+\c@savedlistb=\count447
+\c@listc=\count448
+\c@savedlistc=\count449
+\c@listd=\count450
+\c@savedlistd=\count451
+\c@liste=\count452
+\c@savedliste=\count453
+\c@listf=\count454
+\c@savedlistf=\count455
+\c@location=\count456
+\c@savedlocation=\count457
+\c@organization=\count458
+\c@savedorganization=\count459
+\c@origlocation=\count460
+\c@savedoriglocation=\count461
+\c@origpublisher=\count462
+\c@savedorigpublisher=\count463
+\c@publisher=\count464
+\c@savedpublisher=\count465
+\c@language=\count466
+\c@savedlanguage=\count467
+\c@origlanguage=\count468
+\c@savedoriglanguage=\count469
+\c@citation=\count470
+\c@savedcitation=\count471
+\c@pageref=\count472
+\c@savedpageref=\count473
+\shorthandwidth=\skip121
+\shortjournalwidth=\skip122
+\shortserieswidth=\skip123
+\shorttitlewidth=\skip124
+\shortauthorwidth=\skip125
+\shorteditorwidth=\skip126
+\locallabelnumberwidth=\skip127
+\locallabelalphawidth=\skip128
+\localshorthandwidth=\skip129
+\localshortjournalwidth=\skip130
+\localshortserieswidth=\skip131
+\localshorttitlewidth=\skip132
+\localshortauthorwidth=\skip133
+\localshorteditorwidth=\skip134
 Package biblatex Info: Trying to load enhanced support for Unicode engines...
 Package biblatex Info: ... file 'blx-unicode.def' found.
 (/Users/josemanuelmagallanes/Library/TinyTeX/texmf-dist/tex/latex/biblatex/blx-unicode.def)
@@ -809,19 +873,19 @@ Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
 (/Users/josemanuelmagallanes/Library/TinyTeX/texmf-dist/tex/latex/biblatex/biblatex.def
 File: biblatex.def 2025/07/10 v3.21 biblatex compatibility (PK/MW)
-\c@textcitecount=\count462
-\c@textcitetotal=\count463
-\c@textcitemaxnames=\count464
-\c@biburlbigbreakpenalty=\count465
-\c@biburlbreakpenalty=\count466
-\c@biburlnumpenalty=\count467
-\c@biburlucpenalty=\count468
-\c@biburllcpenalty=\count469
-\biburlbigskip=\muskip18
-\biburlnumskip=\muskip19
-\biburlucskip=\muskip20
-\biburllcskip=\muskip21
-\c@smartand=\count470
+\c@textcitecount=\count474
+\c@textcitetotal=\count475
+\c@textcitemaxnames=\count476
+\c@biburlbigbreakpenalty=\count477
+\c@biburlbreakpenalty=\count478
+\c@biburlnumpenalty=\count479
+\c@biburlucpenalty=\count480
+\c@biburllcpenalty=\count481
+\biburlbigskip=\muskip19
+\biburlnumskip=\muskip20
+\biburlucskip=\muskip21
+\biburllcskip=\muskip22
+\c@smartand=\count482
 )
 Package biblatex Info: Trying to load bibliography style 'apa'...
 Package biblatex Info: ... file 'apa.bbx' found.
@@ -831,8 +895,8 @@ Package biblatex Info: Trying to load bibliography style 'standard'...
 Package biblatex Info: ... file 'standard.bbx' found.
 (/Users/josemanuelmagallanes/Library/TinyTeX/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
 File: standard.bbx 2025/07/10 v3.21 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count471
-\c@bbx:relatedtotal=\count472
+\c@bbx:relatedcount=\count483
+\c@bbx:relatedtotal=\count484
 )
 Package biblatex Info: Delimiter 'nameyeardelim' in context 'bib' already defined, overwriting.
 Package biblatex Info: Delimiter 'nameyeardelim' in context 'biblist' already defined, overwriting.
@@ -873,9 +937,9 @@ Package biblatex Info: Document encoding is UTF8 ....
 Package: expl3 2026-06-18 L3 programming layer (loader) 
 (/Users/josemanuelmagallanes/Library/TinyTeX/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
 File: l3backend-xetex.def 2026-02-18 L3 backend support: XeTeX
-\g__graphics_track_int=\count473
-\g__pdfannot_backend_int=\count474
-\g__pdfannot_backend_link_int=\count475
+\g__graphics_track_int=\count485
+\g__pdfannot_backend_int=\count486
+\g__pdfannot_backend_link_int=\count487
 ))
 Package biblatex Info: ... and expl3
 (biblatex)             2026-06-18 L3 programming layer (loader) 
@@ -886,47 +950,47 @@ Package: xparse 2025-10-09 L3 Experimental document command parser
 )
 Package: blx-case-expl3 2025/07/10 v3.21 expl3 case changing code for biblatex
 ))
-\c@NumberOfAuthors=\count476
-\c@NumberOfSuperscripts=\count477
-\c@NumberOfAffiliations=\count478
+\c@NumberOfAuthors=\count488
+\c@NumberOfSuperscripts=\count489
+\c@NumberOfAffiliations=\count490
 (/Library/Frameworks/R.framework/Resources/share/texmf/tex/latex/Sweave.sty
 Package: Sweave 
 (/Users/josemanuelmagallanes/Library/TinyTeX/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
 Package: fancyvrb 2026/04/16 4.6a verbatim text (tvz,hv)
-\FV@CodeLineNo=\count479
+\FV@CodeLineNo=\count491
 \FV@InFile=\read4
-\FV@TabBox=\box71
-\c@FancyVerbLine=\count480
-\FV@StepNumber=\count481
+\FV@TabBox=\box73
+\c@FancyVerbLine=\count492
+\FV@StepNumber=\count493
 \FV@OutFile=\write5
 ) (/Users/josemanuelmagallanes/Library/TinyTeX/texmf-dist/tex/latex/base/textcomp.sty
 Package: textcomp 2024/04/24 v2.1b Standard LaTeX package
 ))
-\@quotelevel=\count482
-\@quotereset=\count483
+\@quotelevel=\count494
+\@quotereset=\count495
 (./gatopardo.aux)
 \openout1 = `gatopardo.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
 *geometry* verbose mode - [ preamble ] result:
@@ -961,7 +1025,7 @@ LaTeX Font Info:    ... okay on input line 73.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring OFF on input line 73.
+Package hyperref Info: Link coloring OFF on input line 78.
 (./gatopardo.out) (./gatopardo.out)
 \@outlinefile=\write6
 \openout6 = `gatopardo.out'.
@@ -971,15 +1035,15 @@ File: APA7american.txt 2020/12/02 v1.02 apa7 configuration for American English
 )
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Info: Redefining \microtypecontext on input line 73.
-Package microtype Info: Applying patch `item' on input line 73.
-Package microtype Info: Applying patch `toc' on input line 73.
-Package microtype Info: Applying patch `eqnum' on input line 73.
+LaTeX Info: Redefining \microtypecontext on input line 78.
+Package microtype Info: Applying patch `item' on input line 78.
+Package microtype Info: Applying patch `toc' on input line 78.
+Package microtype Info: Applying patch `eqnum' on input line 78.
 
-Package microtype Warning: Unable to apply patch `footnote' on input line 73.
+Package microtype Warning: Unable to apply patch `footnote' on input line 78.
 
-Package microtype Info: Applying patch `verbatim' on input line 73.
-LaTeX Info: Redefining \microtypesetup on input line 73.
+Package microtype Info: Applying patch `verbatim' on input line 78.
+LaTeX Info: Redefining \microtypesetup on input line 78.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: No adjustment of tracking.
@@ -1019,51 +1083,54 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'gatopardo.bbl' found.
 (./gatopardo.bbl)
-Package biblatex Info: Reference section=0 on input line 73.
-Package biblatex Info: Reference segment=0 on input line 73.
+Package biblatex Info: Reference section=0 on input line 78.
+Package biblatex Info: Reference segment=0 on input line 78.
 (./gatopardo-concordance.tex
-\pdfoutput=\count484
+\pdfoutput=\count496
 )
-Class apa7 Info: Keywords not defined on input line 77.
+Class apa7 Info: Keywords not defined on input line 82.
 Using title for running head
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 77.
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 82.
 (/Users/josemanuelmagallanes/Library/TinyTeX/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 77.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 82.
 (/Users/josemanuelmagallanes/Library/TinyTeX/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 77.
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 82.
 (/Users/josemanuelmagallanes/Library/TinyTeX/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 77.
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 82.
 (/Users/josemanuelmagallanes/Library/TinyTeX/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 77.
+(Font)              <12> on input line 82.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 77.
+(Font)              <8> on input line 82.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 77.
-(./gatopardo.toc [1
-
-])
+(Font)              <6> on input line 82.
+(./gatopardo.toc)
 \tf@toc=\write7
 \openout7 = `gatopardo.toc'.
 
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 81.
-[2] [3]
+(Font)              <10.95> on input line 86.
+[1
+
+] [2]
 File: premiers_decennial.pdf Graphic file (type pdf)
 <use premiers_decennial.pdf>
-[4] [5]
+[3] [4]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 153.
-[6] [7] [8] [9]
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 244.
+(Font)              <5> on input line 150.
+
+Underfull \vbox (badness 4072) has occurred while \output is active []
+
+[5] [6] [7] [8]
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 235.
 (/Users/josemanuelmagallanes/Library/TinyTeX/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
@@ -1071,534 +1138,65 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `lmtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-[10] [11] [12] [13]
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 302.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 302.
+[9] [10]
+Underfull \hbox (badness 1127) in paragraph at lines 262--263
+[]\T1/lmr/m/n/12 Axiom []A1[] es-tab-lished that knowl-edge ac-cu-mu-la-tion re-quires con-ti-nu-ity.
+ []
 
-Underfull \vbox (badness 1565) has occurred while \output is active []
+[11]
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 290.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 290.
+[12]
+Underfull \vbox (badness 3158) has occurred while \output is active []
 
-[14] [15]
-Overfull \hbox (5.52696pt too wide) in paragraph at lines 361--361
-[]|\T1/lmr/bx/n/8 Period| 
+[13]
+Underfull \hbox (badness 2846) in paragraph at lines 344--344
+[]|\T1/lmr/bx/n/8 Originating Crit-i-cal Junc-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 362--362
-[]|\T1/lmr/bx/n/8 End
+Underfull \hbox (badness 2521) in paragraph at lines 358--359
+[]|\T1/lmr/m/n/8 Elite re-con-struc-tion un-der oli-garchic
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 362--362
-\T1/lmr/bx/n/8 Point
+Underfull \hbox (badness 1014) in paragraph at lines 362--362
+[]|\T1/lmr/m/n/8 PF3 -- Power-Sharing
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 369--369
-[]|\T1/lmr/m/n/8 1824--
- []
-
-
-Underfull \hbox (badness 3547) in paragraph at lines 371--371
-\T1/lmr/m/n/8 ure in state build-
- []
-
-
-Underfull \hbox (badness 2698) in paragraph at lines 372--372
-[]|\T1/lmr/m/n/8 Failed cre-ole rev-o-lu-tions;
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 372--372
-\T1/lmr/m/n/8 in-dige-nous par-tic-i-pa-tion
- []
-
-
-Underfull \hbox (badness 5302) in paragraph at lines 373--374
-\T1/lmr/m/n/8 the to-tal ab-sence
- []
-
-
-Overfull \hbox (0.56053pt too wide) in paragraph at lines 377--377
-[]|\T1/lmr/m/n/8 Oligarchic
+[]|\T1/lmr/m/n/8 PF4 -- Demo-cratic
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 378--378
-[]|\T1/lmr/m/n/8 1883--
+[]|\T1/lmr/m/n/8 Fujimori Set-tle-ment (1982--
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 380--380
-[]|\T1/lmr/m/n/8 War with Chile
+Overfull \hbox (18.40903pt too wide) in paragraph at lines 340--383
+ [][] 
  []
 
+[14] [15]
+! Missing $ inserted.
+<inserted text> 
+                $
+l.428 \exists
+              PB_{k}^{(f)}
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
 
-Underfull \hbox (badness 1292) in paragraph at lines 380--380
-\T1/lmr/m/n/8 i-ated elites; demon-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 381--381
-[]|\T1/lmr/m/n/8 Patrimonial re-con-struc-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 381--381
-\T1/lmr/m/n/8 tion un-der oligarchic-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 381--381
-\T1/lmr/m/n/8 gamonalista al-liance;
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 381--381
-\T1/lmr/m/n/8 ``com-pet-i-tive oli-garchy''
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 382--383
-[]|\T1/lmr/m/n/8 Popular mo-bi-liza-
- []
-
-
-Underfull \hbox (badness 1067) in paragraph at lines 382--383
-\T1/lmr/m/n/8 tions and Leguía's
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 382--383
-\T1/lmr/m/n/8 to-cratic Re-pub-lic
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 386--386
-[]|\T1/lmr/m/n/8 Power-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 386--386
-\T1/lmr/m/n/8 Sharing
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 387--387
-[]|\T1/lmr/m/n/8 1933--
- []
-
-
-Underfull \hbox (badness 4242) in paragraph at lines 389--389
-[]|\T1/lmr/m/n/8 Crisis of the Aris-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 389--389
-\T1/lmr/m/n/8 to-cratic Re-pub-lic
- []
-
-
-Underfull \hbox (badness 6380) in paragraph at lines 389--389
-\T1/lmr/m/n/8 the 1930 re-ces-sion,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 389--389
-\T1/lmr/m/n/8 Haya, Mar-iátegui,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 389--389
-\T1/lmr/m/n/8 as-sas-si-na-tion of
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 390--390
-[]|\T1/lmr/m/n/8 Tripartite sys-tem: oli-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 390--390
-\T1/lmr/m/n/8 garchy, APRA, and
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 390--390
-\T1/lmr/m/n/8 ``con-viven-cia'' (APRA-
- []
-
-
-Underfull \hbox (badness 1661) in paragraph at lines 390--390
-\T1/lmr/m/n/8 oligarchy al-liance); mass
- []
-
-
-Underfull \hbox (badness 1546) in paragraph at lines 390--390
-\T1/lmr/m/n/8 la-bor, peas-ant, and stu-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 391--392
-[]|\T1/lmr/m/n/8 Social over-flow
- []
-
-
-Overfull \hbox (1.08015pt too wide) in paragraph at lines 395--395
-[]|\T1/lmr/m/n/8 Transition
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 395--395
-\T1/lmr/m/n/8 and
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 395--395
-\T1/lmr/m/n/8 Demo-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 395--395
-\T1/lmr/m/n/8 cratic
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 396--396
-[]|\T1/lmr/m/n/8 1975--
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 398--398
-[]|\T1/lmr/m/n/8 Military Rev-o-lu-tion
- []
-
-
-Underfull \hbox (badness 7558) in paragraph at lines 398--398
-\T1/lmr/m/n/8 (1968--1975). De-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 398--398
-\T1/lmr/m/n/8 stroyed oli-garchy
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 398--398
-\T1/lmr/m/n/8 and ga-mon-al-ismo
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 398--398
-\T1/lmr/m/n/8 through agrar-ian
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 398--398
-\T1/lmr/m/n/8 re-form; cen-tral-ized
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 399--399
-[]|\T1/lmr/m/n/8 Universal suf-frage
- []
-
-
-Underfull \hbox (badness 4108) in paragraph at lines 399--399
-\T1/lmr/m/n/8 (1979 Con-sti-tu-tion); de-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 399--399
-\T1/lmr/m/n/8 democratization through
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 399--399
-\T1/lmr/m/n/8 Shin-ing Path mas-sacre;
- []
-
-
-Underfull \hbox (badness 8000) in paragraph at lines 399--399
-\T1/lmr/m/n/8 col-lapse of the United
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 399--399
-\T1/lmr/m/n/8 state ter-ror-ism against
- []
-
-
-Underfull \hbox (badness 4505) in paragraph at lines 400--401
-[]|\T1/lmr/m/n/8 Absolute cri-sis of
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 400--401
-\T1/lmr/m/n/8 po-lit-i-cal par-ties,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 400--401
-\T1/lmr/m/n/8 ter-ror-ist vi-o-lence
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 400--401
-\T1/lmr/m/n/8 cul-mi-nate in Fu-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 400--401
-\T1/lmr/m/n/8 ji-mori's self-coup
- []
-
-
-Overfull \hbox (4.13794pt too wide) in paragraph at lines 404--404
-[]|\T1/lmr/m/n/8 Democracy
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 404--404
-\T1/lmr/m/n/8 with-out
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 405--405
-[]|\T1/lmr/m/n/8 1993--
- []
-
-
-Underfull \hbox (badness 2027) in paragraph at lines 408--408
-\T1/lmr/m/n/8 com-mod-ity ex-port boom
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 408--408
-\T1/lmr/m/n/8 le-git-imizes the ar-range-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 409--410
-\T1/lmr/m/n/8 con-dens-ing 30
- []
-
-
-Underfull \hbox (badness 3724) in paragraph at lines 409--410
-\T1/lmr/m/n/8 model, opens the
- []
-
-[16] [17] [18]
-Underfull \hbox (badness 10000) in paragraph at lines 483--483
-[]|\T1/lmr/m/n/10.95 Evidence Con-sis-tent
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 505--505
-[]|\T1/lmr/m/n/10.95 Evidence Con-sis-tent
- []
-
-[19] [20] [21]
-Underfull \hbox (badness 7326) in paragraph at lines 546--547
-[]\T1/lmr/m/n/12 Table []6[] sum-ma-rizes the ex-pec-ta-tions de-rived from the historical-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 556--556
-[]|\T1/lmr/bx/n/8 Institutional
- []
-
-
-Underfull \hbox (badness 1661) in paragraph at lines 570--570
-\T1/lmr/m/n/8 min-is-tra-tive con-sol-i-da-tion
- []
-
-
-Underfull \hbox (badness 4505) in paragraph at lines 571--571
-[]|\T1/lmr/m/n/8 Improvement rel-a-tive to
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 576--576
-[]|\T1/lmr/m/n/8 Power-Sharing
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 583--583
-[]|\T1/lmr/m/n/8 Transition and
- []
-
-
-Underfull \hbox (badness 2698) in paragraph at lines 584--584
-\T1/lmr/m/n/8 per-in-fla-tion, and in-sti-tu-
- []
-
-
-Underfull \hbox (badness 2828) in paragraph at lines 585--585
-[]|\T1/lmr/m/n/8 Breakdown of con-ti-nu-ity
- []
-
-
-Underfull \hbox (badness 7851) in paragraph at lines 590--590
-[]|\T1/lmr/m/n/8 Democracy with-
- []
-
-
-Underfull \hbox (badness 2035) in paragraph at lines 591--591
-[]|\T1/lmr/m/n/8 Uneven con-ti-nu-ity con-di-
- []
-
-
-Underfull \hbox (badness 1158) in paragraph at lines 591--591
-\T1/lmr/m/n/8 tions, po-ten-tially con-cen-
- []
-
-
-Underfull \hbox (badness 2680) in paragraph at lines 592--592
-\T1/lmr/m/n/8 spite in-sti-tu-tional per-sis-
- []
-
-
-Underfull \hbox (badness 3557) in paragraph at lines 593--594
-\T1/lmr/m/n/8 stronger con-ti-nu-ity than
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 621--623
-[]|\T1/lmr/m/n/10.95 Knowledge Ac-cu-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 621--623
-\T1/lmr/m/n/10.95 mu-la-tion (Within
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 624--625
-[]|\T1/lmr/m/n/10.95 Characterization of
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 624--625
-\T1/lmr/m/n/10.95 con-ti-nu-ity con-di-tions
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 624--625
-\T1/lmr/m/n/10.95 within in-sti-tu-tional
- []
-
-
-Underfull \hbox (badness 6078) in paragraph at lines 630--632
-[]|\T1/lmr/m/n/10.95 Institutional Learn-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 630--632
-\T1/lmr/m/n/10.95 ing (Be-tween
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 639--641
-[]|\T1/lmr/m/n/10.95 Protective Belts
- []
-
-
-Underfull \hbox (badness 7168) in paragraph at lines 642--643
-[]|\T1/lmr/m/n/10.95 Comparison of con-ti-
- []
-
-[22]
-Underfull \hbox (badness 10000) in paragraph at lines 666--666
-[]|\T1/lmr/bx/n/10.95 Theoretical
- []
-
-
-Underfull \hbox (badness 4726) in paragraph at lines 675--676
-[]|\T1/lmr/m/n/10.95 Descriptive du-ra-tion statis-
- []
-
-
-Underfull \hbox (badness 1394) in paragraph at lines 675--676
-\T1/lmr/m/n/10.95 tics; Kaplan--Meier sur-vival
- []
-
-
-Underfull \hbox (badness 6078) in paragraph at lines 679--680
-[]|\T1/lmr/m/n/10.95 Institutional Learn-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 681--682
-[]|\T1/lmr/m/n/10.95 Between in-sti-tu-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 683--684
-[]|\T1/lmr/m/n/10.95 Kaplan--Meier com-par-isons;
- []
-
-
-Underfull \hbox (badness 1122) in paragraph at lines 683--684
-\T1/lmr/m/n/10.95 log-rank tests; Cox pro-por-
- []
-
-
-Underfull \hbox (badness 1286) in paragraph at lines 683--684
-\T1/lmr/m/n/10.95 tional haz-ards mod-els with
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 689--690
-[]|\T1/lmr/m/n/10.95 Across min-is-te-rial
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 691--692
-[]|\T1/lmr/m/n/10.95 Kaplan--Meier com-par-isons;
- []
-
-
-Underfull \hbox (badness 1122) in paragraph at lines 691--692
-\T1/lmr/m/n/10.95 log-rank tests; Cox pro-por-
- []
-
-
-Underfull \hbox (badness 1286) in paragraph at lines 691--692
-\T1/lmr/m/n/10.95 tional haz-ards mod-els with
- []
-
-[23] [24] [25]
-File: gatopardo-fig:medianPlots.pdf Graphic file (type pdf)
-<use gatopardo-fig:medianPlots.pdf>
-File: gatopardo-fig:km_epochs.pdf Graphic file (type pdf)
-<use gatopardo-fig:km_epochs.pdf>
-[26] [27] [28]
-Missing character: There is no — ("2014) in font ec-lmr12!
-Missing character: There is no — ("2014) in font ec-lmr12!
-Missing character: There is no — ("2014) in font ec-lmr12!
-Missing character: There is no — ("2014) in font ec-lmr12!
-[29] [30] [31]
-Missing character: There is no – ("2013) in font ec-lmr12!
-[32] [33] (./gatopardo.aux)
- ***********
-LaTeX2e <2026-06-01>
-L3 programming layer <2026-06-18>
- ***********
-Package rerunfilecheck Info: File `gatopardo.out' has not changed.
-(rerunfilecheck)             Checksum: 4FC607FD5C6901C2E9B5C8975201F9B5;8395.
-Package logreq Info: Writing requests to 'gatopardo.run.xml'.
-\openout1 = `gatopardo.run.xml'.
-
- ) 
+ 
 Here is how much of TeX's memory you used:
- 34489 strings out of 469837
- 677775 string characters out of 5467329
- 1632641 words of memory out of 5000000
- 62892 multiletter control sequences out of 15000+600000
- 726060 words of font info for 100 fonts, out of 8000000 for 9000
+ 35059 strings out of 469837
+ 683102 string characters out of 5467329
+ 1635767 words of memory out of 5000000
+ 63448 multiletter control sequences out of 15000+600000
+ 726695 words of font info for 102 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 99i,13n,118p,1857b,5753s stack positions out of 10000i,1000n,20000p,200000b,200000s
-
-Output written on gatopardo.pdf (33 pages).
+ 99i,12n,118p,1857b,5761s stack positions out of 10000i,1000n,20000p,200000b,200000s
+Output written on gatopardo.pdf (15 pages).
