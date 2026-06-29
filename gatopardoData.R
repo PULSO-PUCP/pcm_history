@@ -42,5 +42,24 @@ str(gatopardo)
 table(gatopardo$epoch)
 
 table(gatopardo$cartera)
+names(gatopardo)
+gatopardo$political_framework=gatopardo$epoch
+gatopardo$portfolio=gatopardo$cartera
+gatopardo$President=gatopardo$Presidente
+gatopardo$startDate=gatopardo$fecha_start
+gatopardo$endDate=gatopardo$fecha_end
+gatopardo$Name=gatopardo$Nombre
+gatopardo$duration=gatopardo$duration+1
+
+gatopardo$epoch=NULL
+gatopardo$cartera=NULL
+gatopardo$Presidente=NULL
+gatopardo$fecha_start=NULL
+gatopardo$fecha_end=NULL
+gatopardo$Nombre=NULL
+gatopardo$Partido=NULL
+names(gatopardo)
+##
+gatopardo=gatopardo[,c("Name","startDate","endDate","duration","event","year","political_framework","portfolio","President")]
 saveRDS(gatopardo,"gatopardo.RDS")
 rm(list = ls())
