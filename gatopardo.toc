@@ -1,0 +1,10 @@
+\contentsline {section}{\numberline {1}Literature Review}{5}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Trait-Based Explanations of Ministerial Survival}{6}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Context-Based Explanations of Ministerial Survival}{7}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}Reinterpreting Ministerial Continuity}{8}{subsection.1.3}%
+\contentsline {section}{\numberline {2}Theoretical Framework}{9}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Axiom A1: Organizational Knowledge Accumulation Requires Continuity}{10}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Axiom A2: Institutional Learning Requires Organizational Knowledge Accumulation}{11}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Proposition 1: Political Frameworks Shape Organizational Continuity}{12}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Proposition 2: Political Frameworks Generate Protective Belts}{14}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.5}Proposition 3: Protective Belts Preserve Organizational Continuity}{15}{subsection.2.5}%

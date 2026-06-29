@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.6.20)  27 JUN 2026 08:01
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.6.20)  28 JUN 2026 22:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1112,25 +1112,25 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <8> on input line 82.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <6> on input line 82.
-(./gatopardo.toc)
+(./gatopardo.toc [1
+
+])
 \tf@toc=\write7
 \openout7 = `gatopardo.toc'.
 
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <10.95> on input line 86.
-[1
-
-] [2]
+[2] [3]
 File: premiers_decennial.pdf Graphic file (type pdf)
 <use premiers_decennial.pdf>
-[3] [4]
+[4] [5]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 150.
+(Font)              <5> on input line 146.
+[6] [7] [8]
+Underfull \vbox (badness 7291) has occurred while \output is active []
 
-Underfull \vbox (badness 4072) has occurred while \output is active []
-
-[5] [6] [7] [8]
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 235.
+[9]
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 241.
 (/Users/josemanuelmagallanes/Library/TinyTeX/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
@@ -1138,65 +1138,37 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `lmtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-[9] [10]
-Underfull \hbox (badness 1127) in paragraph at lines 262--263
-[]\T1/lmr/m/n/12 Axiom []A1[] es-tab-lished that knowl-edge ac-cu-mu-la-tion re-quires con-ti-nu-ity.
- []
-
-[11]
+[10] [11]
+Missing character: There is no — ("2014) in font ec-lmr12!
+Missing character: There is no — ("2014) in font ec-lmr12!
+[12] [13]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 290.
+(Font)              <10> on input line 319.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 290.
-[12]
-Underfull \vbox (badness 3158) has occurred while \output is active []
-
-[13]
-Underfull \hbox (badness 2846) in paragraph at lines 344--344
-[]|\T1/lmr/bx/n/8 Originating Crit-i-cal Junc-
- []
-
-
-Underfull \hbox (badness 2521) in paragraph at lines 358--359
-[]|\T1/lmr/m/n/8 Elite re-con-struc-tion un-der oli-garchic
- []
-
-
-Underfull \hbox (badness 1014) in paragraph at lines 362--362
-[]|\T1/lmr/m/n/8 PF3 -- Power-Sharing
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 369--369
-[]|\T1/lmr/m/n/8 PF4 -- Demo-cratic
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 378--378
-[]|\T1/lmr/m/n/8 Fujimori Set-tle-ment (1982--
- []
-
-
-Overfull \hbox (18.40903pt too wide) in paragraph at lines 340--383
- [][] 
- []
-
+(Font)              <7> on input line 319.
 [14] [15]
-! Missing $ inserted.
-<inserted text> 
-                $
-l.428 \exists
-              PB_{k}^{(f)}
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
+File: dagModel.png Graphic file (type bmp)
+<dagModel.png>
+[16] [17]
+Missing character: There is no – ("2013) in font ec-lmr12!
+[18] [19] (./gatopardo.aux)
+ ***********
+LaTeX2e <2026-06-01>
+L3 programming layer <2026-06-18>
+ ***********
+Package rerunfilecheck Info: File `gatopardo.out' has not changed.
+(rerunfilecheck)             Checksum: C24030212378610B3CEB2C3EFA8C059D;3237.
+Package logreq Info: Writing requests to 'gatopardo.run.xml'.
+\openout1 = `gatopardo.run.xml'.
 
- 
+ ) 
 Here is how much of TeX's memory you used:
- 35059 strings out of 469837
- 683102 string characters out of 5467329
- 1635767 words of memory out of 5000000
- 63448 multiletter control sequences out of 15000+600000
- 726695 words of font info for 102 fonts, out of 8000000 for 9000
+ 35179 strings out of 469837
+ 687432 string characters out of 5467329
+ 1636143 words of memory out of 5000000
+ 63563 multiletter control sequences out of 15000+600000
+ 726687 words of font info for 102 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  99i,12n,118p,1857b,5761s stack positions out of 10000i,1000n,20000p,200000b,200000s
-Output written on gatopardo.pdf (15 pages).
+
+Output written on gatopardo.pdf (19 pages).

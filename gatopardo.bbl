@@ -673,9 +673,8 @@
       \list{location}{1}{%
         {Lanham}%
       }
-      \list{publisher}{2}{%
-        {Rowman}%
-        {Littlefield}%
+      \list{publisher}{1}{%
+        {Rowman \& Littlefield}%
       }
       \strng{namehash}{dbfff44497cdb739cadef433ec9b2a54}
       \strng{fullhash}{dbfff44497cdb739cadef433ec9b2a54}
@@ -692,12 +691,12 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{editor}
       \field{labeltitlesource}{shorttitle}
-      \field{abstract}{Critical juncture theory seeks to understand how social orders are created, become entrenched, and change. In this book, leading practitioners offer the first coordinated effort to define this field, assess its theoretical and methodological foundations, and use a critical assessment of current practices as a basis for guiding its future}
+      \field{abstract}{"Critical juncture theory seeks to understand how social orders are created, become entrenched, and change. In this book, leading practitioners offer the first coordinated effort to define this field, assess its theoretical and methodological foundations, and use a critical assessment of current practices as a basis for guiding its future"--}
       \field{isbn}{978-1-5381-6614-7}
       \field{shorttitle}{Critical junctures and historical legacies}
-      \field{title}{{Critical} junctures and historical legacies: {insights} and methods for comparative social science}
+      \field{title}{Critical junctures and historical legacies: insights and methods for comparative social science}
       \field{year}{2022}
-      \keyw{Comparative method,Critical theory,Social change,Social sciences,Social structure}
+      \keyw{Social sciences,Social structure,Social change,Comparative method,Critical theory}
     \endentry
     \entry{dewan_corrective_2005}{article}{}{}
       \name{author}{2}{}{%
@@ -815,6 +814,59 @@
       \endverb
       \verb{url}
       \verb https://www.cambridge.org/core/product/identifier/S1531426X23000213/type/journal_article
+      \endverb
+    \endentry
+    \entry{fiol_organizational_1985}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=9381736677c89d29b45a5be8c55e8c42}{%
+           family={Fiol},
+           familyi={F\bibinitperiod},
+           given={C.\bibnamedelimi Marlene},
+           giveni={C\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f81b72e231f1af96e3b22a09dd8b6478}{%
+           family={Lyles},
+           familyi={L\bibinitperiod},
+           given={Marjorie\bibnamedelima A.},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{b23105a0f1acc4fba263145fc009a1d6}
+      \strng{fullhash}{b23105a0f1acc4fba263145fc009a1d6}
+      \strng{fullhashraw}{b23105a0f1acc4fba263145fc009a1d6}
+      \strng{bibnamehash}{b23105a0f1acc4fba263145fc009a1d6}
+      \strng{authorbibnamehash}{b23105a0f1acc4fba263145fc009a1d6}
+      \strng{authornamehash}{b23105a0f1acc4fba263145fc009a1d6}
+      \strng{authorfullhash}{b23105a0f1acc4fba263145fc009a1d6}
+      \strng{authorfullhashraw}{b23105a0f1acc4fba263145fc009a1d6}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{03637425}
+      \field{journaltitle}{The Academy of Management Review}
+      \field{month}{10}
+      \field{number}{4}
+      \field{title}{Organizational {Learning}}
+      \field{urlday}{27}
+      \field{urlmonth}{6}
+      \field{urlyear}{2026}
+      \field{volume}{10}
+      \field{year}{1985}
+      \field{urldateera}{ce}
+      \field{pages}{803}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.2307/258048
+      \endverb
+      \verb{urlraw}
+      \verb http://www.jstor.org/stable/258048?origin=crossref
+      \endverb
+      \verb{url}
+      \verb http://www.jstor.org/stable/258048?origin=crossref
       \endverb
     \endentry
     \entry{fischer_duration_2012}{article}{}{}
@@ -1021,6 +1073,60 @@
       \field{title}{Historia de la {Presidencia} del {Consejo} de {Ministros} (1956-2016)}
       \field{volume}{II}
       \field{year}{2016}
+    \endentry
+    \entry{hall_policy_1993}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=0a3de4cc09ea58d09b07abcf40354009}{%
+           family={Hall},
+           familyi={H\bibinitperiod},
+           given={Peter\bibnamedelima A.},
+           giveni={P\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{0a3de4cc09ea58d09b07abcf40354009}
+      \strng{fullhash}{0a3de4cc09ea58d09b07abcf40354009}
+      \strng{fullhashraw}{0a3de4cc09ea58d09b07abcf40354009}
+      \strng{bibnamehash}{0a3de4cc09ea58d09b07abcf40354009}
+      \strng{authorbibnamehash}{0a3de4cc09ea58d09b07abcf40354009}
+      \strng{authornamehash}{0a3de4cc09ea58d09b07abcf40354009}
+      \strng{authorfullhash}{0a3de4cc09ea58d09b07abcf40354009}
+      \strng{authorfullhashraw}{0a3de4cc09ea58d09b07abcf40354009}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{issn}{00104159}
+      \field{journaltitle}{Comparative Politics}
+      \field{month}{4}
+      \field{number}{3}
+      \field{shorttitle}{Policy {Paradigms}, {Social} {Learning}, and the {State}}
+      \field{title}{Policy {Paradigms}, {Social} {Learning}, and the {State}: {The} {Case} of {Economic} {Policymaking} in {Britain}}
+      \field{urlday}{27}
+      \field{urlmonth}{6}
+      \field{urlyear}{2026}
+      \field{volume}{25}
+      \field{year}{1993}
+      \field{urldateera}{ce}
+      \field{pages}{275}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.2307/422246
+      \endverb
+      \verb{file}
+      \verb hall-peter_policy-paradigms-social-learning-1993-apr:/Users/josemanuelmagallanes/PUCP/premieres/papers/hall-peter_policy-paradigms-social-learning-1993-apr.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.jstor.org/stable/422246?origin=crossref
+      \endverb
+      \verb{url}
+      \verb https://www.jstor.org/stable/422246?origin=crossref
+      \endverb
     \endentry
     \entry{huber_replacing_2008}{article}{}{}
       \name{author}{2}{}{%
@@ -1536,6 +1642,51 @@
       \endverb
       \verb{url}
       \verb https://linkinghub.elsevier.com/retrieve/pii/B9780750670098500161
+      \endverb
+    \endentry
+    \entry{olsen_governing_2010}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=10001b3246f560c21572959cd4cdd0ad}{%
+           family={Olsen},
+           familyi={O\bibinitperiod},
+           given={Johan\bibnamedelima P.},
+           giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{10001b3246f560c21572959cd4cdd0ad}
+      \strng{fullhash}{10001b3246f560c21572959cd4cdd0ad}
+      \strng{fullhashraw}{10001b3246f560c21572959cd4cdd0ad}
+      \strng{bibnamehash}{10001b3246f560c21572959cd4cdd0ad}
+      \strng{authorbibnamehash}{10001b3246f560c21572959cd4cdd0ad}
+      \strng{authornamehash}{10001b3246f560c21572959cd4cdd0ad}
+      \strng{authorfullhash}{10001b3246f560c21572959cd4cdd0ad}
+      \strng{authorfullhashraw}{10001b3246f560c21572959cd4cdd0ad}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-0-19-959393-4}
+      \field{month}{9}
+      \field{title}{Governing through {Institution} {Building}}
+      \field{urlday}{27}
+      \field{urlmonth}{6}
+      \field{urlyear}{2026}
+      \field{year}{2010}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.1093/acprof:oso/9780199593934.001.0001
+      \endverb
+      \verb{urlraw}
+      \verb https://academic.oup.com/book/7247
+      \endverb
+      \verb{url}
+      \verb https://academic.oup.com/book/7247
       \endverb
     \endentry
   \enddatalist
@@ -2194,9 +2345,8 @@
       \list{location}{1}{%
         {Lanham}%
       }
-      \list{publisher}{2}{%
-        {Rowman}%
-        {Littlefield}%
+      \list{publisher}{1}{%
+        {Rowman \& Littlefield}%
       }
       \strng{namehash}{dbfff44497cdb739cadef433ec9b2a54}
       \strng{fullhash}{dbfff44497cdb739cadef433ec9b2a54}
@@ -2213,12 +2363,12 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{editor}
       \field{labeltitlesource}{shorttitle}
-      \field{abstract}{Critical juncture theory seeks to understand how social orders are created, become entrenched, and change. In this book, leading practitioners offer the first coordinated effort to define this field, assess its theoretical and methodological foundations, and use a critical assessment of current practices as a basis for guiding its future}
+      \field{abstract}{"Critical juncture theory seeks to understand how social orders are created, become entrenched, and change. In this book, leading practitioners offer the first coordinated effort to define this field, assess its theoretical and methodological foundations, and use a critical assessment of current practices as a basis for guiding its future"--}
       \field{isbn}{978-1-5381-6614-7}
       \field{shorttitle}{Critical junctures and historical legacies}
-      \field{title}{{Critical} junctures and historical legacies: {insights} and methods for comparative social science}
+      \field{title}{Critical junctures and historical legacies: insights and methods for comparative social science}
       \field{year}{2022}
-      \keyw{Comparative method,Critical theory,Social change,Social sciences,Social structure}
+      \keyw{Social sciences,Social structure,Social change,Comparative method,Critical theory}
     \endentry
     \entry{dewan_corrective_2005}{article}{}{}
       \name{author}{2}{}{%
@@ -2336,6 +2486,59 @@
       \endverb
       \verb{url}
       \verb https://www.cambridge.org/core/product/identifier/S1531426X23000213/type/journal_article
+      \endverb
+    \endentry
+    \entry{fiol_organizational_1985}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=9381736677c89d29b45a5be8c55e8c42}{%
+           family={Fiol},
+           familyi={F\bibinitperiod},
+           given={C.\bibnamedelimi Marlene},
+           giveni={C\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f81b72e231f1af96e3b22a09dd8b6478}{%
+           family={Lyles},
+           familyi={L\bibinitperiod},
+           given={Marjorie\bibnamedelima A.},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{b23105a0f1acc4fba263145fc009a1d6}
+      \strng{fullhash}{b23105a0f1acc4fba263145fc009a1d6}
+      \strng{fullhashraw}{b23105a0f1acc4fba263145fc009a1d6}
+      \strng{bibnamehash}{b23105a0f1acc4fba263145fc009a1d6}
+      \strng{authorbibnamehash}{b23105a0f1acc4fba263145fc009a1d6}
+      \strng{authornamehash}{b23105a0f1acc4fba263145fc009a1d6}
+      \strng{authorfullhash}{b23105a0f1acc4fba263145fc009a1d6}
+      \strng{authorfullhashraw}{b23105a0f1acc4fba263145fc009a1d6}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{03637425}
+      \field{journaltitle}{The Academy of Management Review}
+      \field{month}{10}
+      \field{number}{4}
+      \field{title}{Organizational {Learning}}
+      \field{urlday}{27}
+      \field{urlmonth}{6}
+      \field{urlyear}{2026}
+      \field{volume}{10}
+      \field{year}{1985}
+      \field{urldateera}{ce}
+      \field{pages}{803}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.2307/258048
+      \endverb
+      \verb{urlraw}
+      \verb http://www.jstor.org/stable/258048?origin=crossref
+      \endverb
+      \verb{url}
+      \verb http://www.jstor.org/stable/258048?origin=crossref
       \endverb
     \endentry
     \entry{fischer_duration_2012}{article}{}{}
@@ -2542,6 +2745,60 @@
       \field{title}{Historia de la {Presidencia} del {Consejo} de {Ministros} (1956-2016)}
       \field{volume}{II}
       \field{year}{2016}
+    \endentry
+    \entry{hall_policy_1993}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=0a3de4cc09ea58d09b07abcf40354009}{%
+           family={Hall},
+           familyi={H\bibinitperiod},
+           given={Peter\bibnamedelima A.},
+           giveni={P\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{0a3de4cc09ea58d09b07abcf40354009}
+      \strng{fullhash}{0a3de4cc09ea58d09b07abcf40354009}
+      \strng{fullhashraw}{0a3de4cc09ea58d09b07abcf40354009}
+      \strng{bibnamehash}{0a3de4cc09ea58d09b07abcf40354009}
+      \strng{authorbibnamehash}{0a3de4cc09ea58d09b07abcf40354009}
+      \strng{authornamehash}{0a3de4cc09ea58d09b07abcf40354009}
+      \strng{authorfullhash}{0a3de4cc09ea58d09b07abcf40354009}
+      \strng{authorfullhashraw}{0a3de4cc09ea58d09b07abcf40354009}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{issn}{00104159}
+      \field{journaltitle}{Comparative Politics}
+      \field{month}{4}
+      \field{number}{3}
+      \field{shorttitle}{Policy {Paradigms}, {Social} {Learning}, and the {State}}
+      \field{title}{Policy {Paradigms}, {Social} {Learning}, and the {State}: {The} {Case} of {Economic} {Policymaking} in {Britain}}
+      \field{urlday}{27}
+      \field{urlmonth}{6}
+      \field{urlyear}{2026}
+      \field{volume}{25}
+      \field{year}{1993}
+      \field{urldateera}{ce}
+      \field{pages}{275}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.2307/422246
+      \endverb
+      \verb{file}
+      \verb hall-peter_policy-paradigms-social-learning-1993-apr:/Users/josemanuelmagallanes/PUCP/premieres/papers/hall-peter_policy-paradigms-social-learning-1993-apr.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.jstor.org/stable/422246?origin=crossref
+      \endverb
+      \verb{url}
+      \verb https://www.jstor.org/stable/422246?origin=crossref
+      \endverb
     \endentry
     \entry{huber_replacing_2008}{article}{}{}
       \name{author}{2}{}{%
@@ -3057,6 +3314,51 @@
       \endverb
       \verb{url}
       \verb https://linkinghub.elsevier.com/retrieve/pii/B9780750670098500161
+      \endverb
+    \endentry
+    \entry{olsen_governing_2010}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=10001b3246f560c21572959cd4cdd0ad}{%
+           family={Olsen},
+           familyi={O\bibinitperiod},
+           given={Johan\bibnamedelima P.},
+           giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{10001b3246f560c21572959cd4cdd0ad}
+      \strng{fullhash}{10001b3246f560c21572959cd4cdd0ad}
+      \strng{fullhashraw}{10001b3246f560c21572959cd4cdd0ad}
+      \strng{bibnamehash}{10001b3246f560c21572959cd4cdd0ad}
+      \strng{authorbibnamehash}{10001b3246f560c21572959cd4cdd0ad}
+      \strng{authornamehash}{10001b3246f560c21572959cd4cdd0ad}
+      \strng{authorfullhash}{10001b3246f560c21572959cd4cdd0ad}
+      \strng{authorfullhashraw}{10001b3246f560c21572959cd4cdd0ad}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-0-19-959393-4}
+      \field{month}{9}
+      \field{title}{Governing through {Institution} {Building}}
+      \field{urlday}{27}
+      \field{urlmonth}{6}
+      \field{urlyear}{2026}
+      \field{year}{2010}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.1093/acprof:oso/9780199593934.001.0001
+      \endverb
+      \verb{urlraw}
+      \verb https://academic.oup.com/book/7247
+      \endverb
+      \verb{url}
+      \verb https://academic.oup.com/book/7247
       \endverb
     \endentry
   \enddatalist
