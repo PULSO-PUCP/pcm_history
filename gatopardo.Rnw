@@ -516,10 +516,146 @@ Three additional ministries are incorporated to provide organizational benchmark
 
 Together, these five portfolios represent contrasting organizational functions rather than merely different policy domains. The PCM represents political coordination under conditions of continuous political exposure. The MEF represents the preservation and application of specialized organizational knowledge under conditions of increasing domestic and international credibility requirements. Interior, Health, and Education provide organizational reference points operating under different political and administrative incentives. This configuration allows the empirical analyses to examine whether organizational continuity varies systematically in ways consistent with the observable implications derived from the theoretical framework.
 
-The analyses that follow therefore do not seek to demonstrate that one ministry is inherently superior to another, nor that longer ministerial tenure necessarily produces better public policy. Instead, they examine whether Peru's historical trajectory exhibits the patterns of organizational continuity that the deductive framework suggests should emerge when political frameworks selectively preserve organizations responsible for strategically valuable forms of organizational knowledge.
+The analyses that follow therefore do not seek to demonstrate that one ministry is inherently superior to another, nor that longer ministerial tenure necessarily produces better public policy. Instead, they examine whether Peru's historical trajectory exhibits the observable patterns of organizational continuity that the deductive framework suggests should emerge when political frameworks selectively preserve organizations responsible for strategically valuable forms of organizational knowledge.
+
+Because the theoretical framework concerns latent organizational processes rather than directly observable historical phenomena, the empirical analyses necessarily rely on indirect evidence. Ministerial continuity is therefore interpreted not as organizational knowledge itself, but as an observable indicator of the organizational conditions under which knowledge may accumulate. The following section translates the theoretical framework into a series of empirical expectations and evaluates the extent to which Peru's historical experience approximates those expectations.
 
 
-%###
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Empirical Analysis}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+The theoretical framework developed in the previous sections is deductive rather than statistical. The axioms establish the organizational conditions under which knowledge accumulation and institutional learning become possible, while the propositions identify the political mechanisms expected to generate variation in organizational continuity. These theoretical relationships are not directly observable. Instead, they imply a series of empirical regularities that can be examined through historical ministerial data.
+
+The empirical analyses therefore do not constitute direct tests of the axioms or propositions. Rather, they evaluate the extent to which Peru's historical trajectory approximates the observable implications derived from the theoretical framework. The analyses proceed sequentially. We first describe the data and explain the operationalization of the principal theoretical concepts. We then examine continuity across political frameworks, compare continuity across governmental organizations, evaluate whether the post-1990 organizational reconstruction altered those relationships, and finally assess the robustness of the results by accounting for presidential heterogeneity.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Data and Operationalization}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+This subsection describes the original historical dataset constructed for the analyses and explains how the principal theoretical concepts were operationalized. Particular attention is devoted to the transformation of the latent concepts introduced in the theoretical framework into observable variables suitable for event-history analysis. The objective is not to reproduce the theoretical argument but to explain how organizational continuity, political frameworks, ministerial portfolios, and ministerial survival are measured empirically.
+
+<<data:gatopardo, echo=FALSE>>=
+gatopardo=readRDS(url('https://github.com/PULSO-PUCP/pcm_history/raw/main/gatopardo.RDS'))
+names(gatopardo)
+table(gatopardo$epoch)
+table(gatopardo$cartera)
+
+@
+
+%% Table describing the dataset here.
+
+%% Explanation of variables, duration, event indicator,
+%% political frameworks, ministerial portfolios,
+%% censoring, inclusion criteria, and operationalization here.
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{From Theory to Empirical Expectations}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Rather than formulating statistical hypotheses, the deductive framework developed in Section~3 generates a series of observable empirical expectations. Each proposition identifies a regularity that should emerge if the organizational mechanisms described by the theory operate in the Peruvian case. These expectations guide the interpretation of the empirical analyses that follow without assuming that the historical evidence must perfectly conform to the theoretical model.
+
+%% Table linking Axioms/Propositions to empirical expectations here.
+
+%% Explanation of each empirical expectation here.
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Organizational Continuity Across Political Frameworks}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+The first empirical question follows directly from Proposition~\ref{prop:framework_continuity}. If political frameworks generate different organizational environments, ministerial continuity should vary across historically distinct political frameworks. The purpose of this subsection is therefore to examine whether opportunities for organizational continuity changed across Peru's successive political frameworks.
+
+The analyses begin with descriptive comparisons before introducing non-parametric survival estimates and multivariate event-history models. Together these analyses evaluate whether historically distinct political frameworks exhibit systematically different continuity conditions.
+
+%% Descriptive statistics table here.
+
+%% Kaplan--Meier survival curves here.
+
+%% Log-rank comparison table here.
+
+%% Cox proportional hazards model here.
+
+%% Explanation and interpretation here.
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Protective Belts Across Governmental Organizations}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+The second empirical question follows from Propositions~\ref{prop:framework_pb} and~\ref{prop:protective_belt}. If political frameworks selectively preserve strategically important organizations, ministerial continuity should not be distributed uniformly across governmental organizations operating within the same historical environment. This subsection therefore compares continuity across ministerial portfolios.
+
+The analyses focus on the contrast between the Ministry of Economy and Finance and the Presidency of the Council of Ministers while incorporating additional ministries as organizational benchmarks. The objective is not to determine which ministry performs better, but to evaluate whether organizational continuity varies in ways consistent with the theoretical concept of protective belts.
+
+%% Descriptive comparison across portfolios here.
+
+%% Kaplan--Meier comparison across portfolios here.
+
+%% Cox model including ministerial portfolios here.
+
+%% Explanation and interpretation here.
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Globalization and the Emergence of a Protective Belt}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+The historical interpretation developed in the previous section suggests that the organizational reconstruction initiated during the 1990s may have altered the distribution of organizational continuity within the Peruvian state. If the post-1993 political framework selectively strengthened macroeconomic governance, the Ministry of Economy and Finance should begin to exhibit continuity patterns that differ from organizations primarily exposed to political coordination.
+
+This subsection explores that possibility through alternative historical specifications. The analyses compare organizational continuity before and after Peru's consolidation within the contemporary global economy and examine whether portfolio differences became more pronounced following the post-1990 institutional settlement.
+
+%% Alternative historical specification table here.
+
+%% Survival curves before and after 2001 here.
+
+%% Cox interaction models here.
+
+%% Robustness comparison here.
+
+%% Explanation and interpretation here.
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Accounting for Presidential Heterogeneity}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Ministerial continuity may also depend upon characteristics specific to individual presidents rather than organizational or historical conditions alone. Presidents differ in governing style, coalition management, political capital, and tolerance for cabinet turnover. Ignoring these differences could attribute presidential effects to political frameworks or ministerial organizations.
+
+To account for this possibility, this subsection estimates shared frailty survival models treating presidents as unobserved sources of heterogeneity. These models evaluate whether the principal empirical patterns remain after accounting for president-specific variation in ministerial turnover.
+
+%% Shared frailty model here.
+
+%% Variance estimates here.
+
+%% Model comparison table here.
+
+%% Explanation and interpretation here.
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Summary of Empirical Findings}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+The preceding analyses examine the observable implications derived from the deductive framework through complementary empirical strategies. Rather than emphasizing individual coefficients or statistical significance in isolation, this final subsection synthesizes the principal findings by returning explicitly to the theoretical expectations developed earlier.
+
+The objective is to establish which empirical regularities are broadly consistent with the theoretical framework, which remain ambiguous, and which require alternative interpretations. This synthesis provides the bridge between the empirical analyses and the broader theoretical discussion developed in the following section.
+
+%% Summary table relating empirical findings to propositions here.
+
+%% Overall interpretation here.
+
+
 % 
 % \section{Research Design and Analytical Strategy}
 % \label{sec:research_design}

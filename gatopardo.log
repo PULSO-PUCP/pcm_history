@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.6.20)  28 JUN 2026 22:07
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.6.20)  29 JUN 2026 12:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1126,10 +1126,7 @@ File: premiers_decennial.pdf Graphic file (type pdf)
 [4] [5]
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <5> on input line 146.
-[6] [7] [8]
-Underfull \vbox (badness 7291) has occurred while \output is active []
-
-[9]
+[6] [7] [8] [9]
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 241.
 (/Users/josemanuelmagallanes/Library/TinyTeX/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
@@ -1150,25 +1147,61 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 File: dagModel.png Graphic file (type bmp)
 <dagModel.png>
 [16] [17]
+Underfull \hbox (badness 2846) in paragraph at lines 412--412
+[]|\T1/lmr/bx/n/8 Originating Crit-i-cal Junc-
+ []
+
+
+Underfull \hbox (badness 2521) in paragraph at lines 426--427
+[]|\T1/lmr/m/n/8 Elite re-con-struc-tion un-der oli-garchic
+ []
+
+
+Underfull \hbox (badness 1014) in paragraph at lines 430--430
+[]|\T1/lmr/m/n/8 PF3 -- Power-Sharing
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 437--437
+[]|\T1/lmr/m/n/8 PF4 -- Demo-cratic
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 446--446
+[]|\T1/lmr/m/n/8 Fujimori Set-tle-ment (1982--
+ []
+
+
+Overfull \hbox (18.40903pt too wide) in paragraph at lines 408--458
+ [][] 
+ []
+
+[18]
+Underfull \vbox (badness 1286) has occurred while \output is active []
+
+[19] [20]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[21] [22] [23]
 Missing character: There is no – ("2013) in font ec-lmr12!
-[18] [19] (./gatopardo.aux)
+[24] [25] (./gatopardo.aux)
  ***********
 LaTeX2e <2026-06-01>
 L3 programming layer <2026-06-18>
  ***********
 Package rerunfilecheck Info: File `gatopardo.out' has not changed.
-(rerunfilecheck)             Checksum: C24030212378610B3CEB2C3EFA8C059D;3237.
+(rerunfilecheck)             Checksum: 17A2DCDA7BD8553C50B4C658753269FC;4344.
 Package logreq Info: Writing requests to 'gatopardo.run.xml'.
 \openout1 = `gatopardo.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 35179 strings out of 469837
- 687432 string characters out of 5467329
- 1636143 words of memory out of 5000000
- 63563 multiletter control sequences out of 15000+600000
+ 35182 strings out of 469837
+ 687470 string characters out of 5467329
+ 1637384 words of memory out of 5000000
+ 63566 multiletter control sequences out of 15000+600000
  726687 words of font info for 102 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  99i,12n,118p,1857b,5761s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on gatopardo.pdf (19 pages).
+Output written on gatopardo.pdf (25 pages).
