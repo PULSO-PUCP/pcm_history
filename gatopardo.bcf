@@ -3115,22 +3115,23 @@
     <bcf:citekey order="38" intorder="1">avendano_rotacion_2012</bcf:citekey>
     <bcf:citekey order="39" intorder="1">camerlo_por_2022</bcf:citekey>
     <bcf:citekey order="40" intorder="1">nonaka_knowledge-creating_1998</bcf:citekey>
-    <bcf:citekey order="41" intorder="1">levitt_organizational_1988</bcf:citekey>
-    <bcf:citekey order="42" intorder="1">cohen_garbage_1972</bcf:citekey>
-    <bcf:citekey order="43" intorder="1">foss_simon_2005</bcf:citekey>
-    <bcf:citekey order="44" intorder="1">lindblom_science_1959</bcf:citekey>
-    <bcf:citekey order="45" intorder="1">allison_conceptual_1969</bcf:citekey>
-    <bcf:citekey order="46" intorder="1">fiol_organizational_1985</bcf:citekey>
-    <bcf:citekey order="47" intorder="1">olsen_governing_2010</bcf:citekey>
-    <bcf:citekey order="48" intorder="1">hall_policy_1993</bcf:citekey>
-    <bcf:citekey order="49" intorder="1">capoccia_study_2007</bcf:citekey>
-    <bcf:citekey order="49" intorder="2">collier_critical_2022</bcf:citekey>
-    <bcf:citekey order="50" intorder="1">lakatos_methodology_1978</bcf:citekey>
-    <bcf:citekey order="51" intorder="1">feliu_ribeiro_foreign_2023</bcf:citekey>
+    <bcf:citekey order="40" intorder="2">levitt_organizational_1988</bcf:citekey>
+    <bcf:citekey order="41" intorder="1">cohen_garbage_1972</bcf:citekey>
+    <bcf:citekey order="42" intorder="1">foss_simon_2005</bcf:citekey>
+    <bcf:citekey order="42" intorder="2">lindblom_science_1959</bcf:citekey>
+    <bcf:citekey order="42" intorder="3">allison_conceptual_1969</bcf:citekey>
+    <bcf:citekey order="43" intorder="1">fiol_organizational_1985</bcf:citekey>
+    <bcf:citekey order="44" intorder="1">olsen_governing_2010</bcf:citekey>
+    <bcf:citekey order="45" intorder="1">hall_policy_1993</bcf:citekey>
+    <bcf:citekey order="46" intorder="1">crozier_regulation_1976</bcf:citekey>
+    <bcf:citekey order="47" intorder="1">pierson_increasing_2000</bcf:citekey>
+    <bcf:citekey order="48" intorder="1">carpenter_forging_2020</bcf:citekey>
+    <bcf:citekey order="49" intorder="1">tsebelis_decision_1995</bcf:citekey>
+    <bcf:citekey order="50" intorder="1">feliu_ribeiro_foreign_2023</bcf:citekey>
+    <bcf:citekey order="51" intorder="1">capoccia_study_2007</bcf:citekey>
+    <bcf:citekey order="51" intorder="2">collier_critical_2022</bcf:citekey>
     <bcf:citekey order="52" intorder="1">lopez_jimenez_peru_2025</bcf:citekey>
     <bcf:citekey order="53" intorder="1">lopez_jimenez_peru_2025</bcf:citekey>
-    <bcf:citekey order="54" intorder="1">lopez_jimenez_peru_2025</bcf:citekey>
-    <bcf:citekey order="55" intorder="1">lopez_jimenez_peru_2025</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="apa">
