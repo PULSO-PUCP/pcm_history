@@ -17,6 +17,7 @@
 \usepackage{caption}
 \usepackage{microtype}
 \usepackage{setspace}
+\usepackage{tabularx}
 \usepackage{amsmath}
 \usepackage{anyfontsize}
 \newcolumntype{L}[1]{>{\RaggedRight\arraybackslash}p{#1}}
@@ -341,22 +342,22 @@ The three axioms are not intended to explain historical variation. Rather, they 
 The three axioms establish relationships among latent organizational constructs and are therefore not directly testable. Empirical evaluation requires translating those latent relationships into observable implications. Throughout this paper, Political Frameworks and governmental organizations constitute observable historical entities, while ministerial duration serves as an observable indicator of organizational continuity. Consequently, the propositions that follow are expressed exclusively in terms of observable quantities. Their theoretical interpretation is subsequently derived from Axioms~\ref{ax:continuity_knowledge}--\ref{ax:protective_belt}.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsubsection{Proposition 1: Political Frameworks and Institutional Learning}
+\subsubsection{Proposition 1: Ministerial Duration across Political Frameworks}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-The first proposition concerns historical variation across Political Frameworks. The Political Frameworks employed throughout this study are not derived from the ministerial data analyzed here. Rather, they constitute the empirical operationalization of an independent comparative-historical reconstruction of Peru's political development presented in the previous section. Consequently, the empirical analysis does not search inductively for historical breakpoints. Instead, it evaluates whether ministerial duration patterns are consistent with historically identified institutional transformations.
+The first proposition concerns historical variation in ministerial duration across successive Political Frameworks. Within the comparative-historical tradition, Critical Junctures are understood as relatively brief episodes of institutional transformation that generate durable political legacies and define subsequent periods of political development \parencite{capoccia_study_2007}. Rather than examining the Critical Junctures themselves, this study analyzes the Political Frameworks that emerge from them. Following established principles of concept formation and operationalization in comparative-historical research \parencite{collier_critical_2022}, Political Frameworks constitute the observable historical environments within which governmental organizations operate. Consequently, the empirical analysis does not search inductively for historical breakpoints. Instead, it evaluates whether observed patterns of ministerial duration are consistent with a theoretically motivated historical periodization.
 
-The first proposition is stated as
+The first proposition is therefore stated as
 
 \begin{equation}
 \tag{P1}
-PF
-\rightarrow
-D
+D_{f+1}>D_f,
+\qquad
+f=1,\ldots,F-1,
 \label{prop:framework_duration}
 \end{equation}
 
-where $PF$ denotes Political Frameworks and $D$ denotes ministerial duration.
+where $D_f$ denotes the observed ministerial duration under Political Framework $f$, and $F$ denotes the total number of Political Frameworks.
 
 \paragraph{Observable implication.}
 
@@ -364,13 +365,13 @@ Successive Political Frameworks are expected to exhibit progressively longer pat
 
 \paragraph{Theoretical implication.}
 
-If the observed historical trajectory exhibits progressively longer ministerial duration across successive Political Frameworks, Axioms~\ref{ax:continuity_knowledge} and~\ref{ax:knowledge_learning} imply that the organizational conditions for organizational knowledge accumulation and, consequently, institutional learning have become increasingly favorable over historical time. Conversely, the absence of progressively longer duration patterns would indicate that the empirical record provides no evidence that successive Political Frameworks generated increasingly favorable conditions for institutional learning.
+According to Axioms~\ref{ax:continuity_knowledge} and~\ref{ax:knowledge_learning}, progressively longer patterns of ministerial duration imply increasingly favorable organizational conditions for organizational knowledge accumulation and, consequently, institutional learning. Conversely, the absence of progressively longer duration patterns would indicate that the historical record provides no evidence that successive Political Frameworks generated increasingly favorable conditions for institutional learning.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsubsection{Proposition 2: Protective Belts Within Political Frameworks}
+\subsubsection{Proposition 2: Ministerial Duration across Portfolios within Political Frameworks}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-The second proposition concerns organizational variation within Political Frameworks. Whereas Proposition~\ref{prop:framework_duration} examines historical differences across institutional environments, Proposition~2 examines whether organizations operating under the same Political Framework exhibit systematically different patterns of organizational continuity.
+Whereas Proposition~\ref{prop:framework_duration} examines historical variation across Political Frameworks, the second proposition concerns organizational variation within Political Frameworks. If a Political Framework constitutes the common historical environment under which governmental organizations operate, then differences in ministerial duration observed within the same Political Framework cannot be attributed to the historical framework alone. Instead, they indicate systematic variation associated with ministerial portfolios.
 
 The principal comparison concerns the Ministry of Economy and Finance (MEF) and the Presidency of the Council of Ministers (PCM). As argued in the previous section, the selective reconstruction of the Peruvian state following the reforms of the 1990s provides strong theoretical reasons to expect that macroeconomic governance became surrounded by stronger organizational protection than governmental organizations primarily responsible for political coordination. Additional ministerial portfolios are incorporated as organizational benchmarks and robustness checks.
 
@@ -378,1034 +379,535 @@ The second proposition is therefore stated as
 
 \begin{equation}
 \tag{P2}
-(PF,\ Portfolio)
-\rightarrow
-D
+D_{pf}\neq D_{p'f},
+\qquad
+p\neq p',
 \label{prop:portfolio_duration}
 \end{equation}
 
-where $PF$ denotes Political Frameworks, $Portfolio$ denotes governmental organizations, and $D$ denotes ministerial duration.
+where $D_{pf}$ denotes the observed ministerial duration of portfolio $p$ operating under Political Framework $f$, and $p$ and $p'$ denote distinct ministerial portfolios.
 
 \paragraph{Observable implication.}
 
-Within the same Political Framework, ministerial duration is expected to differ systematically across governmental organizations.
+Within the same Political Framework, ministerial duration is expected to vary systematically across ministerial portfolios.
 
 \paragraph{Theoretical implication.}
 
-According to Axiom~\ref{ax:protective_belt}, systematic differences in ministerial duration across organizations operating under the same Political Framework are interpreted as evidence consistent with differential Protective Belts. Organizations exhibiting greater ministerial continuity are inferred to possess stronger Protective Belts because the political, institutional, administrative, and societal costs associated with organizational disruption are comparatively higher. The empirical analyses therefore evaluate whether the historical record exhibits the organizational continuity patterns expected under the proposed theory of Protective Belts.
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{Governmental Organizations and Executive Agency}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-The theoretical framework developed thus far identifies Political Frameworks as the principal historical environments within which organizational continuity is generated, preserved, or interrupted. The empirical application, however, requires distinguishing between the organizational units through which these theoretical mechanisms operate and the political actors who exercise executive authority within those environments.
-
-The organizational units of the theory are governmental organizations, operationalized in this study as ministerial portfolios. Organizational continuity, organizational knowledge accumulation, and Protective Belts are therefore conceptualized as properties of governmental organizations rather than of individual ministers. Ministers occupy organizations temporarily, whereas organizations persist beyond successive officeholders. Consequently, the theoretical mechanisms developed in the preceding propositions operate at the organizational level.
-
-Political Frameworks do not distribute organizational continuity directly. Rather, they generate configurations of Protective Belts surrounding different governmental organizations according to the strategic priorities embedded within each historical environment. Organizations operating under the same Political Framework may therefore experience systematically different opportunities for organizational continuity. Formally,
-
-\[
-PF_i
-\longrightarrow
-PB_i^{(j)}
-\longrightarrow
-C_i^{(j)},
-\]
-
-where governmental organization $j$ denotes a particular ministerial portfolio.
-
-Presidential administrations occupy a different analytical position within the framework. Presidents exercise executive authority within the institutional opportunities and constraints established by a Political Framework. They appoint ministers, dismiss cabinets, manage governing coalitions, and respond to political crises. Consequently, presidential administrations introduce an additional source of variation affecting ministerial continuity. This variation reflects executive agency operating within a Political Framework rather than an alternative historical environment.
-
-Accordingly, each observed ministerial spell is simultaneously situated within three distinct contexts. First, it belongs to a governmental organization through which organizational continuity and knowledge accumulation occur. Second, it unfolds under a particular presidential administration exercising executive authority. Third, both organizations and presidents operate within a common Political Framework that defines the broader historical environment.
-
-This distinction has direct methodological implications. Political Frameworks constitute the principal historical construct specified by the theory and are therefore modeled as fixed historical environments. Ministerial portfolios identify the governmental organizations through which the theoretical mechanisms operate and consequently enter the empirical analyses as organizational categories. Presidential administrations, by contrast, represent a source of shared executive-level heterogeneity because ministerial appointments and dismissals occur under presidential authority. Ministerial spells observed during the same presidential administration therefore cannot reasonably be assumed to be statistically independent. The empirical analyses account for this dependence through shared frailty models while preserving the historical and organizational structure specified by the theoretical framework.
-
+According to Axiom~\ref{ax:protective_belt}, systematic differences in ministerial duration across portfolios operating under the same Political Framework are interpreted as evidence consistent with differential Protective Belts. Portfolios exhibiting greater ministerial continuity are inferred to possess stronger Protective Belts because the political, institutional, administrative, and societal costs associated with organizational disruption are comparatively higher.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Peru as an Empirical Application}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-The theoretical framework developed in the previous section proposes a general explanation linking Political Frameworks, organizational continuity, organizational knowledge accumulation, and institutional learning. These concepts are not specific to Peru. Rather, they describe historical and organizational processes that could, in principle, operate in any political system. Peru is therefore introduced not because the theory was derived from the Peruvian experience, but because its republican history provides an unusually informative empirical application through which the observable implications of the framework can be examined.
+The theoretical framework developed in the previous section proposes a general explanation linking Political Frameworks, organizational continuity, organizational knowledge accumulation, institutional learning, and Protective Belts. These concepts are not specific to Peru. Rather, they describe historical and organizational processes that could, in principle, operate in any political system. Peru is therefore introduced not because the theory was derived from the Peruvian experience, but because its republican history provides an unusually informative empirical application through which the observable implications of the framework can be evaluated.
 
-The empirical value of Peru lies in the coexistence of two characteristics that rarely appear simultaneously. First, nearly two centuries of republican continuity encompass multiple episodes of profound institutional transformation, allowing the identification of successive Political Frameworks generated by completed Critical Junctures. Second, despite these repeated historical reconfigurations, the Peruvian executive has maintained a broadly comparable ministerial organization, permitting the study of organizational continuity under different historical environments while holding the basic organizational architecture of government relatively constant.
+The empirical value of Peru lies in the coexistence of two characteristics that rarely appear simultaneously. First, nearly two centuries of republican continuity encompass multiple episodes of profound institutional transformation, allowing the identification of successive Political Frameworks generated by completed Critical Junctures. Second, despite these repeated historical reconfigurations, the Peruvian executive has maintained a broadly comparable ministerial organization, permitting the study of ministerial continuity under different historical environments while holding the basic organizational architecture of government relatively constant.
 
-From the perspective adopted here, Peru therefore constitutes a natural historical laboratory. Rather than assuming that institutional reforms necessarily improve governance or generate cumulative political progress, the theoretical framework proposes that successive Political Frameworks create different organizational conditions under which governmental knowledge may accumulate. Whether these conditions became progressively more favorable over time remains an empirical question rather than a theoretical assumption. The Peruvian experience is particularly well suited to examining this question because its historical trajectory includes multiple completed Political Frameworks whose organizational consequences can be compared systematically.
+From the perspective adopted here, Peru therefore constitutes a natural historical laboratory. Rather than assuming that institutional reforms necessarily improve governance or generate cumulative political progress, the theoretical framework proposes that successive Political Frameworks create different organizational conditions under which governmental knowledge may accumulate. Whether these conditions became progressively more favorable over time remains an empirical question rather than a theoretical assumption. The Peruvian experience is particularly well suited to examining this question because its historical trajectory includes multiple completed Political Frameworks within which organizational continuity can be compared both across historical periods and across governmental organizations.
 
-This section operationalizes the principal historical and organizational concepts introduced in the theoretical framework. It first presents the Political Frameworks derived from Peru's completed Critical Junctures, thereby operationalizing Proposition~\ref{prop:framework_continuity}. It then examines the selective organizational reconstruction associated with the post-1990 political settlement, providing the historical motivation for Proposition~\ref{prop:framework_pb}. Finally, it explains why the ministerial portfolios selected for analysis constitute theoretically informative organizational comparisons through which the observable implications of Proposition~\ref{prop:protective_belt} may be evaluated.
-
+This section operationalizes the principal historical and organizational concepts introduced in the theoretical framework. It first reconstructs the Political Frameworks derived from Peru's completed Critical Junctures, thereby defining the historical environments within which ministerial duration is evaluated. It then examines the selective organizational reconstruction associated with the post-1990 political settlement and explains why the selected ministerial portfolios provide theoretically informative organizational comparisons. Together, these historical and organizational operationalizations establish the empirical setting through which the observable implications of Propositions~\ref{prop:framework_duration} and~\ref{prop:portfolio_duration} are subsequently evaluated.
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Political Frameworks and Critical Junctures}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-Proposition~\ref{prop:framework_continuity} argues that Political Frameworks generate the historical environments within which organizational continuity becomes more or less likely. Because Political Frameworks are latent historical constructs rather than directly observable entities, they require empirical operationalization before their observable implications can be examined.
+Political Frameworks constitute the historical environments within which ministerial duration is evaluated. Because they are analytical historical constructs, they require explicit empirical operationalization before their observable implications can be examined.
 
 This study operationalizes Political Frameworks using the comparative-historical tradition of Critical Junctures, which conceives political development as a succession of relatively stable institutional environments separated by comparatively brief episodes of profound institutional transformation. Critical Junctures reorganize political authority, redefine governing coalitions, and establish durable institutional legacies that subsequently structure political life over extended periods of time \parencite{capoccia_study_2007,collier_critical_2022}. Consistent with the theoretical framework developed in the previous section, the Critical Junctures themselves are not the object of analysis. Rather, they constitute the historical processes through which new Political Frameworks emerge. The empirical analyses therefore focus on the relatively stable historical environments generated by completed Critical Junctures.
 
 Following the historical reconstruction developed by \textcite{lopez_jimenez_peru_2025}, Peru's republican history is organized into six successive Political Frameworks bounded by five completed Critical Junctures and a sixth Political Framework associated with an ongoing Critical Juncture. Because the current political realignment remains unresolved, the institutional legacy of the most recent framework should be regarded as provisional.
 
-Table~\ref{tab:frameworks} presents the Political Frameworks employed throughout the empirical analyses. These frameworks constitute the empirical operationalization of Proposition~\ref{prop:framework_continuity} and provide the historical environments within which organizational continuity is subsequently evaluated.
+Table~\ref{tab:frameworks} presents the Political Frameworks employed throughout the empirical analyses. These frameworks define the successive historical environments within which ministerial duration is compared to evaluate Proposition~\ref{prop:framework_duration}.
 
 \begin{table}[!htbp]
-...
+\centering
+\caption{Operationalization of Political Frameworks}
+\label{tab:frameworks}
+\scriptsize
+\renewcommand{\arraystretch}{1.25}
+\begin{tabular}{p{3.0cm}p{1.8cm}p{4.2cm}p{5.2cm}}
+\toprule
+\textbf{Political Framework} &
+\textbf{Period} &
+\textbf{Originating Critical Juncture} &
+\textbf{Dominant Political Legacy} \\
+\midrule
+
+PF1 -- State Formation &
+1824--1883 &
+Independence (1810--1824) &
+Failed national state-building; persistent caudillo politics; colonial institutional continuities. \\
+
+\midrule
+
+PF2 -- Oligarchic State &
+1883--1933 &
+War of the Pacific (1879--1883) &
+Elite reconstruction under oligarchic rule; patrimonial state consolidation and restricted political incorporation. \\
+
+\midrule
+
+PF3 -- Power-Sharing State &
+1933--1975 &
+Crisis of the Aristocratic Republic (1920--1933) &
+Tripartite political order involving oligarchy, APRA, and the armed forces; gradual incorporation of organized social actors. \\
+
+\midrule
+
+PF4 -- Democratic Transition and Crisis &
+1975--1993 &
+Military Revolution (1968--1975) &
+Democratization following military rule under conditions of economic collapse, political violence, and institutional crisis. \\
+
+\midrule
+
+PF5 -- Democracy without Parties &
+1993--2022 &
+Fujimori Settlement (1982--1992) &
+Neoliberal political order characterized by weak parties, electoral volatility, and sustained executive predominance. \\
+
+\midrule
+
+PF6 -- Current Critical Juncture &
+2022--Present &
+Collapse of the Fujimori Settlement (2021--2022) &
+Fragmentation of the neoliberal political order; collapse of executive-legislative equilibrium; intensified social polarization; uncertain institutional realignment still in progress. \\
+
+\bottomrule
+\end{tabular}
+
+\vspace{0.2cm}
+
+\begin{minipage}{0.96\textwidth}
+\scriptsize
+\textit{Note:} The Political Frameworks presented here constitute the historical operationalization employed throughout the empirical analyses. They represent enduring political legacies inferred from completed Critical Junctures rather than observed historical categories. Alternative operationalizations are possible under different comparative-historical interpretations. Adapted from \textcite{lopez_jimenez_peru_2025}.
+\end{minipage}
 \end{table}
+
+
+
 
 Although each Critical Juncture emerged from distinct historical circumstances, they share an important organizational characteristic. Rather than merely replacing governments or constitutions, each fundamentally reconfigured the organizational architecture of the Peruvian state by altering governing priorities, administrative capacities, and the distribution of political authority.
 
 The War of the Pacific exposed the absence of a coherent national state capable of coordinating military, fiscal, and administrative resources, initiating a prolonged period of state reconstruction under oligarchic leadership. The collapse of the Aristocratic Republic transformed an exclusionary political order into one increasingly confronted by mass political mobilization and organized social actors. The Military Revolution radically expanded state organizational capacity through agrarian reform, nationalization, and the creation of new public institutions while simultaneously restricting democratic competition. The combined crises of terrorism, hyperinflation, and institutional collapse during the 1980s culminated in the constitutional settlement of the 1990s, which selectively reorganized the Peruvian state around macroeconomic stabilization and market governance. Finally, the contemporary political crisis initiated after the removal of President Pedro Castillo suggests that the post-1993 settlement may itself be entering a new period of institutional reconfiguration whose long-term legacy remains uncertain.
 
-From the perspective of the present framework, the substantive importance of these transformations lies not primarily in constitutional or electoral change, but in their consequences for the organizational environment within which governmental organizations operate. Each Political Framework established a distinct configuration of governing priorities, institutional capacities, and political incentives, thereby creating different conditions under which organizational continuity—and, consequently, organizational knowledge accumulation—could emerge.
+From the perspective of the present framework, the substantive importance of these transformations lies not primarily in constitutional or electoral change, but in their consequences for the organizational environments within which governmental organizations operate. Each Political Framework established a distinct configuration of governing priorities, institutional capacities, and political incentives, thereby creating different historical environments within which patterns of ministerial duration may vary.
 
-Accordingly, the Political Frameworks summarized in Table~\ref{tab:frameworks} provide the historical operationalization of Proposition~\ref{prop:framework_continuity}. They define the successive historical environments within which the observable implications of the deductive framework are evaluated throughout the remainder of the paper.
-
+Accordingly, the Political Frameworks summarized in Table~\ref{tab:frameworks} define the successive historical environments within which ministerial duration is subsequently evaluated. They provide the historical dimension required to examine whether ministerial duration exhibits the progressive patterns predicted by Proposition~\ref{prop:framework_duration}. Under Axioms~\ref{ax:continuity_knowledge} and~\ref{ax:knowledge_learning}, progressively longer patterns of ministerial duration are interpreted as evidence of increasingly favorable organizational conditions for organizational knowledge accumulation and, consequently, institutional learning.
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{The Selective Organizational Reconstruction of the State}
+\subsection{Globalization and the Selective Reconstruction of the State}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-The previous subsection operationalized Political Frameworks as the historical environments within which organizational continuity is expected to vary. Proposition~\ref{prop:framework_pb}, however, concerns a different question. If Political Frameworks allocate organizational protection unevenly across governmental organizations, where should such protective arrangements be expected to emerge? The transition to the fifth Political Framework provides a particularly informative setting for addressing this question.
+The Political Frameworks introduced in the previous subsection constitute the principal historical partition employed throughout the empirical analyses. One qualification, however, deserves attention. Although the fifth Political Framework begins with the constitutional settlement of 1993, the organizational reforms associated with Peru's reintegration into the global economy unfolded progressively throughout the following decade. Understanding this process is important not because it alters the Political Framework itself, but because it motivates additional analyses examining whether the principal findings remain robust before and after the consolidation of the post-1990 organizational settlement.
 
-Although the fifth Political Framework is treated as a single historical environment throughout the analyses, the institutional reforms initiated during the 1990s deserve particular attention because they selectively transformed some governmental organizations more profoundly than others. Rather than redefining the Political Framework itself, these reforms altered the internal organizational architecture through which the Peruvian state pursued macroeconomic governance. They therefore provide the principal historical motivation for the organizational comparison developed in this study.
+Peru's renewed integration into the global economy following the crises of the 1980s did not constitute the country's first experience with outward-oriented development. Throughout both the colonial and republican periods, successive governments repeatedly adopted development strategies centered on primary exports, liberal economic policies, and close integration with the dominant international economy of their time. What distinguished the post-1990 reforms was therefore not the adoption of market-oriented policies themselves, but the organizational response through which those policies were implemented.
 
-Peru's renewed integration into international markets after the crises of the 1980s did not constitute the country's first experience with outward-oriented development. Throughout both the colonial and republican periods, successive governments repeatedly adopted development strategies centered on primary exports, liberal economic policies, and close integration with the dominant international economy of their time. What distinguished the post-1990 reforms was therefore not the adoption of market-oriented policies themselves, but the organizational response through which those policies were implemented.
+The combined crises of terrorism, hyperinflation, fiscal collapse, external indebtedness, and the breakdown of the traditional party system created an exceptional opportunity for institutional redesign. Rather than simply reducing the role of the state through privatization and deregulation, successive governments gradually constructed a coherent set of fiscal, monetary, financial, and regulatory institutions capable of supporting macroeconomic stability and international economic integration \parencite{santos_peru_2015}. This process included sustained fiscal consolidation \parencite[Ch.5]{santos_peru_2015}, the introduction and subsequent refinement of fiscal rules \parencite[Ch.6]{santos_peru_2015}, modernization of tax administration \parencite[Ch.8]{santos_peru_2015}, reforms in public financial management \parencite[Ch.9]{santos_peru_2015}, the development of new frameworks for public investment and public--private partnerships \parencite[Ch.10--11]{santos_peru_2015}, consolidation of an independent inflation-targeting central bank \parencite[Ch.12]{santos_peru_2015}, modernization of financial supervision and macroprudential regulation \parencite[Ch.15--18]{santos_peru_2015}, and the progressive expansion of trade and foreign investment institutions \parencite[Ch.19]{santos_peru_2015}. Collectively, these reforms represented not merely a shift in economic policy but a selective reconstruction of the organizational architecture of the Peruvian state.
 
-The combined crises of terrorism, hyperinflation, fiscal collapse, external indebtedness, and the breakdown of the traditional party system created an exceptional opportunity for institutional redesign. Rather than simply reducing the role of the state through privatization and deregulation, the reforms simultaneously strengthened a relatively small set of governmental organizations responsible for macroeconomic governance. Fiscal authority became increasingly centralized within the Ministry of Economy and Finance (MEF); budgetary institutions were modernized; tax administration was reinforced; monetary autonomy was consolidated; and progressively more formalized fiscal rules, planning procedures, and administrative routines were introduced. The reforms therefore represented not merely a shift in economic policy, but a selective reconstruction of the organizational architecture of the Peruvian state.
+The commodity boom of the 2000s reinforced these organizational changes. Rising fiscal revenues, expanding exports, and sustained foreign investment increased both the resources available to the state and the credibility of the institutional framework that had emerged during the previous decade. The resulting macroeconomic stability further strengthened the strategic importance of governmental organizations responsible for fiscal policy, public finance, monetary management, financial regulation, and external economic relations, while creating incentives for successive administrations to preserve rather than replace the institutional architecture already in place \parencite{santos_peru_2015}.
 
-The subsequent commodity boom reinforced these organizational changes. Sustained economic growth, expanding exports, and increasing foreign investment provided both the fiscal resources and the political legitimacy necessary for the new institutional arrangements to persist across successive governments. At the same time, continued integration into global markets made credible macroeconomic management increasingly indispensable. Consequently, the organizational knowledge embedded within institutions responsible for fiscal policy, debt management, public investment, and macroeconomic programming became progressively more valuable to the functioning of the state.
+These developments do not redefine the fifth Political Framework established by the preceding Critical Juncture. Instead, they identify a gradual process of organizational consolidation occurring within that historical environment. The constitutional settlement established the broad political framework; the subsequent decade progressively equipped that framework with a complementary set of organizations, administrative routines, and policy instruments capable of sustaining macroeconomic governance. Consequently, while the principal empirical analyses employ the Political Frameworks defined in the previous subsection, additional analyses later examine whether the principal findings remain robust before and after the consolidation of these organizational reforms.
 
-From the perspective developed in this paper, these historical developments do not demonstrate the existence of Protective Belts. Rather, they identify the historical conditions under which such protective arrangements could plausibly emerge. Proposition~\ref{prop:framework_pb} argues that Political Frameworks allocate organizational protection selectively according to their governing priorities. If the post-1990 organizational settlement concentrated technical expertise, institutional memory, and administrative capacity within macroeconomic institutions, then organizations responsible for preserving those capabilities should have become increasingly costly to disrupt.
-
-This interpretation also motivates an additional empirical consideration. Although the fifth Political Framework begins with the constitutional settlement of 1993, many of the organizational reforms discussed above unfolded progressively throughout the 1990s. Consequently, the empirical analyses later examine not only differences across Political Frameworks but also the robustness of the principal findings before and after the consolidation of the post-1990 organizational settlement.
-
-The observable implication follows directly. If the selective organizational reconstruction of the state concentrated valuable organizational knowledge within macroeconomic institutions, organizations responsible for macroeconomic governance should exhibit greater organizational continuity than organizations whose principal function remains political coordination or the management of recurrent political crises. The following subsection explains why the comparison between the Ministry of Economy and Finance and the Presidency of the Council of Ministers provides the principal organizational contrast through which this expectation is evaluated.
-
+Finally, the selective reconstruction of macroeconomic governance provides the substantive motivation for the organizational comparisons developed in the remainder of the paper. If some governmental organizations became progressively more central to the operation of the post-1990 political settlement than others, differences in ministerial duration should be expected to emerge within the same Political Framework. The following subsection explains why the comparison between the Ministry of Economy and Finance and the Presidency of the Council of Ministers provides the principal organizational contrast through which Proposition~\ref{prop:portfolio_duration} is evaluated.
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Governmental Organizations as Analytical Units}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-The theoretical framework developed in this paper concerns governmental organizations rather than the careers of individual ministers. Organizational continuity, organizational knowledge accumulation, and Protective Belts are therefore conceptualized as properties of governmental organizations, empirically operationalized here through ministerial portfolios. Ministers temporarily occupy these organizations, whereas the organizations themselves persist across successive presidential administrations and Political Frameworks. Consequently, the empirical analyses compare organizations rather than individuals.
+The theoretical framework developed in this paper concerns governmental organizations as the primary units through which organizational continuity, organizational knowledge accumulation, institutional learning, and Protective Belts are conceptualized. These latent organizational properties are empirically operationalized through ministerial portfolios. Ministers temporarily occupy these organizations, whereas the organizations themselves persist across successive presidential administrations and Political Frameworks. Consequently, the empirical analyses compare organizations rather than individual officeholders.
 
-The empirical application distinguishes three analytically distinct contexts within which every ministerial spell is observed. First, each spell belongs to a governmental organization, operationalized as a ministerial portfolio. This constitutes the organizational unit through which continuity, accumulated organizational knowledge, and Protective Belts are conceptualized. Second, every spell occurs under a particular presidential administration, representing the executive context responsible for ministerial appointments, cabinet formation, and ministerial replacement. Third, both governmental organizations and presidential administrations operate within a Political Framework, which provides the broader historical environment introduced in Proposition~\ref{prop:framework_continuity}.
+The empirical application distinguishes three analytically distinct contexts within which every ministerial spell is observed. First, each spell belongs to a governmental organization, operationalized as a ministerial portfolio. This constitutes the organizational unit through which the theoretical mechanisms are examined. Second, every spell occurs under a particular presidential administration, representing the executive context responsible for ministerial appointments, cabinet formation, and ministerial replacement. Third, both governmental organizations and presidential administrations operate within a Political Framework, which provides the broader historical environment within which ministerial duration is evaluated.
 
-These three contexts should not be interpreted as forming a simple hierarchy. Governmental organizations persist across successive presidential administrations and Political Frameworks, whereas each presidential administration simultaneously governs multiple governmental organizations. Ministerial spells therefore emerge from the intersection of historical, organizational, and executive contexts rather than from a single nested structure. Throughout the empirical analyses, Political Frameworks represent historical environments, governmental organizations constitute the organizational units through which the theoretical mechanisms operate, and presidential administrations capture executive-level heterogeneity affecting observed ministerial continuity.
+These three contexts should not be interpreted as forming a simple hierarchy. Governmental organizations persist across successive presidential administrations and Political Frameworks, whereas each presidential administration simultaneously governs multiple governmental organizations. Ministerial spells therefore emerge from the intersection of historical, organizational, and executive contexts rather than from a single nested structure. Throughout the empirical analyses, Political Frameworks define historical environments, governmental organizations constitute the units through which the theoretical mechanisms operate, and presidential administrations capture executive-level heterogeneity affecting observed ministerial duration.
 
-The principal organizational comparison concerns the Ministry of Economy and Finance (MEF) and the Presidency of the Council of Ministers (PCM). Both occupy central positions within the executive branch, yet they perform fundamentally different organizational functions. The comparison is theoretically informative because both organizations participate continuously in cabinet government while facing markedly different organizational incentives. Their principal difference lies not in institutional rank but in organizational function. Whereas the PCM coordinates political coalitions under conditions of continual political conflict, the MEF manages specialized governmental capabilities whose effectiveness depends heavily upon technical credibility, procedural stability, standardized administrative routines, and accumulated organizational knowledge. This combination of comparable institutional position and contrasting organizational function provides a particularly informative setting for evaluating the observable implications of Propositions~\ref{prop:framework_pb} and~\ref{prop:protective_belt}.
+The principal organizational comparison concerns the Ministry of Economy and Finance (MEF) and the Presidency of the Council of Ministers (PCM). Both occupy central positions within the executive branch, yet they perform fundamentally different organizational functions. The comparison is theoretically informative because both organizations participate continuously in cabinet government while facing markedly different organizational incentives. Whereas the PCM coordinates political coalitions under conditions of continual political conflict, the MEF manages specialized governmental capabilities whose effectiveness depends heavily upon technical credibility, procedural stability, standardized administrative routines, and accumulated organizational knowledge. This combination of comparable institutional position and contrasting organizational function provides the principal organizational comparison through which Proposition~\ref{prop:portfolio_duration} is evaluated.
 
 The PCM functions as the executive's principal organization for political coordination. It articulates cabinet action, negotiates with Congress, manages interministerial conflicts, and preserves the political viability of the executive. Because it operates at the intersection of governmental coordination and political conflict, it is also the organization most directly exposed to recurrent political crises. Cabinet reshuffles, legislative confrontations, presidential scandals, and episodes of social unrest frequently culminate in the replacement of the Prime Minister without fundamentally altering the broader organizational structure of government. In organizational terms, the PCM functions as the executive's principal political shock absorber, absorbing political instability through leadership turnover while preserving governmental operation.
 
-The organizational role of the MEF is fundamentally different. Rather than coordinating political coalitions, it coordinates macroeconomic governance. As discussed in the previous subsection, the organizational reconstruction initiated during the 1990s progressively concentrated fiscal authority, budgetary management, debt administration, macroeconomic programming, and public investment within the MEF. These responsibilities depend upon specialized technical expertise, institutional memory, standardized administrative procedures, and accumulated organizational routines developed over time. Unlike political coordination, whose priorities may legitimately change in response to changing political circumstances, macroeconomic governance derives much of its effectiveness from organizational continuity and long-term policy credibility.
+The organizational role of the MEF is fundamentally different. Rather than coordinating political coalitions, it coordinates macroeconomic governance. As discussed in the previous subsection, the post-1990 organizational settlement progressively concentrated fiscal authority, budgetary management, debt administration, macroeconomic programming, public investment, and financial coordination within the MEF. These responsibilities depend upon specialized technical expertise, institutional memory, standardized administrative procedures, and accumulated organizational routines developed over time. Unlike political coordination, whose priorities may legitimately change in response to changing political circumstances, macroeconomic governance derives much of its effectiveness from organizational continuity, technical credibility, and the preservation of organizational capabilities across successive governments.
 
-The argument is therefore organizational rather than political. The claim is not that the MEF became insulated from democratic accountability or immune to ministerial replacement. Ministers continued to be appointed and dismissed by elected governments, and macroeconomic policy remained politically contestable. Rather, if the post-1990 organizational settlement selectively strengthened macroeconomic governance, then the organizational knowledge embedded within the MEF became progressively more valuable—and therefore increasingly costly to disrupt. From the perspective of the present theoretical framework, the MEF consequently represents the governmental organization in which a Protective Belt is most plausibly expected to emerge.
+The argument is therefore organizational rather than political. The claim is not that the MEF became insulated from democratic accountability or immune to ministerial replacement. Ministers continued to be appointed and dismissed by elected governments, and macroeconomic policy remained politically contestable. Rather, if the post-1990 organizational settlement selectively increased the strategic value of preserving macroeconomic governance, ministerial duration should be comparatively greater within the MEF than within organizations primarily responsible for political coordination. Under Axiom~\ref{ax:protective_belt}, such observable differences are interpreted as evidence consistent with comparatively stronger Protective Belts.
 
 Three additional governmental organizations are incorporated for two complementary reasons. First, they broaden the organizational scope of the empirical analysis by allowing the principal comparison between the MEF and the PCM to be evaluated against organizations performing substantially different governmental functions. Second, they increase the amount of survival information available for empirical analysis, thereby permitting robustness analyses under alternative historical partitions and reducing the possibility that the principal findings reflect limited statistical power rather than theoretically meaningful organizational differences.
 
-The Ministry of the Interior represents the state's coercive and internal security functions, whose organizational continuity has historically been shaped by terrorism, crime, police reform, and public order. The Ministries of Health and Education represent two of the state's largest providers of public services and address policy domains requiring sustained administrative capacity and long-term organizational development. Although these organizations also depend upon accumulated organizational knowledge, they were not selectively reconstructed during the post-1990 organizational settlement in the same manner as macroeconomic governance.
+Beyond these methodological considerations, the Ministries of the Interior, Health, and Education also represent policy sectors that consistently rank among citizens' principal public concerns according to Peru's National Household Survey (ENAHO) and other official public opinion surveys conducted by the National Institute of Statistics \parencite{inei_encuesta_2024}. Incorporating these portfolios therefore extends the analysis beyond macroeconomic governance and political coordination to governmental organizations responsible for policy domains that citizens themselves identify as central priorities.
 
-Together, these five governmental organizations represent contrasting organizational functions rather than merely different policy sectors. The PCM represents political coordination under conditions of continual political exposure. The MEF represents specialized macroeconomic governance under conditions requiring organizational continuity and technical credibility. Interior, Health, and Education provide organizational reference points operating under different administrative and political incentives. This configuration allows the empirical analyses to evaluate whether organizational continuity varies systematically in ways consistent with the observable implications derived from the theoretical framework.
+The Ministry of the Interior represents the state's coercive and internal security functions, whose organizational continuity has historically been shaped by terrorism, crime, police reform, and public order. The Ministries of Health and Education represent two of the state's largest providers of public services and address policy domains requiring sustained administrative capacity and long-term organizational development. Although these organizations also depend upon accumulated organizational knowledge, they were not strengthened by the post-1990 organizational settlement to the same extent as the institutions responsible for macroeconomic governance.
 
-The empirical analyses do not seek to demonstrate that one governmental organization is inherently superior to another, nor that longer ministerial tenure necessarily produces more effective public policy. Rather, they examine whether Peru's historical trajectory exhibits patterns of organizational continuity consistent with the observable implications derived from the deductive framework. Because organizational knowledge accumulation and institutional learning remain latent theoretical constructs, the analyses rely on ministerial continuity as an observable proxy for the organizational conditions under which knowledge may accumulate. The following section translates these theoretical expectations into an empirical research design.
+Together, these five governmental organizations represent contrasting organizational functions rather than merely different policy sectors. The PCM represents political coordination under conditions of continual political exposure. The MEF represents specialized macroeconomic governance under conditions requiring organizational continuity and technical credibility. Interior, Health, and Education provide organizational reference points operating under different administrative and political incentives. This configuration allows the empirical analyses to evaluate whether ministerial duration varies systematically across governmental organizations within the same Political Framework, as predicted by Proposition~\ref{prop:portfolio_duration}.
 
+The empirical analyses do not seek to demonstrate that one governmental organization is inherently superior to another, nor that longer ministerial tenure necessarily produces more effective public policy. Rather, they examine whether Peru's historical trajectory exhibits observable patterns of ministerial duration consistent with the propositions derived from the deductive framework. Because organizational continuity, organizational knowledge accumulation, institutional learning, and Protective Belts remain latent theoretical constructs, the empirical analyses rely on observed ministerial duration as the empirical indicator through which the organizational implications of the theory are evaluated. The following section translates these theoretical expectations into an empirical research design.
 
 % 
 % 
-% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% \section{Empirical Analysis}
-% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% 
-% The theoretical framework developed in the preceding sections is deductive rather than statistical. The axioms establish the organizational conditions under which organizational knowledge accumulation and institutional learning become possible, while the propositions identify the political mechanisms expected to generate variation in organizational continuity. Because these theoretical relationships concern latent organizational processes, they cannot be observed directly. Instead, they generate a series of observable implications that can be examined using historical ministerial data.
-% 
-% The empirical analyses therefore do not constitute direct tests of the axioms or propositions. Rather, they evaluate the extent to which the observable implications derived from the theoretical framework are approximated by Peru's historical trajectory. The analyses proceed sequentially. They begin by describing the data and the operationalization of the principal theoretical concepts. They then examine continuity across political frameworks, compare continuity across governmental organizations, evaluate whether the post-1990 organizational reconstruction altered those relationships, and finally assess the robustness of the principal findings after accounting for presidential heterogeneity.
-% 
-% 
-% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% \subsection{Data and Operationalization}
-% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% 
-% This subsection describes the original historical dataset constructed for the analyses and explains how the principal theoretical concepts were operationalized. Particular attention is devoted to the transformation of the latent concepts introduced in the theoretical framework into observable variables suitable for event-history analysis. The purpose is not to restate the theoretical framework but to explain how its principal concepts are translated into observable variables suitable for empirical analysis.
-% 
-% <<data:gatopardo, echo=FALSE>>=
-% gatopardo=readRDS(url('https://github.com/PULSO-PUCP/pcm_history/raw/main/gatopardo.RDS'))
-% @
-% 
-% <<tab:epoch_descriptives, results=tex, echo=FALSE>>=
-% library(dplyr)
-% library(knitr)
-% library(kableExtra)
-% 
-% dataset_overview <- tibble(
-%   Item = c(
-%     "Unit of observation",
-%     "Temporal coverage",
-%     "Ministerial spells",
-%     "Unique ministers",
-%     "Presidents",
-%     "Governmental organizations",
-%     "Political frameworks",
-%     "Duration measure",
-%     "Median duration",
-%     "Mean duration",
-%     "Duration range",
-%     "Event definition",
-%     "Right-censored observations"
-%   ),
-%   Value = c(
-%     "Ministerial spell",
-%     sprintf("%d--%d", min(gatopardo$year, na.rm = TRUE), max(gatopardo$year, na.rm = TRUE)),
-%     format(nrow(gatopardo), big.mark = ","),
-%     format(n_distinct(gatopardo$Name), big.mark = ","),
-%     format(n_distinct(gatopardo$President), big.mark = ","),
-%     paste(levels(droplevels(gatopardo$portfolio)), collapse = ", "),
-%     paste0(n_distinct(gatopardo$political_framework), " political frameworks"),
-%     "Calendar days in office",
-%     sprintf("%.1f days", median(gatopardo$duration, na.rm = TRUE)),
-%     sprintf("%.1f days", mean(gatopardo$duration, na.rm = TRUE)),
-%     sprintf("%.0f--%.0f days", min(gatopardo$duration, na.rm = TRUE), max(gatopardo$duration, na.rm = TRUE)),
-%     "Exit from ministerial office",
-%     as.character(sum(gatopardo$event == 0, na.rm = TRUE))
-%   )
-% )
-% 
-% dataset_overview |>
-%   kbl(
-%     format = "latex",
-%     booktabs = TRUE,
-%     align = c("l", "l"),
-%     caption = "Dataset Overview",
-%     label = "dataset_overview",
-%     escape = FALSE
-%   ) |>
-%   kable_styling(
-%     latex_options = c("hold_position"),
-%     font_size = 9
-%   ) |>
-%   footnote(
-%     general = paste(
-%       "The dataset contains one observation per ministerial spell.",
-%       "Duration is measured in calendar days in office.",
-%       "One day was added uniformly to all recorded durations to avoid zero-length survival intervals.",
-%       "The event indicator equals one when a minister exits office and zero for right-censored observations."
-%     ),
-%     threeparttable = TRUE,
-%     escape = FALSE
-%   )
-% @
-% 
-% 
-% %% Explanation of variables, duration, event indicator,
-% %% political frameworks, ministerial portfolios,
-% %% censoring, inclusion criteria, and operationalization here.
-% Ministerial continuity is operationalized using an original historical dataset containing one observation for each ministerial spell between 1821 and 2026. The unit of observation is therefore the individual ministerial spell rather than the minister or the presidential administration. A minister who occupied multiple portfolios or served non-consecutive terms contributes one observation for each distinct ministerial spell.
-% 
-% Organizational continuity is observed through two complementary variables. The first is \emph{ministerial duration}, measured as the number of calendar days between appointment and departure from office. Because appointments and resignations occasionally occurred on the same calendar day, one day was added uniformly to all observed durations prior to estimation. This adjustment avoids zero-length survival intervals while preserving the relative ordering of ministerial spells and has no substantive effect on the estimated survival estimates or hazard ratios.
-% 
-% The second variable is the event indicator, which equals one whenever a minister leaves office and zero for right-censored observations. Right censoring occurs when a minister remained in office at the time the dataset was closed, so that the eventual termination of the spell had not yet been observed. Five ministerial spells are therefore treated as right-censored throughout the survival analyses.
-% 
-% The principal explanatory variable is the \emph{political framework}. Following the historical reconstruction presented in the previous section, each ministerial spell is assigned to one of six political frameworks derived from Peru's critical junctures. These frameworks constitute the empirical operationalization of Proposition~\ref{prop:framework_continuity}, representing historically distinct organizational environments within which organizational continuity is expected to vary.
-% 
-% A second explanatory dimension distinguishes governmental organizations. The empirical analyses focus primarily on the Ministry of Economy and Finance (MEF) and the Presidency of the Council of Ministers (PCM), which represent contrasting organizational functions within the executive branch. Three additional governmental organizations---Interior, Education, and Health---are incorporated as organizational benchmarks. These portfolios broaden the amount of survival information available for estimation and allow subsequent robustness analyses to distinguish theoretically meaningful organizational differences from patterns that might otherwise reflect limited statistical power.
-% 
-% The empirical analyses employ standard tools from event-history analysis. Kaplan--Meier estimators provide non-parametric descriptions of ministerial survival, log-rank tests compare survival functions across groups, and Cox proportional hazards models estimate the relative hazard of ministerial replacement while accounting for multiple explanatory variables simultaneously. Additional specifications introduce interaction terms to examine historical heterogeneity and shared-frailty models to account for unobserved heterogeneity across presidential administrations.
-% 
-% The empirical objective is not to estimate the causal effect of ministerial continuity on governance outcomes. Rather, the analyses evaluate whether the observable patterns of ministerial continuity approximate the organizational regularities implied by the deductive framework developed in the preceding sections.
-% 
-% 
-% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% \subsection{From Theory to Empirical Expectations}
-% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% 
-% Rather than formulating statistical hypotheses, the deductive framework developed in Section~3 generates a series of observable empirical expectations. Each proposition identifies a regularity that should emerge if the organizational mechanisms described by the theory operate in the Peruvian case. These expectations guide the interpretation of the empirical analyses that follow without assuming that the historical evidence must perfectly conform to the theoretical model.
-% 
-% %% Table linking Axioms/Propositions to empirical expectations here.
-% \begin{table}[!htbp]
-% \centering
-% \caption{From Deductive Theory to Empirical Expectations}
-% \label{tab:expectations}
-% \small
-% \renewcommand{\arraystretch}{1.25}
-% \begin{tabular}{p{1.3cm}p{4.8cm}p{5.5cm}p{3.5cm}}
-% \toprule
-% \textbf{Element} &
-% \textbf{Theoretical Statement} &
-% \textbf{Observable Empirical Expectation} &
-% \textbf{Empirical Analysis} \\
-% \midrule
-% 
-% A1 &
-% Organizational continuity is necessary for organizational knowledge accumulation. &
-% Not directly observable. Establishes the theoretical interpretation of continuity. &
-% Conceptual foundation only. \\
-% 
-% \addlinespace
-% 
-% A2 &
-% Organizational knowledge accumulation is necessary for institutional learning. &
-% Not directly observable. Establishes the theoretical interpretation of institutional learning. &
-% Conceptual foundation only. \\
-% 
-% \addlinespace
-% 
-% P1 &
-% Political frameworks shape organizational continuity. &
-% Ministerial continuity should differ across political frameworks. No particular historical ordering is assumed. &
-% Section~\ref{sec:frameworks}. \\
-% 
-% \addlinespace
-% 
-% P2 &
-% Political frameworks generate different configurations of protective belts. &
-% Governmental organizations operating within the same political framework should exhibit systematically different levels of organizational continuity. &
-% Sections~\ref{sec:portfolios} and~\ref{sec:globalization}. \\
-% 
-% \addlinespace
-% 
-% P3 &
-% Protective belts preserve organizational continuity. &
-% Organizations expected to possess stronger protective belts should exhibit comparatively greater organizational continuity, observed through ministerial survival. &
-% Sections~\ref{sec:portfolios}, \ref{sec:globalization}, and~\ref{sec:frailty}. \\
-% 
-% \bottomrule
-% \end{tabular}
-% 
-% \vspace{0.2cm}
-% 
-% \begin{minipage}{0.95\textwidth}
-% \footnotesize
-% \textit{Note:} The empirical analyses evaluate observable implications derived from the deductive framework rather than testing the axioms directly. Axioms establish the conceptual foundations of the theory, whereas propositions generate empirical expectations that can be examined using ministerial survival data.
-% \end{minipage}
-% 
-% \end{table}
-% 
-% %% Explanation of each empirical expectation here.
-% The empirical expectations summarized in Table~\ref{tab:expectations} should not be interpreted as statistical hypotheses in the conventional sense. Rather, they constitute the observable implications derived from the deductive framework. Each proposition identifies a regularity that should emerge if the organizational mechanisms proposed by the theory operate in the Peruvian case.
-% 
-% Accordingly, the empirical analyses proceed sequentially. Each subsection evaluates one observable implication using increasingly demanding empirical specifications, beginning with descriptive summaries and non-parametric survival estimates before introducing proportional hazards models, interaction models, and shared-frailty specifications. The objective is not to confirm or reject the theoretical framework through a single statistical model, but to assess whether the cumulative historical evidence consistently approximates the regularities implied by the propositions.
-% 
-% Throughout the empirical analyses, the distinction between axioms and propositions remains fundamental. The axioms establish the conceptual interpretation of organizational continuity, organizational knowledge accumulation, and institutional learning, but they are not themselves observable. The propositions, by contrast, generate empirical expectations concerning historical variation in organizational continuity. Consequently, the analyses evaluate only the observable implications of the propositions while interpreting the results through the conceptual lens established by the axioms.
-% 
-% 
-% 
-% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% \subsection{Organizational Continuity Across Political Frameworks}
-% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% 
-% The first empirical question follows directly from Proposition~\ref{prop:framework_continuity}. If political frameworks generate different organizational environments, ministerial continuity should vary across historically distinct political frameworks. The purpose of this subsection is therefore to examine whether opportunities for organizational continuity changed across Peru's successive political frameworks.
-% 
-% The analyses begin with descriptive comparisons before introducing non-parametric survival estimates and multivariate event-history models. Together these analyses evaluate whether historically distinct political frameworks exhibit systematically different continuity conditions.
-% 
-% %% Descriptive statistics table here.
-% 
-% <<fig:epoch_descriptives,echo=FALSE,fig=TRUE>>=
-% library(dplyr)
-% library(ggplot2)
-% 
-% labs <- gatopardo %>%
-%   filter(portfolio %in% c("PCM", "MEF")) %>%
-%   group_by(political_framework) %>%
-%   summarise(
-%     N      = n(),
-%     Q1     = quantile(duration, 0.25, na.rm = TRUE),
-%     Median = median(duration, na.rm = TRUE),
-%     Q3     = quantile(duration, 0.75, na.rm = TRUE),
-%     Max    = max(duration, na.rm = TRUE),
-%     .groups = "drop"
-%   )
-% 
-% ggplot(gatopardo %>%
-%   filter(portfolio %in% c("PCM", "MEF")),
-%        aes(x = political_framework,
-%            y = duration)) +
-% 
-%   geom_boxplot(width = 0.3,
-%                outlier.alpha = 0.35) +
-% 
-%   # Median
-%   geom_text(
-%     data = labs,
-%     aes(y = Median,
-%         label = paste0(round(Median, 1))),
-%     nudge_x = 0.18,
-%     hjust = 0,
-%     size = 3.2,
-%     color = "gray40"
-%   ) +
-% 
-%   # First quartile
-%   geom_text(
-%     data = labs,
-%     aes(y = Q1,
-%         label = paste0(round(Q1, 1))),
-%     nudge_x = 0.18,
-%     hjust = 0,
-%     size = 2.8,
-%     color = "gray40"
-%   ) +
-% 
-%   # Third quartile
-%   geom_text(
-%     data = labs,
-%     aes(y = Q3,
-%         label = paste0(round(Q3, 1))),
-%     nudge_x = 0.18,
-%     hjust = 0,
-%     size = 2.8,
-%     color = "gray40"
-%   ) +
-% 
-%   # Sample size
-%   geom_text(
-%   data = labs,
-%   aes(
-%     y = 0,
-%     label = paste0("N = ", N)
-%   ),
-%   vjust = 1.8,
-%   fontface = "bold",
-%   size = 3.2
-% ) +
-% 
-%   coord_cartesian(clip = "off") +
-% 
-%   labs(
-%     x = NULL,
-%     y = "Duration (days)"
-%   ) +
-% 
-%   theme_classic2()  +
-%   theme(
-%     axis.text.x = element_text(angle = 30, hjust = 1),
-%     plot.margin = margin(5.5, 50, 5.5, 5.5)
-%   ) #+ scale_y_log10() 
-% @
-% \caption{Distribution of ministerial duration across Peru's political frameworks for appointments to the Ministry of Economy and Finance (MEF) and the Presidency of the Council of Ministers (PCM). Boxes represent the interquartile range, horizontal lines indicate the median, whiskers extend to 1.5 times the interquartile range, and points denote observations beyond the whiskers. Sample sizes are reported above each box.}
-% \label{fig:epoch_descriptives}
-% 
-% 
-% Figure~\ref{fig:epoch_descriptives} provides an initial description of ministerial duration across Peru's political frameworks using appointments to the Ministry of Economy and Finance (MEF) and the Presidency of the Council of Ministers (PCM). Substantial historical variation is immediately apparent. Median ministerial duration varies considerably across political frameworks, from 119 days during the State Formation framework to 314 days during the Transition and Crisis framework, with the remaining frameworks occupying intermediate positions. The interquartile ranges also differ substantially across historical periods. The Power-Sharing State and the Transition and Crisis frameworks exhibit both the highest median durations and the greatest dispersion, whereas the Current Critical Juncture displays comparatively short ministerial spells concentrated within a narrower range.
-% 
-% The distributions are consistently right-skewed, with a relatively small number of exceptionally long ministerial appointments extending well beyond the upper quartile in every framework. These descriptive patterns suggest that observed ministerial continuity has not remained constant throughout Peru's republican history. However, boxplots summarize only the observed distribution of ministerial durations. They neither account for right-censored observations nor evaluate whether the differences between political frameworks are statistically distinguishable. Those questions are addressed through the survival analyses that follow.
-% 
-% These descriptive patterns suggest that observed ministerial continuity has not remained constant throughout Peru's republican history. However, boxplots summarize only the observed distribution of ministerial durations. They neither account for right-censored observations nor evaluate whether the differences between political frameworks are statistically distinguishable. Those questions require event-history methods and are examined in the analyses that follow.
-% 
-% %% Kaplan--Meier survival curves here.
-% 
-% \begin{figure}
-% \centering
-% <<fig:km_epochs,echo=FALSE,fig=TRUE>>=
-% library(survival)
-% library(survminer)
-% library(dplyr)
-% library(ggplot2)
-% 
-% datos_pcm_mef <- gatopardo |>
-%   filter(portfolio %in% c("PCM", "MEF"))
-% 
-% km_epoch <- survfit(
-%   Surv(duration, event) ~ political_framework,
-%   data = datos_pcm_mef
-% )
-% 
-% s <- surv_summary(km_epoch) |>
-%   mutate(
-%     epoch = gsub("^political_framework=", "", strata)
-%   )
-% 
-% meds <- s |>
-%   group_by(epoch) |>
-%   slice_min(order_by = abs(surv - 0.5), n = 1, with_ties = FALSE) |>
-%   ungroup()
-% 
-% ann_df <- meds |>
-%   mutate(
-%     num = as.numeric(gsub("^([0-9]+).*", "\\1", political_framework)),
-%     ord = match(num, c(1, 2, 6, 5, 3, 4))
-%   ) |>
-%   arrange(ord) |>
-%   mutate(
-%     x_text = c(230, 360, 500, 640, 780, 920),
-%     y_text = c(.545, .550, .555, .560, .565, .570),
-%     label = as.character(num)
-%   )
-% 
-% ggplot(
-%   s,
-%   aes(
-%     x = time,
-%     y = surv,
-%     colour = as.ordered(political_framework),
-%     linetype = political_framework
-%   )
-% ) +
-%   geom_step(linewidth = 1.5) +
-%   geom_hline(
-%     yintercept = 0.5,
-%     linetype = "dashed",
-%     colour = "grey50",
-%     alpha = 0.6
-%   ) +
-%   geom_point(
-%     data = ann_df,
-%     aes(x = time, y = 0.5),
-%     inherit.aes = FALSE,
-%     colour = "grey30",
-%     size = 0
-%   ) +
-%   geom_segment(
-%     data = ann_df,
-%     aes(x = x_text, y = y_text, xend = time, yend = 0.5),
-%     inherit.aes = FALSE,
-%     colour = "grey40",
-%     linewidth = 0.35
-%   ) +
-%   geom_label(
-%   data = ann_df,
-%   aes(x = x_text, y = y_text, label = label),
-%   inherit.aes = FALSE,
-%   hjust = 0.5,
-%   vjust = 0.5,
-%   size = 3.5,
-%   colour = "grey20",
-%   fill = "white",
-%   label.size = 0.25,
-%   fontface = "bold"
-% )+
-%   labs(
-%     x = "Ministerial duration in days",
-%     y = "Survival probability",
-%     colour = NULL,
-%     linetype = NULL
-%   ) +
-%   scale_color_brewer(type = "div", palette = "Spectral") +
-%   theme_classic2() +
-%   theme(
-%     legend.position = c(.75, .75),
-%     legend.background = element_rect(
-%       fill = "white",
-%       colour = "grey60"
-%     ),
-%     legend.key = element_blank()
-%   ) + annotate(
-%   "text",
-%   x = 1750,
-%   y = .51,
-%   label = "Median survival (S = 0.5)",
-%   hjust = 1,
-%   size = 3,
-%   colour = "grey20"
-% )
-% @
-% \caption{Kaplan–Meier estimates of ministerial continuity across political frameworks. Curves represent the estimated probability that a minister remains in office beyond a given duration. Numbers identify the six political frameworks listed in Table~\ref{tab:frameworks}. Analyses are restricted to appointments to the Presidency of the Council of Ministers (PCM) and the Ministry of Economy and Finance (MEF).}
-% \label{fig:km_epochs}
-% \end{figure}
-% 
-% 
-% 
-% Figure~\ref{fig:km_epochs} extends the descriptive evidence by accounting for censoring and estimating the probability that ministers remain in office over time. The survival curves reveal substantial heterogeneity across political frameworks, indicating that organizational continuity differed systematically throughout Peru's republican history. Importantly, the curves do not exhibit a monotonic historical progression. Frameworks associated with later historical periods do not uniformly display greater ministerial continuity than earlier ones. Instead, each political framework appears to be associated with a distinct pattern of organizational continuity, with some historical environments characterized by relatively rapid ministerial turnover and others by more sustained tenure. This visual evidence is consistent with Proposition~\ref{prop:framework_continuity}, which predicts that political frameworks shape organizational continuity without assuming that successive political frameworks necessarily represent cumulative institutional improvement. Formal statistical comparisons of these survival functions are presented next.
-% 
-% 
-% 
-% %% Log-rank comparison table here.
-% 
-% <<tab:logrank_epoch, echo=FALSE, results=tex, message=FALSE, warning=FALSE>>=
-% library(dplyr)
-% library(survival)
-% library(knitr)
-% library(kableExtra)
-% 
-% datos_pcm_mef <- gatopardo |>
-%   filter(portfolio %in% c("PCM", "MEF"))
-% 
-% logrank_epoch <- survdiff(
-%   Surv(duration, event) ~ political_framework,
-%   data = datos_pcm_mef
-% )
-% 
-% chisq_epoch <- logrank_epoch$chisq
-% df_epoch <- length(logrank_epoch$n) - 1
-% p_epoch <- pchisq(chisq_epoch, df = df_epoch, lower.tail = FALSE)
-% 
-% logrank_summary <- tibble(
-%   Test = "Global log-rank test",
-%   `Chi-square` = round(chisq_epoch, 2),
-%   df = df_epoch,
-%   `p-value` = ifelse(p_epoch < .001, "< .001", round(p_epoch, 3))
-% )
-% 
-% logrank_summary |>
-%   kable(
-%     format = "latex",
-%     booktabs = TRUE,
-%     escape = FALSE,
-%     align = c("l", "r", "r", "r"),
-%     linesep = "",
-%     caption = paste0(
-%       "Global Log-Rank Test Across Political Frameworks",
-%       "\\label{tab:logrank_epoch}"
-%     )
-%   ) |>
-%   footnote(
-%     general = paste(
-%       "\\footnotesize The test evaluates the null hypothesis that ministerial survival functions",
-%       "are identical across political frameworks. Results are based on PCM and MEF appointments."
-%     ),
-%     threeparttable = TRUE,
-%     escape = FALSE,
-%     general_title = "\\mbox{}\\vskip 1mm \\footnotesize\\textit{Note: }"
-%   )
-% @
-% 
-% 
-% The visual differences observed in Figure~\ref{fig:km_epochs} are confirmed by the global log-rank test reported in Table~\ref{tab:logrank_epoch}. The null hypothesis that all political frameworks share the same survival function is decisively rejected ($\chi^{2}=46.47$, $df=5$, $p<.001$), indicating that the observed variation in ministerial continuity is unlikely to be attributable to random sampling variation alone. Taken together, the descriptive statistics, Kaplan--Meier estimates, and log-rank test provide consistent evidence that historically distinct political frameworks generated significantly different patterns of ministerial continuity. The remaining question is whether these differences persist after simultaneously comparing all political frameworks within a multivariate event-history model. That question is addressed through the Cox proportional hazards model presented next.
-% 
-% 
-% %% Cox proportional hazards model here.
-% 
-% 
-% <<tab:cox_epoch, echo=FALSE, results=tex, message=FALSE, warning=FALSE>>=
-% library(dplyr)
-% library(survival)
-% library(knitr)
-% 
-% datos_pcm_mef <- gatopardo |>
-%   filter(portfolio %in% c("PCM", "MEF")) |>
-%   mutate(
-%     epoch_model = factor(
-%       as.character(political_framework),
-%       levels = c(
-%         "5. Democracy without Parties",
-%         "1. State Formation",
-%         "2. Oligarchic State",
-%         "3. Power-Sharing State",
-%         "4. Transition and Crisis",
-%         "6. Current Critical Juncture"
-%       )
-%     )
-%   )
-% 
-% cox_epoch <- coxph(
-%   Surv(duration, event) ~ epoch_model,
-%   data = datos_pcm_mef
-% )
-% 
-% cox_table <- summary(cox_epoch)
-% 
-% cox_results <- data.frame(
-%   Epoch = rownames(cox_table$coefficients),
-%   Hazard_Ratio = cox_table$coefficients[, "exp(coef)"],
-%   CI_Lower = cox_table$conf.int[, "lower .95"],
-%   CI_Upper = cox_table$conf.int[, "upper .95"],
-%   p_value = cox_table$coefficients[, "Pr(>|z|)"]
-% ) |>
-%   mutate(
-%     Epoch = gsub("^epoch_model", "", Epoch),
-%     Hazard_Ratio = round(Hazard_Ratio, 2),
-%     CI = paste0(round(CI_Lower, 2), "--", round(CI_Upper, 2)),
-%     p_value = ifelse(p_value < .001, "< .001", round(p_value, 3))
-%   ) |>
-%   select(
-%     `Political Framework` = Epoch,
-%     Hazard_Ratio,
-%     CI,
-%     p_value
-%   )
-% 
-% cox_results |>
-%   kable(
-%     caption = paste0(
-%       "Cox Proportional Hazards Model of Ministerial Replacement by Political Framework",
-%       "\\label{tab:cox_epoch}"
-%     ),
-%     booktabs = TRUE,
-%     format = "latex",
-%     escape = FALSE,
-%     row.names = FALSE,
-%     col.names = c(
-%       "Political Framework",
-%       "Relative Hazard",
-%       "95\\% CI",
-%       "p-value"
-%     ),
-%     linesep = ""
-%   )|>
-%   footnote(
-%     general = paste(
-%       "\\\\footnotesize The reference category is Democracy without Parties. Hazard ratios above one indicate a higher risk of ministerial replacement relative to the reference framework, whereas hazard ratios below one indicate a lower risk of ministerial replacement.",
-%       "Results are based on PCM and MEF appointments"),
-%     threeparttable = TRUE,
-%     escape = FALSE,
-%     # Shortened the gap to 1.5mm and shrunk text to scriptsize
-%     general_title = "\\\\mbox{}\\\\vskip 1mm \\\\footnotesize\\\\textit{Note: }"
-%   )
-% @
-% 
-% The Cox model reported in Table~\ref{tab:cox_epoch} quantifies the magnitude of these historical differences by estimating the relative hazard of ministerial replacement while treating the Democracy without Parties framework as the reference category. The model reinforces the historical patterns suggested by the descriptive statistics, Kaplan–Meier estimates, and global log-rank test. Ministers serving during the State Formation period faced a 71\% higher hazard of replacement than those serving during the post-1993 framework, while the Oligarchic State also exhibited significantly greater ministerial turnover. The Current Critical Juncture presents the highest estimated hazard of replacement, more than doubling the risk observed under the reference framework. In contrast, the Power-Sharing State and the Transition and Crisis frameworks do not differ significantly from the Democracy without Parties period.
-% 
-% Taken together, the results indicate that organizational continuity has varied substantially across Peru's political frameworks. At the same time, the historical pattern is clearly non-monotonic. The post-1993 political framework does not represent the culmination of a steady historical progression toward increasingly stable ministerial organizations, nor do earlier frameworks uniformly exhibit lower continuity. Instead, continuity appears to depend on the particular institutional environment created by each political framework.
-% 
-% This interpretation is particularly important from a comparative-historical perspective. Critical junctures are often associated with major institutional change, but the present results suggest that institutional change alone should not be equated with improved organizational continuity. Different critical junctures produced different organizational environments, some more conducive to continuity than others.
-% 
-% This finding is broadly consistent with Proposition~\ref{prop:framework_continuity}. The proposition does not predict progressive institutional improvement, but rather that different political frameworks generate different organizational conditions under which continuity may be preserved or disrupted. From the perspective of Axiom~\ref{ax:continuity}, these historical differences imply that successive political frameworks created different opportunities for organizational knowledge accumulation. The analyses do not establish that organizations accumulated more knowledge under one framework than another; they indicate only that the organizational conditions necessary for such accumulation varied historically.
-% 
-% Historical variation alone, however, does not establish whether all governmental organizations experienced similar continuity conditions within the same political framework. Proposition~\ref{prop:framework_pb} suggests that political systems may selectively preserve particular organizations according to their strategic importance. The following subsection therefore shifts the focus from historical variation to organizational variation by comparing ministerial continuity across governmental organizations.
-% 
-% 
-% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% \subsection{Protective Belts Across Governmental Organizations}
-% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% 
-% The second empirical question follows directly from Propositions~\ref{prop:framework_pb} and~\ref{prop:protective_belt}. The previous subsection established that organizational continuity varied across Peru's successive political frameworks. Historical variation alone, however, cannot determine whether all governmental organizations operating within the same political framework experienced comparable continuity conditions. If political frameworks generate differentiated configurations of protective belts, organizational continuity should also vary across governmental organizations exposed to the same historical environment.
-% 
-% The analyses therefore shift from historical variation to organizational variation. Ministerial appointments are used as observable indicators of continuity within governmental organizations, allowing comparisons across portfolios while holding constant the broader institutional context in which those organizations operate.
-% 
-% Particular attention is given to the Ministry of Economy and Finance (MEF) and the Presidency of the Council of Ministers (PCM). As argued in the Peru case, these organizations occupy contrasting institutional positions within the executive. The MEF concentrates organizational capabilities associated with macroeconomic governance and international policy credibility, whereas the PCM coordinates cabinet politics and absorbs much of the executive's day-to-day political pressure. The remaining ministries—Interior, Education, and Health—are incorporated as organizational benchmarks representing security and public service provision.
-% 
-% The objective is not to determine which ministry performs better, nor to attribute organizational performance to ministerial tenure. Rather, the analyses evaluate whether organizational continuity varies systematically across governmental organizations in ways consistent with the theoretical concept of protective belts.
-% 
-% %% Descriptive comparison across portfolios here.
-% 
-% Before comparing survival functions, it is useful to examine the observed distribution of ministerial duration across governmental organizations. As in the previous subsection, these descriptive statistics do not account for censoring and therefore should not be interpreted as estimates of organizational continuity. Rather, they provide an initial characterization of the observed ministerial spells prior to formal survival analysis.
-% 
-% <<tab:portfolio_descriptives_all, results=tex, echo=FALSE>>=
-% library(dplyr)
-% library(knitr)
-% 
-% gatopardo |>
-%   group_by(portfolio) |>
-%   summarise(
-%     N = n(),
-%     Q1 = quantile(duration, .25, na.rm = TRUE),
-%     Median = median(duration, na.rm = TRUE),
-%     Q3 = quantile(duration, .75, na.rm = TRUE),
-%     Max = max(duration, na.rm = TRUE),
-%     .groups = "drop"
-%   ) |>
-%   arrange(desc(Median)) |>
-%   kable(
-%     caption = "Ministerial Duration Across Governmental Organizations
-%     \\label{tab:portfolio_descriptives_all}",
-%     booktabs = TRUE,
-%     format = "latex",
-%     digits = 0,
-%     linesep = ""
-%   )
-% @
-% 
-% Table~\ref{tab:portfolio_descriptives_all} suggests substantial variation in ministerial duration across governmental organizations. The Ministry of Health exhibits the longest observed median duration (318 days), followed by Education (234 days), whereas the Ministry of Economy and Finance presents the shortest median duration (151 days). At first glance, these descriptive statistics appear inconsistent with the theoretical expectation that organizations responsible for strategically valuable forms of organizational knowledge should experience greater continuity.
-% 
-% This apparent contradiction, however, should be interpreted with caution. Descriptive summaries ignore the timing of ministerial exits, treat all observed spells as complete, and do not account for the small number of right-censored observations. Moreover, they compare organizations across the entire republican period without considering the historical environments in which those appointments occurred. Consequently, these descriptive patterns should be regarded as preliminary rather than conclusive. The survival analyses that follow evaluate whether the observed differences persist once censoring and the temporal structure of ministerial replacement are explicitly incorporated.
-% 
-% %% Kaplan--Meier comparison across portfolios here.
-% 
-% \begin{figure}[!htbp]
-% \centering
-% <<fig:km_portfolios_all, echo=FALSE, fig=TRUE, message=FALSE, warning=FALSE>>=
-% library(survival)
-% library(survminer)
-% library(dplyr)
-% library(ggplot2)
-% library(ggrepel) # Added for automatic label positioning
-% 
-% # 1. Fit the survival object
-% km_portfolios_all <- survfit(
-%   Surv(duration, event) ~ portfolio,
-%   data = gatopardo
-% )
-% 
-% # 2. Extract median survival times and grab the clean portfolio names
-% medians_df <- surv_median(km_portfolios_all) %>%
-%   mutate(
-%     # Cleans "portfolio=MEF" into just "MEF"
-%     portfolio_name = gsub("portfolio=", "", strata)
-%   )
-% 
-% # 3. Generate the base ggsurvplot
-% p <- ggsurvplot(
-%   km_portfolios_all,
-%   data = gatopardo,
-%   conf.int = FALSE,
-%   risk.table = FALSE,
-%   censor = FALSE,
-%   ggtheme = theme_classic2(),
-%   xlab = "Ministerial duration in days",
-%   ylab = "Survival probability",
-%   palette = "Dark2",
-%   size = 1.2,
-%   legend = "none" # Omits the legend completely
-% )
-% 
-% # 4. Inject the custom text-based annotations
-% p$plot <- p$plot +
-%   # Reference line at S = 0.5
-%   geom_hline(yintercept = 0.5, linetype = "dashed", color = "gray50", alpha = 0.7) +
-%   
-%   # Text note for the median line
-%   annotate("text", x = 1600, y = 0.52, label = "Median survival (S = 0.5)", 
-%            color = "gray30", size = 3.5, fontface = "italic") +
-%   
-%   # Smart text labels with pointer lines
-%   geom_label_repel(
-%     data = medians_df, 
-%     aes(x = median, y = 0.5, label = portfolio_name),
-%     nudge_y = 0.1,          # Encourages labels to sit slightly above the line
-%     nudge_x = 150,          # Pushes labels out to the right to clear the curves
-%     direction = "both",     # Allows flexibility to move up/down/left/right to avoid overlap
-%     segment.color = "gray30",
-%     segment.size = 0.4,
-%     fill = "white", 
-%     color = "black", 
-%     fontface = "bold",
-%     label.padding = unit(0.3, "lines")
-%   )
-% 
-% # Render the final plot
-% p
-% @
-% \caption{Kaplan--Meier estimates of ministerial continuity across governmental organizations. Curves represent the estimated probability that ministers remain in office beyond a given duration.}
-% \label{fig:km_portfolios_all}
-% \end{figure}
-% 
-% 
-% <<>>=
-% library(survival)
-% library(survminer)
-% library(dplyr)
-% library(ggplot2)
-% library(ggrepel)
-% 
-% # Data
-% datos_portfolios <- gatopardo |>
-%   mutate(
-%     portfolio = factor(
-%       portfolio,
-%       levels = c("MEF", "Educacion", "Interior", "PCM", "Salud")
-%     )
-%   )
-% 
-% # Kaplan-Meier
-% km_portfolios <- survfit(
-%   Surv(duration, event) ~ portfolio,
-%   data = datos_portfolios
-% )
-% 
-% # Survival curve data
-% s_portfolios <- surv_summary(km_portfolios) |>
-%   mutate(
-%     portfolio_name = gsub("^portfolio=", "", strata)
-%   )
-% 
-% # Median points: closest observed survival to S = 0.5
-% medians_portfolios <- s_portfolios |>
-%   group_by(portfolio_name) |>
-%   slice_min(order_by = abs(surv - 0.5), n = 1, with_ties = FALSE) |>
-%   ungroup() |>
-%   mutate(
-%     label = portfolio_name,
-%     x_text = time + 180,
-%     y_text = case_when(
-%       portfolio_name == "Salud" ~ 0.68,
-%       portfolio_name == "Educacion" ~ 0.61,
-%       portfolio_name == "PCM" ~ 0.55,
-%       portfolio_name == "Interior" ~ 0.49,
-%       portfolio_name == "MEF" ~ 0.43,
-%       TRUE ~ 0.55
-%     )
-%   )
-% 
-% ggplot(
-%   s_portfolios,
-%   aes(
-%     x = time,
-%     y = surv,
-%     colour = portfolio_name,
-%     linetype = portfolio_name
-%   )
-% ) +
-%   geom_step(linewidth = 1.35) +
-%   geom_hline(
-%     yintercept = 0.5,
-%     linetype = "dashed",
-%     colour = "grey50",
-%     alpha = 0.7
-%   ) +
-%   geom_segment(
-%     data = medians_portfolios,
-%     aes(
-%       x = x_text,
-%       y = y_text,
-%       xend = time,
-%       yend = 0.5
-%     ),
-%     inherit.aes = FALSE,
-%     colour = "grey40",
-%     linewidth = 0.35
-%   ) +
-%   geom_label(
-%     data = medians_portfolios,
-%     aes(
-%       x = x_text,
-%       y = y_text,
-%       label = label,
-%       colour = portfolio_name
-%     ),
-%     inherit.aes = FALSE,
-%     fill = "white",
-%     label.size = 0.25,
-%     fontface = "bold",
-%     size = 3.5
-%   ) +
-%   annotate(
-%     "text",
-%     x = 1650,
-%     y = 0.515,
-%     label = "Median survival (S = 0.5)",
-%     hjust = 1,
-%     size = 3,
-%     colour = "grey20"
-%   ) +
-%   labs(
-%     x = "Ministerial duration in days",
-%     y = "Survival probability",
-%     colour = NULL,
-%     linetype = NULL
-%   ) +
-%   scale_color_brewer(type = "qual", palette = "Dark2") +
-%   theme_classic2() +
-%   theme(
-%     legend.position = "none"
-%   )
-% @
-% 
-% 
-% %% Cox model including ministerial portfolios here.
-% 
-% <<tab:cox_portfolios_all, echo=FALSE, results=tex, message=FALSE, warning=FALSE>>=
-% library(dplyr)
-% library(survival)
-% library(knitr)
-% library(kableExtra)
-% 
-% datos_portfolios <- gatopardo |>
-%   mutate(
-%     portfolio_model = factor(
-%       as.character(portfolio),
-%       levels = c("PCM", "MEF", "Interior", "Educacion", "Salud")
-%     )
-%   )
-% 
-% cox_portfolios <- coxph(
-%   Surv(duration, event) ~ portfolio_model,
-%   data = datos_portfolios
-% )
-% 
-% cox_table <- summary(cox_portfolios)
-% 
-% cox_results <- data.frame(
-%   Portfolio = rownames(cox_table$coefficients),
-%   Hazard_Ratio = cox_table$coefficients[, "exp(coef)"],
-%   CI_Lower = cox_table$conf.int[, "lower .95"],
-%   CI_Upper = cox_table$conf.int[, "upper .95"],
-%   p_value = cox_table$coefficients[, "Pr(>|z|)"]
-% ) |>
-%   mutate(
-%     Portfolio = gsub("^portfolio_model", "", Portfolio),
-%     Hazard_Ratio = round(Hazard_Ratio, 2),
-%     CI = paste0(round(CI_Lower, 2), "--", round(CI_Upper, 2)),
-%     p_value = ifelse(p_value < .001, "< .001", round(p_value, 3))
-%   ) |>
-%   select(
-%     `Governmental Organization` = Portfolio,
-%     Hazard_Ratio,
-%     CI,
-%     p_value
-%   )
-% 
-% cox_results |>
-%   kable(
-%     caption = paste0(
-%       "Cox Proportional Hazards Model of Ministerial Replacement by Governmental Organization",
-%       "\\label{tab:cox_portfolios_all}"
-%     ),
-%     booktabs = TRUE,
-%     format = "latex",
-%     escape = FALSE,
-%     row.names = FALSE,
-%     col.names = c(
-%       "Governmental Organization",
-%       "Relative Hazard",
-%       "95\\% CI",
-%       "p-value"
-%     ),
-%     linesep = ""
-%   ) |>
-%   footnote(
-%     general = paste(
-%       "\\footnotesize The reference category is PCM.",
-%       "Hazard ratios below one indicate a lower risk of ministerial replacement relative to PCM.",
-%       "Hazard ratios above one indicate a higher risk of ministerial replacement."
-%     ),
-%     threeparttable = TRUE,
-%     escape = FALSE,
-%     general_title = "\\mbox{}\\vskip 1mm \\footnotesize\\textit{Note: }"
-%   )
-% @
-% 
-% %% Explanation and interpretation here.
-% 
-% 
-% 
-% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% \subsection{Globalization and the Emergence of a Protective Belt}
-% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% 
-% The historical interpretation developed in the previous section suggests that the organizational reconstruction initiated during the 1990s may have altered the distribution of organizational continuity within the Peruvian state. If the post-1993 political framework selectively strengthened macroeconomic governance, the Ministry of Economy and Finance should begin to exhibit continuity patterns that differ from organizations primarily exposed to political coordination.
-% 
-% This subsection explores that possibility through alternative historical specifications. The analyses compare organizational continuity before and after Peru's consolidation within the contemporary global economy and examine whether portfolio differences became more pronounced following the post-1990 institutional settlement.
-% 
-% %% Alternative historical specification table here.
-% 
-% %% Survival curves before and after 2001 here.
-% 
-% %% Cox interaction models here.
-% 
-% %% Robustness comparison here.
-% 
-% %% Explanation and interpretation here.
-% 
-% 
-% 
-% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% \subsection{Accounting for Presidential Heterogeneity}
-% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% 
-% Ministerial continuity may also depend upon characteristics specific to individual presidents rather than organizational or historical conditions alone. Presidents differ in governing style, coalition management, political capital, and tolerance for cabinet turnover. Ignoring these differences could attribute presidential effects to political frameworks or ministerial organizations.
-% 
-% To account for this possibility, this subsection estimates shared frailty survival models treating presidents as unobserved sources of heterogeneity. These models evaluate whether the principal empirical patterns remain after accounting for president-specific variation in ministerial turnover.
-% 
-% %% Shared frailty model here.
-% 
-% %% Variance estimates here.
-% 
-% %% Model comparison table here.
-% 
-% %% Explanation and interpretation here.
-% 
-% 
-% 
-% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% \subsection{Summary of Empirical Findings}
-% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% 
-% The preceding analyses examine the observable implications derived from the deductive framework through complementary empirical strategies. Rather than emphasizing individual coefficients or statistical significance in isolation, this final subsection synthesizes the principal findings by returning explicitly to the theoretical expectations developed earlier.
-% 
-% The objective is to establish which empirical regularities are broadly consistent with the theoretical framework, which remain ambiguous, and which require alternative interpretations. This synthesis provides the bridge between the empirical analyses and the broader theoretical discussion developed in the following section.
-% 
-% %% Summary table relating empirical findings to propositions here.
-% 
-% %% Overall interpretation here.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Research Design}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+The theoretical framework developed in the previous sections distinguishes between latent organizational constructs and their observable empirical implications. Organizational continuity, organizational knowledge accumulation, institutional learning, and Protective Belts are not directly observable. Instead, the empirical analyses evaluate the two observable propositions derived from the axiomatic framework using ministerial duration as an empirical indicator.
+
+The first proposition concerns historical variation across Political Frameworks. If successive Political Frameworks generate increasingly favorable organizational conditions for organizational knowledge accumulation, progressively longer patterns of ministerial duration should be observed across historical periods. The second proposition concerns organizational variation within Political Frameworks. If governmental organizations differ in the organizational protection surrounding their continuity, systematic differences in ministerial duration should be observed across ministerial portfolios operating under the same historical environment.
+
+Ministerial duration constitutes the natural empirical indicator for evaluating both propositions because the observed outcome is the length of time ministers remain in office before replacement. Such data are characterized by time-to-event observations, right-censoring, and unequal exposure periods. These characteristics make survival analysis the appropriate statistical framework. Rather than estimating average ministerial tenure, survival models evaluate the probability that a minister remains in office over time while appropriately accounting for censored observations and differing observation periods.
+
+Accordingly, the empirical strategy proceeds in two stages. The first evaluates Proposition~\ref{prop:framework_duration} by comparing survival patterns across successive Political Frameworks. The second evaluates Proposition~\ref{prop:portfolio_duration} by comparing survival patterns across governmental organizations operating within the same Political Framework. Throughout both analyses, ministerial duration constitutes the observable outcome, while the latent theoretical constructs remain objects of interpretation rather than direct statistical estimation.
+
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Data}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 
+
+The empirical analyses use an original longitudinal dataset recording every ministerial appointment in Peru from the beginning of the republican period through the present. Each observation corresponds to a single uninterrupted ministerial spell, beginning with the official appointment of a minister and ending upon replacement, resignation, dismissal, death, or the conclusion of the observation period.
+
+For every ministerial spell, the dataset records the governmental organization (ministerial portfolio), the presidential administration responsible for the appointment, the corresponding Political Framework, and the duration of service measured in calendar days. Political Frameworks are assigned according to the historical operationalization developed in the previous section, whereas ministerial portfolios constitute the organizational units through which the theoretical framework is empirically examined.
+
+Table~\ref{tab:dataset_overview} summarizes the structure of the ministerial spell dataset used in the empirical analyses.
+
+\begin{table}[!h]
+\centering
+\caption{\label{tab:tab:dataset_overview}Dataset Overview}
+\centering
+\fontsize{9}{11}\selectfont
+\begin{threeparttable}
+\begin{tabular}[t]{ll}
+\toprule
+Item & Value\\
+\midrule
+Unit of observation & Ministerial spell\\
+Temporal coverage & 1821--2026\\
+Ministerial spells & 1,069\\
+Unique ministers & 791\\
+Presidents & 124\\
+\addlinespace
+Governmental organizations & MEF, Education, Interior, PCM, Health\\
+Political Frameworks & 6 Political Frameworks\\
+Duration measure & Calendar days in office\\
+Median duration & 188.5 days\\
+Mean duration & 280.5 days\\
+\addlinespace
+Duration range & 1--2,059 days\\
+Event definition & Exit from ministerial office\\
+Right-censored observations & 5\\
+\bottomrule
+\end{tabular}
+\begin{tablenotes}
+\item \textit{Note: } 
+\item The dataset contains one observation per ministerial spell. Duration is measured in calendar days in office. One day was added uniformly to all durations to avoid zero-length survival intervals. The event indicator equals one when a minister exited office and zero for right-censored observations.
+\end{tablenotes}
+\end{threeparttable}
+\end{table}
+Because some ministers remain in office at the conclusion of the observation period, the data contain right-censored observations. Survival analysis explicitly accommodates this feature by distinguishing completed ministerial spells from observations whose termination has not yet been observed.
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Variables}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Table~\ref{tab:variables} summarizes the observable variables employed throughout the empirical analyses, the role each plays in revealing the latent theoretical constructs, and the proposition to which each contributes. Rather than redefining the concepts introduced in the theoretical framework, the table clarifies how ministerial spell data are transformed into the indexed comparisons required by the empirical analyses.
 
 
+\begin{table}[!htbp]
+\centering
+\caption{Operationalization of the Empirical Analysis}
+\label{tab:variables}
+\small
+\renewcommand{\arraystretch}{1.25}
+\begin{tabularx}{\textwidth}{p{3.2cm}Xp{2.2cm}}
+\toprule
+\textbf{Observable variable} &
+\textbf{Operation to reveal latent constructs} &
+\textbf{Used to evaluate} \\
+\midrule
+
+Political Framework ($PF_f$) &
+Indexes the historical environments within which ministerial duration is evaluated. Comparing $D_f$ across successive Political Frameworks reveals whether observed organizational continuity exhibits progressively longer patterns. Under Axioms~\ref{ax:continuity_knowledge} and~\ref{ax:knowledge_learning}, such patterns are interpreted as evidence regarding increasingly favorable conditions for organizational knowledge accumulation ($K$) and institutional learning ($IL$). &
+P1 \\
+
+\addlinespace
+
+Portfolio ($p$) &
+Indexes governmental organizations operating within each Political Framework. Comparing $D_{fp}$ across portfolios within the same Political Framework reveals whether organizational continuity differs systematically across governmental organizations. Under Axiom~\ref{ax:protective_belt}, these differences are interpreted as evidence consistent with differential Protective Belts ($PB$). &
+P2 \\
+
+\addlinespace
+
+Presidential administration ($a$) &
+Indexes executive contexts within which ministerial appointments and replacements occur. Conditioning on $D_{fpa}$ accounts for executive-level heterogeneity affecting ministerial duration independently of the theoretical mechanisms. &
+Control \\
+
+\addlinespace
+
+Ministerial duration ($D$) &
+Observed time in office. Depending on the analytical comparison, duration is summarized as $D_f$, $D_{fp}$, or $D_{fpa}$, providing the observable outcome through which the latent theoretical constructs are evaluated. &
+P1, P2 \\
+
+\bottomrule
+\end{tabularx}
+
+\vspace{0.2cm}
+
+\begin{minipage}{0.97\textwidth}
+\footnotesize
+\textit{Note:} Organizational continuity ($C$), organizational knowledge accumulation ($K$), institutional learning ($IL$), and Protective Belts ($PB$) are latent theoretical constructs and are therefore not directly observed. Ministerial duration provides the observable indicator through which these constructs are evaluated under the deductive framework developed in Section~3.
+\end{minipage}
+
+\end{table}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Empirical Strategy}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+The empirical strategy follows directly from the deductive structure developed in Section~\ref{sec:theoretical_framework}. Each proposition generates a distinct observable implication and therefore requires a distinct empirical comparison. Proposition~\ref{prop:framework_duration} concerns historical variation across Political Frameworks, whereas Proposition~\ref{prop:portfolio_duration} concerns organizational variation across governmental portfolios operating within the same Political Framework. Although both propositions are evaluated using ministerial duration, they differ in the dimension along which duration is compared.
+
+\paragraph{Historical comparison (P1).}
+
+Proposition~\ref{prop:framework_duration} is evaluated by comparing ministerial duration across successive Political Frameworks. The analysis therefore indexes duration by Political Framework ($D_f$) and examines whether later Political Frameworks exhibit progressively longer patterns of ministerial duration than their predecessors. Kaplan--Meier estimates provide the initial visual assessment of this historical ordering, whereas pairwise Cox comparisons evaluate whether the observed differences are consistent with the progression implied by the proposition.
+
+\paragraph{Organizational comparison (P2).}
+
+Proposition~\ref{prop:portfolio_duration} is evaluated by comparing ministerial duration across governmental organizations operating within the same Political Framework. The analysis therefore indexes duration jointly by Political Framework and portfolio ($D_{fp}$), allowing organizational comparisons while holding the broader historical environment constant. Kaplan--Meier estimates describe the observed organizational differences, whereas pairwise Cox comparisons quantify the relative hazards associated with each organizational contrast.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Survival Analysis}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Survival analysis provides the statistical framework for evaluating both propositions because ministerial duration constitutes time-to-event data characterized by unequal observation periods and a small number of right-censored observations.
+
+The empirical analyses proceed in two complementary stages. First, Kaplan--Meier estimators provide non-parametric descriptions of ministerial survival, allowing the observable implications of each proposition to be assessed directly from the empirical survival trajectories. Second, pairwise Cox proportional hazards models quantify the magnitude of the differences between the survival experiences of the relevant historical and organizational categories. Unlike a single reference-category specification, the pairwise comparisons evaluate every combination of Political Frameworks or governmental organizations, permitting the empirical analyses to identify where the historical or organizational trajectories depart from the theoretical expectations.
+
+Model assumptions are evaluated using Schoenfeld residuals together with complementary graphical diagnostics.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Results}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Proposition 1: Ministerial Duration across Political Frameworks}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Proposition~\ref{prop:framework_duration} predicts that successive Political Frameworks should exhibit progressively longer patterns of ministerial duration. Its observable implication is therefore that ministers serving under later Political Frameworks should exhibit higher survival probabilities over time than ministers serving under earlier Political Frameworks. Under Axioms~\ref{ax:continuity_knowledge} and~\ref{ax:knowledge_learning}, progressively longer ministerial duration is interpreted as evidence of increasingly favorable organizational conditions for organizational knowledge accumulation and institutional learning.
+
+Figure~\ref{fig:km_frameworks} presents the Kaplan--Meier survival estimates for the six Political Frameworks.
+
+\subsubsection{Kaplan--Meier Estimates}
+\begin{figure}
+\centering
+\includegraphics{gatopardo-fig:km_epochs}
+\caption{Kaplan–Meier estimates of ministerial continuity across political frameworks. Curves represent the estimated probability that a minister remains in office beyond a given duration. Numbers identify the six political frameworks listed in Table~\ref{tab:frameworks}. Analyses are restricted to appointments to the Presidency of the Council of Ministers (PCM) and the Ministry of Economy and Finance (MEF).}
+\label{fig:km_epochs}
+\end{figure}
+
+
+The Kaplan--Meier estimates provide an initial visual assessment of Proposition~\ref{prop:framework_duration}. The proposition is intentionally formulated as a strong inequality. Rather than asking whether ministerial duration generally tends to increase over time, it requires each successive Political Framework to exhibit longer duration than its predecessor. This demanding formulation transforms the proposition into a diagnostic device, allowing the empirical analysis not only to assess the overall historical trajectory but also to identify the specific Political Frameworks at which that trajectory departs from monotonicity.
+
+If successive Political Frameworks generated progressively more favorable organizational conditions for continuity, the median survival times should follow the historical ordering of the Political Frameworks. The numbered labels identify each Political Framework at the point where its estimated survival function reaches the median survival probability ($S=0.5$). Under complete support for Proposition~\ref{prop:framework_duration}, the expected ordering would therefore be
+
+\[
+PF_1 < PF_2 < PF_3 < PF_4 < PF_5 < PF_6,
+\]
+
+where each successive Political Framework exhibits longer ministerial duration than its predecessor.
+
+The observed ordering is only partially consistent with this expectation. Among the first four completed Political Frameworks, the median survival times increase monotonically, producing the ordering
+
+\[
+PF_1 < PF_2 < PF_3 < PF_4.
+\]
+
+This pattern is fully consistent with the proposition. The historical trajectory changes, however, with the fifth Political Framework, whose median ministerial duration falls below those observed under both the third and fourth Political Frameworks. The sixth Political Framework exhibits an even shorter median duration, although this result should be interpreted cautiously because it corresponds to an ongoing Critical Juncture rather than a completed Political Framework.
+
+The strict formulation of Proposition~\ref{prop:framework_duration} is intentionally demanding. A weaker interpretation would require only that later Political Frameworks tend to exhibit longer ministerial duration than earlier ones, allowing occasional departures from strict monotonicity. Even under this more permissive interpretation, however, the fifth Political Framework remains historically distinctive because it reverses the trajectory established by the preceding completed Political Frameworks.
+
+This departure from monotonicity should not be interpreted as contradicting the comparative-historical reconstruction developed by \textcite{lopez_jimenez_peru_2025}. That reconstruction identifies successive Political Frameworks as the enduring political legacies of completed Critical Junctures and argues that these legacies progressively broaden political incorporation and democratization. It does not propose that organizational continuity or institutional learning should improve monotonically over time. Proposition~\ref{prop:framework_duration} introduces a different theoretical question: whether these successive political legacies also generated progressively more favorable organizational conditions for institutional learning.
+
+From this perspective, Figure~\ref{fig:km_epochs} suggests that political development and organizational learning need not follow identical historical trajectories. Organizational continuity appears to improve systematically across the first four completed Political Frameworks, but the post-1993 political settlement does not extend that earlier trajectory. Rather than representing a contradiction of the Critical Junctures framework, the fifth Political Framework identifies the point at which Peru's political evolution and the organizational conditions for institutional learning appear to diverge. The pairwise Cox analyses reported below quantify these historical differences and identify the Political Frameworks between which they become statistically distinguishable.
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsubsection{Cox Proportional Hazards Model}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+The Kaplan--Meier estimates describe the observed historical trajectory of ministerial survival, but they do not estimate the magnitude of differences between Political Frameworks. To identify where the historical trajectory departs from the monotonic expectation implied by Proposition~\ref{prop:framework_duration}, Table~\ref{tab:cox_pairwise_pf_matrix} reports pairwise Cox proportional hazards comparisons across Political Frameworks. Each cell compares the replacement hazard of the column Political Framework against the row Political Framework. Because the matrix involves multiple pairwise comparisons, reported $p$-values are adjusted using the Holm procedure for multiple comparisons.
+
+
+
+\begin{table}[!h]
+\centering
+\caption{\label{tab:cox_pairwise_pf_matrix}Pairwise Cox Comparisons across Political Frameworks}
+\centering
+\resizebox{\ifdim\width>\linewidth\linewidth\else\width\fi}{!}{
+\fontsize{8}{10}\selectfont
+\begin{threeparttable}
+\begin{tabular}[t]{lccccc}
+\toprule
+Reference & 2. Oligarchic State & 3. Power-Sharing State & 4. Transition and Crisis & 5. Democracy without Parties & 6. Current Critical Juncture\\
+\midrule
+1. State Formation & 0.88 (1.00000) & 0.47 (< 0.001) & 0.50 (0.00247) & 0.61 (0.00863) & 1.24 (1.00000)\\
+2. Oligarchic State & NA & 0.55 (< 0.001) & 0.58 (0.03342) & 0.65 (0.03342) & 1.31 (1.00000)\\
+3. Power-Sharing State & NA & NA & 1.07 (1.00000) & 1.27 (1.00000) & 2.60 (0.00344)\\
+4. Transition and Crisis & NA & NA & NA & 1.30 (1.00000) & 3.35 (0.00138)\\
+5. Democracy without Parties & NA & NA & NA & NA & 2.07 (0.03987)\\
+\bottomrule
+\end{tabular}
+\begin{tablenotes}
+\item \textit{Note: } 
+\item Cells report hazard ratios from pairwise Cox proportional hazards models, with Holm-adjusted p-values in parentheses. Each row category is the reference group; each column category is the comparison group. Hazard ratios below one indicate lower ministerial replacement hazard in the column Political Framework relative to the row Political Framework. Analyses are restricted to PCM and MEF appointments.
+\end{tablenotes}
+\end{threeparttable}}
+\end{table}
+
+
+The pairwise Cox comparisons confirm that the principal historical discontinuity separates the first two Political Frameworks from the subsequent completed Political Frameworks. Relative to PF1 and PF2, the hazards of ministerial replacement decline substantially under PF3, PF4, and PF5. However, the pairwise comparisons among PF3, PF4, and PF5 are not statistically distinguishable. Rather than supporting a continuous stepwise increase in ministerial continuity, the evidence suggests the emergence of a new historical regime characterized by substantially greater organizational continuity than that observed during the first two Political Frameworks.
+
+The sixth Political Framework departs sharply from this pattern. Its replacement hazard is significantly higher than those observed under PF3, PF4, and PF5, reinforcing the interpretation that the current Critical Juncture represents an unsettled historical environment rather than a completed Political Framework comparable to the previous periods.
+
+Taken together, the Kaplan--Meier estimates and the pairwise Cox comparisons provide qualified support for Proposition~\ref{prop:framework_duration}. The evidence is inconsistent with the proposition's strongest formulation requiring a monotonic increase across every successive Political Framework. Nevertheless, it supports the broader theoretical expectation that Peru's organizational conditions for institutional continuity improved substantially relative to the earliest historical environments. The principal exception is the post-1993 Political Framework, which interrupts the earlier trajectory of increasing continuity despite representing a durable political legacy within the comparative-historical reconstruction. This finding suggests that the historical evolution of Peru's political institutions and the organizational conditions for institutional learning followed partially independent trajectories.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Proposition 2: Ministerial Duration across Governmental Organizations}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Proposition~\ref{prop:portfolio_duration} predicts that governmental organizations operating within the same Political Framework should exhibit systematically different patterns of ministerial duration according to the organizational protection surrounding their accumulated knowledge. Its observable implication is therefore that ministerial survival should differ across governmental organizations while holding the historical environment constant. Under Axiom~\ref{ax:protective_belt}, comparatively longer ministerial duration is interpreted as evidence consistent with stronger Protective Belts preserving organizational continuity.
+
+The principal comparison concerns the Ministry of Economy and Finance (MEF) and the Presidency of the Council of Ministers (PCM). As discussed in the previous section, these organizations occupy comparable positions within the executive branch but perform fundamentally different organizational functions. The MEF concentrates specialized macroeconomic capabilities whose effectiveness depends heavily upon accumulated organizational knowledge, whereas the PCM serves primarily as the executive's principal organization for political coordination. If Protective Belts emerge selectively around organizational knowledge that is particularly valuable to the prevailing Political Framework, the MEF should exhibit greater ministerial continuity than the PCM within each historical environment.
+
+Figure~\ref{fig:km_portfolios} therefore presents Kaplan--Meier estimates comparing ministerial survival in the MEF and the PCM separately for each Political Framework.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsubsection{Kaplan--Meier Estimates}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+The Kaplan--Meier estimates provide an initial visual assessment of Proposition~\ref{prop:portfolio_duration}. Unlike Proposition~\ref{prop:framework_duration}, the second proposition does not predict a historical ordering among Political Frameworks. Instead, it evaluates whether governmental organizations exhibit systematically different patterns of ministerial continuity while operating within the same historical environment.
+
+The principal empirical comparison therefore concerns the Ministry of Economy and Finance (MEF) and the Presidency of the Council of Ministers (PCM). As discussed in the previous section, both organizations occupy central positions within the executive branch and are indispensable to the operation of government. The comparison is therefore not between organizations of unequal political importance, but between organizations performing fundamentally different organizational functions. Whereas the PCM is responsible for political coordination and coalition management, the MEF concentrates the specialized technical capabilities required for macroeconomic governance.
+
+Under Proposition~\ref{prop:portfolio_duration}, organizational differences should emerge while holding the Political Framework constant. Figure~\ref{fig:km_pcm_mef_by_pf} therefore presents separate Kaplan--Meier estimates for each Political Framework, allowing ministerial continuity to be compared between the MEF and the PCM under the same historical conditions. If Protective Belts selectively preserve organizational continuity, the MEF should exhibit consistently higher survival probabilities than the PCM across completed Political Frameworks.
+
+\begin{figure}[!htbp]
+\centering
+\includegraphics{gatopardo-fig:km_pcm_mef_by_pf}
+\caption{Kaplan--Meier estimates of ministerial continuity for the MEF and PCM within Political Frameworks. Curves represent the estimated probability that a minister remains in office beyond a given duration. Facets hold the Political Framework constant while comparing ministerial portfolios.}
+\label{fig:km_pcm_mef_by_pf}
+\end{figure}
+
+
+The Kaplan--Meier estimates provide an initial visual assessment of Proposition~\ref{prop:portfolio_duration}. Unlike Proposition~\ref{prop:framework_duration}, the second proposition does not predict a historical ordering among Political Frameworks. Instead, it evaluates whether organizational differences in ministerial continuity emerge while the historical environment remains constant. Each panel therefore compares the two organizations within the same Political Framework.
+
+The comparison is theoretically demanding because both the MEF and the PCM occupy central positions within the executive branch. Neither organization can be considered politically peripheral. The PCM serves as the executive's principal organization for political coordination, whereas the MEF performs the central functions of macroeconomic governance. Proposition~\ref{prop:portfolio_duration} therefore does not compare organizations of different institutional importance, but organizations of comparable executive centrality performing fundamentally different organizational functions.
+
+The first two Political Frameworks reveal little systematic difference between the two organizations. Beginning with the third Political Framework, however, the survival trajectories begin to separate. The divergence becomes particularly pronounced under the fourth and fifth Political Frameworks, where ministers in the MEF consistently exhibit higher survival probabilities than their counterparts in the PCM. This pattern is consistent with the expectation that the organizational capabilities embedded within macroeconomic governance became progressively more costly to disrupt as Peru's post-reform institutional settlement consolidated. By contrast, the sixth Political Framework again exhibits little separation between the two organizations, consistent with the broader organizational instability associated with the ongoing Critical Juncture.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsubsection{Cox Proportional Hazards Model with Presidential Frailty}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+The Kaplan--Meier estimates compare the observed survival trajectories of the MEF and the PCM within each Political Framework, but they do not account for unobserved heterogeneity across presidential administrations. This is especially important for Proposition~\ref{prop:portfolio_duration}, since some presidents may be systematically more prone to cabinet turnover than others. To account for this executive-level dependence, the Cox models include a shared frailty term for presidential administration.
+
+For each Political Framework, the model estimates whether MEF ministers face a different hazard of replacement than PCM ministers while allowing ministerial spells under the same president to share unobserved administration-specific risk. Hazard ratios below one indicate that MEF ministers face a lower replacement hazard than PCM ministers within the same Political Framework.
+
+\begin{table}[!h]
+\centering
+\caption{\label{tab:cox_p2_frailty_interaction}MEF--PCM Hazard Ratios within Political Frameworks}
+\centering
+\fontsize{9}{11}\selectfont
+\begin{threeparttable}
+\begin{tabular}[t]{lccc}
+\toprule
+Political Framework & Hazard ratio & 95\% CI & p-value\\
+\midrule
+1. State Formation & 1.27 & {}[0.80, 2.01] & 0.3166\\
+2. Oligarchic State & 0.83 & {}[0.55, 1.26] & 0.3832\\
+3. Power-Sharing State & 1.31 & {}[0.72, 2.38] & 0.3793\\
+4. Transition and Crisis & 0.85 & {}[0.41, 1.75] & 0.6532\\
+5. Democracy without Parties & 0.63 & {}[0.38, 1.04] & 0.0731\\
+\addlinespace
+6. Current Critical Juncture & 0.75 & {}[0.30, 1.83] & 0.5213\\
+\bottomrule
+\end{tabular}
+\begin{tablenotes}
+\item \textit{Note: } 
+\item Hazard ratios compare MEF ministers to PCM ministers within each Political Framework. Values below one indicate a lower hazard of ministerial replacement for MEF ministers relative to PCM ministers. Estimates are derived from a single Cox proportional hazards model including portfolio, Political Framework, their interaction, and a shared frailty term for presidential administration. Reported p-values correspond to pre-specified within-framework MEF--PCM contrasts.
+\end{tablenotes}
+\end{threeparttable}
+\end{table}
+The frailty-adjusted Cox model provides more qualified evidence than the Kaplan--Meier estimates. Across most Political Frameworks, the MEF--PCM difference is not statistically distinguishable once unobserved presidential-level heterogeneity is taken into account. The exception is PF5, where MEF ministers face a substantially lower replacement hazard than PCM ministers ($HR=0.63$, $p=0.073$). Although this contrast falls short of conventional levels of statistical significance, its magnitude and direction are consistent with the expectation that the post-1993 settlement generated stronger organizational protection around macroeconomic governance.
+
+These results suggest that Proposition~\ref{prop:portfolio_duration} receives limited but theoretically meaningful support. Protective Belts do not appear as a general property of the MEF across the entire republican period. Rather, the evidence indicates that the MEF advantage emerges most clearly under the fifth Political Framework, precisely the period in which macroeconomic governance became central to the operation of the post-1990 political settlement.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Robustness Analysis: The Organizational Consolidation of Globalization}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Robustness to the Organizational Consolidation of Globalization}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+The previous analyses operationalized historical environments using the Political Frameworks derived from completed Critical Junctures. As discussed in Section~..., however, the organizational consolidation of Peru's post-1990 macroeconomic institutions occurred gradually throughout the subsequent decade rather than immediately following the 1993 constitutional settlement. Consequently, the fifth Political Framework potentially combines two distinct organizational environments: an initial period during which the organizational reconstruction remained incomplete and a later period in which the post-reform institutional architecture had largely consolidated.
+
+The analyses reported below therefore examine whether the principal findings remain robust after partitioning the fifth Political Framework according to the consolidation of the globalization reforms.
+\begin{table}[!h]
+\centering
+\caption{\label{tab:cox_p2_globalization_cut}MEF--PCM Hazard Ratios before and after Globalization Consolidation}
+\centering
+\fontsize{9}{11}\selectfont
+\begin{threeparttable}
+\begin{tabular}[t]{lccc}
+\toprule
+Period & Hazard ratio & 95\% CI & p-value\\
+\midrule
+1821--2000 & 1.04 & {}[0.80, 1.35] & 0.763\\
+2001--Present & 0.70 & {}[0.44, 1.13] & 0.145\\
+\bottomrule
+\end{tabular}
+\begin{tablenotes}
+\item \textit{Note: } 
+\item Hazard ratios compare MEF ministers to PCM ministers within each period. Values below one indicate a lower hazard of ministerial replacement for MEF ministers relative to PCM ministers. The cut at 2001 distinguishes the historical period before and after the consolidation of the post-1990 globalization reforms. Estimates are derived from a single Cox proportional hazards model including portfolio, period, their interaction, and a shared frailty term for presidential administration. Reported p-values correspond to pre-specified MEF--PCM contrasts within each period.
+\end{tablenotes}
+\end{threeparttable}
+\end{table}
+
+
+
+The globalization cut clarifies the historical pattern suggested by the Political Framework analysis. Before 2001, MEF and PCM ministers exhibit virtually identical replacement hazards ($HR=1.04$). After 2001, the MEF hazard falls below the PCM hazard ($HR=0.70$), indicating a roughly 30 percent lower risk of ministerial replacement. Although this contrast is not statistically significant at conventional levels, its direction and magnitude are consistent with the interpretation that the organizational advantage of the MEF emerges only after the consolidation of the post-1990 globalization reforms.
+
+\begin{table}[!h]
+\centering
+\caption{\label{tab:cox_all_portfolios_global}Ministerial Replacement Relative to the MEF before and after Globalization Consolidation}
+\centering
+\fontsize{9}{11}\selectfont
+\begin{threeparttable}
+\begin{tabular}[t]{llccc}
+\toprule
+Period & Portfolio & Hazard ratio & 95\% CI & p-value\\
+\midrule
+1821--2000 & PCM & 0.96 & {}[0.75, 1.23] & 0.72983\\
+1821--2000 & Interior & 0.90 & {}[0.73, 1.11] & 0.33163\\
+1821--2000 & Education & 0.78 & {}[0.63, 0.97] & 0.02640\\
+1821--2000 & Health & 0.69 & {}[0.49, 0.98] & 0.03626\\
+2001--Present & PCM & 1.42 & {}[0.88, 2.29] & 0.14794\\
+\addlinespace
+2001--Present & Interior & 1.83 & {}[1.16, 2.90] & 0.00987\\
+2001--Present & Education & 0.87 & {}[0.51, 1.48] & 0.61588\\
+2001--Present & Health & 0.94 & {}[0.56, 1.58] & 0.81372\\
+\bottomrule
+\end{tabular}
+\begin{tablenotes}
+\item \textit{Note: } 
+\item Hazard ratios compare each portfolio to the Ministry of Economy and Finance (MEF) within each period. Values above one indicate a greater hazard of ministerial replacement than the MEF. Estimates are derived from a single Cox proportional hazards model including portfolio, globalization period, their interaction, and a shared frailty term for presidential administration. Reported p-values correspond to pre-specified within-period portfolio contrasts relative to the MEF.
+\end{tablenotes}
+\end{threeparttable}
+\end{table}
+Table~\ref{tab:cox_all_portfolios_global} extends the MEF comparison to the broader set of governmental organizations. Before 2001, the MEF does not exhibit a general continuity advantage. The PCM and Interior portfolios are statistically indistinguishable from the MEF, while Education and Health exhibit significantly lower replacement hazards. After 2001, however, the pattern changes. The PCM and Interior portfolios display higher replacement hazards than the MEF, with the Interior contrast reaching conventional levels of statistical significance. Education and Health remain statistically indistinguishable from the MEF.
+
+These results reinforce the interpretation that the MEF advantage is historically contingent rather than inherent to the portfolio. The evidence does not suggest that the MEF was consistently protected throughout the republican period. Instead, its relative continuity becomes more apparent after the consolidation of the post-1990 globalization reforms, particularly when compared to organizations more directly exposed to political coordination, internal security, and recurrent crisis management.
 
 \printbibliography
 

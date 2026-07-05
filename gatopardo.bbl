@@ -593,6 +593,53 @@
       \verb http://www.jstor.org/stable/40060162
       \endverb
     \endentry
+    \entry{carpenter_forging_2020}{inbook}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=c760395a8b2916996c8f16d7ac182f6e}{%
+           family={Carpenter},
+           familyi={C\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Princeton University Press}%
+      }
+      \strng{namehash}{c760395a8b2916996c8f16d7ac182f6e}
+      \strng{fullhash}{c760395a8b2916996c8f16d7ac182f6e}
+      \strng{fullhashraw}{c760395a8b2916996c8f16d7ac182f6e}
+      \strng{bibnamehash}{c760395a8b2916996c8f16d7ac182f6e}
+      \strng{authorbibnamehash}{c760395a8b2916996c8f16d7ac182f6e}
+      \strng{authornamehash}{c760395a8b2916996c8f16d7ac182f6e}
+      \strng{authorfullhash}{c760395a8b2916996c8f16d7ac182f6e}
+      \strng{authorfullhashraw}{c760395a8b2916996c8f16d7ac182f6e}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Reputations, {Networks}, and {Policy} {Innovation} in {Executive} {Agencies}, 1862-1928}
+      \field{isbn}{978-0-691-21407-8}
+      \field{title}{The {Forging} of {Bureaucratic} {Autonomy}}
+      \field{urlday}{4}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{2020}
+      \field{urldateera}{ce}
+      \field{pages}{353\bibrangedash 368}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.1515/9780691214078-016
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1515/9780691214078-016
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1515/9780691214078-016
+      \endverb
+    \endentry
     \entry{cohen_garbage_1972}{article}{}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=96054330445518b28d793fbf550a0611}{%
@@ -697,6 +744,63 @@
       \field{title}{Critical junctures and historical legacies: insights and methods for comparative social science}
       \field{year}{2022}
       \keyw{Social sciences,Social structure,Social change,Comparative method,Critical theory}
+    \endentry
+    \entry{crozier_regulation_1976}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=c757f372d87286598cf06d907d73f55e}{%
+           family={Crozier},
+           familyi={C\bibinitperiod},
+           given={Michel},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d4de5d4e865452957c556fd432f24424}{%
+           family={Thoenig},
+           familyi={T\bibinitperiod},
+           given={Jean-Claude},
+           giveni={J\bibinithyphendelim C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {eng}%
+      }
+      \list{publisher}{1}{%
+        {Administrative Science Quarterly}%
+      }
+      \strng{namehash}{b4a6739dc260baec2f66ff3be96eee47}
+      \strng{fullhash}{b4a6739dc260baec2f66ff3be96eee47}
+      \strng{fullhashraw}{b4a6739dc260baec2f66ff3be96eee47}
+      \strng{bibnamehash}{b4a6739dc260baec2f66ff3be96eee47}
+      \strng{authorbibnamehash}{b4a6739dc260baec2f66ff3be96eee47}
+      \strng{authornamehash}{b4a6739dc260baec2f66ff3be96eee47}
+      \strng{authorfullhash}{b4a6739dc260baec2f66ff3be96eee47}
+      \strng{authorfullhashraw}{b4a6739dc260baec2f66ff3be96eee47}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In this study French local government is analyzed. The analysis shows that French public affairs at the local level are managed by a complex, stable system of groups and institutions. The analysis also lends support to the contention that interorganioozational relations are regulated by a complex, and more or less organized, system rather than by an interorganizational network.}
+      \field{issn}{0001-8392}
+      \field{journaltitle}{Administrative Science Quarterly}
+      \field{month}{12}
+      \field{number}{4}
+      \field{title}{The {Regulation} of {Complex} {Organized} {Systems}.}
+      \field{volume}{21}
+      \field{year}{1976}
+      \field{pages}{547\bibrangedash 570}
+      \range{pages}{24}
+      \verb{doi}
+      \verb 10.2307/2391716
+      \endverb
+      \verb{urlraw}
+      \verb https://research.ebsco.com/linkprocessor/plink?id=31f1a7e6-a80a-30fb-b7d0-713334d1bdb4
+      \endverb
+      \verb{url}
+      \verb https://research.ebsco.com/linkprocessor/plink?id=31f1a7e6-a80a-30fb-b7d0-713334d1bdb4
+      \endverb
+      \keyw{Complex organizations,France,Giscard d'Estaing Administration,Intergroup relations,Interorganizational networks,Interorganizational relations,Organizational sociology,Organizational structure,Public administration,Public-private sector cooperation}
     \endentry
     \entry{dewan_corrective_2005}{article}{}{}
       \name{author}{2}{}{%
@@ -1319,70 +1423,6 @@
       \verb https://www.npr.org/2024/07/05/nx-s1-5020171/how-big-crisis-has-to-be-to-provoke-radical-social-change-according-to-a-philosopher
       \endverb
     \endentry
-    \entry{lakatos_methodology_1978}{book}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=67394518e7d074783c9d162210b2db78}{%
-           family={Lakatos},
-           familyi={L\bibinitperiod},
-           given={Imre},
-           giveni={I\bibinitperiod},
-           givenun=0}}%
-      }
-      \name{editor}{2}{}{%
-        {{hash=ed21b4fc4128b1aca0007c05451eaae0}{%
-           family={Worrall},
-           familyi={W\bibinitperiod},
-           given={John},
-           giveni={J\bibinitperiod}}}%
-        {{hash=bcf3170cf0f74925acc2f923e3932adb}{%
-           family={Currie},
-           familyi={C\bibinitperiod},
-           given={Gregory},
-           giveni={G\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Cambridge University Press}%
-      }
-      \strng{namehash}{67394518e7d074783c9d162210b2db78}
-      \strng{fullhash}{67394518e7d074783c9d162210b2db78}
-      \strng{fullhashraw}{67394518e7d074783c9d162210b2db78}
-      \strng{bibnamehash}{67394518e7d074783c9d162210b2db78}
-      \strng{authorbibnamehash}{67394518e7d074783c9d162210b2db78}
-      \strng{authornamehash}{67394518e7d074783c9d162210b2db78}
-      \strng{authorfullhash}{67394518e7d074783c9d162210b2db78}
-      \strng{authorfullhashraw}{67394518e7d074783c9d162210b2db78}
-      \strng{editorbibnamehash}{0c0dde878fa46d4797e7a3d5c53b6d32}
-      \strng{editornamehash}{0c0dde878fa46d4797e7a3d5c53b6d32}
-      \strng{editorfullhash}{0c0dde878fa46d4797e7a3d5c53b6d32}
-      \strng{editorfullhashraw}{0c0dde878fa46d4797e7a3d5c53b6d32}
-      \field{sortinit}{L}
-      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{shorttitle}
-      \field{abstract}{Imre Lakatos' philosophical and scientific papers are published here in two volumes. Volume I brings together his very influential but scattered papers on the philosophy of the physical sciences, and includes one important unpublished essay on the effect of Newton's scientific achievement. Volume II presents his work on the philosophy of mathematics (much of it unpublished), together with some critical essays on contemporary philosophers of science and some famous polemical writings on political and educational issues. Imre Lakatos had an influence out of all proportion to the length of his philosophical career. This collection exhibits and confirms the originality, range and the essential unity of his work. It demonstrates too the force and spirit he brought to every issue with which he engaged, from his most abstract mathematical work to his passionate 'Letter to the director of the LSE'. Lakatos' ideas are now the focus of widespread and increasing interest, and these volumes should make possible for the first time their study as a whole and their proper assessment.}
-      \field{edition}{1}
-      \field{isbn}{978-0-521-21644-9 978-0-521-28031-0 978-0-511-62112-3}
-      \field{month}{5}
-      \field{shorttitle}{The {Methodology} of {Scientific} {Research} {Programmes}}
-      \field{title}{The {Methodology} of {Scientific} {Research} {Programmes}: {Philosophical} {Papers}}
-      \field{urlday}{14}
-      \field{urlmonth}{4}
-      \field{urlyear}{2025}
-      \field{year}{1978}
-      \field{urldateera}{ce}
-      \verb{doi}
-      \verb 10.1017/CBO9780511621123
-      \endverb
-      \verb{urlraw}
-      \verb https://www.cambridge.org/core/product/identifier/9780511621123/type/book
-      \endverb
-      \verb{url}
-      \verb https://www.cambridge.org/core/product/identifier/9780511621123/type/book
-      \endverb
-    \endentry
     \entry{levitt_organizational_1988}{article}{}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=a7281c9f9a83523e8b76a0104a18ebe4}{%
@@ -1687,6 +1727,152 @@
       \endverb
       \verb{url}
       \verb https://academic.oup.com/book/7247
+      \endverb
+    \endentry
+    \entry{pierson_increasing_2000}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=87b2b30e91c9747e659fe5ad163dc6ad}{%
+           family={Pierson},
+           familyi={P\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{87b2b30e91c9747e659fe5ad163dc6ad}
+      \strng{fullhash}{87b2b30e91c9747e659fe5ad163dc6ad}
+      \strng{fullhashraw}{87b2b30e91c9747e659fe5ad163dc6ad}
+      \strng{bibnamehash}{87b2b30e91c9747e659fe5ad163dc6ad}
+      \strng{authorbibnamehash}{87b2b30e91c9747e659fe5ad163dc6ad}
+      \strng{authornamehash}{87b2b30e91c9747e659fe5ad163dc6ad}
+      \strng{authorfullhash}{87b2b30e91c9747e659fe5ad163dc6ad}
+      \strng{authorfullhashraw}{87b2b30e91c9747e659fe5ad163dc6ad}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{It is increasingly common for social scientists to describe political processes as “path dependent.” The concept, however, is often employed without careful elaboration. This article conceptualizes path dependence as a social process grounded in a dynamic of “increasing returns.” Reviewing recent literature in economics and suggesting extensions to the world of politics, the article demonstrates that increasing returns processes are likely to be prevalent, and that good analytical foundations exist for exploring their causes and consequences. The investigation of increasing returns can provide a more rigorous framework for developing some of the key claims of recent scholarship in historical institutionalism: Specific patterns of timing and sequence matter; a wide range of social outcomes may be possible; large consequences may result from relatively small or contingent events; particular courses of action, once introduced, can be almost impossible to reverse; and consequently, political development is punctuated by critical moments or junctures that shape the basic contours of social life.}
+      \field{issn}{0003-0554, 1537-5943}
+      \field{journaltitle}{American Political Science Review}
+      \field{month}{6}
+      \field{number}{2}
+      \field{title}{Increasing {Returns}, {Path} {Dependence}, and the {Study} of {Politics}}
+      \field{urlday}{4}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{volume}{94}
+      \field{year}{2000}
+      \field{urldateera}{ce}
+      \field{pages}{251\bibrangedash 267}
+      \range{pages}{17}
+      \verb{doi}
+      \verb 10.2307/2586011
+      \endverb
+      \verb{urlraw}
+      \verb https://www.cambridge.org/core/product/identifier/S0003055400221059/type/journal_article
+      \endverb
+      \verb{url}
+      \verb https://www.cambridge.org/core/product/identifier/S0003055400221059/type/journal_article
+      \endverb
+    \endentry
+    \entry{santos_peru_2015}{book}{}{}
+      \name{editor}{3}{}{%
+        {{un=0,uniquepart=base,hash=b1f97bd8511ea5e0e2dc4c9316e8af8a}{%
+           family={Santos},
+           familyi={S\bibinitperiod},
+           given={Alejandro},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3639ac1af40a5537410f30b4b6c6b627}{%
+           family={Werner},
+           familyi={W\bibinitperiod},
+           given={Alejandro\bibnamedelima M.},
+           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5c129aaf4846bebaac62c7edb8b82749}{%
+           family={{Internationaler Währungsfonds}},
+           familyi={I\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \list{location}{1}{%
+        {Washington, D.C.}%
+      }
+      \list{publisher}{1}{%
+        {International Monetary Fund}%
+      }
+      \strng{namehash}{0f4174e2e74ba57fe7a9d23ce063b3c4}
+      \strng{fullhash}{457d25b631aac60680316e132d41df2c}
+      \strng{fullhashraw}{457d25b631aac60680316e132d41df2c}
+      \strng{bibnamehash}{457d25b631aac60680316e132d41df2c}
+      \strng{editorbibnamehash}{457d25b631aac60680316e132d41df2c}
+      \strng{editornamehash}{0f4174e2e74ba57fe7a9d23ce063b3c4}
+      \strng{editorfullhash}{457d25b631aac60680316e132d41df2c}
+      \strng{editorfullhashraw}{457d25b631aac60680316e132d41df2c}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Peru stands out among Latin American countries as an example of successful economic reforms over the past decade. This comprehensive look at Peru's economy traces that country's journey from a debt crisis in the 1980s to having buffers in place that allowed it to emerge unscathed from the global financial crisis. The book examines the steps Peru undertook to achieve these results and extracts lessons to be learned. Chapters are written by IMF staff and Peruvian economists}
+      \field{isbn}{978-1-5135-9974-8}
+      \field{shorttitle}{Peru}
+      \field{title}{Peru: staying the course of economic success}
+      \field{year}{2015}
+      \verb{doi}
+      \verb 10.5089/9781513599748.071
+      \endverb
+    \endentry
+    \entry{tsebelis_decision_1995}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=e6177101427efbd78e10f7c7cd7c2a3b}{%
+           family={Tsebelis},
+           familyi={T\bibinitperiod},
+           given={George},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{e6177101427efbd78e10f7c7cd7c2a3b}
+      \strng{fullhash}{e6177101427efbd78e10f7c7cd7c2a3b}
+      \strng{fullhashraw}{e6177101427efbd78e10f7c7cd7c2a3b}
+      \strng{bibnamehash}{e6177101427efbd78e10f7c7cd7c2a3b}
+      \strng{authorbibnamehash}{e6177101427efbd78e10f7c7cd7c2a3b}
+      \strng{authornamehash}{e6177101427efbd78e10f7c7cd7c2a3b}
+      \strng{authorfullhash}{e6177101427efbd78e10f7c7cd7c2a3b}
+      \strng{authorfullhashraw}{e6177101427efbd78e10f7c7cd7c2a3b}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{British Journal of Political Science}
+      \field{number}{3}
+      \field{title}{Decision {Making} in {Political} {Systems}: {Veto} {Players} in {Presidentialism}, {Parliamentarism}, {Multicameralism} and {Multipartyism}}
+      \field{volume}{25}
+      \field{year}{1995}
+      \field{pages}{289\bibrangedash 325}
+      \range{pages}{37}
+      \verb{file}
+      \verb tsebelis_vetoplayers:/Users/josemanuelmagallanes/PUCP/premieres/papers/tsebelis_vetoplayers.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://www.jstor.org/stable/194257
+      \endverb
+      \verb{url}
+      \verb http://www.jstor.org/stable/194257
       \endverb
     \endentry
   \enddatalist
@@ -2265,6 +2451,53 @@
       \verb http://www.jstor.org/stable/40060162
       \endverb
     \endentry
+    \entry{carpenter_forging_2020}{inbook}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=c760395a8b2916996c8f16d7ac182f6e}{%
+           family={Carpenter},
+           familyi={C\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Princeton University Press}%
+      }
+      \strng{namehash}{c760395a8b2916996c8f16d7ac182f6e}
+      \strng{fullhash}{c760395a8b2916996c8f16d7ac182f6e}
+      \strng{fullhashraw}{c760395a8b2916996c8f16d7ac182f6e}
+      \strng{bibnamehash}{c760395a8b2916996c8f16d7ac182f6e}
+      \strng{authorbibnamehash}{c760395a8b2916996c8f16d7ac182f6e}
+      \strng{authornamehash}{c760395a8b2916996c8f16d7ac182f6e}
+      \strng{authorfullhash}{c760395a8b2916996c8f16d7ac182f6e}
+      \strng{authorfullhashraw}{c760395a8b2916996c8f16d7ac182f6e}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Reputations, {Networks}, and {Policy} {Innovation} in {Executive} {Agencies}, 1862-1928}
+      \field{isbn}{978-0-691-21407-8}
+      \field{title}{The {Forging} of {Bureaucratic} {Autonomy}}
+      \field{urlday}{4}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{2020}
+      \field{urldateera}{ce}
+      \field{pages}{353\bibrangedash 368}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.1515/9780691214078-016
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1515/9780691214078-016
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1515/9780691214078-016
+      \endverb
+    \endentry
     \entry{cohen_garbage_1972}{article}{}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=96054330445518b28d793fbf550a0611}{%
@@ -2369,6 +2602,63 @@
       \field{title}{Critical junctures and historical legacies: insights and methods for comparative social science}
       \field{year}{2022}
       \keyw{Social sciences,Social structure,Social change,Comparative method,Critical theory}
+    \endentry
+    \entry{crozier_regulation_1976}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=c757f372d87286598cf06d907d73f55e}{%
+           family={Crozier},
+           familyi={C\bibinitperiod},
+           given={Michel},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d4de5d4e865452957c556fd432f24424}{%
+           family={Thoenig},
+           familyi={T\bibinitperiod},
+           given={Jean-Claude},
+           giveni={J\bibinithyphendelim C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {eng}%
+      }
+      \list{publisher}{1}{%
+        {Administrative Science Quarterly}%
+      }
+      \strng{namehash}{b4a6739dc260baec2f66ff3be96eee47}
+      \strng{fullhash}{b4a6739dc260baec2f66ff3be96eee47}
+      \strng{fullhashraw}{b4a6739dc260baec2f66ff3be96eee47}
+      \strng{bibnamehash}{b4a6739dc260baec2f66ff3be96eee47}
+      \strng{authorbibnamehash}{b4a6739dc260baec2f66ff3be96eee47}
+      \strng{authornamehash}{b4a6739dc260baec2f66ff3be96eee47}
+      \strng{authorfullhash}{b4a6739dc260baec2f66ff3be96eee47}
+      \strng{authorfullhashraw}{b4a6739dc260baec2f66ff3be96eee47}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In this study French local government is analyzed. The analysis shows that French public affairs at the local level are managed by a complex, stable system of groups and institutions. The analysis also lends support to the contention that interorganioozational relations are regulated by a complex, and more or less organized, system rather than by an interorganizational network.}
+      \field{issn}{0001-8392}
+      \field{journaltitle}{Administrative Science Quarterly}
+      \field{month}{12}
+      \field{number}{4}
+      \field{title}{The {Regulation} of {Complex} {Organized} {Systems}.}
+      \field{volume}{21}
+      \field{year}{1976}
+      \field{pages}{547\bibrangedash 570}
+      \range{pages}{24}
+      \verb{doi}
+      \verb 10.2307/2391716
+      \endverb
+      \verb{urlraw}
+      \verb https://research.ebsco.com/linkprocessor/plink?id=31f1a7e6-a80a-30fb-b7d0-713334d1bdb4
+      \endverb
+      \verb{url}
+      \verb https://research.ebsco.com/linkprocessor/plink?id=31f1a7e6-a80a-30fb-b7d0-713334d1bdb4
+      \endverb
+      \keyw{Complex organizations,France,Giscard d'Estaing Administration,Intergroup relations,Interorganizational networks,Interorganizational relations,Organizational sociology,Organizational structure,Public administration,Public-private sector cooperation}
     \endentry
     \entry{dewan_corrective_2005}{article}{}{}
       \name{author}{2}{}{%
@@ -2991,70 +3281,6 @@
       \verb https://www.npr.org/2024/07/05/nx-s1-5020171/how-big-crisis-has-to-be-to-provoke-radical-social-change-according-to-a-philosopher
       \endverb
     \endentry
-    \entry{lakatos_methodology_1978}{book}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=67394518e7d074783c9d162210b2db78}{%
-           family={Lakatos},
-           familyi={L\bibinitperiod},
-           given={Imre},
-           giveni={I\bibinitperiod},
-           givenun=0}}%
-      }
-      \name{editor}{2}{}{%
-        {{hash=ed21b4fc4128b1aca0007c05451eaae0}{%
-           family={Worrall},
-           familyi={W\bibinitperiod},
-           given={John},
-           giveni={J\bibinitperiod}}}%
-        {{hash=bcf3170cf0f74925acc2f923e3932adb}{%
-           family={Currie},
-           familyi={C\bibinitperiod},
-           given={Gregory},
-           giveni={G\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Cambridge University Press}%
-      }
-      \strng{namehash}{67394518e7d074783c9d162210b2db78}
-      \strng{fullhash}{67394518e7d074783c9d162210b2db78}
-      \strng{fullhashraw}{67394518e7d074783c9d162210b2db78}
-      \strng{bibnamehash}{67394518e7d074783c9d162210b2db78}
-      \strng{authorbibnamehash}{67394518e7d074783c9d162210b2db78}
-      \strng{authornamehash}{67394518e7d074783c9d162210b2db78}
-      \strng{authorfullhash}{67394518e7d074783c9d162210b2db78}
-      \strng{authorfullhashraw}{67394518e7d074783c9d162210b2db78}
-      \strng{editorbibnamehash}{0c0dde878fa46d4797e7a3d5c53b6d32}
-      \strng{editornamehash}{0c0dde878fa46d4797e7a3d5c53b6d32}
-      \strng{editorfullhash}{0c0dde878fa46d4797e7a3d5c53b6d32}
-      \strng{editorfullhashraw}{0c0dde878fa46d4797e7a3d5c53b6d32}
-      \field{sortinit}{L}
-      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{shorttitle}
-      \field{abstract}{Imre Lakatos' philosophical and scientific papers are published here in two volumes. Volume I brings together his very influential but scattered papers on the philosophy of the physical sciences, and includes one important unpublished essay on the effect of Newton's scientific achievement. Volume II presents his work on the philosophy of mathematics (much of it unpublished), together with some critical essays on contemporary philosophers of science and some famous polemical writings on political and educational issues. Imre Lakatos had an influence out of all proportion to the length of his philosophical career. This collection exhibits and confirms the originality, range and the essential unity of his work. It demonstrates too the force and spirit he brought to every issue with which he engaged, from his most abstract mathematical work to his passionate 'Letter to the director of the LSE'. Lakatos' ideas are now the focus of widespread and increasing interest, and these volumes should make possible for the first time their study as a whole and their proper assessment.}
-      \field{edition}{1}
-      \field{isbn}{978-0-521-21644-9 978-0-521-28031-0 978-0-511-62112-3}
-      \field{month}{5}
-      \field{shorttitle}{The {Methodology} of {Scientific} {Research} {Programmes}}
-      \field{title}{The {Methodology} of {Scientific} {Research} {Programmes}: {Philosophical} {Papers}}
-      \field{urlday}{14}
-      \field{urlmonth}{4}
-      \field{urlyear}{2025}
-      \field{year}{1978}
-      \field{urldateera}{ce}
-      \verb{doi}
-      \verb 10.1017/CBO9780511621123
-      \endverb
-      \verb{urlraw}
-      \verb https://www.cambridge.org/core/product/identifier/9780511621123/type/book
-      \endverb
-      \verb{url}
-      \verb https://www.cambridge.org/core/product/identifier/9780511621123/type/book
-      \endverb
-    \endentry
     \entry{levitt_organizational_1988}{article}{}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=a7281c9f9a83523e8b76a0104a18ebe4}{%
@@ -3359,6 +3585,152 @@
       \endverb
       \verb{url}
       \verb https://academic.oup.com/book/7247
+      \endverb
+    \endentry
+    \entry{pierson_increasing_2000}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=87b2b30e91c9747e659fe5ad163dc6ad}{%
+           family={Pierson},
+           familyi={P\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{87b2b30e91c9747e659fe5ad163dc6ad}
+      \strng{fullhash}{87b2b30e91c9747e659fe5ad163dc6ad}
+      \strng{fullhashraw}{87b2b30e91c9747e659fe5ad163dc6ad}
+      \strng{bibnamehash}{87b2b30e91c9747e659fe5ad163dc6ad}
+      \strng{authorbibnamehash}{87b2b30e91c9747e659fe5ad163dc6ad}
+      \strng{authornamehash}{87b2b30e91c9747e659fe5ad163dc6ad}
+      \strng{authorfullhash}{87b2b30e91c9747e659fe5ad163dc6ad}
+      \strng{authorfullhashraw}{87b2b30e91c9747e659fe5ad163dc6ad}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{It is increasingly common for social scientists to describe political processes as “path dependent.” The concept, however, is often employed without careful elaboration. This article conceptualizes path dependence as a social process grounded in a dynamic of “increasing returns.” Reviewing recent literature in economics and suggesting extensions to the world of politics, the article demonstrates that increasing returns processes are likely to be prevalent, and that good analytical foundations exist for exploring their causes and consequences. The investigation of increasing returns can provide a more rigorous framework for developing some of the key claims of recent scholarship in historical institutionalism: Specific patterns of timing and sequence matter; a wide range of social outcomes may be possible; large consequences may result from relatively small or contingent events; particular courses of action, once introduced, can be almost impossible to reverse; and consequently, political development is punctuated by critical moments or junctures that shape the basic contours of social life.}
+      \field{issn}{0003-0554, 1537-5943}
+      \field{journaltitle}{American Political Science Review}
+      \field{month}{6}
+      \field{number}{2}
+      \field{title}{Increasing {Returns}, {Path} {Dependence}, and the {Study} of {Politics}}
+      \field{urlday}{4}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{volume}{94}
+      \field{year}{2000}
+      \field{urldateera}{ce}
+      \field{pages}{251\bibrangedash 267}
+      \range{pages}{17}
+      \verb{doi}
+      \verb 10.2307/2586011
+      \endverb
+      \verb{urlraw}
+      \verb https://www.cambridge.org/core/product/identifier/S0003055400221059/type/journal_article
+      \endverb
+      \verb{url}
+      \verb https://www.cambridge.org/core/product/identifier/S0003055400221059/type/journal_article
+      \endverb
+    \endentry
+    \entry{santos_peru_2015}{book}{}{}
+      \name{editor}{3}{}{%
+        {{un=0,uniquepart=base,hash=b1f97bd8511ea5e0e2dc4c9316e8af8a}{%
+           family={Santos},
+           familyi={S\bibinitperiod},
+           given={Alejandro},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3639ac1af40a5537410f30b4b6c6b627}{%
+           family={Werner},
+           familyi={W\bibinitperiod},
+           given={Alejandro\bibnamedelima M.},
+           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5c129aaf4846bebaac62c7edb8b82749}{%
+           family={{Internationaler Währungsfonds}},
+           familyi={I\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \list{location}{1}{%
+        {Washington, D.C.}%
+      }
+      \list{publisher}{1}{%
+        {International Monetary Fund}%
+      }
+      \strng{namehash}{0f4174e2e74ba57fe7a9d23ce063b3c4}
+      \strng{fullhash}{457d25b631aac60680316e132d41df2c}
+      \strng{fullhashraw}{457d25b631aac60680316e132d41df2c}
+      \strng{bibnamehash}{457d25b631aac60680316e132d41df2c}
+      \strng{editorbibnamehash}{457d25b631aac60680316e132d41df2c}
+      \strng{editornamehash}{0f4174e2e74ba57fe7a9d23ce063b3c4}
+      \strng{editorfullhash}{457d25b631aac60680316e132d41df2c}
+      \strng{editorfullhashraw}{457d25b631aac60680316e132d41df2c}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Peru stands out among Latin American countries as an example of successful economic reforms over the past decade. This comprehensive look at Peru's economy traces that country's journey from a debt crisis in the 1980s to having buffers in place that allowed it to emerge unscathed from the global financial crisis. The book examines the steps Peru undertook to achieve these results and extracts lessons to be learned. Chapters are written by IMF staff and Peruvian economists}
+      \field{isbn}{978-1-5135-9974-8}
+      \field{shorttitle}{Peru}
+      \field{title}{Peru: staying the course of economic success}
+      \field{year}{2015}
+      \verb{doi}
+      \verb 10.5089/9781513599748.071
+      \endverb
+    \endentry
+    \entry{tsebelis_decision_1995}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=e6177101427efbd78e10f7c7cd7c2a3b}{%
+           family={Tsebelis},
+           familyi={T\bibinitperiod},
+           given={George},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{e6177101427efbd78e10f7c7cd7c2a3b}
+      \strng{fullhash}{e6177101427efbd78e10f7c7cd7c2a3b}
+      \strng{fullhashraw}{e6177101427efbd78e10f7c7cd7c2a3b}
+      \strng{bibnamehash}{e6177101427efbd78e10f7c7cd7c2a3b}
+      \strng{authorbibnamehash}{e6177101427efbd78e10f7c7cd7c2a3b}
+      \strng{authornamehash}{e6177101427efbd78e10f7c7cd7c2a3b}
+      \strng{authorfullhash}{e6177101427efbd78e10f7c7cd7c2a3b}
+      \strng{authorfullhashraw}{e6177101427efbd78e10f7c7cd7c2a3b}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{British Journal of Political Science}
+      \field{number}{3}
+      \field{title}{Decision {Making} in {Political} {Systems}: {Veto} {Players} in {Presidentialism}, {Parliamentarism}, {Multicameralism} and {Multipartyism}}
+      \field{volume}{25}
+      \field{year}{1995}
+      \field{pages}{289\bibrangedash 325}
+      \range{pages}{37}
+      \verb{file}
+      \verb tsebelis_vetoplayers:/Users/josemanuelmagallanes/PUCP/premieres/papers/tsebelis_vetoplayers.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://www.jstor.org/stable/194257
+      \endverb
+      \verb{url}
+      \verb http://www.jstor.org/stable/194257
       \endverb
     \endentry
   \enddatalist
