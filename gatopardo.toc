@@ -1,37 +1,42 @@
-\contentsline {section}{\numberline {1}Literature Review}{6}{section.1}%
-\contentsline {section}{\numberline {2}Literature Review}{6}{section.2}%
-\contentsline {subsection}{\numberline {2.1}Trait-Based Explanations of Ministerial Survival}{6}{subsection.2.1}%
-\contentsline {subsection}{\numberline {2.2}Context-Based Explanations of Ministerial Survival}{7}{subsection.2.2}%
-\contentsline {subsection}{\numberline {2.3}Interpreting Ministerial Duration}{8}{subsection.2.3}%
-\contentsline {section}{\numberline {3}Theoretical Framework}{10}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Definitions}{10}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}Axiom A1: Organizational Continuity Enables Organizational Knowledge Accumulation}{11}{subsection.3.2}%
-\contentsline {subsection}{\numberline {3.3}Axiom A2: Organizational Knowledge Accumulation Enables Institutional Learning}{12}{subsection.3.3}%
-\contentsline {subsection}{\numberline {3.4}Axiom A3: Protective Belts Preserve Organizational Continuity}{12}{subsection.3.4}%
-\contentsline {subsection}{\numberline {3.5}From Latent Theory to Observable Propositions}{14}{subsection.3.5}%
-\contentsline {subsubsection}{\numberline {3.5.1}Proposition 1: Ministerial Duration across Political Frameworks}{14}{subsubsection.3.5.1}%
-\contentsline {paragraph}{Observable implication.}{14}{section*.10}%
-\contentsline {paragraph}{Theoretical implication.}{14}{section*.11}%
-\contentsline {subsubsection}{\numberline {3.5.2}Proposition 2: Ministerial Duration across Portfolios within Political Frameworks}{15}{subsubsection.3.5.2}%
-\contentsline {paragraph}{Observable implication.}{15}{section*.13}%
-\contentsline {paragraph}{Theoretical implication.}{15}{section*.14}%
-\contentsline {section}{\numberline {4}Peru as an Empirical Application}{15}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Political Frameworks and Critical Junctures}{16}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}Globalization and the Selective Reconstruction of the State}{18}{subsection.4.2}%
-\contentsline {subsection}{\numberline {4.3}Governmental Organizations as Analytical Units}{20}{subsection.4.3}%
-\contentsline {section}{\numberline {5}Research Design}{23}{section.5}%
-\contentsline {subsection}{\numberline {5.1}Data}{23}{subsection.5.1}%
-\contentsline {subsection}{\numberline {5.2}Variables}{24}{subsection.5.2}%
-\contentsline {subsection}{\numberline {5.3}Empirical Strategy}{24}{subsection.5.3}%
-\contentsline {paragraph}{Historical comparison (P1).}{26}{section*.19}%
-\contentsline {paragraph}{Organizational comparison (P2).}{26}{section*.20}%
-\contentsline {subsection}{\numberline {5.4}Survival Analysis}{26}{subsection.5.4}%
-\contentsline {section}{\numberline {6}Results}{26}{section.6}%
-\contentsline {subsection}{\numberline {6.1}Proposition 1: Ministerial Duration across Political Frameworks}{26}{subsection.6.1}%
-\contentsline {subsubsection}{\numberline {6.1.1}Kaplan--Meier Estimates}{27}{subsubsection.6.1.1}%
-\contentsline {subsubsection}{\numberline {6.1.2}Cox Proportional Hazards Model}{29}{subsubsection.6.1.2}%
-\contentsline {subsection}{\numberline {6.2}Proposition 2: Ministerial Duration across Governmental Organizations}{30}{subsection.6.2}%
-\contentsline {subsubsection}{\numberline {6.2.1}Kaplan--Meier Estimates}{31}{subsubsection.6.2.1}%
-\contentsline {subsubsection}{\numberline {6.2.2}Cox Proportional Hazards Model with Presidential Frailty}{33}{subsubsection.6.2.2}%
-\contentsline {section}{\numberline {7}Robustness Analysis: The Organizational Consolidation of Globalization}{34}{section.7}%
-\contentsline {subsection}{\numberline {7.1}Robustness to the Organizational Consolidation of Globalization}{34}{subsection.7.1}%
+\contentsline {section}{\numberline {1}Literature Review}{5}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Trait-Based Explanations of Ministerial Survival}{5}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Context-Based Explanations of Ministerial Survival}{7}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}Interpreting Ministerial Duration}{7}{subsection.1.3}%
+\contentsline {section}{\numberline {2}Theoretical Framework}{9}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Observables}{10}{subsection.2.1}%
+\contentsline {subsubsection}{\numberline {2.1.1}Measures}{10}{subsubsection.2.1.1}%
+\contentsline {subsubsection}{\numberline {2.1.2}Constraints}{10}{subsubsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.2}Axiom A1: Organizational Continuity Enables Organizational Knowledge Accumulation}{12}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Axiom A2: Organizational Knowledge Accumulation Enables Institutional Learning}{12}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}From Latent Theory to Observable Propositions}{13}{subsection.2.4}%
+\contentsline {subsubsection}{\numberline {2.4.1}Proposition 1: Ministerial Duration across Political Frameworks}{14}{subsubsection.2.4.1}%
+\contentsline {paragraph}{Observable implication.}{14}{section*.9}%
+\contentsline {paragraph}{Theoretical implication.}{14}{section*.10}%
+\contentsline {subsubsection}{\numberline {2.4.2}Proposition 2: Ministerial Duration across Governmental Organizations within Political Frameworks}{14}{subsubsection.2.4.2}%
+\contentsline {paragraph}{Observable implication.}{15}{section*.12}%
+\contentsline {paragraph}{Theoretical implication.}{15}{section*.13}%
+\contentsline {section}{\numberline {3}Peru as an Empirical Application}{15}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Operationalizing Political Frameworks}{16}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Operationalizing the Protective Belt}{17}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Governmental Organizations as Analytical Units}{19}{subsection.3.3}%
+\contentsline {section}{\numberline {4}Empirical Research Design}{21}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Data}{22}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Observable Variables}{22}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Empirical Strategy}{23}{subsection.4.3}%
+\contentsline {paragraph}{Historical comparison (P1).}{23}{section*.18}%
+\contentsline {paragraph}{Organizational comparison (P2).}{23}{section*.19}%
+\contentsline {subsection}{\numberline {4.4}Survival Analysis}{25}{subsection.4.4}%
+\contentsline {section}{\numberline {5}Results}{25}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Proposition 1: Ministerial Duration across Political Frameworks}{25}{subsection.5.1}%
+\contentsline {subsubsection}{\numberline {5.1.1}Kaplan--Meier Estimates}{25}{subsubsection.5.1.1}%
+\contentsline {subsubsection}{\numberline {5.1.2}Cox Proportional Hazards Model}{28}{subsubsection.5.1.2}%
+\contentsline {subsection}{\numberline {5.2}Proposition 2: Ministerial Duration across Governmental Organizations within Political Frameworks}{29}{subsection.5.2}%
+\contentsline {subsubsection}{\numberline {5.2.1}Kaplan--Meier Estimates}{29}{subsubsection.5.2.1}%
+\contentsline {subsubsection}{\numberline {5.2.2}Cox Proportional Hazards Model}{31}{subsubsection.5.2.2}%
+\contentsline {paragraph}{Additional governmental organizations}{31}{section*.25}%
+\contentsline {section}{\numberline {6}Discussion}{34}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Political Frameworks as Historical Conditions}{34}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Protective Belts and Selective Organizational Continuity}{35}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.3}Bridging Historical Institutionalism and Organizational Theory}{36}{subsection.6.3}%
+\contentsline {subsection}{\numberline {6.4}Scope Conditions}{36}{subsection.6.4}%
+\contentsline {section}{\numberline {7}Conclusion}{37}{section.7}%

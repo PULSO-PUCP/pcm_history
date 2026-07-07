@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.6.20)  5 JUL 2026 19:06
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.6.20)  7 JUL 2026 02:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -980,26 +980,26 @@ Package: textcomp 2024/04/24 v2.1b Standard LaTeX package
 (./gatopardo.aux)
 \openout1 = `gatopardo.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
 *geometry* verbose mode - [ preamble ] result:
@@ -1034,7 +1034,7 @@ LaTeX Font Info:    ... okay on input line 79.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring OFF on input line 79.
+Package hyperref Info: Link coloring OFF on input line 50.
 (./gatopardo.out) (./gatopardo.out)
 \@outlinefile=\write6
 \openout6 = `gatopardo.out'.
@@ -1044,15 +1044,15 @@ File: APA7american.txt 2020/12/02 v1.02 apa7 configuration for American English
 )
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Info: Redefining \microtypecontext on input line 79.
-Package microtype Info: Applying patch `item' on input line 79.
-Package microtype Info: Applying patch `toc' on input line 79.
-Package microtype Info: Applying patch `eqnum' on input line 79.
+LaTeX Info: Redefining \microtypecontext on input line 50.
+Package microtype Info: Applying patch `item' on input line 50.
+Package microtype Info: Applying patch `toc' on input line 50.
+Package microtype Info: Applying patch `eqnum' on input line 50.
 
-Package microtype Warning: Unable to apply patch `footnote' on input line 79.
+Package microtype Warning: Unable to apply patch `footnote' on input line 50.
 
-Package microtype Info: Applying patch `verbatim' on input line 79.
-LaTeX Info: Redefining \microtypesetup on input line 79.
+Package microtype Info: Applying patch `verbatim' on input line 50.
+LaTeX Info: Redefining \microtypesetup on input line 50.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: No adjustment of tracking.
@@ -1092,178 +1092,163 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'gatopardo.bbl' found.
 (./gatopardo.bbl)
-Package biblatex Info: Reference section=0 on input line 79.
-Package biblatex Info: Reference segment=0 on input line 79.
+Package biblatex Info: Reference section=0 on input line 50.
+Package biblatex Info: Reference segment=0 on input line 50.
 (./gatopardo-concordance.tex
 \pdfoutput=\count497
 )
-Class apa7 Info: Keywords not defined on input line 83.
+Class apa7 Info: Keywords not defined on input line 54.
 Using title for running head
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 83.
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 54.
 (/Users/josemanuelmagallanes/Library/TinyTeX/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 83.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 54.
 (/Users/josemanuelmagallanes/Library/TinyTeX/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 83.
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 54.
 (/Users/josemanuelmagallanes/Library/TinyTeX/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 83.
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 54.
 (/Users/josemanuelmagallanes/Library/TinyTeX/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 83.
+(Font)              <12> on input line 54.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 83.
+(Font)              <8> on input line 54.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 83.
-(./gatopardo.toc [1
+(Font)              <6> on input line 54.
 
-])
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[1
+
+] (./gatopardo.toc [1])
 \tf@toc=\write7
 \openout7 = `gatopardo.toc'.
 
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 87.
-[2] [3]
+(Font)              <10.95> on input line 60.
+[2]
 File: premiers_decennial.pdf Graphic file (type pdf)
 <use premiers_decennial.pdf>
 
 Underfull \vbox (badness 1748) has occurred while \output is active []
 
-[4] [5]
+[3] [4] [5]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[6] [7] [8] [9] [10]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[11] [12] [13] [14] [15]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 151.
-[6] [7] [8]
-Underfull \vbox (badness 1137) has occurred while \output is active []
+(Font)              <5> on input line 441.
 
-[9] [10] [11] [12] [13] [14] [15]
-Underfull \hbox (badness 1147) in paragraph at lines 469--470
-[]\T1/lmr/m/n/12 This study op-er-a-tional-izes Po-lit-i-cal Frame-works us-ing the comparative-
- []
-
-[16]
-Underfull \hbox (badness 2846) in paragraph at lines 485--485
+Underfull \hbox (badness 2846) in paragraph at lines 445--445
 []|\T1/lmr/bx/n/8 Originating Crit-i-cal Junc-
  []
 
 
-Underfull \hbox (badness 2521) in paragraph at lines 499--500
+Underfull \hbox (badness 2521) in paragraph at lines 459--460
 []|\T1/lmr/m/n/8 Elite re-con-struc-tion un-der oli-garchic
  []
 
 
-Underfull \hbox (badness 1014) in paragraph at lines 503--503
+Underfull \hbox (badness 1014) in paragraph at lines 463--463
 []|\T1/lmr/m/n/8 PF3 -- Power-Sharing
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 510--510
+Underfull \hbox (badness 10000) in paragraph at lines 470--470
 []|\T1/lmr/m/n/8 PF4 -- Demo-cratic
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 519--519
+Underfull \hbox (badness 10000) in paragraph at lines 479--479
 []|\T1/lmr/m/n/8 Fujimori Set-tle-ment (1982--
  []
 
 
-Overfull \hbox (18.40903pt too wide) in paragraph at lines 481--531
+Overfull \hbox (18.40903pt too wide) in paragraph at lines 441--491
  [][] 
  []
 
-[17] [18]
-Underfull \vbox (badness 1748) has occurred while \output is active []
+[16] [17] [18] [19]
 
-[19] [20] [21]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Package biblatex Warning: Package option 'sortcites' enabled.
+(biblatex)                Verify postnote placement on input line 547.
 
-[22] [23]
-
-LaTeX Warning: Reference `tab:dataset_overview' on page 24 undefined on input line 621.
-
+[20] [21]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 651.
+(Font)              <9> on input line 616.
 
-Underfull \hbox (badness 10000) in paragraph at lines 701--701
-[]|\T1/lmr/bx/n/10.95 Used to
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \hbox (badness 2495) in paragraph at lines 666--666
+[]|\T1/lmr/bx/n/10.95 Observable vari-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 701--701
+Overfull \hbox (7.02081pt too wide) in paragraph at lines 666--666
+[]|\T1/lmr/bx/n/10.95 Proposition| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 666--666
 []|\T1/lmr/m/n/10.95 Political Frame-
  []
 
 
-Underfull \hbox (badness 1688) in paragraph at lines 701--701
-\T1/lmr/m/n/10.95 min-is-te-rial du-ra-tion is eval-u-ated. Com-par-ing
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 701--701
-[]|\T1/lmr/m/n/10.95 Indexes gov-ern-men-tal or-ga-ni-za-tions op-er-at-ing
- []
-
-
-Underfull \hbox (badness 2285) in paragraph at lines 701--701
-\T1/lmr/m/n/10.95 work re-veals whether or-ga-ni-za-tional con-ti-nu-ity
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 701--701
+Underfull \hbox (badness 10000) in paragraph at lines 666--666
 []|\T1/lmr/m/n/10.95 Ministerial du-ra-
  []
 
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 707.
+(Font)              <10> on input line 672.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 707.
-[24] [25] [26]
-
-LaTeX Warning: Reference `fig:km_frameworks' on page 27 undefined on input line 746.
-
-File: gatopardo-fig:km_epochs.pdf Graphic file (type pdf)
-<use gatopardo-fig:km_epochs.pdf>
+(Font)              <7> on input line 672.
+[22] [23] [24] [25]
+File: gatopardo-fig_km_frameworks.pdf Graphic file (type pdf)
+<use gatopardo-fig_km_frameworks.pdf>
 Missing character: There is no – ("2013) in font ec-lmri12!
-[27] [28] [29]
+[26] [27] [28]
+File: gatopardo-fig_km_pcm_mef_by_pb.pdf Graphic file (type pdf)
+<use gatopardo-fig_km_pcm_mef_by_pb.pdf>
+[29] [30]
+File: gatopardo-fig_cox_pcm_mef_pb.pdf Graphic file (type pdf)
+<use gatopardo-fig_cox_pcm_mef_pb.pdf>
+File: gatopardo-fig_cox_all_portfolios_pb_forest.pdf Graphic file (type pdf)
+<use gatopardo-fig_cox_all_portfolios_pb_forest.pdf>
+[31] [32] [33] [34]
+Underfull \vbox (badness 7291) has occurred while \output is active []
 
-LaTeX Warning: Reference `fig:km_portfolios' on page 30 undefined on input line 833.
-
-[30]
-File: gatopardo-fig:km_pcm_mef_by_pf.pdf Graphic file (type pdf)
-<use gatopardo-fig:km_pcm_mef_by_pf.pdf>
-[31] [32] [33] [34] [35] [36]
+[35] [36] [37] [38]
 Missing character: There is no – ("2013) in font ec-lmr12!
-[37] [38] (./gatopardo.aux)
+[39]
+Missing character: There is no ’ ("2019) in font ec-lmr12!
+[40] (./gatopardo.aux)
  ***********
 LaTeX2e <2026-06-01>
 L3 programming layer <2026-06-18>
  ***********
-
-LaTeX Warning: There were undefined references.
-
 Package rerunfilecheck Info: File `gatopardo.out' has not changed.
-(rerunfilecheck)             Checksum: 0768BC22FEA021BACE4530E6B955C4C0;8339.
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                gatopardo
-(biblatex)                and rerun LaTeX afterwards.
-
+(rerunfilecheck)             Checksum: 913E083B824E6E93E929355B3CD2E2C7;8655.
 Package logreq Info: Writing requests to 'gatopardo.run.xml'.
 \openout1 = `gatopardo.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 35294 strings out of 469837
- 690731 string characters out of 5467329
- 1641542 words of memory out of 5000000
- 63675 multiletter control sequences out of 15000+600000
+ 35296 strings out of 469837
+ 690591 string characters out of 5467329
+ 1643895 words of memory out of 5000000
+ 63677 multiletter control sequences out of 15000+600000
  744470 words of font info for 108 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 99i,12n,118p,1857b,5761s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 99i,12n,118p,2119b,5762s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on gatopardo.pdf (38 pages).
+Output written on gatopardo.pdf (41 pages).
